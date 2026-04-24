@@ -4,15 +4,17 @@ Each `.md` file here is pasted verbatim into a Claude Code cloud routine's promp
 field. They are load-bearing — do not paraphrase. The env-var check block and the
 commit-and-push step must survive intact or the bot silently fails.
 
-## Cron schedules (America/Chicago)
+## Schedule
 
-| Routine        | Cron            | When                          |
-|----------------|-----------------|-------------------------------|
-| pre-market     | `0 6 * * 1-5`   | 6:00 AM weekdays              |
-| market-open    | `30 8 * * 1-5`  | 8:30 AM weekdays (bell)       |
-| midday         | `0 12 * * 1-5`  | noon weekdays                 |
-| daily-summary  | `0 15 * * 1-5`  | 3:00 PM weekdays (close)      |
-| weekly-review  | `0 16 * * 5`    | 4:00 PM Fridays only          |
+Market opens 9:30 AM ET, closes 4:00 PM ET. Cron below is in America/Chicago.
+
+| Routine        | Cron            | CT       | ET        | Rationale                          |
+|----------------|-----------------|----------|-----------|------------------------------------|
+| pre-market     | `0 8 * * 1-5`   | 8:00 AM  | 9:00 AM   | 30 min before bell — research/plan |
+| market-open    | `0 9 * * 1-5`   | 9:00 AM  | 10:00 AM  | 30 min after bell — execute trades |
+| midday         | `30 11 * * 1-5` | 11:30 AM | 12:30 PM  | mid-session check-in               |
+| daily-summary  | `5 15 * * 1-5`  | 3:05 PM  | 4:05 PM   | 5 min after close — EOD snapshot   |
+| weekly-review  | `0 16 * * 5`    | Fri 4 PM | Fri 5 PM  | end of trading week                |
 
 ## Required env vars on each routine
 
