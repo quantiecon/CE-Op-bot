@@ -53,8 +53,13 @@ STEP 5 — Send ONE Telegram message (always, even on no-trade days). <= 15 line
       SYM ±X.X% (stop \$X.XX)
     Tomorrow: <one-line plan>"
 
-STEP 6 — COMMIT AND PUSH (mandatory — tomorrow's Day P&L depends on this):
+STEP 6 — COMMIT AND PUSH DIRECTLY TO MAIN (mandatory — tomorrow's Day P&L depends on this):
+- DO NOT create a branch. DO NOT open a pull request. Commit to main.
+- Ensure on main first:
+    git checkout main
+    git pull --rebase origin main
+- Then:
     git add memory/TRADE-LOG.md
     git commit -m "EOD snapshot $DATE"
     git push origin main
-On push failure: rebase and retry.
+On push failure: rebase and retry. Never force-push. Never open a PR.

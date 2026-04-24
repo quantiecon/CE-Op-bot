@@ -54,8 +54,13 @@ Date, ticker, side, shares, entry price, stop level, thesis, target, R:R.
 STEP 7 — Notification: only if a trade was placed.
     bash scripts/telegram.sh "<tickers, shares, fill prices, one-line why>"
 
-STEP 8 — COMMIT AND PUSH (mandatory if any trades executed):
+STEP 8 — COMMIT AND PUSH DIRECTLY TO MAIN (mandatory if any trades executed):
+- DO NOT create a branch. DO NOT open a pull request. Commit to main.
+- Ensure on main first:
+    git checkout main
+    git pull --rebase origin main
+- Then:
     git add memory/TRADE-LOG.md
     git commit -m "market-open trades $DATE"
     git push origin main
-Skip commit if no trades fired. On push failure: rebase and retry.
+Skip commit if no trades fired. On push failure: rebase and retry. Never open a PR.

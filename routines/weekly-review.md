@@ -65,9 +65,14 @@ STEP 6 — Send ONE Telegram message. <= 15 lines:
     One-line takeaway: <...>
     Grade: <letter>"
 
-STEP 7 — COMMIT AND PUSH (mandatory):
+STEP 7 — COMMIT AND PUSH DIRECTLY TO MAIN (mandatory):
+- DO NOT create a branch. DO NOT open a pull request. Commit to main.
+- Ensure on main first:
+    git checkout main
+    git pull --rebase origin main
+- Then:
     git add memory/WEEKLY-REVIEW.md memory/TRADING-STRATEGY.md
     git commit -m "weekly review $DATE"
     git push origin main
 If TRADING-STRATEGY.md didn't change, add just WEEKLY-REVIEW.md.
-On push failure: rebase and retry.
+On push failure: rebase and retry. Never force-push. Never open a PR.

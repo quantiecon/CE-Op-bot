@@ -49,8 +49,13 @@ sharply with no obvious cause. Append afternoon addendum to RESEARCH-LOG.
 STEP 7 — Notification: only if action was taken.
     bash scripts/telegram.sh "<action summary>"
 
-STEP 8 — COMMIT AND PUSH (if any memory files changed):
+STEP 8 — COMMIT AND PUSH DIRECTLY TO MAIN (if any memory files changed):
+- DO NOT create a branch. DO NOT open a pull request. Commit to main.
+- Ensure on main first:
+    git checkout main
+    git pull --rebase origin main
+- Then:
     git add memory/TRADE-LOG.md memory/RESEARCH-LOG.md
     git commit -m "midday scan $DATE"
     git push origin main
-Skip commit if no-op. On push failure: rebase and retry.
+Skip commit if no-op. On push failure: rebase and retry. Never open a PR.

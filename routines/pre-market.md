@@ -56,9 +56,17 @@ STEP 4 — Write a dated entry to memory/RESEARCH-LOG.md:
 STEP 5 — Notification: silent unless urgent.
     bash scripts/telegram.sh "<one line>"
 
-STEP 6 — COMMIT AND PUSH (mandatory):
+STEP 6 — COMMIT AND PUSH DIRECTLY TO MAIN (mandatory):
+- DO NOT create a branch. DO NOT open a pull request. DO NOT use the
+  GitHub tools to create a PR. Commit directly to main and push.
+- Tomorrow's routines read memory/ from main — if your changes sit on a
+  branch or in a draft PR, every downstream routine breaks.
+- Ensure on main before committing:
+    git checkout main
+    git pull --rebase origin main
+- Then:
     git add memory/RESEARCH-LOG.md
     git commit -m "pre-market research $DATE"
     git push origin main
 On push failure: git pull --rebase origin main, then push again.
-Never force-push.
+Never force-push. Never open a PR for routine output.
