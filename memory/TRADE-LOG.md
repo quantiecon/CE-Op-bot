@@ -10,3 +10,12 @@ No positions yet. Bot launches tomorrow.
 **Trailing stop:** GTC sell 2 NVDA, trail 10%, initial stop $182.39 (order `4ad0c853`)
 **Rationale:** End-to-end pipeline test — confirm Alpaca wrapper places orders and trailing stops.
 Not based on research signal. Smoke test only.
+
+### Apr 24 — EOD Snapshot (Day 1, Friday)
+**Portfolio:** $100,011.09 | **Cash:** $99,594.59 (99.6%) | **Day P&L:** +$11.09 (+0.01%) | **Phase P&L:** +$11.09 (+0.01%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| NVDA | 2 | $202.705 | $208.24 | +4.31% | +$11.07 | $189.855 (trail 10%) |
+
+**Notes:** First live day, smoke-test only. Bought 2 NVDA at 10:17 ET to validate the Alpaca wrapper + trailing-stop pipeline; trailing stop is live as GTC (order `4ad0c853`, HWM $210.95, stop $189.855). No research-driven trades today. Position is ~0.4% of portfolio — sub-sizing is intentional for the smoke test. Trades this week: 1/3. Cash ~99.6% deployed-available, well under the 75–85% deployed target; full deployment starts next week once research cadence is running. Tomorrow is Saturday (market closed); Monday plan: run pre-market research, pick 2–3 candidates from sector-momentum leaders, size real positions per 20%-cap rule.
