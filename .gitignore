@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+
+/DAILY-SUMMARY.md
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+.DS_Store
+*.log
+logs/
+
+.claude/settings.local.json
