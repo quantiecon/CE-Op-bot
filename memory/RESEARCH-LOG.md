@@ -68,3 +68,39 @@ TRADE or HOLD (default HOLD if no edge)
 - Observe today's open, watch how energy acts at resistance
 - Enter positions Monday/Tuesday after FOMC tone clarity, on dips not chasing
 - Keep full $100k cash dry for the first real setup
+
+---
+
+## 2026-04-27 — Pre-market Research
+
+### Account
+- Equity: $100,014.69
+- Cash: $99,594.59
+- Buying power: $199,609.28
+- Daytrade count: 0
+- Position: NVDA 2 sh @ $202.71 avg, mkt $210.06 (+$14.70, +3.6%)
+- Open order: NVDA trailing stop 10% GTC, stop $189.86 (hwm $210.95)
+
+### Market Context
+- WTI ~$96.70 / Brent ~$107.96 (Brent +2.48% d/d — sharp jump, watch geopolitical)
+- ES Jun futures ~7,177, -0.25% overnight; SPX near record territory
+- VIX 19.31 (Apr 23 close; drifting up from sub-17 earlier in April)
+- Today's catalysts: VZ BMO; positioning ahead of hyperscaler earnings Wed Apr 29 (GOOGL, AMZN, META, MSFT) — major NVDA tell
+- Earnings BMO: Verizon (VZ) Q1 EPS est $1.23 / Rev $34.79B
+- Econ calendar: No major US prints today. Next: Jobs May 8, CPI May 12, PPI May 13. Fed funds 3.50-3.75% (held Mar 17-18)
+- Sector momentum YTD: Energy +38% (leader), Materials/Staples/Real Estate strong; Tech/Comms/Discretionary lagging YTD despite NVDA rip
+
+### Trade Ideas
+1. HOLD NVDA — $5T mkt cap milestone Apr 24, all-time highs. Hyperscaler capex Wed Apr 29 is binary catalyst. Don't add into that.
+2. XLE / energy name — sector momentum leader (+38% YTD), Brent +2.48% on day. Watch for pullback entry; not chasing today.
+3. DELL — record $64B AI server orders, $43B FY27 backlog. Watch; no entry without setup.
+
+### Risk Factors
+- Hyperscaler earnings Wed → NVDA whipsaw risk both ways
+- Brent +2.48% day-over-day — possible geopolitical bid; risk-off potential if escalation
+- VIX trending up past 19 — regime shift watch
+- Tech lagging YTD vs Energy/Materials — sector rotation already underway
+- Only 1 position; 99% cash. Patience > activity.
+
+### Decision
+HOLD. NVDA running into hyperscaler earnings with trailing stop in place; no edge to add risk pre-event. Reassess Thu Apr 30 post-prints.
