@@ -19,3 +19,12 @@ Not based on research signal. Smoke test only.
 | NVDA | 2 | $202.705 | $208.24 | +4.31% | +$11.07 | $189.855 (trail 10%) |
 
 **Notes:** First live day, smoke-test only. Bought 2 NVDA at 10:17 ET to validate the Alpaca wrapper + trailing-stop pipeline; trailing stop is live as GTC (order `4ad0c853`, HWM $210.95, stop $189.855). No research-driven trades today. Position is ~0.4% of portfolio — sub-sizing is intentional for the smoke test. Trades this week: 1/3. Cash ~99.6% deployed-available, well under the 75–85% deployed target; full deployment starts next week once research cadence is running. Tomorrow is Saturday (market closed); Monday plan: run pre-market research, pick 2–3 candidates from sector-momentum leaders, size real positions per 20%-cap rule.
+
+### Apr 27 — EOD Snapshot (Day 2, Monday)
+**Portfolio:** $100,028.31 | **Cash:** $99,594.59 (99.6%) | **Day P&L:** +$17.18 (+0.02%) | **Phase P&L:** +$28.31 (+0.03%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| NVDA | 2 | $202.705 | $216.86 | +4.12% | +$28.31 | $195.138 (trail 10%) |
+
+**Notes:** Quiet first Monday — no new trades. NVDA continued higher (+4.12% on day, +6.98% from entry); trailing stop ratcheted up automatically to $195.138 with HWM $216.82 (still below the +15% tighten threshold of $233.11, so 10% trail stays). Cash remains ~99.6% — well below the 75–85% deployment target, but deliberate while research cadence comes online. No pre-market research log was filed today, so no signal-driven entries; that's the gap to close tomorrow. Trades today: 0. Trades this week: 0/3. Tomorrow (Tue Apr 28): run pre-market scan, pick 2–3 sector-momentum candidates, size first real position(s) at 15–20% per the cap rule.
