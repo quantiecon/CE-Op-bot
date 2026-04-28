@@ -8,6 +8,7 @@ Beat the S&P 500 (benchmark: SPY) over the challenge window. Stocks only — no 
 - Platform: Alpaca (paper by default)
 - Instruments: Stocks ONLY
 - PDT limit: N/A at this equity level (account is > $25k, so no 3-day-trade / 5-rolling-day cap)
+## FTC abolishd PDT?
 - 20% per-position cap = ~$20,000 max cost per trade
 
 ## Core Rules
