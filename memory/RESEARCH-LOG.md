@@ -104,3 +104,39 @@ TRADE or HOLD (default HOLD if no edge)
 
 ### Decision
 HOLD. NVDA running into hyperscaler earnings with trailing stop in place; no edge to add risk pre-event. Reassess Thu Apr 30 post-prints.
+
+---
+
+## 2026-04-28 — Pre-market Research
+
+### Account
+- Equity: $100,015.01
+- Cash: $99,594.59
+- Buying power: $199,609.60
+- Daytrade count: 0
+- Open position: NVDA 2 sh @ $202.71 avg, mark $210.14, +$14.87 (+3.67%)
+- GTC trailing stop: NVDA 10% trail, stop $195.14, hwm $216.82
+- Deployed: ~0.4% (well below 75-85% target — ramping cautiously)
+
+### Market Context
+- WTI / Brent: WTI June futures rallied +2.1% Mon on stalled US-Iran talks; Brent ~$96/b mid-Apr; Strait of Hormuz risk premium elevated
+- S&P 500 futures: ESM26 +0.10% premarket; SPX closed Mon at record 7,173.91 (+0.12%)
+- VIX: 18.36 (moderate)
+- Today's catalysts: Stalled US-Iran peace talks → geopolitical risk-on/off; pre-positioning for hyperscaler earnings tomorrow (GOOGL, AMZN, META, MSFT)
+- Earnings before open: Sparse — Coca-Cola (KO), Kimberly-Clark (KMB), Brown & Brown (BRO), Allegion (ALLE) reporting around mid-morning, no major BMO tech
+- Economic calendar: No CPI/PPI/FOMC/jobs. Employment Situation of Veterans 10am ET; CB Consumer Confidence + Richmond Mfg later today
+- Sector momentum YTD 2026: Energy leading (+22-26%), Consumer Staples (+10.7%), Industrials (+9.6%), Materials. Tech lagging despite single-name strength
+
+### Trade Ideas
+1. XLE — Energy ETF, YTD leader + Iran/Strait of Hormuz premium. Entry ~mkt, stop -8%, target +16%, R:R 2:1. Size ~15% ($15k).
+2. XOM — Mega-cap energy beneficiary of oil bid; lower beta than crude. Entry ~mkt, stop -7%, target +14%, R:R 2:1.
+3. NVDA add — pass. Hyperscaler capex guide tomorrow is binary; already long, no edge to chase pre-print.
+
+### Risk Factors
+- Hyperscaler earnings 4/29 = binary risk for NVDA position and broad tech
+- US-Iran talks could resolve overnight → oil air pocket would hit XLE/XOM thesis
+- SPX at record highs; VIX 18 = complacent zone, gap-down risk
+- Patience rule: only 1 trade in book, plenty of dry powder, no need to force
+
+### Decision
+HOLD. NVDA position + GTC trail intact. Wait for hyperscaler earnings reaction tomorrow before deploying capital. Energy ideas (XLE/XOM) on watchlist for entry post-tomorrow's print or on a US-Iran resolution dip in oil if thesis still intact.
