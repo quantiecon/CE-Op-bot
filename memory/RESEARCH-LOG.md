@@ -140,3 +140,43 @@ HOLD. NVDA running into hyperscaler earnings with trailing stop in place; no edg
 
 ### Decision
 HOLD. NVDA position + GTC trail intact. Wait for hyperscaler earnings reaction tomorrow before deploying capital. Energy ideas (XLE/XOM) on watchlist for entry post-tomorrow's print or on a US-Iran resolution dip in oil if thesis still intact.
+
+---
+
+## 2026-04-29 — Pre-market Research
+
+### Account
+- Equity: $100,021.29
+- Cash: $99,594.59
+- Buying power: $199,615.88
+- Daytrade count: 0
+- Open position: NVDA 2 sh @ $202.705 avg, mark $213.35, +$21.29 (+5.25%)
+- GTC trailing stop: NVDA 10% trail, stop $195.138, hwm $216.82 (order `4ad0c853`)
+- Deployed: ~0.4% (well below 75-85% target — two binary events today justify staying defensive)
+
+### Market Context
+- WTI: ~$98-100 (Apr 28 close $99.62; intraday Apr 29 quote ~$105 unverified). Brent gap data thin — last clean print ~$97 (Apr 16). Iran/Hormuz risk premium remains elevated; US-Iran talks stalled.
+- S&P 500 futures: ESM26 modestly green premarket (~+0.1%); SPX closed Apr 27 at all-time high >7,200.
+- VIX: 18.36 (Apr 28) — moderate, not panic, edging up from sub-17 earlier April.
+- Today's catalysts (binary, both today):
+  1. **FOMC decision** — 2-day meeting Apr 28-29 concludes today. Fed funds at 3.50-3.75%; no cut expected, but Powell tone on oil/inflation matters.
+  2. **Hyperscaler earnings AMC** — GOOGL, MSFT, META, AMZN ALL report after market close today. >25% of S&P 500 weight. Direct NVDA capex tell (Meta capex guide up to $135B, Google to $185B per latest disclosures).
+- Earnings BMO: No major hyperscalers BMO. Light tape — KO, KMB-style consumer names only.
+- Economic calendar: Employment Cost Index Q1 8:30 AM ET (wage inflation tell into FOMC); FOMC statement 2:00 PM ET, Powell presser 2:30 PM ET.
+- Sector momentum YTD 2026: Energy +22-38% (still leader, range varies by source), Materials strong (LYB, DOW, CF +60-70% YTD), Industrials, Consumer Staples. Tech lagging YTD despite NVDA single-name strength. Best names: SNDK (+346%), WDC (+148%), TPL (+84%).
+
+### Trade Ideas
+1. **HOLD NVDA** — Position in profit (+5.25%, $21 P&L). Hyperscaler capex AMC is the binary. Adding pre-print = no edge. Trailing stop already locks in loss-of-loss; let it ride.
+2. **XLE / XOM** — Energy still sector leader, Iran premium intact. Defer entry to tomorrow post-Fed + post-hyperscaler clarity. If oil rolls on US-Iran resolution, thesis weakens; don't chase.
+3. **NO NEW ENTRIES TODAY** — Two binary events today (FOMC + Mag-4 AMC). Patience > activity rule applies hard; week is 0/3 trades, no need to force.
+
+### Risk Factors
+- **Double-binary day**: FOMC 2pm + hyperscaler earnings AMC. Either can whipsaw the tape ±2%.
+- NVDA exposed both ways to hyperscaler capex AMC; +5.25% gain could vanish on a soft Meta or MSFT capex guide. Trail at $195.14 caps downside ~9% from here.
+- US-Iran talks stalled = oil bid persists, but resolution headline can air-pocket energy names.
+- SPX at record highs going into Fed → asymmetric downside on hawkish surprise.
+- Wage data (ECI 8:30 ET) hot print could move bonds/SPX into Fed.
+- 99.6% cash for 4 straight sessions — research-cadence gap is the bottleneck, not capital. Plan: deploy Thursday post-event clarity if setups hold.
+
+### Decision
+**HOLD.** Two binary events today (FOMC at 2pm, hyperscaler Q1 from GOOGL/MSFT/META/AMZN AMC). No edge to deploy capital pre-event. NVDA position + GTC trail intact (stop $195.14). Energy (XLE/XOM) and Materials (LYB/DOW) remain on watchlist for entry **Thursday** post-tape clarity. Trades this week: 0/3.
