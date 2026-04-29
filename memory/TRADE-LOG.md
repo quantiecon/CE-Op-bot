@@ -37,3 +37,12 @@ Not based on research signal. Smoke test only.
 | NVDA | 2 | $202.705 | $213.18 | -1.58% | +$20.95 | $195.138 (trail 10%, HWM $216.82) |
 
 **Notes:** Quiet Tuesday — no new trades, no pre-market research log filed (gap from yesterday still open). NVDA gave back ~1.6% on the day to $213.18 but remains +5.17% from entry; HWM held at $216.82, trailing stop unchanged at $195.138 (room ~8.5% above stop). No tighten trigger yet (+15% threshold = $233.11). Cash still ~99.6% — second straight day at near-zero deployment vs the 75–85% target; the bottleneck is research cadence, not capital. Trades today: 0. Trades this week: 0/3. Tomorrow (Wed Apr 29): file pre-market RESEARCH-LOG entry first thing, then size 1–2 sector-momentum candidates at 15–20% to start real deployment; otherwise we burn the whole week at 0.4% deployed.
+
+### Apr 29 — EOD Snapshot (Day 4, Wednesday)
+**Portfolio:** $100,011.11 | **Cash:** $99,594.59 (99.6%) | **Day P&L:** -$9.84 (-0.01%) | **Phase P&L:** +$11.11 (+0.01%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| NVDA | 2 | $202.705 | $208.26 | -2.30% | +$11.11 | $195.138 (trail 10%, HWM $216.82) |
+
+**Notes:** Third quiet day in a row — no new trades, no pre-market RESEARCH-LOG filed (gap now 3 days running). NVDA gave back another 2.30% to $208.26, +2.74% from entry; HWM unchanged at $216.82, trailing stop unchanged at $195.138 (~6.3% above stop). Cash still ~99.6% — fourth straight day at near-zero deployment vs the 75–85% target. Bottleneck remains research cadence, not capital or signals. Trades today: 0. Trades this week: 0/3 (Mon–Wed all zero). Tomorrow (Thu Apr 30): file pre-market RESEARCH-LOG entry FIRST, then commit to sizing 1–2 sector-momentum candidates at 15–20% — only 2 trading days left this week before the cap window resets, and we cannot burn another week at 0.4% deployed.
