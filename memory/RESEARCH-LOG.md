@@ -180,3 +180,42 @@ HOLD. NVDA position + GTC trail intact. Wait for hyperscaler earnings reaction t
 
 ### Decision
 **HOLD.** Two binary events today (FOMC at 2pm, hyperscaler Q1 from GOOGL/MSFT/META/AMZN AMC). No edge to deploy capital pre-event. NVDA position + GTC trail intact (stop $195.14). Energy (XLE/XOM) and Materials (LYB/DOW) remain on watchlist for entry **Thursday** post-tape clarity. Trades this week: 0/3.
+
+---
+
+## 2026-04-30 — Pre-market Research
+
+### Account
+- Equity: $100,015.17
+- Cash: $99,594.59 (99.6%)
+- Buying power: $199,609.76
+- Daytrade count: 0
+- Positions: NVDA 2 sh @ $202.705 avg, last $210.29, +$15.17 (+3.74%); 10% trailing stop GTC active (stop $195.14, hwm $216.82)
+
+### Market Context
+- WTI / Brent: ~$109-110 / ~$112-123 — volatile, Middle East tensions + UAE OPEC exit chatter; intraday Brent has tagged $114
+- S&P 500 futures (ESM26): ~6,657.50, +0.10% premarket; index near ATH after April rally (SPX +8.7%, NDX +13.3% MTD)
+- VIX: 17.83 (Apr 28 close), Apr 29 intraday high 18.81 — moderate
+- Today's catalysts: AAPL Q2 earnings AFTER close (5pm ET); AI/semi tone; AMZN, META results earlier this week setting tape
+- Earnings before open: No mega-cap AM prints — AAPL is AMC, not BMO
+- Economic calendar: 8:30 ET TRIPLE PRINT — Q1 GDP advance, March PCE (Fed's preferred inflation gauge), Q1 ECI, plus weekly jobless claims. FOMC was yesterday (Apr 29)
+- Sector momentum YTD: LEADERS — Energy +22%, Materials +15%, Cons Staples +12%, Industrials +7%. LAGGARDS — Tech, Comms, Cons Discretionary -2%, Financials. Tech outperforming month-to-date though
+
+### Trade Ideas
+1. XLE — energy YTD leader (+22%) + oil spike on geopolitics; entry on pullback ~$95, stop $88 (-7%), target $108, R:R ~1.9:1. WAIT for post-8:30 data confirmation
+2. XOM — same theme, single-name exposure to integrated oil; entry on dip, stop -7%, target +15%
+3. AAPL — earnings AMC; NOT a pre-market buy, but watch reaction for post-print swing setup tomorrow
+
+### Risk Factors
+- 8:30 ET data triple print can whipsaw the tape — hot PCE/GDP combo could spike yields & hit risk assets
+- Oil at multi-year highs raises stagflation risk; could weigh on consumer/discretionary
+- AAPL AMC — single-stock event risk into close; broad index can gap on guidance
+- Already 99.6% cash — under-deployed vs 75-85% target, but patience > activity into data
+- NVDA position small ($420 mkt val); trailing stop already protecting
+
+### Decision
+HOLD. Reasons:
+- Major data print at 8:30 — wait for reaction before adding risk
+- AAPL AMC — no rush to deploy ahead of single-stock catalyst that moves indices
+- Sector tape shifting; want to confirm Energy/Materials leadership holds post-data
+- Plan for market-open routine: if data benign and Energy holds bid, consider initiating XLE or XOM (~10-15% position) within 3-trade weekly cap
