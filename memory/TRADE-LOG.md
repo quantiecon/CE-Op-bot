@@ -38,6 +38,12 @@ Not based on research signal. Smoke test only.
 
 **Notes:** Quiet Tuesday — no new trades, no pre-market research log filed (gap from yesterday still open). NVDA gave back ~1.6% on the day to $213.18 but remains +5.17% from entry; HWM held at $216.82, trailing stop unchanged at $195.138 (room ~8.5% above stop). No tighten trigger yet (+15% threshold = $233.11). Cash still ~99.6% — second straight day at near-zero deployment vs the 75–85% target; the bottleneck is research cadence, not capital. Trades today: 0. Trades this week: 0/3. Tomorrow (Wed Apr 29): file pre-market RESEARCH-LOG entry first thing, then size 1–2 sector-momentum candidates at 15–20% to start real deployment; otherwise we burn the whole week at 0.4% deployed.
 
+## Apr 30 — Trade: XLE (sector momentum entry)
+**Action:** BUY 255 XLE @ $58.85 | **Cost basis:** $15,006.75 (15.00% of equity) | **Time:** 9:37 AM ET
+**Trailing stop:** GTC sell 255 XLE, trail 10%, initial stop $52.97, HWM $58.855 (order `a1f6efb3`)
+**Thesis:** Energy YTD leader (+22%); WTI ~$109-110 / Brent ~$112+ on Iran/Hormuz risk + UAE OPEC exit chatter. XLE is the sector ETF play with tight spread vs single-name XOM (which had ~5% spread at open — skipped).
+**Target:** +15% (~$67.68) | **R:R:** ~1.5:1 (10% trail stop, 15% target)
+
 ### Apr 29 — EOD Snapshot (Day 4, Wednesday)
 **Portfolio:** $100,011.11 | **Cash:** $99,594.59 (99.6%) | **Day P&L:** -$9.84 (-0.01%) | **Phase P&L:** +$11.11 (+0.01%)
 
