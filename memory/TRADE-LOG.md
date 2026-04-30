@@ -52,3 +52,13 @@ Not based on research signal. Smoke test only.
 | NVDA | 2 | $202.705 | $208.26 | -2.30% | +$11.11 | $195.138 (trail 10%, HWM $216.82) |
 
 **Notes:** Third quiet day in a row — no new trades, no pre-market RESEARCH-LOG filed (gap now 3 days running). NVDA gave back another 2.30% to $208.26, +2.74% from entry; HWM unchanged at $216.82, trailing stop unchanged at $195.138 (~6.3% above stop). Cash still ~99.6% — fourth straight day at near-zero deployment vs the 75–85% target. Bottleneck remains research cadence, not capital or signals. Trades today: 0. Trades this week: 0/3 (Mon–Wed all zero). Tomorrow (Thu Apr 30): file pre-market RESEARCH-LOG entry FIRST, then commit to sizing 1–2 sector-momentum candidates at 15–20% — only 2 trading days left this week before the cap window resets, and we cannot burn another week at 0.4% deployed.
+
+### Apr 30 — EOD Snapshot (Day 5, Thursday)
+**Portfolio:** $100,197.59 | **Cash:** $84,587.84 (84.4%) | **Day P&L:** +$186.48 (+0.19%) | **Phase P&L:** +$197.59 (+0.20%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| XLE | 255 | $58.85 | $59.65 | +1.05% | +$204.00 | $53.8515 (trail 10%, HWM $59.835) |
+| NVDA | 2 | $202.705 | $199.51 | -4.66% | -$6.39 | $195.138 (trail 10%, HWM $216.82) |
+
+**Notes:** First real deployment day of the phase — bought 255 XLE @ $58.85 at 9:37 ET (15.0% of equity) on the energy/Iran-Hormuz thesis; trailing stop live as GTC (order `a1f6efb3`, HWM $59.835, stop $53.8515). XLE closed +1.05% on day (+$204 unrealized) — clean entry. NVDA dropped -4.66% to $199.51 (now -$6.39, -1.58% from entry) but stop unchanged at $195.138 with ~2.2% buffer; if NVDA breaks $195.14 tomorrow the GTC fires and we exit. Cash now 84.4% — moved from 99.6% deployment gap to within the 75-85% target band on the cash side (deployed only 15.6%, still light). Trades today: 1 (XLE). Trades this week: 1/3. Tomorrow (Fri May 1): run weekly-review (Friday cadence), monitor XLE momentum and NVDA stop proximity, consider second sector-momentum entry if research supports — energy or AI/semis, but only if XLE thesis is intact and NVDA hasn't stopped out.
