@@ -219,3 +219,48 @@ HOLD. Reasons:
 - AAPL AMC — no rush to deploy ahead of single-stock catalyst that moves indices
 - Sector tape shifting; want to confirm Energy/Materials leadership holds post-data
 - Plan for market-open routine: if data benign and Energy holds bid, consider initiating XLE or XOM (~10-15% position) within 3-trade weekly cap
+
+---
+
+## 2026-05-01 — Pre-market Research
+
+### Account
+- Equity: $100,136.71
+- Cash: $84,587.84 (84.5%)
+- Buying power: $184,724.55
+- Daytrade count: 0
+- Positions:
+  - XLE 255 sh @ $58.85 avg, last $59.40, +$140.25 (+0.93%); trail 10% GTC, stop $53.8515, HWM $59.835 (order `a1f6efb3`)
+  - NVDA 2 sh @ $202.705 avg, last $200.94, -$3.54 (-0.87%); trail 10% GTC, stop $195.138, HWM $216.82 (order `4ad0c853`)
+- Deployed: ~15.5% (still well below 75-85% target)
+
+### Market Context
+- WTI ~$105 / Brent ~$110-118 — volatile; **UAE exits OPEC+ today (May 1)** removing third-largest producer + spare capacity; Iran-Israel/Hormuz risk premium intact
+- S&P 500 futures (ESM26): ~7,255-7,259, +0.21% premarket; SPX near record after April rally
+- VIX: ~18.68 open today (Apr 28 close 17.83); moderate, edging up
+- Today's catalysts: UAE OPEC+ exit confirmed; AAPL Q1 reaction (rev $143.8B, +15.65% YoY, China iPhone +20%; trades 34x = "priced for perfection"); broad tech wobble post hyperscaler/AAPL
+- Earnings BMO: No major US BMO prints (light tape — small caps only)
+- Economic calendar: 9:00 ET ISM Manufacturing (PMI, prices, employment) + Construction Spending. NFP not until Jun 5; CPI later in May
+- Sector momentum YTD: Energy +22% (leader), Materials +15%, Cons Staples +12%, Industrials +7%; Tech -3.83%, Financials -5.7%, Cons Disc -2 to -5%
+
+### Trade Ideas
+1. **XLE — HOLD existing.** RSI >72 (overbought) per research; UAE OPEC exit is today's catalyst — let position work, don't add. Trail stop already protecting.
+2. **XLB (Materials ETF)** — second sector-leader (+15% YTD), uncorrelated to oil. Potential ~10-15% add ($10-15k) on confirmation post-9 ET ISM. Stop -8%, target +15%.
+3. **XOM** — single-name energy beneficiary of UAE OPEC exit (US shale upstream wins). Pair vs XLE? Avoid — overweights energy; sector cap risk.
+4. **NVDA — pass on add.** Tech selloff post hyperscaler/AAPL print; existing 2 sh smoke-test position underwater. Trail at $195.14 caps downside.
+
+### Risk Factors
+- Friday + weekly cap reset Monday — 1/3 trades used this week; no urgency
+- ISM Manufacturing 9 ET could whipsaw: hot prices = bond/rate fear; weak headline = recession bid
+- XLE overbought (RSI >72); chasing here = bad R:R even if thesis intact
+- Tech rotation accelerating per AAPL "priced for perfection" + NVDA disappointing reaction — adding any tech today is countertrend
+- UAE OPEC exit could initially pressure oil (supply fears) before geopolitical bid resumes — XLE intraday volatility risk
+- Friday weekly-review cadence today; activity should yield to reflection
+
+### Decision
+**HOLD.** Reasons:
+- XLE thesis intact and position already on (15% sized); adding into RSI >72 is bad entry
+- ISM print at 9 ET — wait for tape reaction before deploying more
+- Friday: weekly-review day takes priority over new entries; better to size Materials (XLB) Monday on confirmation
+- Tech setup unfavorable; energy already covered; no clean second leg today
+- Trades this week: 1/3 — patience preserves dry powder for next week's setups
