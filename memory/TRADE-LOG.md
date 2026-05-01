@@ -62,3 +62,13 @@ Not based on research signal. Smoke test only.
 | NVDA | 2 | $202.705 | $199.51 | -4.66% | -$6.39 | $195.138 (trail 10%, HWM $216.82) |
 
 **Notes:** First real deployment day of the phase — bought 255 XLE @ $58.85 at 9:37 ET (15.0% of equity) on the energy/Iran-Hormuz thesis; trailing stop live as GTC (order `a1f6efb3`, HWM $59.835, stop $53.8515). XLE closed +1.05% on day (+$204 unrealized) — clean entry. NVDA dropped -4.66% to $199.51 (now -$6.39, -1.58% from entry) but stop unchanged at $195.138 with ~2.2% buffer; if NVDA breaks $195.14 tomorrow the GTC fires and we exit. Cash now 84.4% — moved from 99.6% deployment gap to within the 75-85% target band on the cash side (deployed only 15.6%, still light). Trades today: 1 (XLE). Trades this week: 1/3. Tomorrow (Fri May 1): run weekly-review (Friday cadence), monitor XLE momentum and NVDA stop proximity, consider second sector-momentum entry if research supports — energy or AI/semis, but only if XLE thesis is intact and NVDA hasn't stopped out.
+
+### May 01 — EOD Snapshot (Day 6, Friday)
+**Portfolio:** $99,979.04 | **Cash:** $84,587.84 (84.6%) | **Day P&L:** -$218.69 (-0.22%) | **Phase P&L:** -$20.96 (-0.02%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| XLE | 255 | $58.85 | $58.80 | -1.43% | -$12.75 | $53.8515 (trail 10%, HWM $59.835) |
+| NVDA | 2 | $202.705 | $198.60 | -0.49% | -$8.21 | $195.138 (trail 10%, HWM $216.82) |
+
+**Notes:** Quiet Friday — no new trades. Both positions slipped: XLE -1.43% to $58.80 (now -$12.75, -0.08% from entry), NVDA -0.49% to $198.60 (now -$8.21, -2.03% from entry). Neither HWM advanced; trailing stops unchanged (XLE $53.8515, NVDA $195.138). NVDA stop buffer tight at ~1.7% — first break Monday and the GTC fires. Cash steady at 84.6% (deployed 15.4%) — still light vs the 75–85% deployed target, week ends with one real position on the books. Trades today: 0. Trades this week: 1/3 (XLE only). Phase ends Week 1 at -$21 (-0.02%) — flat-to-slightly-red, benchmark check vs SPY pending in weekly-review. Monday plan (May 4): file pre-market RESEARCH-LOG first thing, watch NVDA stop proximity at the open, and look for a 2nd sector-momentum candidate (energy continuation or rotation into AI/semis) to lift deployment toward the 75% floor.
