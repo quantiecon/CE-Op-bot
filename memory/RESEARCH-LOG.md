@@ -264,3 +264,50 @@ HOLD. Reasons:
 - Friday: weekly-review day takes priority over new entries; better to size Materials (XLB) Monday on confirmation
 - Tech setup unfavorable; energy already covered; no clean second leg today
 - Trades this week: 1/3 — patience preserves dry powder for next week's setups
+
+---
+
+## 2026-05-04 — Pre-market Research
+
+### Account
+- Equity: $99,961.93
+- Cash: $84,587.84 (84.6%)
+- Buying power: $184,549.77
+- Daytrade count: 0
+- Positions:
+  - XLE 255 sh @ $58.85 avg, last $58.73, -$30.60 (-0.20%); trail 10% GTC, stop $53.8515, HWM $59.835 (order `a1f6efb3`)
+  - NVDA 2 sh @ $202.705 avg, last $198.98, -$7.45 (-1.84%); trail 10% GTC, stop $195.138, HWM $216.82 (order `4ad0c853`)
+- Deployed: ~15.4% (still well below 75–85% target); Week 2 starts, 0/3 trades
+
+### Market Context
+- WTI: ~$105.68 (CLM26, +3.67% intraday Mon); May 1 close $102.50 — extreme volatility (Apr 30 high $113, May 1 dump -4.75%)
+- Brent: ~$116.10 (May 1); Middle East premium intact, OPEC+ supply uncertainty after UAE exit
+- S&P 500 futures: ESM26 around 7,265 (May 4 hist); SPX closed May 1 near 7,256 ATH; modest premarket bid
+- VIX: ~16.89 (April avg per Fed); edging higher recently mid-18s — moderate, not panic
+- Today's catalysts: "Higher-for-longer" Fed dissent, Treasury auction wildcard (10Y yield risk), AI/tech rotation continuing, oil whipsaw
+- Earnings BMO: 14 companies scheduled — no mega-caps; light tape
+- Economic calendar: QUIET. Factory Orders 10 AM ET; Fed Williams speech 12:50 PM ET; Sr Loan Officer Survey 2 PM ET; Auto Sales 3 PM. NO CPI/PPI/FOMC/Jobs today. CPI May 12, PPI May 13, NFP not until June 5. Heavy jobs week (JOLTS, ADP, ISM-Svcs)
+- Sector momentum YTD: Energy leader (+22%), Materials +15% leading momentum (XLB cup-with-handle targeting $56.8), Cons Staples +12%, Industrials +7%; Tech -2-3% YTD but month-to-date strong; Financials/Cons Disc lagging
+
+### Trade Ideas
+1. **XLB (Materials ETF)** — second leading sector (+15% YTD), uncorrelated to oil whipsaw. Cup-with-handle breakout potential. Entry ~mkt $51.50, stop -8% ($47.40), target +14% ($58.70), R:R ~1.75:1. Size 10-15% ($10-15k). Best clean second-sector add.
+2. **XLE — HOLD existing.** Aroon turned down Apr 28; oil tape extreme volatile (Brent $116, WTI bouncing $102-113). Trail at $53.85 already protecting. Don't add.
+3. **XOM** — single-name energy beneficiary, lower beta than XLE. Pair candidate but adds energy concentration; pass.
+4. **NVDA — pass on add or trim.** Pullback continuing; last $198.98, support $197.10, stop $195.138 = ~1.93% buffer. First break and GTC fires for ~$8 loss; let it work, no edge to interfere.
+
+### Risk Factors
+- NVDA stop ~1.93% buffer — high probability of stop-out today/tomorrow if tape softens
+- Oil whipsaw risk: WTI ranged $99→$113→$102→$105 over 4 sessions — XLE intraday volatility extreme
+- Treasury auction wildcard this week could spike 10Y yields and crack mega-cap rally
+- "Higher-for-longer" narrative + Fed dissent pressuring multiples
+- SPX at ATH into a heavy jobs/CPI/PPI 10-day window — asymmetric downside
+- Week 2 fresh 3-trade cap; first day of week, no urgency
+- VIX edging up from 17 toward 18-19 = regime shift watch
+
+### Decision
+**HOLD with conditional XLB entry on confirmation.** Reasons:
+- Quiet macro day = good day to add second sector leg IF tape confirms (XLB green at open, breadth positive)
+- Materials uncorrelated to oil chop = better diversification than adding XOM/XLE
+- NVDA stop will trigger autonomously if it breaks $195.14 — no manual action needed
+- Plan for market-open routine: if SPX opens green and XLB > $51.50 with volume, initiate ~13% XLB position ($13k, ~250 sh) with 10% trailing stop GTC. Otherwise HOLD.
+- Trades this week: 0/3 — patient deployment preferred over forced entries
