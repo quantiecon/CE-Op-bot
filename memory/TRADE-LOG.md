@@ -63,6 +63,11 @@ Not based on research signal. Smoke test only.
 
 **Notes:** First real deployment day of the phase — bought 255 XLE @ $58.85 at 9:37 ET (15.0% of equity) on the energy/Iran-Hormuz thesis; trailing stop live as GTC (order `a1f6efb3`, HWM $59.835, stop $53.8515). XLE closed +1.05% on day (+$204 unrealized) — clean entry. NVDA dropped -4.66% to $199.51 (now -$6.39, -1.58% from entry) but stop unchanged at $195.138 with ~2.2% buffer; if NVDA breaks $195.14 tomorrow the GTC fires and we exit. Cash now 84.4% — moved from 99.6% deployment gap to within the 75-85% target band on the cash side (deployed only 15.6%, still light). Trades today: 1 (XLE). Trades this week: 1/3. Tomorrow (Fri May 1): run weekly-review (Friday cadence), monitor XLE momentum and NVDA stop proximity, consider second sector-momentum entry if research supports — energy or AI/semis, but only if XLE thesis is intact and NVDA hasn't stopped out.
 
+## May 04 — Exit: NVDA (trailing stop fired)
+**Action:** SELL 2 NVDA @ $195.01 | **Time:** 11:21 AM ET | **Order:** `4ad0c853` (GTC trailing stop, auto-cancelled on fill)
+**Entry:** $202.705 (Apr 24) | **Exit:** $195.01 | **Realized P&L:** -$15.39 (-3.80%)
+**Reason:** 10% trailing stop GTC fired automatically at $195.138 (HWM $216.82). Did NOT hit -7% manual cut threshold. Smoke-test position; trail did its job.
+
 ### May 01 — EOD Snapshot (Day 6, Friday)
 **Portfolio:** $99,979.04 | **Cash:** $84,587.84 (84.6%) | **Day P&L:** -$218.69 (-0.22%) | **Phase P&L:** -$20.96 (-0.02%)
 
