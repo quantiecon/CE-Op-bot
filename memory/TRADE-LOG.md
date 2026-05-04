@@ -77,3 +77,12 @@ Not based on research signal. Smoke test only.
 | NVDA | 2 | $202.705 | $198.60 | -0.49% | -$8.21 | $195.138 (trail 10%, HWM $216.82) |
 
 **Notes:** Quiet Friday — no new trades. Both positions slipped: XLE -1.43% to $58.80 (now -$12.75, -0.08% from entry), NVDA -0.49% to $198.60 (now -$8.21, -2.03% from entry). Neither HWM advanced; trailing stops unchanged (XLE $53.8515, NVDA $195.138). NVDA stop buffer tight at ~1.7% — first break Monday and the GTC fires. Cash steady at 84.6% (deployed 15.4%) — still light vs the 75–85% deployed target, week ends with one real position on the books. Trades today: 0. Trades this week: 1/3 (XLE only). Phase ends Week 1 at -$21 (-0.02%) — flat-to-slightly-red, benchmark check vs SPY pending in weekly-review. Monday plan (May 4): file pre-market RESEARCH-LOG first thing, watch NVDA stop proximity at the open, and look for a 2nd sector-momentum candidate (energy continuation or rotation into AI/semis) to lift deployment toward the 75% floor.
+
+### May 04 — EOD Snapshot (Day 7, Monday)
+**Portfolio:** $100,119.76 | **Cash:** $84,977.86 (84.9%) | **Day P&L:** +$140.72 (+0.14%) | **Phase P&L:** +$119.76 (+0.12%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| XLE | 255 | $58.85 | $59.38 | +0.90% | +$135.15 | $53.8515 (trail 10%, HWM $59.835) |
+
+**Notes:** NVDA stopped out at 11:21 ET — GTC trailing stop fired at $195.01, closing the smoke-test position for a realized -$15.39 (-3.80%); trail did its job, well inside the -7% manual cut threshold. XLE held +0.90% on the day to $59.38, +0.90% from entry, +$135.15 unrealized; HWM unchanged at $59.835, stop $53.8515 (~9.3% buffer). New week begins — trades today: 1 (NVDA SELL, no new entries); trades this week: 0/3 entries used. Cash 84.9% — deployment now at 15.1%, still well below the 75-85% deployed target. With NVDA gone we're down to a single position; need to add 2-3 sector-momentum candidates this week to lift deployment. Tomorrow (Tue May 5): file pre-market RESEARCH-LOG, screen energy continuation vs AI/semis rotation, size 1-2 entries at 15-20% to begin filling the deployment gap.
