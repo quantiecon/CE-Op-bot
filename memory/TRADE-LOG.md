@@ -91,3 +91,13 @@ Not based on research signal. Smoke test only.
 | XLE | 255 | $58.85 | $59.38 | +0.90% | +$135.15 | $53.8515 (trail 10%, HWM $59.835) |
 
 **Notes:** NVDA stopped out at 11:21 ET — GTC trailing stop fired at $195.01, closing the smoke-test position for a realized -$15.39 (-3.80%); trail did its job, well inside the -7% manual cut threshold. XLE held +0.90% on the day to $59.38, +0.90% from entry, +$135.15 unrealized; HWM unchanged at $59.835, stop $53.8515 (~9.3% buffer). New week begins — trades today: 1 (NVDA SELL, no new entries); trades this week: 0/3 entries used. Cash 84.9% — deployment now at 15.1%, still well below the 75-85% deployed target. With NVDA gone we're down to a single position; need to add 2-3 sector-momentum candidates this week to lift deployment. Tomorrow (Tue May 5): file pre-market RESEARCH-LOG, screen energy continuation vs AI/semis rotation, size 1-2 entries at 15-20% to begin filling the deployment gap.
+
+### May 05 — EOD Snapshot (Day 8, Tuesday)
+**Portfolio:** $100,126.56 | **Cash:** $84,182.29 (84.1%) | **Day P&L:** +$6.80 (+0.01%) | **Phase P&L:** +$126.56 (+0.13%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| XLE | 255 | $58.85 | $59.45 | +0.10% | +$153.00 | $53.8515 (trail 10%, HWM $59.835) |
+| NVDA | 4 | $198.8925 | $196.13 | -1.18% | -$11.05 | $180.216 (trail 10%, HWM $200.24) |
+
+**Notes:** Quiet Tuesday — no research-driven entries. Today's only fill was the stale market-buy reload of 4 NVDA @ $198.8925 at the open (queued May 4 22:01/22:45 ET, not signal-driven, ~$800 notional); trailing stop attached immediately as GTC (order `576ea764`, HWM $200.24, stop $180.216). XLE held +0.10% on day to $59.45, +1.02% from entry, +$153 unrealized; HWM unchanged at $59.835, stop $53.8515 (~9.4% buffer, well below the +15% tighten threshold of $67.68). NVDA -1.18% on day to $196.13, -1.39% from entry, -$11.05 unrealized; stop buffer ~8.1%, no tighten triggers. Cash 84.1% — deployment now 15.9%, still well below the 75–85% deployed target. Trades today: 1 (NVDA stale BUY). Trades this week: 1/3 entries used. Pre-market RESEARCH-LOG cadence still the bottleneck — without research signals we cannot add the 2–3 new positions needed to lift deployment toward 75%. Tomorrow (Wed May 6): file pre-market RESEARCH-LOG entry FIRST, then size 1–2 sector-momentum candidates at 15–20% (energy continuation, AI/semis rotation, or new sector leader); 2 entries remain in the weekly cap.
