@@ -311,3 +311,50 @@ HOLD. Reasons:
 - NVDA stop will trigger autonomously if it breaks $195.14 — no manual action needed
 - Plan for market-open routine: if SPX opens green and XLB > $51.50 with volume, initiate ~13% XLB position ($13k, ~250 sh) with 10% trailing stop GTC. Otherwise HOLD.
 - Trades this week: 0/3 — patient deployment preferred over forced entries
+
+## 2026-05-05 — Pre-market Research
+
+### Account
+- Equity: $100,119.76
+- Cash: $84,977.86 (84.9%)
+- Buying power: $184,299.95
+- Daytrade count: 0
+- Positions:
+  - XLE 255 sh @ $58.85 avg, last $59.38, +$135.15 (+0.90%); trail 10% GTC, stop $53.8515, HWM $59.835 (order `a1f6efb3`)
+- Deployed: ~15.1% (still well below 75–85% target); Week 2, 0/3 trades used
+- **PENDING ORDERS at open:** 2 stale NVDA market-buy orders (1 sh + 3 sh = 4 sh, ~$800 notional) queued from May 4 22:01 / 22:45 ET, submitted_at 08:00 today. Not in research plan; trivial size — flagging but not actioning. Will reconcile post-open.
+
+### Market Context
+- WTI: ~$105.13 (May 4 close) — softening on weak US payrolls + Saudi pushing OPEC+ to accelerate production increases (BEARISH for energy)
+- Brent: ~$116.10 (May 1 last); spread to WTI extreme (Brent premium $11+)
+- S&P 500 futures (ESM26): May 4 close 7,227.00, **-0.48% Mon** (vs 7,261.75 Sun), pulling back from ATH
+- VIX: 18.51 May 4 close (**+8.95% on day**) — regime-shift watch, climbing from 17 → 18.5
+- Today's catalyst: **ISM Services PMI (April) 10:00 AM ET** — prior 54.0, est ~53; sole macro print of the day
+- Earnings BMO: light tape, no mega-caps (BMO Financial reports May 27, not today)
+- Economic calendar: Quiet ex-ISM Services. NO CPI/PPI/FOMC/NFP today. CPI May 12, PPI May 13, NFP June 5
+- Sector momentum YTD: Energy still leader (+22 to +32% per source range), Materials +22%, Industrials +24% (per Q1 close); Tech lagging YTD; semis (SNDK +400%, INTC +172%) carrying narrow strength
+- Notable: $1.2B institutional outflows from XLE in mid-April; XLE technical signals mixed — Aroon turned down Apr 28
+
+### Trade Ideas
+1. **XLE — HOLD existing, do NOT add.** Oil tape softening (WTI $113 → $105, Saudi accelerating production) + $1.2B institutional outflows mid-April + Aroon down. Trail stop at $53.85 protecting (~9.3% buffer). If oil breaks below $100, thesis cracks — watch for stop-out scenario.
+2. **XLB (Materials ETF)** — Momentum leader uncorrelated to oil chop. Materials Q1 ended +22.67%. Conditional entry post-ISM Services if SPX green and XLB > $51.50 with volume; size 13-15% (~$13-15k), 10% trail stop GTC. Same plan as yesterday — still not triggered.
+3. **XLI (Industrials ETF)** — Q1 ended +24.75% YTD, AI-infrastructure / capex tailwind, less commodity-sensitive than XLB. Watchlist alternative if XLB hesitates.
+4. **NVDA — pending 4-sh buy is unintended.** Will let it fill (trivial $800), then immediately attach 10% trailing stop GTC per rule 4. NOT a research-driven thesis.
+
+### Risk Factors
+- **VIX +8.95% Mon = regime-shift signal** — first day of the new week opening softer; chasing here is bad R:R
+- Oil weakening on Saudi/OPEC+ supply chatter = direct headwind to XLE; if WTI breaks $100, expect XLE drawdown toward stop
+- ISM Services 10 AM can whipsaw rates/equities — a hot prices subindex re-ignites "higher for longer"
+- SPX pulling back from ATH (-0.48% Mon) into a CPI/PPI 7-day window = asymmetric downside
+- Mega-cap narrow leadership (semis carrying) leaves index exposed if SNDK/NVDA roll
+- Pending NVDA stale orders will fill at open — must attach trail immediately to satisfy rule 4
+- Week 2, 0/3 trades — no urgency; patience > activity
+
+### Decision
+**HOLD with conditional XLB entry post-ISM.** Reasons:
+- VIX spike + SPX pullback + softening oil = unfavorable risk backdrop for new-position open
+- XLE thesis weakening (oil down, outflows, Aroon) — not adding; let trail protect
+- XLB conditional entry only if 10 AM ISM Services prints in-line/soft AND SPX recovers green AND XLB confirms > $51.50 on volume
+- Reconcile pending NVDA buys at open: let fill, attach 10% trail GTC immediately (rule 4)
+- Plan for market-open routine: cancel any unattached NVDA stop gap, monitor XLE behavior into oil/ISM, defer XLB until post-10 AM tape clarity
+- Trades this week: 0/3 — preserve dry powder for higher-confidence setups
