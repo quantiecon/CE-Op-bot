@@ -78,6 +78,11 @@ Not based on research signal. Smoke test only.
 
 **Notes:** Quiet Friday — no new trades. Both positions slipped: XLE -1.43% to $58.80 (now -$12.75, -0.08% from entry), NVDA -0.49% to $198.60 (now -$8.21, -2.03% from entry). Neither HWM advanced; trailing stops unchanged (XLE $53.8515, NVDA $195.138). NVDA stop buffer tight at ~1.7% — first break Monday and the GTC fires. Cash steady at 84.6% (deployed 15.4%) — still light vs the 75–85% deployed target, week ends with one real position on the books. Trades today: 0. Trades this week: 1/3 (XLE only). Phase ends Week 1 at -$21 (-0.02%) — flat-to-slightly-red, benchmark check vs SPY pending in weekly-review. Monday plan (May 4): file pre-market RESEARCH-LOG first thing, watch NVDA stop proximity at the open, and look for a 2nd sector-momentum candidate (energy continuation or rotation into AI/semis) to lift deployment toward the 75% floor.
 
+## May 05 — Trade: NVDA (stale orders filled at open + trail attached)
+**Action:** BUY 4 NVDA @ $198.8925 avg | **Cost basis:** $795.57 (~0.8% of equity) | **Time:** market open
+**Trailing stop:** GTC sell 4 NVDA, trail 10%, initial stop $179.595, HWM $199.55 (order `576ea764`)
+**Rationale:** Stale market-buy orders queued May 4 22:01/22:45 ET filled at open as flagged in pre-market log. Not research-driven; trivial $800 notional. Trail attached immediately per Rule 4.
+
 ### May 04 — EOD Snapshot (Day 7, Monday)
 **Portfolio:** $100,119.76 | **Cash:** $84,977.86 (84.9%) | **Day P&L:** +$140.72 (+0.14%) | **Phase P&L:** +$119.76 (+0.12%)
 
