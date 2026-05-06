@@ -358,3 +358,51 @@ HOLD. Reasons:
 - Reconcile pending NVDA buys at open: let fill, attach 10% trail GTC immediately (rule 4)
 - Plan for market-open routine: cancel any unattached NVDA stop gap, monitor XLE behavior into oil/ISM, defer XLB until post-10 AM tape clarity
 - Trades this week: 0/3 — preserve dry powder for higher-confidence setups
+
+---
+
+## 2026-05-06 — Pre-market Research
+
+### Account
+- Equity: $99,574.24 (-$554 vs prior close, -0.55%)
+- Cash: $84,182.28 (84.6%)
+- Buying power: $183,756.52
+- Daytrade count: 0
+- Positions:
+  - XLE 255 sh @ $58.85 avg, last $57.22, **-$415.65 (-2.77%)**; trail 10% GTC, stop $53.8515, HWM $59.835 (order `a1f6efb3`). XLE -3.75% intraday yesterday on oil dump.
+  - NVDA 4 sh @ $198.8925 avg, last $200.08, +$4.75 (+0.60%); trail 10% GTC, stop $180.216, HWM $200.24 (order `576ea764`)
+- Deployed: ~15.5% (still well below 75–85% target); Week 2, 1/3 trades used (NVDA stale buy)
+
+### Market Context
+- **Brent: $106.52** — down ~$10 from yesterday morning (big drop); near support
+- **WTI: $102.56** close May 5 (-1.64%); descending triangle pattern, support $100.66; 100SMA crossed below 200SMA (bearish technical)
+- S&P 500 futures (ESM26): ~7,300–7,366 range; mixed premarket signal, modest -0.12% bias
+- **VIX: 17.38** May 5 close (-4.98% from 18.29 Mon) — regime-shift watch cooled, fear off
+- **BIG CATALYST: US–China 90-day tariff truce** — triggered META +7.9% rally, supporting Magnificent Seven recovery; stabilizes Chinese ad spend; META falling wedge targets $650 gap fill
+- Earnings BMO: NVO (~$171B), UBER (~$155B), DIS, BYND, OSCR, GOLF; AMC: ARM, APP — DIS the consumer-discretionary name to watch
+- Economic calendar: QUIET. State Employment 10 AM ET only. **NO CPI/PPI/FOMC/NFP today.** CPI May 12, PPI May 12, Apr Employment May 8 (Fri), NFP June 5
+- Sector momentum YTD: **Energy still leader (+22% YTD)** despite recent pullback (-6-7% from highs); Materials +17%, Industrials +11%, Staples +7%; **Tech lagging YTD but rotating up on tariff truce catalyst**; Healthcare/Financials weakening
+- XLE technicals: MACD turned positive Apr 29 (51 historical instances preceded gains); 21-period MA pivot this week — hold = consolidation, break = deeper pullback; Brent Q2 still projected to peak ~$115 on Iran/Hormuz risk
+
+### Trade Ideas
+1. **XLE — HOLD existing, MONITOR closely.** Down -2.77% from entry; oil weakening (Brent -$10/day, WTI descending triangle support $100.66). Trail stop $53.85 = ~5.85% buffer. Manual -7% cut threshold = $54.73 (1.7% below current $57.22). If WTI breaks $100, expect XLE drawdown toward $54.73 manual cut. Don't add.
+2. **QQQ / META / Magnificent Seven — US-China truce rotation play.** Real catalyst: META +7.9% on truce, broad tech relief rally setup. Chasing the open gap-up = bad R:R. Conditional add only on a mid-morning pullback to VWAP / prior day high with SPX confirming green. Potential 13-15% size in QQQ ($13-15k) for diversified tech exposure rather than chasing META individually.
+3. **XLB (Materials)** — Carryover from prior 2 sessions; still untriggered. Materials +17% YTD, uncorrelated to oil chop. Same conditional setup: only if SPX green + XLB > $51.50 on volume. Not preferred today vs. tariff-truce tech rotation.
+4. **NVDA — HOLD, do nothing.** +0.60% from entry, trail stop $180.216 (~10% buffer); could benefit from tariff-truce tech bid. No add — stale 4-sh position is non-thesis.
+
+### Risk Factors
+- **Oil weakness = direct headwind to XLE position.** Brent -$10 in a day; WTI descending triangle, 100/200 SMA bearish cross. If WTI breaks $100, manual -7% cut on XLE may trigger.
+- **Tariff-truce gap-up = chase risk.** META already +7.9%; entering tech at the open's high = giving back to overnight gap. Wait for retest.
+- VIX -5% off Mon panic high, but SPX still pulling back from ATH. Tariff-truce news = one-day euphoria; CPI May 12 is the next real risk event.
+- Energy at -2.77% on the books; back-to-back failed energy trades risks Rule 10 (exit sector after 2 failed trades). Don't add to energy here.
+- Quiet macro day = trader-driven price action; sector leadership can shift sharply on tariff-truce flows alone.
+- Week 2 cap: 1/3 used (stale NVDA fill); 2 entries remain. No urgency.
+
+### Decision
+**HOLD with conditional QQQ/tech entry on intraday pullback.** Reasons:
+- Tariff truce is a real, tape-changing catalyst — but chasing the open gap-up is poor R:R; need pullback for clean entry
+- XLE thesis weakening (oil dump, technical bearish cross); priority is monitoring stop proximity, NOT adding energy
+- Only macro print is 10 AM State Employment — minor; tape will be tariff/earnings/oil-driven
+- Plan for market-open routine: (1) **monitor XLE — if drops below ~$54.73 intraday, manual cut per Rule 5**; (2) defer any tech add until 30+ minutes post-open to see gap-fill behavior; (3) if SPX green at 10:30 ET and QQQ pulls back to support with volume holding, initiate ~13% QQQ position with 10% trail GTC; otherwise HOLD
+- Trades this week: 1/3 (stale NVDA only) — 2 real entries available, deploy patiently
+
