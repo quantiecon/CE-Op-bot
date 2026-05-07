@@ -406,3 +406,53 @@ HOLD. Reasons:
 - Plan for market-open routine: (1) **monitor XLE — if drops below ~$54.73 intraday, manual cut per Rule 5**; (2) defer any tech add until 30+ minutes post-open to see gap-fill behavior; (3) if SPX green at 10:30 ET and QQQ pulls back to support with volume holding, initiate ~13% QQQ position with 10% trail GTC; otherwise HOLD
 - Trades this week: 1/3 (stale NVDA only) — 2 real entries available, deploy patiently
 
+---
+
+## 2026-05-07 — Pre-market Research
+
+### Account
+- Equity: $99,321.94 (-$226.66 vs prior close, -0.23%)
+- Cash: $84,182.28 (84.8%)
+- Buying power: $183,504.22
+- Daytrade count: 0
+- Positions:
+  - XLE 255 sh @ $58.85 avg, last $56.10, **-$701.25 (-4.67%)**; trail 10% GTC, stop $53.8515, HWM $59.835 (order `a1f6efb3`). XLE -1.58% intraday; manual -7% cut threshold = $54.73 (~2.4% buffer).
+  - NVDA 4 sh @ $198.8925 avg, last $208.52, +$38.51 (+4.84%); trail 10% GTC, stop $187.4385, HWM $208.265 (order `576ea764`). HWM ratcheted +$0.26 yesterday on Mag-7 rally.
+- Deployed: ~15.2% (still well below 75–85% target); Week 2, 1/3 trades used (stale NVDA fill)
+
+### Market Context
+- **WTI: ~$93/bbl** — sharp 7% intraday drop reportedly on US–Iran consensus to gradually ease production constraints (BIG RISK-OFF FOR ENERGY); May 6 ranged $99.57–$104.36, now collapsed
+- **Brent: no fresh quote** — last $116.10 May 1; with WTI -$10/day, Brent likely $98–105 zone, premium cratered
+- S&P 500 futures (ESM26): May 6 close ~7,380 (+1.45%/+1.19%); strong Wednesday rally on US–China 90-day tariff truce + Mag-7 bid
+- VIX: 17.38 May 5 close (-4.98%); fear-off; SPX rebound underway
+- Today's catalysts: **Initial Jobless Claims 8:30 AM (fcst 205K, prev 189K — uptick = mild softening)**; Q1 Productivity & Costs 8:30 AM; Challenger Job Cuts 11:30 AM (60.6K vs 56K prior). Light overall.
+- **TOMORROW (May 8) = BIG**: April Employment Report (NFP) 8:30 AM, fcst 178K + PPI. Asymmetric overnight risk into Friday.
+- Earnings BMO: light tape per Earnings Whispers; no mega-caps confirmed for BMO. NVO/UBER/DIS already reported May 6.
+- **Sector momentum YTD**: Energy still leader (+22% to +32% per source range) but Apr **-14% drawdown** post Q1 surge; Materials +22% (subsectors up to +49%); Industrials +24%; Staples +10–11%; Tech rotating UP on tariff truce + AI demand inflection
+- NVDA news: Corning multiyear partnership announced; AI inference demand inflection (agentic AI); $1T order pipeline (Blackwell/Vera Rubin); earnings May 20 — strong tailwind
+- XLE technicals: April -14% from highs; Apr 28 breakout failed; institutional outflows ($1.2B mid-April); XOM/CVX top holdings still + YTD but oil dump cracks thesis
+
+### Trade Ideas
+1. **XLE — PRIORITY: monitor for exit, do NOT add.** Oil thesis is BROKEN (WTI -7% to $93 on US–Iran deal). Position -4.67%, manual -7% cut at $54.73 = ~2.4% buffer. **Plan: if XLE opens below $55.00 or breaks $54.73 intraday, manual cut per Rule 5 — don't wait for trail at $53.85.** Saves ~$50 vs trailing-stop slippage and frees ~$14k cash for a clean tech rotation entry.
+2. **QQQ / tech rotation — DEFER to next week.** Tariff truce + Corning/NVDA partnership = real catalysts, but NFP/PPI tomorrow = asymmetric overnight risk. Chasing into a 2-day macro window is poor R:R. Wait for Friday post-NFP tape, size 13–15% on Monday confirmation.
+3. **XLB (Materials)** — Sector +22% YTD, leading quadrant, less commodity-sensitive than XLE. Carryover idea (untriggered 3 sessions); same NFP risk applies — defer.
+4. **XLI (Industrials)** — +24% YTD, AI capex / defense tailwinds. Watchlist for Monday.
+5. **NVDA — HOLD, no add.** +4.84% from entry (+$38.51); HWM $208.265, stop $187.44 (~10% buffer). +15% tighten threshold = $228.73; not yet hit. Earnings May 20 = leave it alone.
+
+### Risk Factors
+- **Oil collapse to $93 = direct kill-shot to XLE**; if WTI follows through to $90 or below, XLE drives to $54–55 and stop fires. Expected drawdown today.
+- **NFP + PPI tomorrow 8:30 AM**: hot print = "higher for longer" repricing → tech sells off; cool print = goldilocks rally. Either way, asymmetric overnight risk = avoid new entries today.
+- **Rule 10 watchlist**: NVDA smoke-test stop-out (-3.80% Apr 24→May 4) + XLE pending failure = approaching 2 failed trades. If XLE cuts today, energy sector gets a 2-failure flag (note: NVDA was tech, not energy — counters reset by sector). One more failed energy trade after XLE = sector cooldown.
+- SPX bounced Wednesday but still ~2% below ATH; tariff-truce euphoria can fade fast.
+- 84.8% cash = no immediate sizing pressure; defer rather than force.
+- Week 2 trade cap: 1/3 used; XLE exit doesn't burn an entry (sells don't count toward the new-trade cap).
+
+### Decision
+**HOLD with PRIMARY ACTION: preemptive XLE exit on weakness.** Reasons:
+- Energy thesis broken: WTI to $93 (-7% intraday) on US–Iran consensus, oil tape regime change
+- XLE manual -7% cut at $54.73 — current $56.10, 2.4% buffer; preempt the trail at $53.85 to save slippage
+- NFP/PPI tomorrow = asymmetric overnight risk; NO new long entries today
+- Plan for market-open routine: (1) **if XLE opens ≤ $55.00 or breaks $54.73 in first 30 min, manual SELL all 255 shares + cancel trail GTC `a1f6efb3`**; (2) if XLE holds $55.50+, observe through 10 AM and reassess; (3) NO new positions today — defer XLB/QQQ/XLI to Monday post-NFP confirmation; (4) NVDA: do nothing, let trail work
+- Trades this week: 1/3 used; potential exit + Monday entry = within cap
+- Cash post-XLE-exit: ~$98.5k (~99% of equity) → Monday deployment window opens for 2 fresh sector-momentum entries
+
