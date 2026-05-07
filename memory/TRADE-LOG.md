@@ -111,3 +111,18 @@ Not based on research signal. Smoke test only.
 | NVDA | 4 | $198.8925 | $207.40 | +5.55% | +$34.03 | $187.4385 (trail 10%, HWM $208.265) |
 
 **Notes:** Worst day of the phase — Day P&L -$549 (-0.55%) drags phase to -$422 (-0.42%), first time underwater. Driver was XLE -3.92% on the day to $57.12 (-$441 unrealized, -2.94% from entry); energy thesis under pressure as oil rolled over intraday. Stop unchanged at $53.8515, buffer now ~5.7% — closer to firing but still well outside the -7% manual cut from entry (cut threshold ~$54.73, current $57.12, ~4.4% buffer). NVDA cushioned the loss: +5.55% to $207.40, +4.28% from entry, +$34 unrealized; HWM ratcheted up to $208.265, stop tightened automatically to $187.4385 (still 10% trail, +15% tighten threshold = $228.73 not yet hit). No fills today, no research-driven entries — pre-market RESEARCH-LOG cadence still the bottleneck (4 trading days running). Cash 84.5%, deployment 15.5% — unchanged. Trades today: 0. Trades this week: 1/3 entries used. Tomorrow (Thu May 7): file pre-market RESEARCH-LOG FIRST, watch XLE stop proximity at the open, and decide whether energy thesis is broken (consider exiting before stop fires if oil keeps rolling) or to hold and add a defensive/rotation candidate (utilities, staples, or AI/semis on continuation) to diversify away from single-sector concentration.
+
+### May 07 — Midday Scan (no action)
+**Positions snapshot:**
+
+| Ticker | Shares | Entry | Last | P&L % | Unrealized P&L | Stop |
+|--------|--------|-------|------|-------|----------------|------|
+| XLE | 255 | $58.85 | $55.905 | -5.00% | -$750.98 | $53.8515 (trail 10%, HWM $59.835) |
+| NVDA | 4 | $198.8925 | $212.265 | +6.72% | +$53.49 | $192.78 (trail 10%, HWM $214.20) |
+
+**Actions:** None.
+**Step 3 (cut losers):** XLE at -5.00%, not at -7%. No manual cut.
+**Step 4 (tighten winners):** NVDA at +6.72%, below +15% tighten threshold ($228.73). Trail auto-ratcheted from $187.44 to $192.78 on HWM bump to $214.20. No manual tighten.
+**Step 5 (thesis check on XLE):** Energy thesis already documented broken in pre-market log (WTI -7% to ~$93 on US-Iran production-easing consensus). Pre-market plan set preemptive exit triggers at open ≤ $55.00 OR break of $54.73 in first 30 min — neither triggered (open held above, current $55.905). Discipline says hold the plan: trail at $53.85 will catch downside; manual cut at $54.73 if breached. NFP/PPI tomorrow 8:30 AM = avoid discretionary mid-band cuts that could be reversed by a soft print. Buffer to manual cut: ~2.1%; buffer to trail: ~3.7%.
+**Cash/Equity:** Cash $84,182.28; equity ~$99,287 (mark-to-market); deployment ~15.2%. No fills today.
+**Trades this week:** 1/3 (stale NVDA reload Tue). 2 entries remain — deferring to Monday post-NFP per pre-market decision.
