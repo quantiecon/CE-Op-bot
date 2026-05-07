@@ -126,3 +126,13 @@ Not based on research signal. Smoke test only.
 **Step 5 (thesis check on XLE):** Energy thesis already documented broken in pre-market log (WTI -7% to ~$93 on US-Iran production-easing consensus). Pre-market plan set preemptive exit triggers at open ≤ $55.00 OR break of $54.73 in first 30 min — neither triggered (open held above, current $55.905). Discipline says hold the plan: trail at $53.85 will catch downside; manual cut at $54.73 if breached. NFP/PPI tomorrow 8:30 AM = avoid discretionary mid-band cuts that could be reversed by a soft print. Buffer to manual cut: ~2.1%; buffer to trail: ~3.7%.
 **Cash/Equity:** Cash $84,182.28; equity ~$99,287 (mark-to-market); deployment ~15.2%. No fills today.
 **Trades this week:** 1/3 (stale NVDA reload Tue). 2 entries remain — deferring to Monday post-NFP per pre-market decision.
+
+### May 07 — EOD Snapshot (Day 10, Thursday)
+**Portfolio:** $99,283.76 | **Cash:** $84,182.28 (84.8%) | **Day P&L:** -$293.72 (-0.30%) | **Phase P&L:** -$716.24 (-0.72%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| XLE | 255 | $58.85 | $55.90 | -1.93% | -$752.25 | $53.8515 (trail 10%, HWM $59.835) |
+| NVDA | 4 | $198.8925 | $211.745 | +1.88% | +$51.41 | $192.78 (trail 10%, HWM $214.20) |
+
+**Notes:** Phase low — Day P&L -$294 (-0.30%) extends phase to -$716 (-0.72%); NVDA's +$15.66 intraday gain (HWM ratcheted to $214.20, trail to $192.78) only partially offset XLE's -$280.50 intraday slide. XLE closed $55.90 (-5.01% from entry, -$752 unrealized) — held above the preemptive exit triggers from pre-market plan (open ≤ $55.00 / break $54.73 in first 30 min); discipline held, no discretionary cut. Manual -7% threshold = $54.73 (~1.9% buffer); trail $53.8515 (~3.7% buffer). NVDA +6.46% from entry, well below +15% tighten threshold ($228.73). No fills today; pre-market RESEARCH-LOG cadence still the bottleneck (5 trading days running). Cash 84.8%, deployment 15.2% — unchanged. Trades today: 0. Trades this week: 1/3 (NVDA stale reload Tue). Tomorrow (Fri May 8): NFP/PPI 8:30 AM ET — defer entries pre-print, watch XLE for cut on soft oil print or break of $54.73, run weekly-review post-close, consider trimming/exiting XLE if energy thesis remains broken into Monday.
