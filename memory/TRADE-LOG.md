@@ -136,3 +136,13 @@ Not based on research signal. Smoke test only.
 | NVDA | 4 | $198.8925 | $211.745 | +1.88% | +$51.41 | $192.78 (trail 10%, HWM $214.20) |
 
 **Notes:** Phase low — Day P&L -$294 (-0.30%) extends phase to -$716 (-0.72%); NVDA's +$15.66 intraday gain (HWM ratcheted to $214.20, trail to $192.78) only partially offset XLE's -$280.50 intraday slide. XLE closed $55.90 (-5.01% from entry, -$752 unrealized) — held above the preemptive exit triggers from pre-market plan (open ≤ $55.00 / break $54.73 in first 30 min); discipline held, no discretionary cut. Manual -7% threshold = $54.73 (~1.9% buffer); trail $53.8515 (~3.7% buffer). NVDA +6.46% from entry, well below +15% tighten threshold ($228.73). No fills today; pre-market RESEARCH-LOG cadence still the bottleneck (5 trading days running). Cash 84.8%, deployment 15.2% — unchanged. Trades today: 0. Trades this week: 1/3 (NVDA stale reload Tue). Tomorrow (Fri May 8): NFP/PPI 8:30 AM ET — defer entries pre-print, watch XLE for cut on soft oil print or break of $54.73, run weekly-review post-close, consider trimming/exiting XLE if energy thesis remains broken into Monday.
+
+### May 08 — EOD Snapshot (Day 11, Friday)
+**Portfolio:** $99,316.87 | **Cash:** $84,182.28 (84.8%) | **Day P&L:** +$33.11 (+0.03%) | **Phase P&L:** -$683.13 (-0.68%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| XLE | 255 | $58.85 | $56.01 | +0.11% | -$724.20 | $53.8515 (trail 10%, HWM $59.835) |
+| NVDA | 4 | $198.8925 | $213.01 | +0.71% | +$56.47 | $192.78 (trail 10%, HWM $214.20) |
+
+**Notes:** Quiet finish to a red week. Day P&L +$33 (+0.03%) — modest bounce off Thursday's phase low; phase still -$683 (-0.68%). NFP/PPI prints absorbed without forcing a manual cut on XLE: closed $56.01 (+0.11% on day, -4.83% from entry, -$724 unrealized) — held above both the $55.00 open trigger and the $54.73 manual-cut threshold (~2.3% buffer); trail $53.8515 (~3.9% buffer). HWM unchanged at $59.835 — no auto-tighten. NVDA +0.71% to $213.01 (+7.10% from entry, +$56 unrealized); HWM unchanged at $214.20, stop unchanged at $192.78 (+15% tighten threshold $228.73 not hit). No fills today; pre-market RESEARCH-LOG cadence remained the bottleneck (6 trading days running). Cash 84.8%, deployment 15.2% — unchanged for the entire week. Trades today: 0. Trades this week: 1/3 (NVDA stale reload Tue). Week 2 closes flat-to-red vs SPY benchmark — weekly-review pending. Tomorrow (Sat May 9): market closed; run weekly-review (compute SPY relative, grade Week 2, decide whether to exit XLE Monday given broken energy thesis, plan 2 sector-momentum candidates for Monday post-NFP digestion to lift deployment toward 75% floor).
