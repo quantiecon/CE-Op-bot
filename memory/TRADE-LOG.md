@@ -137,6 +137,21 @@ Not based on research signal. Smoke test only.
 
 **Notes:** Phase low — Day P&L -$294 (-0.30%) extends phase to -$716 (-0.72%); NVDA's +$15.66 intraday gain (HWM ratcheted to $214.20, trail to $192.78) only partially offset XLE's -$280.50 intraday slide. XLE closed $55.90 (-5.01% from entry, -$752 unrealized) — held above the preemptive exit triggers from pre-market plan (open ≤ $55.00 / break $54.73 in first 30 min); discipline held, no discretionary cut. Manual -7% threshold = $54.73 (~1.9% buffer); trail $53.8515 (~3.7% buffer). NVDA +6.46% from entry, well below +15% tighten threshold ($228.73). No fills today; pre-market RESEARCH-LOG cadence still the bottleneck (5 trading days running). Cash 84.8%, deployment 15.2% — unchanged. Trades today: 0. Trades this week: 1/3 (NVDA stale reload Tue). Tomorrow (Fri May 8): NFP/PPI 8:30 AM ET — defer entries pre-print, watch XLE for cut on soft oil print or break of $54.73, run weekly-review post-close, consider trimming/exiting XLE if energy thesis remains broken into Monday.
 
+### May 08 — Midday Scan (no action)
+**Positions snapshot:**
+
+| Ticker | Shares | Entry | Last | P&L % | Unrealized P&L | Stop |
+|--------|--------|-------|------|-------|----------------|------|
+| XLE | 255 | $58.85 | $55.98 | -4.88% | -$731.85 | $53.8515 (trail 10%, HWM $59.835) |
+| NVDA | 4 | $198.8925 | $215.42 | +8.31% | +$66.10 | $196.02 (trail 10%, HWM $217.80) |
+
+**Actions:** None.
+**Step 3 (cut losers):** XLE at -4.88%, not at -7%. No manual cut.
+**Step 4 (tighten winners):** NVDA at +8.31%, below +15% tighten threshold ($228.73). Trail auto-ratcheted from $192.78 to $196.02 on HWM bump to $217.80. No manual tighten.
+**Step 5 (thesis check on XLE):** Energy thesis broken (per 5/7 pre-market: WTI -7% to $93 on US-Iran consensus). Pre-market 5/7 plan set preemptive triggers at open ≤ $55.00 OR break $54.73 in first 30 min — neither hit (current $55.98). NFP/PPI absorbed without forcing a cut; XLE +0.05% intraday. Discipline holds: trail at $53.85 catches downside; manual cut at $54.73 if breached. EOD plan defers exit decision to Monday post weekly-review. No discretionary cut.
+**Cash/Equity:** Cash $84,182.28; equity ~$99,319 (mark-to-market); deployment ~15.2%. No fills today.
+**Trades this week:** 1/3 (NVDA stale reload Tue). 2 entries remain — deferring to Monday post-NFP/post-weekly-review.
+
 ### May 08 — EOD Snapshot (Day 11, Friday)
 **Portfolio:** $99,316.87 | **Cash:** $84,182.28 (84.8%) | **Day P&L:** +$33.11 (+0.03%) | **Phase P&L:** -$683.13 (-0.68%)
 
