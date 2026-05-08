@@ -148,3 +148,61 @@ Clean infrastructure launch and correct HOLD discipline on a legitimately mixed 
 
 ### Overall Grade: C+
 Week was a near-flat draw (-0.04%) while SPY booked +0.91% — bot underperformed the bench by 95 bps in a tape we should have caught at least half of. Execution improved late (XLE entry was clean, sized, stopped) but the 3-day Mon-Wed research gap and 15% deployment vs 75-85% target are the same Week 1 mistakes repeating. Grade reflects: discipline preserved (no rule violations, no FOMO, all stops live), but opportunity cost was real and the deployment gap is now a pattern, not a bug.
+
+---
+
+## Week ending 2026-05-08
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $99,961.93 (Mon May 4 AM) |
+| Ending portfolio | $99,259.82 |
+| Week return | -$702.11 (-0.70%) |
+| S&P 500 week | +2.22% (SPX 7,228.38 → 7,388.66) |
+| Bot vs S&P | -2.92% |
+| Trades | 2 (closed:1L / new:1 / open at EOW:2) |
+| Win rate | 0% (0W / 1 closed) |
+| Best trade | NVDA (4 sh) +8.08% (unrealized) |
+| Worst trade | XLE -5.26% (unrealized) |
+| Profit factor | 0.00 (no closed winners; |loser| $15.39) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| NVDA (2 sh) | $202.705 (Apr 24) | $195.01 (May 4) | -$15.39 (-3.80%) | Smoke-test stop fired auto via GTC trail; clean execution, well inside -7% manual cut |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+| XLE | $58.85 | $55.7557 | -$789.05 (-5.26%) | $53.8515 (trail 10%, GTC `a1f6efb3`, HWM $59.835) |
+| NVDA | $198.8925 | $214.96 | +$64.27 (+8.08%) | $196.02 (trail 10%, GTC `576ea764`, HWM $217.80) |
+
+### What Worked
+- Trailing-stop infrastructure proved itself again — NVDA smoke-test exited cleanly via GTC at $195.01, capping loss at -3.80% (well inside the -7% manual cut)
+- Discipline on XLE through a sharp drawdown — held above pre-market exit triggers ($55.00 open, $54.73 30-min break) and never panic-cut despite -5% intraday Wed and oil-thesis breakdown
+- NVDA stale 4-sh reload was handled correctly: trail attached immediately at open per Rule 4, position now +8.08% offsetting some XLE damage
+- Pre-market RESEARCH-LOG cadence held all 5 days (Mon-Fri filed) — first full-week cadence streak; Wed/Thu logs correctly flagged broken energy thesis BEFORE drawdown deepened
+- Recognized the NFP/PPI Friday risk and deferred new entries — preserved 2/3 weekly trade slots for Monday's post-print clarity
+
+### What Didn't Work
+- XLE single-position concentration meant the energy thesis breakdown (US-Iran production-easing consensus, WTI -7% to $93) drove almost the entire weekly P&L hit; no diversifying second-sector leg cushioned the move
+- Despite 5 days of RESEARCH-LOG flagging XLB / XLI / QQQ as conditional adds, ZERO of those entries triggered — the conditional bar (SPX green + level break + volume) was met on at least Wed (post-tariff truce rally) but bot did not act
+- Deployment stayed flat at 15.2% all week — third straight week well below 75-85% target; the gap is now structural, not a research-cadence problem
+- Energy thesis was identifiably breaking by Tue (Saudi accelerating production) and confirmed broken by Wed (Brent -$10/day) — could have preemptively trimmed XLE before Thursday's slide rather than holding to test the manual-cut threshold
+- Bot underperformed SPY by 292 bps in a clearly bullish tape (US-China tariff truce, +2.22% SPX week) — sat out the rally because the only deployed exposure was the wrong sector
+
+### Key Lessons
+- Single-position weeks are bet-the-farm weeks; even when the thesis is right (energy +22% YTD), one negative catalyst (US-Iran consensus) can erase the year's edge in 48 hours. A second uncorrelated leg is non-optional, not nice-to-have.
+- Conditional entries with "if X then deploy" triggers must actually be acted on when X happens. Filing the plan but never pulling the trigger is functionally identical to no plan. The Wed tariff-truce rally was the trigger; bot was passive.
+- Thesis-breaking news comes in stages: Saudi production chatter (Tue) → Brent dump (Wed) → WTI -7% (Thu). Waiting for the third confirmation costs 4-5% of entry. Two stages of breakage = preemptive trim, don't wait for stop.
+- Friday weekly-cap discipline is fine, but holding 84.8% cash through a +2.22% SPX week is opportunity cost masquerading as patience. Patience > activity ≠ paralysis > underperformance.
+- The daily-summary logs accurately diagnosed the bottleneck every day ("pre-market RESEARCH-LOG cadence the bottleneck"). When the bot KNOWS what's wrong and STILL doesn't fix it across 5 days, the rule needs operational teeth, not more diagnosis.
+
+### Adjustments for Next Week (May 11-15)
+- **Monday May 11 priority: resolve XLE.** If energy thesis remains broken (WTI < $95), exit preemptively at open rather than waiting for $54.73 manual cut or $53.85 trail; redeploy ~$14k freed cash into XLB or XLI same-day on confirmation.
+- Commit to TWO sector-momentum entries Monday-Tuesday (XLB Materials + XLI Industrials, or one of them + a tech-rotation leg via QQQ) — target 45%+ deployed by Tue close, 60%+ by EOW.
+- Conditional entries from RESEARCH-LOG must convert to orders the same session the trigger fires; if SPX is green and target ETF clears its level on volume, ENTER. No more "carryover idea (untriggered N sessions)" entries.
+- CPI May 12 (Tue) + PPI May 13 (Wed) = the week's binary risk. Defer the SECOND entry until post-CPI tape clarity; FIRST entry can size pre-CPI on a cool-print bias if leadership holds.
+- Rule 10 tracker: if XLE exits red Monday, energy sector hits its first failed trade (NVDA smoke-test was tech, doesn't count). One more failed energy trade = sector cooldown per rule 10 — be selective on any future energy reentry.
+
+### Overall Grade: C-
+Bot lost -0.70% in a +2.22% SPY week — relative underperformance of 292 bps, the worst gap of the phase. Discipline preserved (no rule violations, all stops live, RESEARCH-LOG cadence held all 5 days, NVDA stop-out clean), but the same three structural issues compounded: single-position concentration, 15% deployment vs 75-85% target, and conditional-entry plans that never got pulled. The grade is one notch below last week because the cost of the deployment gap is no longer abstract — it's now -2.92% vs benchmark in a week SPY ran +2.22%. Discipline without deployment is hibernation. Next week must prove the bot can convert filed conditional entries into actual orders.
