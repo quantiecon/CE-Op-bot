@@ -456,3 +456,53 @@ HOLD. Reasons:
 - Trades this week: 1/3 used; potential exit + Monday entry = within cap
 - Cash post-XLE-exit: ~$98.5k (~99% of equity) → Monday deployment window opens for 2 fresh sector-momentum entries
 
+---
+
+## 2026-05-08 — Pre-market Research
+
+### Account
+- Equity: $99,293.69 (-$1.84 vs prior close, -0.00%)
+- Cash: $84,182.28 (84.8%)
+- Buying power: $183,475.97
+- Daytrade count: 0
+- Positions:
+  - XLE 255 sh @ $58.85 avg, last $55.91, **-$749.70 (-5.00%)**; trail 10% GTC, stop $53.8515, HWM $59.835 (order `a1f6efb3`). Manual -7% cut threshold = $54.73 (~2.1% buffer); trail buffer ~3.7%.
+  - NVDA 4 sh @ $198.8925 avg, last $213.59, +$58.79 (+7.39%); trail 10% GTC, stop $192.78, HWM $214.20 (order `576ea764`). HWM ratcheted +$5.94 yesterday on tariff-truce/Corning bid.
+- Deployed: ~15.2% (still well below 75–85% target); Week 2, 1/3 trades used (stale NVDA fill). Friday — last day of week 2.
+
+### Market Context
+- **WTI: ~$94–96/bbl** — May 7 close $94.81 (-0.07%); May 8 settle $94.87 (+0.06%) per historical, May futures ~$91.94. Stabilized off Wed dump but still ~$10 below pre-thesis $105 level. Polymarket implies ~50/50 around $96. Energy thesis remains BROKEN.
+- **Brent: ~$100+** (no fresh quote; correlated with WTI rebound)
+- S&P 500 futures (ESM26): May 7 close 7,362.75 (-0.36% vs Wed's 7,389.50); CME video flagged "pull back as inflation expectations rise." Mild risk-off into NFP.
+- VIX: 17.08 May 7 close (-1.78% from 17.39); fear-off; cooled despite SPX dip
+- **TODAY'S BIG CATALYST: April Nonfarm Payrolls (NFP) 8:30 AM ET** — FactSet consensus +65K (range 0K–95K), 12-mo avg +21.7K, prior +178K (March beat); UR fcst 4.3%. Soft print = goldilocks rate-cut rally; hot print = "higher for longer" repricing. Average Hourly Earnings is the under-the-hood swing factor.
+- PPI: not on the formal cal for May 8 today (Perplexity could not confirm); CPI May 12, PPI May 13. Treat NFP as the lone macro print.
+- Earnings BMO: NONE confirmed (Nasdaq: "no reports on this date"). Light tape post-print.
+- **Sector momentum YTD**: Energy +22% (still YTD leader despite April -14% drawdown); Staples +16%; Materials +15.7%; Industrials +12%; Utilities +6%; **Tech/IT -3.83% YTD, below 50-day MA**; Comm Services -0.9%; Discretionary -4.6%; Financials -5.7%. Cyclical-to-growth rotation showing early reversal signals (Mag-7 exodus >1yr historically precedes reversals).
+- NVDA news: bullish flow continues — **Corning multiyear partnership** (3 new US facilities, NVDA warrants for 15M sh @ $180 = ~$2.7B); **IREN strategic deal** (up to 5GW AI infra, $30M IREN buy right @ $70); AMD strong results boosted semis breadth; hyperscalers reporting compute supply constraints. Earnings May 20; GTC Taipei June 1. Polymarket weekly close ~55% odds $210–$215, 33.5% odds $215–$220.
+- XLE technicals: $1.24B 5-day institutional outflows; daily RSI/MACD on Strong Sell; "falling channel" formation in play; XOM/CVX top holdings on technical defensive. Tape says broken.
+
+### Trade Ideas
+1. **XLE — HOLD into NFP, do NOT add.** Stabilized $55.91 above the preemptive triggers ($55.00 open / $54.73 first-30-min) from the May 7 plan; current manual-cut buffer ~2.1%, trail buffer ~3.7%. NFP at 8:30 AM is the swing factor: soft = oil bid + USD weak = XLE relief; hot = USD strong + oil sells = stop fires. **Plan: do NOT preempt-cut into NFP — let the print resolve. If post-NFP XLE breaks $54.73 intraday, manual cut per Rule 5; otherwise let trail work at $53.85.**
+2. **No new long entries today.** NFP-Friday pre-print = asymmetric variance; chasing into a print is poor R:R. Defer XLB/QQQ/XLI to Monday post-print confirmation. Same plan as May 7.
+3. **NVDA — HOLD, no add.** +7.39% from entry (+$58.79); HWM $214.20, stop $192.78 (~10% buffer). +15% tighten threshold = $228.73 (not yet hit). Corning + IREN tailwind, earnings May 20 — leave alone.
+4. **Watchlist for Monday May 11** (post-NFP digestion): XLB (Materials, +15.7% YTD, AI/capex tailwind, less commodity-sensitive than XLE), XLI (Industrials, +12% YTD, defense + AI infra), QQQ (tech rotation if SPX confirms green); size 13–15% each. If XLE stops out today, deployment dry powder ~$98k available.
+
+### Risk Factors
+- **NFP 8:30 AM is binary**: hot AHE / strong headline = bond yields up + tech sells off + USD strong → oil/XLE down → stop-out risk; soft headline / cool AHE = goldilocks rip → SPX higher, oil bid, XLE relief. No edge in front-running.
+- **XLE -5.00% from entry**, ~2.1% buffer to manual cut. A negative NFP-driven oil dump fires the stop on the same day.
+- **Rule 10 watchlist**: NVDA smoke-test stop-out (Apr 24→May 4, -3.80%) was tech (counter resets by sector). XLE is the first energy trade — if it stops, that's 1 failure in energy. Two consecutive energy failures triggers sector cooldown; so do not re-enter energy on a stop-out today.
+- VIX at 17 = complacent into a binary print = realized vol can spike. Tariff-truce euphoria is fading per CME inflation-expectations note.
+- Week 2 cap: 1/3 used; XLE exit (sell) does not consume an entry. 2 entries available for Monday.
+- Cash 84.8% — no urgency to deploy; patience > activity, especially on a Friday into NFP.
+- Persistent gap: this is the **2nd pre-market log filed in a row** (broke a 6-day streak yesterday), but EOD/weekly cadence has been consistent. Maintain the streak.
+
+### Decision
+**HOLD — let NFP resolve. Defer all new entries to Monday.** Reasons:
+- NFP 8:30 AM = single binary swing factor; pre-print entries are asymmetric losers
+- XLE protected by trail at $53.85 + manual cut at $54.73; no preemptive sell on stabilized $55.91 — give the print a chance to lift oil/energy off the floor
+- Friday afternoons = run weekly-review post-close (Week 2 SPY relative + grade); Saturday/Monday = re-plan
+- Plan for market-open routine: (1) NFP at 8:30 ET — observe 5–15 min after print before any action; (2) if XLE breaks $54.73 in first 30 min post-print, manual SELL 255 sh + cancel trail GTC `a1f6efb3` (Rule 5); (3) if XLE holds $55+, do nothing, let trail work; (4) NO new long entries today; (5) NVDA: do nothing, trail unchanged
+- Trades this week: 1/3 (NVDA stale fill). Week 2 closes today; Monday's 3-trade cap resets — plan 2 sector-momentum entries (XLB, XLI, or QQQ) on confirmed post-NFP tape
+- Post-EOD: run weekly-review, decide whether to discretionarily exit XLE Monday on continued energy weakness vs hold-into-trail
+
