@@ -456,3 +456,54 @@ HOLD. Reasons:
 - Trades this week: 1/3 used; potential exit + Monday entry = within cap
 - Cash post-XLE-exit: ~$98.5k (~99% of equity) → Monday deployment window opens for 2 fresh sector-momentum entries
 
+
+---
+
+## 2026-05-11 — Pre-market Research
+
+### Account
+- Equity: $99,418.12 (+$171.54 vs prior close, +0.17%)
+- Cash: $84,182.28 (84.7%)
+- Buying power: $147,961.13
+- Daytrade count: 0
+- Positions:
+  - XLE 255 sh @ $58.85 avg, last $56.40, **-$624.75 (-4.16%)**; trail 10% GTC, stop $53.8515, HWM $59.835 (order `a1f6efb3`). +1.26% intraday Friday post-NFP/PPI absorption.
+  - NVDA 4 sh @ $198.8925 avg, last $213.46, **+$58.27 (+7.32%)**; trail 10% GTC, stop $196.02 (HWM ratcheted to $217.80, +$3.60 vs prior log; order `576ea764`)
+- Deployed: ~15.3% (still well below 75–85% target); Week 3, 0/3 trades used
+- **CRITICAL: 2 stale weekend market-buy orders cancelled before open** — MP 279 sh + USAR 646 sh (combined ~$36k / ~36% of equity) queued May 9 with no research justification on file, no trailing stops attached. Cancelled per Rule 4 + research-before-trade discipline. See Trade Idea #3 below.
+
+### Market Context
+- **WTI: ~$95.96** (May 8 close); CLM26 $99.20; Robinhood prediction market 82% prob WTI closes ≥ $93, 41% prob ≥ $100. Oil stabilizing post-Iran-deal dump but no rebound — bearish below 20-EMA $95.31.
+- **Brent: no fresh quote**; spread normalized ~$2-5 over WTI = ~$98-100.
+- S&P 500: April closed 7,209 ATH; recent 7,398 reported (+10.5% monthly, best since 2020). ES futures essentially flat premarket (+0.10%).
+- **VIX: 17.08-17.15** (May 6 close 17.15) — calm, fear-off; Mon panic spike to 18.29 fully reset
+- **TOMORROW (May 12) = BIG**: April CPI 8:30 AM ET — consensus headline 0.6% MoM / 3.7% YoY, core 0.3% MoM / 2.7% YoY. Hot core >0.3% = Fed caution for June 16-17 meeting, sharp correction risk from ATH.
+- Wed May 13: April PPI 8:30 AM ET. Thu May 14: Retail Sales. **Trump-Xi summit May 14-15** on AI guardrails — semis/tech swing risk.
+- Earnings BMO Mon: SPG, STE, OVV, MARA, KGS, NOVT, PLUG, METC, RGTI, WBTN. No mega-caps. HCAT post-close. **Cisco, Alibaba, Applied Materials this week** = AI/tech sentiment test.
+- **Sector momentum YTD (early May)**: Energy +22-32% (still leader despite April -14% drawdown); Materials +15-22%; Industrials +7-25%; Staples +10-12%; Healthcare -5% (laggard); Financials lagging; Tech rebounding +14.88% in April (Mag-7 led)
+- **Critical minerals theme alive**: MP, USAR, UAMY, TMC moved on US price-floor initiative; YTD USAR +35%, UAMY +22%, MP +4%. Antimony demand surge + China supply-chain decoupling = real multi-year tailwind.
+
+### Trade Ideas
+1. **XLE — MONITOR for exit, do NOT add.** Position -4.16%, bounced 0.90% on Fri post-NFP. Manual -7% cut threshold = $54.73 (~3.0% buffer); trail $53.85 (~4.5% buffer). Energy thesis still impaired (WTI $96, Iran de-escalation in play) but Friday's intraday +1.26% suggests buyers near $55. **Plan: hold through CPI tomorrow. If CPI hot AND XLE breaks $55.00 in first 30 min, manual cut. Otherwise let trail work.** Pre-emptive exit no longer urgent given Friday bid.
+2. **NVDA — HOLD, no add.** +7.32% from entry; HWM $217.80, trail $196.02 (still 10% buffer). +15% tighten threshold = $228.73 not hit. Earnings May 20 = leave it alone, do not add into print.
+3. **Critical minerals (MP, USAR, UAMY) — DEFER to post-CPI confirmation.** Real thematic catalyst (US price-floor initiative, antimony supply chain, China decoupling) but: (a) wide pre-open spreads (MP $64/$71, USAR $23/$31) = bad market-order fills; (b) CPI Tuesday = asymmetric overnight risk; (c) no GTC trail attached on the stale orders. **Plan: if CPI prints in-line/cool AND critical-minerals tape holds, size 1 position at 13-15% ($13-15k) Wed/Thu with limit order + immediate 10% trail GTC. Preference: MP (large-cap, $4.5B, NdPr at Mountain Pass) over USAR (small-cap, volatile) for first sleeve.**
+4. **QQQ / tech rotation — STILL DEFERRED.** Tariff truce + AI demand + April Mag-7 +14.88% real, but chasing into ATH + CPI tomorrow = poor R:R. Wait for post-CPI confirmation.
+5. **XLB (Materials)** — Carryover idea, 4 sessions untriggered. Still secondary to critical minerals if minerals confirm.
+
+### Risk Factors
+- **CPI tomorrow 8:30 AM = single biggest risk** — hot core re-ignites "higher for longer", reset Fed cut path; SPX at ATH = asymmetric downside
+- **Trump-Xi summit May 14-15** = headline risk for semis (NVDA, AMAT, AVGO); can rip either way
+- Oil at $96 in stabilization band — if WTI breaks $93, XLE auto-stops
+- **Cancelled MP/USAR orders may reflect prior-session intent** — if a future session re-queues them, attach trails immediately (Rule 4) and size to 20% cap per name max
+- SPX at ATH with VIX 17 = complacency window; CPI surprise = volatility unwind
+- 84.7% cash = no urgency to deploy; force-trading into ATH + macro print is a phase-killer
+- Week 3 cap: 0/3 used; ample room post-CPI
+
+### Decision
+**HOLD all positions through CPI. NO new entries today. Cancelled stale MP/USAR market-buys.** Reasons:
+- CPI tomorrow is binary; size into the print is bad R:R
+- XLE/NVDA stops are doing the work — no manual intervention needed unless XLE breaks $55.00
+- Critical minerals theme is real; revisit on confirmation Wed/Thu with proper sizing + limit orders + trail
+- Plan for market-open routine: (1) confirm no fills on cancelled MP/USAR (cancellations applied pre-market 13:07 UTC); (2) monitor XLE at open — if drops ≤ $55.00 in first 30 min, manual cut per Rule 5; (3) let NVDA trail ratchet; (4) NO new entries
+- Trades this week: 0/3 — preserve all 3 entries for post-CPI deployment
+- Deployment unchanged at ~15% — gap stays open by design; patience > activity
