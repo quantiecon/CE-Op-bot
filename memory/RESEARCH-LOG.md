@@ -456,3 +456,67 @@ HOLD. Reasons:
 - Trades this week: 1/3 used; potential exit + Monday entry = within cap
 - Cash post-XLE-exit: ~$98.5k (~99% of equity) → Monday deployment window opens for 2 fresh sector-momentum entries
 
+---
+
+## 2026-05-12 — Pre-market Research
+
+### Account
+- Equity: $99,804.05 (last_equity $99,638.39, +0.17% overnight mark)
+- Cash: $84,182.28 (84.3%)
+- Buying power: $148,033.11
+- Daytrade count: 0
+- balance_asof: 2026-05-11 (Monday close)
+- Positions:
+  - XLE 255 sh @ $58.85 avg, last $57.83, **-$260.10 (-1.73%)**; trail 10% GTC, stop $53.8515, HWM $59.835 (order `a1f6efb3`). Manual -7% cut at $54.73 (~5.4% buffer); XLE recovered $1.82 from May 8 close ($56.01).
+  - NVDA 4 sh @ $198.8925 avg, last $218.78, **+$79.55 (+10.00%)**; trail 10% GTC, stop $200.07, **HWM ratcheted to $222.30** (order `576ea764`). NVDA rallied ~+4% Mon on Mag-7 tariff-truce bid + Vera Rubin/IREN newsflow. **+15% tighten threshold = $228.73** — not yet hit; trail still 10%.
+- Deployed: ~15.7%; Week 3, 0/3 trades used (week resets Mon)
+- **⚠ CRITICAL — STALE PENDING ORDERS at open (queued 2026-05-11 ~20:39 ET, submitted 08:01 ET today, status `new`, GTC market BUY):**
+  - **USAR 663 sh market BUY** → ~$17,490 (~17.5% of equity) @ ~$26.38 (last close)
+  - **MP 281 sh market BUY** → ~$18,940 (~19.0% of equity) @ ~$67.41 (last close)
+  - Combined ~$36.4k notional = +36% deployment delta; both within 20% per-position cap
+  - **Both fit a deliberate rare-earth/critical-minerals thesis** (US Antimony / USA Rare Earth + MP Materials) — NOT trivial-size stale orders like the May 5 4-sh NVDA fill. Appear intentionally sized for full positions.
+
+### Market Context
+- **WTI: ~$99–100** (spot bounced from $93 low May 7 on inventory draws + Strait of Hormuz risk premium); near $99–100.46 (Twelve Data May 12 intraday). Brent ~$103–105 (premium compressed). EIA peaks Brent Q2 2026 before decline to $76 in 2027.
+- **S&P 500 futures (ESM26): ~7,433** (CME May 11 19:20 CT) — **SPX at ATH >7,300, longest 6-week winning streak since 2024** going into CPI
+- **VIX: 17.19** May 11 close (+0.64%); fear muted, but CPI is binary; expected SPX 30-day range ±5%
+- **🔥 PRIMARY CATALYST: April CPI 8:30 AM ET** — headline m/m fcst **0.6%** (prior 0.9%), core m/m fcst **0.3%** (prior 0.2%), y/y fcst **3.7%** (prior 3.3%). Oil pop (US–Iran strikes May 7–8) feeds energy CPI upside risk. Hot print → rate-cut odds collapse; cool print → ATH continuation.
+- **Powell-to-Warsh Fed transition: Warsh starts May 15 (Friday)** — adds policy-path uncertainty
+- Earnings: **no major BMO names** today; AMC/this week: CSCO, BABA, AMAT (test AI/tech sentiment post-rally); UAMY Q1 webcast Thu May 14 AMC
+- Economic calendar: CPI is the ONLY major print. PPI Wed May 13. NFP June 5.
+- **Sector momentum YTD**: Materials/XLB **+21% YTD** breaking out (top quadrant); Energy/XLE +22% YTD (still leader despite April pullback); Industrials +24%; Tech rotating UP on tariff truce + AI. **Rare earths / critical minerals = leading sub-theme** — China export restrictions persist into 2027, MP +40%+ YTD, USAR +122% YTD; non-China premium structural.
+- NVDA: earnings May 20; Vera Rubin trial production June, GTC Taipei June 1, IREN partnership ($2.1B equity option + $3.4B 5-yr cloud), TSMC April rev +17.5% YoY — tailwinds compounding
+
+### Trade Ideas
+1. **USAR (USA Rare Earth) — STALE ORDER fills at open.** 663 sh market BUY ~$17.5k (~17.5% equity). YTD +122%, analyst PT $13 (vs $26.38 last — short-term overshoot); Q1 webcast Thu May 14 AMC. Critical-minerals structural thesis (China export controls). **Plan: let fill if CPI not hot, attach 10% trail GTC immediately post-fill, manual -7% cut at avg×0.93.**
+2. **MP (MP Materials) — STALE ORDER fills at open.** 281 sh market BUY ~$18.9k (~19% equity). YTD strong, last $67.41 (high $70.40 May 11 intraday); rare earth core name (Mountain Pass mine, magnet capacity). **Plan: same — let fill if CPI not hot, attach 10% trail immediately, manual -7% cut.**
+3. **XLE — HOLD, monitor.** -1.73% from entry; trail $53.85 (~6.9% buffer); -7% manual cut $54.73 (~5.4% buffer). Oil firmed back to ~$99 from $93; thesis less broken than May 7 but still wobbly. No add, no preemptive cut while above $55.50.
+4. **NVDA — HOLD, watch tighten threshold.** +10% from entry, HWM $222.30, trail $200.07; **next +15% tighten trigger at $228.73 (~+4.5% from HWM).** If hit during the day, **manually shrink trail to 7%** per Rule 6. Earnings May 20 — don't touch otherwise.
+5. **No new discretionary entries today.** Stale fills already consume potential weekly entries.
+
+### Risk Factors
+- **CPI binary at 8:30 AM ET** — hot core (>0.4% m/m) = ATH rally peels off, momentum names (USAR/MP) most exposed to mean-reversion; cool core (≤0.2% m/m) = continuation, fills run higher
+- **Stale orders execute at the OPEN (9:30 ET) — AFTER CPI print** — open price reflects CPI reaction. Gap-down risk on hot print = bad fills, instant drawdown
+- USAR/MP are HIGH-BETA momentum names (USAR +122% YTD, MP $64–$76 weekly range = ~16% volatility); 10% trail is tight given normal daily noise; first-day drawdown to -7% manual cut is realistic
+- Powell→Warsh Fed transition Fri May 15 — policy-path uncertainty layered on CPI
+- SPX at ATH after 6-week win streak = stretched; CPI could be the trigger for the correction
+- **Rule 8: max 3 new trades per week.** USAR+MP fills = 2/3 (week resets Mon, 0 used as of today open); NVDA stale May 5 already counted in Week 2
+- **Rule 10**: NVDA smoke-test stop-out + XLE pending failure = sector watch; adding 2 fresh sectors today (critical minerals/Materials-adjacent) diversifies away from energy concentration
+
+### Decision
+**ALLOW stale USAR + MP fills CONDITIONALLY — primary action is CPI-gated execution discipline.** Reasons:
+- Orders are deliberately sized full positions on a real, leading sub-theme (rare earths / critical minerals) — not trivial-size noise like the May 5 4-sh NVDA reload
+- Deployment moves 15.7% → ~52% on fills — closes the gap toward 75% target without overshooting
+- Both stay within 20% per-position cap; combined burn 2/3 weekly entries (clean budget)
+- CPI is the binary risk; rare-earth thesis is structural and not CPI-sensitive in the long run
+
+**Plan for market-open routine (priority order):**
+1. **8:30 AM ET — Read CPI print.** If **core m/m ≥ 0.5%** OR **headline m/m ≥ 0.8%** (hot scenario), **CANCEL both USAR + MP buy orders BEFORE 9:30 open** (`alpaca.sh cancel <id>`). Defer entries to Wed post-PPI digest.
+2. **If CPI in-line or cool (core ≤ 0.4%, headline ≤ 0.6%)** → let both fills execute at open. Immediately submit 10% trailing stop GTC for each (USAR 663 sh sell trail 10%, MP 281 sh sell trail 10%). Log fill prices + stop levels.
+3. **Manual -7% cut levels** — compute at fill: USAR cut = fill × 0.93; MP cut = fill × 0.93. Monitor through the day.
+4. **XLE** — if breaks $54.73 intraday, manual SELL all 255 sh + cancel trail `a1f6efb3` (energy thesis on probation). No action above $55.50.
+5. **NVDA** — if intraday print hits **$228.73 (+15% from entry, $228.73 = $198.89×1.15)**, manually replace trail GTC `576ea764` with a 7% trail per Rule 6. Otherwise hold.
+6. **No additional discretionary entries today** — stale fills exhaust the discretionary window; Rule 8 keeps 1/3 trades in reserve for Wed/Thu post-PPI clarity.
+
+Trades this week: 0/3 used pre-open; expected 2/3 post-open (USAR + MP fills); 1/3 reserve for later-week sector confirmation.
+
