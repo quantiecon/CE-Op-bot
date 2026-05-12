@@ -146,3 +146,25 @@ Not based on research signal. Smoke test only.
 | NVDA | 4 | $198.8925 | $213.01 | +0.71% | +$56.47 | $192.78 (trail 10%, HWM $214.20) |
 
 **Notes:** Quiet finish to a red week. Day P&L +$33 (+0.03%) — modest bounce off Thursday's phase low; phase still -$683 (-0.68%). NFP/PPI prints absorbed without forcing a manual cut on XLE: closed $56.01 (+0.11% on day, -4.83% from entry, -$724 unrealized) — held above both the $55.00 open trigger and the $54.73 manual-cut threshold (~2.3% buffer); trail $53.8515 (~3.9% buffer). HWM unchanged at $59.835 — no auto-tighten. NVDA +0.71% to $213.01 (+7.10% from entry, +$56 unrealized); HWM unchanged at $214.20, stop unchanged at $192.78 (+15% tighten threshold $228.73 not hit). No fills today; pre-market RESEARCH-LOG cadence remained the bottleneck (6 trading days running). Cash 84.8%, deployment 15.2% — unchanged for the entire week. Trades today: 0. Trades this week: 1/3 (NVDA stale reload Tue). Week 2 closes flat-to-red vs SPY benchmark — weekly-review pending. Tomorrow (Sat May 9): market closed; run weekly-review (compute SPY relative, grade Week 2, decide whether to exit XLE Monday given broken energy thesis, plan 2 sector-momentum candidates for Monday post-NFP digestion to lift deployment toward 75% floor).
+
+## May 12 — Trade: MP (market open BUY + trail attached)
+**Action:** BUY 281 MP @ $65.14 | **Cost basis:** $18,304.34 (~18.4% of equity) | **Time:** 9:30:14 AM ET | **Order:** market
+**Trailing stop:** GTC sell 281 MP, trail 10%, initial stop $60.813, HWM $67.57 (order `5b97e06a`)
+**Rationale:** Rare-earths / critical minerals sector-momentum entry; sized at upper end of 15–20% band. Trail attached immediately per Rule 4.
+
+## May 12 — Trade: USAR (market open BUY + trail attached)
+**Action:** BUY 663 USAR @ $25.74 | **Cost basis:** $17,065.62 (~17.2% of equity) | **Time:** 9:30:54 AM ET | **Order:** market
+**Trailing stop:** GTC sell 663 USAR, trail 10%, initial stop $24.345, HWM $27.05 (order `49eebcec`)
+**Rationale:** US-domestic rare-earths / critical-minerals continuation alongside MP; sized at upper end of 15–20% band. Trail attached immediately per Rule 4.
+
+### May 12 — EOD Snapshot (Day 13, Tuesday)
+**Portfolio:** $99,440.18 | **Cash:** $48,812.32 (49.1%) | **Day P&L:** -$198.21 (-0.20%) | **Phase P&L:** -$559.82 (-0.56%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| MP | 281 | $65.14 | $65.25 | -3.20% | +$30.91 | $60.813 (trail 10%, HWM $67.57) |
+| NVDA | 4 | $198.8925 | $219.95 | +0.23% | +$84.23 | $201.375 (trail 10%, HWM $223.75) |
+| USAR | 663 | $25.74 | $25.25 | -3.99% | -$324.87 | $24.345 (trail 10%, HWM $27.05) |
+| XLE | 255 | $58.85 | $57.5375 | +0.64% | -$334.69 | $53.8515 (trail 10%, HWM $59.835) |
+
+**Notes:** Big deployment day — 2 new entries (MP 281 @ $65.14, USAR 663 @ $25.74) filled at the open as paired rare-earths / critical-minerals sector-momentum trades, both near the upper end of the 15–20% sizing band (~18.4% and ~17.2% of equity respectively). Deployment jumped from 15.2% to 50.9% in one session — first time approaching the 75–85% target band. Day P&L -$198 (-0.20%) driven by intraday slippage on the new entries: USAR closed -3.99% on day to $25.25 (-1.90% from entry, -$324.87 unrealized, ~3.7% buffer to trail), MP closed -3.20% on day to $65.25 but recovered to +0.17% from entry (+$30.91 unrealized, ~6.8% buffer to trail). NVDA continued to compound: +0.23% to $219.95 (+10.59% from entry, +$84 unrealized); HWM ratcheted further to $223.75, stop tightened automatically to $201.375 (+15% tighten threshold $228.73 still not hit, ~3.9% away). XLE +0.64% to $57.5375 (-2.23% from entry, -$334 unrealized); HWM unchanged at $59.835, stop $53.8515 (~6.4% buffer). Phase P&L -$559.82 (-0.56%) — improvement from May 8's -$683 thanks to NVDA grinding higher and XLE bouncing off Thursday's lows. Note: May 11 (Mon) EOD snapshot was not filed; yesterday's reference equity ($99,638.39) taken from Alpaca account `last_equity`. Trades today: 2 (MP BUY, USAR BUY). Trades this week: 2/3 — one entry slot remains. Tomorrow (Wed May 13): file pre-market RESEARCH-LOG FIRST, monitor USAR for further weakness (closest to trail at ~3.7%), watch MP intraday for confirmation of rare-earths thesis, decide on 3rd entry candidate (sector diversifier — AI/semis or industrials) to push deployment toward 65–75% before the weekly cap closes.
