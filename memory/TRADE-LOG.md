@@ -146,3 +146,20 @@ Not based on research signal. Smoke test only.
 | NVDA | 4 | $198.8925 | $213.01 | +0.71% | +$56.47 | $192.78 (trail 10%, HWM $214.20) |
 
 **Notes:** Quiet finish to a red week. Day P&L +$33 (+0.03%) — modest bounce off Thursday's phase low; phase still -$683 (-0.68%). NFP/PPI prints absorbed without forcing a manual cut on XLE: closed $56.01 (+0.11% on day, -4.83% from entry, -$724 unrealized) — held above both the $55.00 open trigger and the $54.73 manual-cut threshold (~2.3% buffer); trail $53.8515 (~3.9% buffer). HWM unchanged at $59.835 — no auto-tighten. NVDA +0.71% to $213.01 (+7.10% from entry, +$56 unrealized); HWM unchanged at $214.20, stop unchanged at $192.78 (+15% tighten threshold $228.73 not hit). No fills today; pre-market RESEARCH-LOG cadence remained the bottleneck (6 trading days running). Cash 84.8%, deployment 15.2% — unchanged for the entire week. Trades today: 0. Trades this week: 1/3 (NVDA stale reload Tue). Week 2 closes flat-to-red vs SPY benchmark — weekly-review pending. Tomorrow (Sat May 9): market closed; run weekly-review (compute SPY relative, grade Week 2, decide whether to exit XLE Monday given broken energy thesis, plan 2 sector-momentum candidates for Monday post-NFP digestion to lift deployment toward 75% floor).
+
+### May 12 — Midday Scan (no action)
+**Positions snapshot:**
+
+| Ticker | Shares | Entry | Last | P&L % | Unrealized P&L | Stop |
+|--------|--------|-------|------|-------|----------------|------|
+| MP | 281 | $65.14 | $63.72 | -2.18% | -$399.02 | $60.813 (trail 10%, HWM $67.57) |
+| NVDA | 4 | $198.8925 | $215.88 | +8.54% | +$67.95 | $201.375 (trail 10%, HWM $223.75) |
+| USAR | 663 | $25.74 | $25.035 | -2.74% | -$467.42 | $24.345 (trail 10%, HWM $27.05) |
+| XLE | 255 | $58.85 | $57.705 | -1.95% | -$291.98 | $53.8515 (trail 10%, HWM $59.835) |
+
+**Actions:** None.
+**Step 3 (cut losers):** Worst is USAR -2.74%, then MP -2.18%, XLE -1.95% — all well above -7% manual-cut threshold. No cuts.
+**Step 4 (tighten winners):** NVDA at +8.54%, below +15% tighten threshold ($228.73 target vs $215.88 current). Trail auto-ratcheted to $201.375 on HWM $223.75. No manual tighten.
+**Step 5 (thesis check):** XLE bounced from May 8 close ($56.01) to $57.705 (+3.0%); energy thesis previously flagged broken (WTI $93) but position has stabilized, trail still ~6.7% below current — hold for now, let trail work. MP/USAR are new positions added since last logged entry; no fresh intraday catalyst breaking either thesis. NVDA tracking with broader Mag-7 strength on tariff-truce tape.
+**Cash/Equity:** Cash $48,812.32; equity $98,903.13; deployment ~50.7% — major step up from prior 15.2% via MP/USAR adds. Day P&L -$735 (-0.74%).
+**Trades this week:** Tracked separately in pre-market log.
