@@ -137,6 +137,18 @@ Not based on research signal. Smoke test only.
 
 **Notes:** Phase low — Day P&L -$294 (-0.30%) extends phase to -$716 (-0.72%); NVDA's +$15.66 intraday gain (HWM ratcheted to $214.20, trail to $192.78) only partially offset XLE's -$280.50 intraday slide. XLE closed $55.90 (-5.01% from entry, -$752 unrealized) — held above the preemptive exit triggers from pre-market plan (open ≤ $55.00 / break $54.73 in first 30 min); discipline held, no discretionary cut. Manual -7% threshold = $54.73 (~1.9% buffer); trail $53.8515 (~3.7% buffer). NVDA +6.46% from entry, well below +15% tighten threshold ($228.73). No fills today; pre-market RESEARCH-LOG cadence still the bottleneck (5 trading days running). Cash 84.8%, deployment 15.2% — unchanged. Trades today: 0. Trades this week: 1/3 (NVDA stale reload Tue). Tomorrow (Fri May 8): NFP/PPI 8:30 AM ET — defer entries pre-print, watch XLE for cut on soft oil print or break of $54.73, run weekly-review post-close, consider trimming/exiting XLE if energy thesis remains broken into Monday.
 
+## May 12 — Protective stops attached (MP, USAR — unprotected positions discovered at open)
+**Action:** Attached 10% trailing stop GTC to two positions that were on the books without stops at session start. Not new entries (no buys); rule 4 fix only.
+- MP 281 sh @ $65.14 avg, last $66.00 — trail 10% GTC, HWM $66.04, stop $59.436 (order `5b97e06a`)
+- USAR 663 sh @ $25.74 avg, last $26.36 — trail 10% GTC, HWM $26.21, stop $23.589 (order `49eebcec`)
+
+**Position reconciliation (untracked entries from prior session(s)):**
+- MP — Rare-earth/critical-materials name; cost basis $18,304.34 (~18.3% of equity), within 20% cap. Currently +$241 (+1.32%).
+- USAR — US Antimony / critical-materials; cost basis $17,065.62 (~17.0% of equity), within 20% cap. Currently +$410 (+2.40%).
+- Both fit a "critical materials / rare-earth" sector-momentum thesis (adjacent to Materials/Industrials leadership). Not entered through this session's research log; flagging the gap.
+
+**No new entries today.** CPI prints 8:30 AM ET — asymmetric macro risk. Existing exposure is now fully protected: 4 of 4 positions have trail-stop GTC orders live.
+
 ### May 08 — EOD Snapshot (Day 11, Friday)
 **Portfolio:** $99,316.87 | **Cash:** $84,182.28 (84.8%) | **Day P&L:** +$33.11 (+0.03%) | **Phase P&L:** -$683.13 (-0.68%)
 
