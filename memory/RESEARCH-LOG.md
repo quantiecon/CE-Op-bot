@@ -456,3 +456,45 @@ HOLD. Reasons:
 - Trades this week: 1/3 used; potential exit + Monday entry = within cap
 - Cash post-XLE-exit: ~$98.5k (~99% of equity) → Monday deployment window opens for 2 fresh sector-momentum entries
 
+---
+
+## 2026-05-13 — Pre-market Research (inline, market-open fallback)
+
+### Account
+- Equity: $99,608.18
+- Cash: $48,812.32 (49.0%)
+- Buying power: $148,420.50
+- Daytrade count: 0
+- Positions:
+  - MP 281 sh @ $65.14 avg, last $64.76, -$106.78 (-0.58%); trail 10% GTC, stop $60.813, HWM $67.57 (order `5b97e06a`)
+  - USAR 663 sh @ $25.74 avg, last $25.75, +$6.63 (+0.04%); trail 10% GTC, stop $24.345, HWM $27.05 (order `49eebcec`)
+  - NVDA 4 sh @ $198.8925 avg, last $225.60, +$106.83 (+13.43%); trail 10% GTC, stop $203.292, HWM $225.88 (order `576ea764`)
+  - XLE 255 sh @ $58.85 avg, last $57.35, -$382.50 (-2.55%); trail 10% GTC, stop $53.8515, HWM $59.835 (order `a1f6efb3`)
+- Deployed: ~51% (cash 49%); still below 75–85% target
+
+### Market Context
+- SPY: ~$737.85 (premarket); index near record territory
+- Sector momentum YTD: Energy still nominal leader but weakening; Materials / critical minerals (MP, USAR) rotating up; Tech/AI/semis bouncing on tariff-truce + NVDA AI-demand narrative
+- April CPI was yesterday (May 12); thin Perplexity data on actual print — treat as already absorbed, focus on tape
+- No documented mega-cap earnings today (hyperscalers reported late April); light catalyst tape
+- Mid-week, quiet macro; no fresh sector-leader catalyst with hard documented edge for a new entry today
+
+### Trade Ideas
+1. **HOLD MP, USAR, NVDA, XLE** — Tuesday's two real entries (MP 281, USAR 663) used 2/3 of weekly trade cap; rare-earth/critical-minerals rotation already on the book.
+2. **NVDA — close to +15% tighten.** Current $225.60 vs entry $198.89 = +13.43%. Threshold $228.73. Not triggered yet — midday-scan job. Trail auto-ratcheted to $203.29 (HWM $225.88).
+3. **XLE — hold, monitor stop proximity.** Current $57.35, manual cut threshold $54.73 (4.6% buffer), trail $53.8515 (6.5% buffer). Energy thesis remains broken from prior research; don't add, let stop work.
+4. **No new entry today.** 1/3 trade slot remaining; preserve for higher-conviction Thu/Fri setup with clean catalyst.
+
+### Risk Factors
+- Concentration risk: rare earths / critical minerals = 35% of portfolio (MP + USAR ≈ $35.3k of $99.6k) — single-theme exposure; one Chinese export headline can move both
+- XLE still under water; one more failed energy outcome could trip Rule 10 sector cool-down
+- 49% cash vs 75–85% target — deployment gap persists but forced trade is bad R:R
+- NVDA tighten threshold within ~1.4% — needs midday-scan attention, not market-open
+
+### Decision
+**HOLD.** No new positions. Reasons:
+- 2/3 weekly entries already used; remaining slot reserved for a documented-catalyst setup later in week
+- No clear single-name catalyst with edge today; CPI digested, no mega-cap earnings
+- Already at 5 positions worth of theme exposure across rare earths / energy / AI
+- Plan: let stops work; midday will handle NVDA +15% tighten if it prints $228.73; reassess Thursday on fresh tape
+
