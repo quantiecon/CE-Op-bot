@@ -456,3 +456,62 @@ HOLD. Reasons:
 - Trades this week: 1/3 used; potential exit + Monday entry = within cap
 - Cash post-XLE-exit: ~$98.5k (~99% of equity) → Monday deployment window opens for 2 fresh sector-momentum entries
 
+---
+
+## 2026-05-13 — Pre-market Research
+
+### Account
+- Equity: $99,392.34 (-$353.89 vs prior close, -0.35%)
+- Cash: $48,812.32 (49.1%)
+- Buying power: $148,204.66
+- Daytrade count: 0
+- Positions (4):
+  - **MP** 281 sh @ $65.14 avg, last $64.80, -$95.54 (-0.52%); trail 10% GTC, stop $60.813, HWM $67.57 (order `5b97e06a`). Buffer to stop ~6.2%.
+  - **NVDA** 4 sh @ $198.8925 avg, last $224.44, **+$102.19 (+12.85%)**; trail 10% GTC, stop $201.375, HWM $223.75 (order `576ea764`). +15% tighten threshold = $228.73, ~1.9% away — likely triggers this week.
+  - **USAR** 663 sh @ $25.74 avg, last $25.3982, -$226.61 (-1.33%); trail 10% GTC, stop $24.345, HWM $27.05 (order `49eebcec`). Buffer to stop ~4.2%.
+  - **XLE** 255 sh @ $58.85 avg, last $57.39, -$372.30 (-2.48%); trail 10% GTC, stop $53.8515, HWM $59.835 (order `a1f6efb3`). Survived oil dump; -7% manual cut at $54.73 still ~4.6% below.
+- Deployed: ~50.9% (best since phase began; still below 75–85% target, but in striking distance)
+- Week 3, **2/3 trades used** (MP + USAR entries this week — both rare-earth/defense theme)
+
+### Market Context
+- **WTI: ~$101.23** (May 12 close, -0.93%; range $100.57–$103.04); bounced ~$8 off May 7 dump-low (~$93). Monthly +10% on renewed US–Iran tension reversal; descending-triangle support $100 holding
+- **Brent: ~$104** (May 8); spread to WTI normalized
+- **S&P 500 futures (ESM6): 7,436.25 (+0.13%) premarket**; SPX ATH-zone, six-week winning streak, longest since 2024
+- **VIX: ~17.08 (last fresh print May 7)**; VIX mini futures ~19. Fear contained
+- **TODAY 8:30 AM ET: April PPI** — **fcst +4.9% YoY** (vs Mar +4.0%). HOT print would amplify yesterday's CPI shock
+- **YESTERDAY (CPI was HOT):** Headline +0.6% MoM, **+3.8% YoY** (highest since May 2023, vs fcst 3.6–3.7%); Core +0.4% MoM, **+2.8% YoY** (vs fcst 2.7%). Energy +3.8% MoM drove headline; shelter sticky. 2026 rate-cut hopes pressured
+- **FRIDAY May 15:** Kevin Warsh replaces Powell as Fed Chair. Regime-change risk
+- **Earnings:** CSCO AMC (consensus ~$0.92 EPS, ~$14B rev); NVDA earnings May 20
+- **Sector momentum YTD:** Energy still leader (+22%), Materials +22% (Rare-earths/critical minerals subsector +49%), Industrials +24%, Staples +10%, Tech rotating up on AI/tariff truce. Defensives + commodity-cyclicals lead
+- **Held-ticker news:**
+  - MP: Q1 reported May 7 — Materials segment rev +30% YoY ($72.2M); record NdPr production; $500M Apple magnet deal ($200M prepaid); Independence facility (Fort Worth) magnet ramp. Stock +30% YTD
+  - USAR: May 11 — **US Commerce Dept to acquire 10% stake** ($277M + $1.3B CHIPS Act loan); $1.5B stock sale to Inflection Point et al. Round Top heavy-REE production pulled forward 2 years to late 2028. Stock doubled YTD; +9.6% on Monday's news
+  - NVDA: Corning partnership + AI inference demand inflection; earnings May 20 (binary event)
+  - XLE: Oil reclaim of $100 after May 7 dump restores partial thesis; not adding
+
+### Trade Ideas
+1. **HOLD all four — do not add today.** PPI 8:30 AM = binary catalyst; entering before is poor R:R. Week 3 = 2/3 trades used, only 1 entry remaining; conserve it for post-PPI clarity.
+2. **NVDA — pre-watch +15% tighten.** Current +12.85%, $1.9% from +15% threshold ($228.73). On break of $228.73, tighten trail to 7% manually (replace GTC `576ea764` with new trail_percent=7). Earnings May 20 = binary.
+3. **USAR — let it work.** US-govt stake + $1.5B raise + Round Top acceleration = multi-year catalyst stack. -1.33% from entry is noise. Stop $24.345 (~4.2% buffer); manual cut at -7% would be $23.94. Add candidate only post-PPI on green tape pullback.
+4. **MP — let it work.** Apple deal + Q1 beat + rare-earth momentum intact. -0.52% noise. Stop buffer 6.2%. No add.
+5. **XLE — do nothing.** Oil reclaim of $100 took the kill-shot off the table; position back to "underwater hold" rather than "exit candidate." Stop $53.85 (~6.2% buffer), -7% manual cut $54.73 (~4.6%). Trail does its job if oil rolls again.
+6. **No new sector entries today.** If considering Friday (post-PPI, post-Warsh announcement), candidates: XLI (industrials, AI capex), XLB (materials), or a defense name. NOT XLE add (rule 3 — 20% cap, position concentration); NOT another rare-earth (MP+USAR already correlated).
+
+### Risk Factors
+- **Hot PPI today (fcst 4.9% YoY)** = follows hot CPI yesterday → "higher for longer" repricing → growth/tech sells, but commodities/rare-earths bid. Net mixed for current book.
+- **Cool PPI** = goldilocks bounce; NVDA likely retests ATH, MP/USAR get tape-bid. Best-case for current book.
+- **Warsh-as-Fed-Chair Friday** = regime change, hawkish bias risk; volatility expansion likely going into weekend
+- **NVDA +15% trigger** = manual tighten required if hit; missed tighten = giving back gains on a single bad earnings day (May 20)
+- **MP + USAR correlation** = 35% of equity in rare-earth/critical-minerals thesis; if China retaliates with export easing or Apple deal cracks, both drop together. Rule 10 sector watch: 2 same-theme open positions = no third rare-earth name
+- **Oil reversion to $100 narrative is fragile** — Iran consensus story could flip again; XLE remains the weakest leg
+- **Week 3 cap = 1 entry left**; do not waste on a pre-PPI gamble
+
+### Decision
+**HOLD all positions. NO new entries today. Monitor PPI at 8:30 AM ET and NVDA $228.73 tighten trigger.** Reasons:
+- PPI 8:30 AM is binary; entering pre-print is poor R:R
+- Book is well-positioned for both outcomes: NVDA captures cool-PPI tech bid; MP/USAR/XLE capture hot-PPI commodity bid
+- NVDA approaching +15% tighten threshold ($228.73) — first manual stop-management action of the phase; replace trail GTC to 7% on break
+- Deployment 50.9% is acceptable for first time in 5 sessions of conditional deferrals — patience > activity
+- Plan for market-open routine: (1) **digest PPI 8:30**; (2) if NVDA prints > $228.73, tighten trail to 7% (new stop ~$214 on $230 print); (3) if XLE breaks $54.73 manual -7% cut threshold on a hot-PPI dollar surge, exit immediately (don't wait for trail); (4) **NO new entries before 11 AM ET**; if post-print tape is cleanly green and breadth confirms, consider 1 sector-momentum entry (XLI top candidate) using the last weekly slot at 13–15% size
+- Trades this week: 2/3 used; final entry held for post-PPI clarity or Friday Warsh-day setup
+
