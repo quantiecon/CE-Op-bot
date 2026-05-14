@@ -158,3 +158,36 @@ Not based on research signal. Smoke test only.
 | XLE | 255 | $58.85 | $57.59 | +0.04% | -$321.30 | $53.8515 (trail 10%, HWM $59.835) |
 
 **Notes:** Red day — Day P&L -$557 (-0.56%) drags phase to a new low at -$810 (-0.81%); MP -2.62% to $63.87 was the main drag (-$357 unrealized, -1.95% from Tuesday's entry @ $65.14). Bookkeeping gap: TRADE-LOG missing EODs for May 11 (Mon) and May 12 (Tue), plus entry logs for MP (281 @ $65.14) and USAR (663 @ $25.74) — both filled Tue May 12 with GTC 10% trails attached (USAR order `49eebcec` stop $24.345 HWM $27.05; MP order `5b97e06a` stop $60.813 HWM $67.57). Deployment jumped from 15% to 50.8% on those two adds — biggest single-week deployment move of the phase, finally narrowing the gap to the 75–85% target band. NVDA the bright spot: +2.38% to $226.04 (+13.65% from entry, +$109 unrealized); HWM ratcheted to $227.84, stop auto-tightened to $205.056. +15% tighten threshold = $228.73 — current $226.04 is 1.2% below; one good day tomorrow flips the trail rule from 10% to 7% (new stop would be $211.89 if NVDA tags $228.73). XLE basically flat on the day to $57.59 (-2.14% from entry, -$321 unrealized, stop $53.8515 ~6.5% buffer); USAR -0.59% to $25.40 (-1.32% from entry, stop $24.345 ~4.2% buffer). No fills today. Trades today: 0. Trades this week: 2/3 entries used (MP + USAR Tue). One entry slot remains. Tomorrow (Thu May 14): file pre-market RESEARCH-LOG, monitor NVDA for +15% tighten trigger ($228.73), watch MP for day-2 follow-through weakness vs entry thesis, decide on final weekly entry slot if a clean sector-momentum signal appears — otherwise hold cash dry into Friday weekly-review.
+
+## May 14 — Exit: USAR (trailing stop fired at open)
+**Action:** SELL 663 USAR @ $24.27 | **Time:** 9:36 AM ET | **Order:** `49eebcec` (GTC trailing stop, auto-cancelled on fill)
+**Entry:** $25.74 (May 12) | **Exit:** $24.27 | **Realized P&L:** -$974.61 (-5.71%)
+**Reason:** 10% trailing stop GTC fired at $24.345 (HWM $27.05). Did NOT hit -7% manual cut threshold. Materials sector failed trade #1 of week.
+
+## May 14 — Exit: MP (trailing stop fired at open)
+**Action:** SELL 281 MP @ $60.80 | **Time:** 9:36 AM ET | **Order:** `5b97e06a` (GTC trailing stop, auto-cancelled on fill)
+**Entry:** $65.14 (May 12) | **Exit:** $60.80 | **Realized P&L:** -$1,219.54 (-6.67%)
+**Reason:** 10% trailing stop GTC fired at $60.813 (HWM $67.57). Did NOT hit -7% manual cut threshold ($60.58). Materials sector failed trade #2 of week → **Rule 10 SECTOR COOLDOWN: materials sector blocked until reset.**
+
+## May 14 — Tighten: NVDA trail 10% → 7% (Rule 6, +15% threshold hit)
+**Action:** Cancel order `576ea764` (10% trail, stop $212.823, HWM $236.47); place new GTC 7% trailing stop on 4 NVDA.
+**New order:** `775288b4` — trail 7%, stop $218.95, HWM $235.43.
+**Trigger:** NVDA +18.48% from entry ($198.8925 → $235.64) — above +15% threshold ($228.73), below +20% threshold ($238.67). Stop moved UP from $212.82 → $218.95 (never moved down). Current $235.64; new stop 7.1% below current = outside 3% buffer rule.
+
+### May 14 — Midday Scan
+**Positions snapshot:**
+
+| Ticker | Shares | Entry | Last | P&L % | Unrealized P&L | Stop |
+|--------|--------|-------|------|-------|----------------|------|
+| NVDA | 4 | $198.8925 | $235.64 | +18.48% | +$146.99 | $218.95 (trail 7%, HWM $235.43) |
+| XLE | 255 | $58.85 | $58.06 | -1.34% | -$201.45 | $53.8515 (trail 10%, HWM $59.835) |
+
+**Actions taken:**
+- Trail fires at open: USAR @ $24.27 (-5.71%, -$974.61) and MP @ $60.80 (-6.67%, -$1,219.54) — combined realized -$2,194.15.
+- **Rule 10 triggered:** 2 consecutive failed materials trades (MP + USAR) → materials sector cooldown active. No new materials entries until reset.
+- Tightened NVDA trail 10% → 7% on +15% threshold; new stop $218.95 (up from $212.82), HWM $235.43.
+- XLE -1.34% from entry, no cut. Energy thesis remains broken-but-recovered; trail $53.85 with ~7.5% buffer to current $58.06.
+
+**Cash/Equity:** Equity $97,737.62 (-$1,452 vs last_equity $99,172.88); cash $81,988.13 (83.9%); deployed 16.1% — collapsed back from 50.8% after MP+USAR exits.
+**Trades this week:** 2/3 entries used (both stopped out same week — Rule 11 caution flag). 1 entry slot remains but materials blocked by sector cooldown.
+**Plan:** Hold NVDA + XLE into close. No new entries today — 2 stop-outs same morning = stay defensive. Tomorrow (Fri May 15) is weekly-review day: compute SPY relative, assess whether sector approach is broken, decide entry plan for Week 4.
