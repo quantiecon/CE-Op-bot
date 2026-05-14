@@ -456,3 +456,58 @@ HOLD. Reasons:
 - Trades this week: 1/3 used; potential exit + Monday entry = within cap
 - Cash post-XLE-exit: ~$98.5k (~99% of equity) → Monday deployment window opens for 2 fresh sector-momentum entries
 
+---
+
+## 2026-05-14 — Pre-market Research
+
+### Account
+- Equity: $98,789.82 (-$383.06 vs prior close, -0.39%)
+- Cash: $48,812.32 (49.4%)
+- Buying power: $147,602.14
+- Daytrade count: 0
+- Positions (4):
+  - MP 281 sh @ $65.14 avg, last $63.40, **-$488.94 (-2.67%)**; trail 10% GTC, stop $60.813, HWM $67.57 (order `5b97e06a`). Manual -7% cut threshold = $60.58.
+  - NVDA 4 sh @ $198.8925 avg, last $229.62, **+$122.91 (+15.45%)** — **+15% TIGHTEN THRESHOLD HIT** ($228.73); trail 10% GTC, stop $205.056, HWM $227.84 (order `576ea764`). HWM ratcheted +$13.64 since last log.
+  - USAR 663 sh @ $25.74 avg, last $24.94, **-$530.40 (-3.11%)**; trail 10% GTC, stop $24.345, HWM $27.05 (order `49eebcec`). Manual -7% cut threshold = $23.94.
+  - XLE 255 sh @ $58.85 avg, last $57.68, **-$298.35 (-1.99%)**; trail 10% GTC, stop $53.8515, HWM $59.835 (order `a1f6efb3`). Bounced from May 8 low $56.01 — energy thesis less broken than May 7.
+- Deployed: ~50.6% ($49,977.50) — closing the gap to 75–85% target after MP/USAR Tue May 12 adds; Week 3, 2/3 trades used (MP + USAR)
+- **Bookkeeping gap**: TRADE-LOG missing EOD entries May 11–12 and entry logs for MP/USAR. To be reconciled by daily-summary; pre-market not blocked.
+
+### Market Context
+- **WTI: ~$101.52** (May 13 spot); CLM26 $101.15 (+0.13%). Bounce from May 7 low ~$93 on Strait of Hormuz disruption + backwardation. Range $99-102.
+- **Brent: ~$104-108** estimated (no fresh quote); premium to WTI ~$3-7
+- S&P 500 futures (ESM26): ~7,484 (+0.20%) premarket; May 13 SPX cash 7,419-7,470 range; modest green tilt
+- **VIX: ~17.99** (May 12 close); May 13 not in feed but VIK26 futures $19.15 implies ~18 spot; cooled from May 11 spike (18.38). Regime: normal, not stressed.
+- Today's catalysts: **8:30 AM ET US Import/Export Price Indexes** (sole macro print, low-impact). Quiet macro day.
+- **Recent prints**: April CPI (May 12) **+3.3% YoY HOT** (highest since May 2024, gasoline +21.2% YoY on Mideast); April PPI (May 13) released, absorbed; April NFP (May 8) +178K, U/E 4.3%
+- Earnings BMO: BN Brookfield ($101B), VIK Viking ($36B), NVMI Nova Semi ($16B), DIS already past. **No Mag-7 today**. 162 earnings on tape — quiet for mega-caps.
+- **NVDA earnings: Tuesday May 20** (4 trading days away) — asymmetric overnight risk window opens after today
+- Sector momentum YTD 2026: **Energy still leader (+22-37% range, off Apr highs); Staples +10-13%; Industrials +9-16%; Materials positive (rare-earth subsector +49% category)**; Tech lagging YTD index but Mag-7 leadership narrow (NVDA, semis rotating up); Comm Services lagging
+- NVDA news: All-time closing high May 11 ($219.44, +2%); 13% rally over 4 sessions, +$550B mcap; $5.33T mcap; up 15% YTD; earnings May 20
+- MP news: +370% YTD on USG 15% equity stake; P/S 46.95x vs industry 2.45x; Simply Wall St DCF says 15.7% overvalued. Momentum vs valuation tension.
+- USAR news: Analyst 12-mo PT $17.67 vs current $24.94 = **-29% downside** per consensus; Moderate Buy, 4 ratings. No USG price floor (unlike MP). Speculative momentum play.
+
+### Trade Ideas
+1. **NVDA — PRIMARY ACTION: TIGHTEN TRAIL TO 7% at market open.** Rule 6 triggered: +15.45% from entry breaches +15% threshold ($228.73). Replace order `576ea764` (10% trail) with new 7% trail GTC. New stop ~$213.55 (from current $229.62) — locks in ~$60 gain on 4 sh. Buffer also covers May 20 earnings overnight risk somewhat, but +20% threshold ($238.67) not yet hit, so still 7% not 5%.
+2. **MP — HOLD, no add.** -2.67% unrealized; day-2 weakness post-entry but well outside manual -7% ($60.58, ~4.5% buffer). Momentum thesis intact (USG-backed rare-earth, +370% YTD); valuation stretched (P/S 47x) is a risk if sentiment cracks. Watch for $63.00 break — if it loses that, exit before stop.
+3. **USAR — HOLD, no add.** -3.11% unrealized; analyst consensus implies -29% downside but momentum/sentiment runs hot in rare-earth sector. Manual -7% cut at $23.94 (~4.0% buffer). Pair-trade with MP — if MP cracks, USAR will follow harder.
+4. **XLE — HOLD, no add.** -1.99% unrealized; oil bounced $93→$101 since May 7 lows, thesis less broken; HWM $59.835 unchanged; trail buffer ~6.6%. Don't add (institutional outflows + chop) and don't cut (recovery in progress). Let trail work.
+5. **Final entry slot (1/3 remaining):** **DEFER.** No clean catalyst-driven setup today. Quiet macro day + NVDA earnings May 20 = wait for post-NVDA tape. Candidate watchlist: XLI (Industrials +9-16% YTD, AI capex/defense), GLD/IAU (gold on hot CPI), defensive Staples (XLP) if VIX picks up.
+
+### Risk Factors
+- **NVDA earnings May 20 = single largest 4-day risk.** NVDA is +$123 (+15.45%); a -10% gap on a miss erases the gain and threatens stop. Tighten trail TODAY per Rule 6.
+- **Rare-earth sentiment risk (MP + USAR concentration).** Combined cost basis $35,370 (~36% of equity) on speculative momentum names. If MP rolls, USAR follows; correlated drawdown. Manual -7% cuts at $60.58 / $23.94 — be ready.
+- **Hot CPI residual.** +3.3% YoY April print = "higher for longer" repricing risk; rate-sensitive names vulnerable; energy/commodities relative-strength favored.
+- **Oil at $101 = sticky but soft.** WTI bounced from $93 but not breaking out; Trump-Iran ceasefire dynamics still in play. XLE thesis on life support, not dead.
+- **Deployment 50.6%** — still below 75-85% target band; one more entry needed to hit the floor, but discipline > forcing.
+- **VIX 18 normal** — no regime-shift signal; tape favors selective adds, not derisking.
+
+### Decision
+**HOLD with PRIMARY ACTION: tighten NVDA trail to 7% at market open.** Reasons:
+- Rule 6 trigger: NVDA at +15.45%, replace 10% trail GTC `576ea764` with 7% trail GTC — locks in gain into May 20 earnings risk
+- No new entries today: quiet macro day (only Import/Export prices 8:30 AM), no clean catalyst, NVDA earnings overhang 4 sessions away
+- MP/USAR/XLE: HOLD with stops in place; monitor MP $63 / USAR $24 / XLE $56 as soft-trigger levels for discretionary cuts if momentum breaks
+- Plan for market-open routine: (1) **replace NVDA trail order `576ea764` with new 7% trailing-stop GTC sell 4 NVDA** (new stop ~$213.55, locks ~$60 of $123 unrealized); (2) monitor MP for day-2 follow-through — if breaks $63.00 with volume, discretionary cut before trail; (3) USAR/XLE: passive, let trails work; (4) NO new long entries — preserve 1/3 weekly slot for post-NVDA-earnings clean signal Wed May 21+
+- Trades this week: 2/3 used (MP + USAR Tue); 1 entry slot remains, deferring to next week
+- Cash $48.8k — dry powder ready for post-earnings deployment to push toward 75% target
+
