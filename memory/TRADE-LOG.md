@@ -191,3 +191,13 @@ Not based on research signal. Smoke test only.
 **Cash/Equity:** Equity $97,737.62 (-$1,452 vs last_equity $99,172.88); cash $81,988.13 (83.9%); deployed 16.1% — collapsed back from 50.8% after MP+USAR exits.
 **Trades this week:** 2/3 entries used (both stopped out same week — Rule 11 caution flag). 1 entry slot remains but materials blocked by sector cooldown.
 **Plan:** Hold NVDA + XLE into close. No new entries today — 2 stop-outs same morning = stay defensive. Tomorrow (Fri May 15) is weekly-review day: compute SPY relative, assess whether sector approach is broken, decide entry plan for Week 4.
+
+### May 14 — EOD Snapshot (Day 15, Thursday)
+**Portfolio:** $97,735.80 | **Cash:** $81,988.13 (83.9%) | **Day P&L:** -$1,453.84 (-1.47%) | **Phase P&L:** -$2,264.20 (-2.26%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| NVDA | 4 | $198.8925 | $235.91 | +4.46% | +$148.07 | $219.9822 (trail 7%, HWM $236.54) |
+| XLE | 255 | $58.85 | $58.055 | +0.74% | -$202.73 | $53.8515 (trail 10%, HWM $59.835) |
+
+**Notes:** Worst day of the phase — Day P&L -$1,454 (-1.47%) drags phase to a new low at -$2,264 (-2.26%). Two trailing stops fired at the open (9:36 ET): USAR @ $24.27 (-5.71%, realized -$974.61) and MP @ $60.80 (-6.67%, realized -$1,219.54) — combined realized -$2,194.15 on the day. Both materials trades stopped out same week they were opened (Rule 11 caution flag). **Rule 10 triggered: 2 consecutive failed materials trades → materials sector cooldown active.** Survivors carried the rest of the day: NVDA +4.46% to $235.91 (+18.61% from entry, +$148 unrealized) — crossed the +15% threshold ($228.73), so trail tightened 10% → 7% via order replacement (cancel `576ea764`, new GTC `775288b4`, stop $219.98, HWM $236.54). XLE +0.74% to $58.055 (-1.35% from entry, -$203 unrealized); stop unchanged at $53.8515, HWM $59.835. Cash $81,988 (83.9%); deployment collapsed from 50.8% Wed → 16.1% today after the two stop-outs. Trades today: 2 (both exits — USAR SELL, MP SELL; plus NVDA trail-tighten order replacement). Trades this week: 2/3 entries used (MP + USAR, both round-tripped — net negative). One entry slot remains but materials blocked by sector cooldown. Tomorrow (Fri May 15): weekly-review day — compute SPY relative for Week 3, grade phase performance (now -2.26% vs +0.13% peak May 5), assess whether the sector-momentum approach is broken (2-for-2 stop-outs in materials, XLE energy thesis already broken), decide whether to exit XLE preemptively, and plan Week 4 entry strategy if any. No new entries Friday absent a clean signal — defensive bias holds.
