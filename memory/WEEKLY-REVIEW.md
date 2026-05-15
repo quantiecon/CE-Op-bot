@@ -148,3 +148,65 @@ Clean infrastructure launch and correct HOLD discipline on a legitimately mixed 
 
 ### Overall Grade: C+
 Week was a near-flat draw (-0.04%) while SPY booked +0.91% — bot underperformed the bench by 95 bps in a tape we should have caught at least half of. Execution improved late (XLE entry was clean, sized, stopped) but the 3-day Mon-Wed research gap and 15% deployment vs 75-85% target are the same Week 1 mistakes repeating. Grade reflects: discipline preserved (no rule violations, no FOMO, all stops live), but opportunity cost was real and the deployment gap is now a pattern, not a bug.
+
+---
+
+## Week ending 2026-05-15
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $99,316.87 (Mon May 11 AM, = May 8 close) |
+| Ending portfolio | $98,024.93 |
+| Week return | -$1,291.94 (-1.30%) |
+| S&P 500 week (SPY $737.54→$739.10) | +0.21% |
+| Bot vs S&P | -1.51% |
+| Trades | 2 entries (W:0 / L:2 / open:2 carry) |
+| Win rate | 0% (0W / 2L closed) |
+| Best trade | NVDA +13.15% (unrealized) |
+| Worst trade | MP -6.67% (closed) |
+| Profit factor | 0.00 (zero winners / $2,194 losers) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| USAR | $25.74 (May 12) | $24.27 (May 14) | -$974.61 (-5.71%) | Trail 10% GTC fired at open; materials fail #1 |
+| MP | $65.14 (May 12) | $60.80 (May 14) | -$1,219.54 (-6.67%) | Trail 10% GTC fired at open; materials fail #2 → Rule 10 cooldown |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+| NVDA | $198.8925 | $225.04 | +$104.59 (+13.15%) | $219.9822 (trail 7%, GTC `775288b4`, HWM $236.54) |
+| XLE | $58.85 | $59.36 | +$130.05 (+0.87%) | $53.8515 (trail 10%, GTC `a1f6efb3`, HWM $59.835) |
+
+### What Worked
+- Deployment finally moved Tue: 15% → 50.8% on MP+USAR adds; first real attempt at the 75-85% target band
+- Trail discipline executed flawlessly on both stop-outs — capped losses at -5.71% / -6.67% (both inside the -7% manual cut), no slippage to catastrophe
+- NVDA tighten-trigger rule (10%→7% at +15%) executed cleanly via order replacement (`576ea764` → `775288b4`); locked in ~$84 of $116 unrealized
+- Rule 10 sector cooldown triggered correctly on 2 consecutive materials fails — no revenge entry attempt Fri
+- XLE survived the energy-thesis-break (WTI $93 low) without manual cut; recovered to green by Fri as oil bounced to $105
+- Friday HOLD discipline into NVDA-earnings week (Tue May 20 AMC) — no chase, no fresh binary exposure
+
+### What Didn't Work
+- 2-for-2 stop-outs same week on the new adds — both materials, both round-tripped negative; -$2,194 realized in one morning
+- Entered MP + USAR on the same day (Tue) into the same sector — concentration risk that Rule 9 (sector momentum) was supposed to filter, not amplify; correlated sector picks defeated the diversification intent
+- Sized at 18%+ each (MP ~18.3k, USAR ~17.1k) — near the 20% cap; cap-edge sizing on unproven adds maximized the realized loss
+- Pre-market RESEARCH-LOG cadence still spotty Mon-Wed; the cadence-gap pattern from Weeks 1-2 persists
+- NVDA still 4 shares (sub-1% notional) — the original smoke-test residue from Apr 24 was never up-sized; carrying a winner at 0.8% allocation is leaving alpha on the table (NVDA +13% on $800 = ~$104; same return on a 15% position would have been ~$2,000)
+- Bot vs SPY -1.51% is the worst weekly relative of the phase; phase now -1.97% vs benchmark cumulative drag widening
+
+### Key Lessons
+- "Sector momentum" must be filtered for correlation — MP and USAR are both rare-earth/critical-minerals plays; entering both same day was a single bet sized at 36%, not two diversified bets sized 18% each
+- Two same-sector entries should be staged 2+ days apart with the first showing follow-through before the second is sized — Tue-Tue same-sector double-up is the Rule 9 misread
+- Trail discipline is the strategy's actual edge — both losses capped exactly where the rule said they would. Without the 10% trail, both could have gapped to -10 to -15% easily
+- Winners need to be sized like winners — NVDA conviction has been validated by the tape (+13% from entry, +15% threshold crossed). The 4-share stale-buy residue should have been added to (within Rule 11 patience, not into earnings) during the Week 2 setup, not left as a smoke-test artifact
+- Earnings-week defense is correct: NVDA AMC Tue → trail at $219.98 locks ~$84 of $116 unrealized; not adding into the print is the right R:R call
+
+### Adjustments for Next Week (May 18-22)
+- **NVDA earnings Tue May 20 AMC** = the week's biggest event. Plan: HOLD through, no trim, no add. Trail at $219.98 protects ~58% of unrealized; reassess Wed AM on the reaction.
+- **Materials sector BLOCKED by Rule 10 cooldown** — no MP, USAR, XLB, or rare-earth single names until cooldown reset (define reset as: 1 full week elapsed AND a clean tape signal)
+- **Energy still on watch**: XLE recovered, breakout setup intact; one add candidate (XOM or CVX single-name) considered IF WTI holds $100+ Mon-Tue AND XLE confirms green
+- **Industrials (XLI)** = primary new-leg candidate post-NVDA-earnings clarity: +24% YTD, AI capex / defense tailwinds, less commodity-sensitive
+- **Sizing rule for the week**: max 1 new entry pre-NVDA print; max 1 additional post-print only if Tue tape is clean. Stay inside 3-trade cap with explicit bias to use ≤2
+- **Correlation check before any 2nd entry**: must be in a different sector from the existing book (currently energy + tech); no second tech or second energy add without explicit thesis distinction
+
+### Overall Grade: C-
+Week 3 was the phase's worst on every dimension: -1.30% absolute (worst), -1.51% vs SPY (worst relative), 2 stop-outs same week (Rule 11 caution flag), Rule 10 sector cooldown triggered. But — and it matters — every loss was capped exactly by the trailing-stop rule, no -7% manual cut was breached, NVDA tighten executed flawlessly, no panic add Fri into NVDA-earnings week, XLE held the line. Grade is not D because the strategy machinery worked; grade is C- because the strategy decision (two correlated same-sector entries same day at near-cap sizing) was a Rule 9 misread that turned -$2,194 realized in one morning. The fix is filtering for correlation inside "sector momentum" — not deploying less.
