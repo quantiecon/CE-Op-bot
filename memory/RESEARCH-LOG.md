@@ -456,3 +456,58 @@ HOLD. Reasons:
 - Trades this week: 1/3 used; potential exit + Monday entry = within cap
 - Cash post-XLE-exit: ~$98.5k (~99% of equity) → Monday deployment window opens for 2 fresh sector-momentum entries
 
+---
+
+## 2026-05-15 — Pre-market Research
+
+### Account
+- Equity: $97,818.96
+- Cash: $81,987.97 (83.8%)
+- Buying power: $179,806.93
+- Daytrade count: 0
+- Positions:
+  - NVDA 4 sh @ $198.8925 avg, last $228.36, **+$117.87 (+14.82%)**; trail 7% GTC, stop $219.9822, HWM $236.54 (order `775288b4`). Intraday -3.13% from $235.74.
+  - XLE 255 sh @ $58.85 avg, last $58.50, -$89.25 (-0.60%); trail 10% GTC, stop $53.8515, HWM $59.835 (order `a1f6efb3`). XLE recovered from -5% phase low to near-flat.
+- Deployed: ~16.2% (still well below 75–85% target); Week 3, 2/3 trades used (MP + USAR — both stopped out same week, Rule 11 caution flag)
+
+### Market Context
+- **WTI: ~$104.75** (+3.54% Thursday); recovered ~$11 from May 7 dump to $93. Intraday spot ~$104.82. Iran/Hormuz risk premium intact.
+- **Brent: ~$110.43** (May 12 last clean print); WTI rebound implies Brent ~$112-115 zone.
+- S&P 500 futures (ESM26): **7,479.75 (-0.61%)** per CME — modest pullback after rally; SPX/NASDAQ hit fresh ATHs Mon-Tue this week.
+- **VIX: ~17.87** (May 13 close); fear-off, moderate. Down from May 4 spike (18.51).
+- Today's catalysts: **Empire State Manufacturing 8:30 AM**, Industrial Production, Housing Starts, Import/Export Prices (April data) — minor. **NO major prints today.** CPI was Tue May 12, PPI Wed May 13, Retail Sales Thu May 14.
+- Earnings BMO: **HD (Home Depot) 6:00 AM**, **VRT (Vertiv) 5:55 AM** — VRT is AI infrastructure pure-play tell; HD is consumer/housing demand read.
+- Economic calendar: Jobless Claims 189K (prev 210K) — labor market resilient. Continuing claims 1,785K. 4-wk avg 207.5K.
+- Sector momentum YTD: **Energy still leader (+22-26% YTD)** despite April -14% pullback (now recovering); Materials +22%; Industrials +24%; Staples +10-11%; Tech rotating up post US-China truce + AI demand inflection; Financials lagging. Momentum factor (SPMO-style) beating SPX YTD with 35-pt spread (best=Energy, worst=Healthcare).
+- **NVDA-specific: Earnings May 20 AMC (3 trading days away).** Street est ~$78.8B rev / $1.77 EPS adj. Strong setup but "near perfection" bar; reaction will hinge on guidance, China commentary, gross margin (~75% expected).
+- **XLE-specific: $57.63 close May 13.** "Strong decisive breakout" from long-term sideways move, first pullback held key Fib support (38.2-38.8%). Short-term bullish setup. EIA forecasts 6% gasoline price drop 2026 — mixed (bearish upstream, bullish refiners).
+
+### Trade Ideas
+1. **NVDA — HOLD, do not trim into earnings.** Position +14.82% from entry, crossed +15% trigger Thu (trail tightened 10%→7%, stop $219.98 = 4.0% buffer from $228.36). Earnings May 20 AMC = binary event in 3 trading days. Two paths: (a) hold through earnings, accept binary risk, trail protects to ~$220; (b) trim into pre-earnings strength to lock gains. **Path (a) wins**: trail already protects most of gain; trimming forfeits asymmetric upside if beat-and-raise holds; rule 11 says patience > activity. Do NOT add — never add into earnings.
+2. **XLE — HOLD existing, do not add.** Recovered from -5% to -0.60% as WTI bounced $93→$105. Breakout technical setup intact, but adding into a thesis that already round-tripped once is bad R:R. Trail $53.85 (~8.3% buffer). Let it work.
+3. **HD (Home Depot) — earnings BMO, NOT a pre-market buy.** Watch reaction for consumer/housing read; possible swing setup Monday if clean beat + sector momentum confirms. Not a sector-leader play.
+4. **VRT (Vertiv) — earnings BMO, NOT a pre-market buy.** AI infrastructure tell ahead of NVDA earnings Tue; if VRT prints strong AI capex / data-center demand, that's a positive setup for NVDA going into May 20 (but no edge to chase pre-print).
+5. **Materials sector (XLB / single names) — BLOCKED.** Rule 10 sector cooldown active after MP + USAR back-to-back stop-outs Thu. No new materials entries.
+6. **Industrials (XLI) — defer to Monday post-NVDA-earnings clarity.** +24% YTD, AI capex / defense tailwinds. Best clean second-sector leg if Week 4 opens with clean tape; but adding a binary-event week (NVDA Tue) is poor timing.
+
+### Risk Factors
+- **NVDA earnings May 20 = binary event in 3 trading days.** Trail protects most of gain (stop $219.98 vs $228.36 = ~$33 of $147 unrealized at risk on a stop-out, ~$115 locked in if trail fires). But "priced for perfection" + China/margin headlines could gap below stop on disappointment. Asymmetric: upside ~$10-20/sh on beat-raise, downside ~$15-20/sh capped by trail.
+- **Friday weekly-review day** — activity bias yields to reflection per cadence. No urgency to deploy.
+- **Phase at -2.26%** (low at -$2,264 Thu) — defensive bias warranted. Rule 11 caution flag from 2 stop-outs same week.
+- **Week 3 cap: 2/3 used, both losses** — 1 slot remains but materials blocked, NVDA earnings looming Tue = no clean setup for entry today.
+- ES futures -0.61% premarket = modest pullback after this week's ATHs; not a panic, but no green tape to chase.
+- Oil bounce to $105 supports XLE thesis revival but volatility extreme (WTI ranged $93-$110 in 8 trading days); single-name energy adds = chase risk.
+- HD print could whipsaw consumer/housing names if guidance weak — watch but don't trade.
+- ES futures CME source shows 7,479.75 -0.61% vs Businessinsider 6,657.50 +0.10% — data sources conflict (likely contract roll); use the CME current-month number.
+
+### Decision
+**HOLD. No new entries Friday.** Reasons:
+- Friday weekly-review cadence priority — reflect, grade Week 3, plan Week 4 entries for Monday post-NVDA-positioning
+- NVDA earnings Tue May 20 AMC = 3 trading days away; deferring new tech entries until post-event clarity is the correct R:R call
+- Phase -2.26% + Rule 11 caution flag (2 stop-outs Thu) = defensive bias warranted
+- Materials cooldown (Rule 10) blocks the second-leading sector
+- Both existing positions on autopilot: NVDA trail 7% at $219.98 locks in ~$115/$147 of unrealized; XLE trail 10% at $53.85 protects ~8.3% buffer
+- No mega-cap BMO event other than HD; no major macro print; tape is thin Friday
+- Plan for market-open routine: (1) verify both GTC trails still active and intact; (2) monitor NVDA proximity to +20% threshold ($238.67) — if hit, tighten trail 7%→5% per Rule 6; (3) watch HD/VRT prints for sector-rotation signals into Monday; (4) **NO new entries today**; (5) run weekly-review post-close to compute SPY relative for Week 3 and decide Week 4 entry plan
+- Trades this week: 2/3 used; preserving the 1 remaining slot is moot (week ends today); fresh 3-trade cap resets Monday
+
