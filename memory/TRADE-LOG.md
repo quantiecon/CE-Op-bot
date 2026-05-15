@@ -192,6 +192,21 @@ Not based on research signal. Smoke test only.
 **Trades this week:** 2/3 entries used (both stopped out same week — Rule 11 caution flag). 1 entry slot remains but materials blocked by sector cooldown.
 **Plan:** Hold NVDA + XLE into close. No new entries today — 2 stop-outs same morning = stay defensive. Tomorrow (Fri May 15) is weekly-review day: compute SPY relative, assess whether sector approach is broken, decide entry plan for Week 4.
 
+### May 15 — Midday Scan (no action)
+**Positions snapshot:**
+
+| Ticker | Shares | Entry | Last | P&L % | Unrealized P&L | Stop |
+|--------|--------|-------|------|-------|----------------|------|
+| NVDA | 4 | $198.8925 | $227.82 | +14.54% | +$115.71 | $219.9822 (trail 7%, HWM $236.54) |
+| XLE | 255 | $58.85 | $59.105 | +0.43% | +$65.03 | $53.8515 (trail 10%, HWM $59.835) |
+
+**Actions:** None.
+**Step 3 (cut losers):** No position at or below -7%. NVDA +14.54%, XLE +0.43%.
+**Step 4 (tighten winners):** NVDA already on 7% trail (tightened Thu when +15% threshold hit); +20% threshold = $238.67 (HWM $236.54, current $227.82 — not yet hit). Stop $219.98 vs current $227.82 = 3.4% buffer, outside the 3% rule. No further tighten. XLE +0.43% — below any tighten threshold.
+**Step 5 (thesis check):** NVDA earnings Tue May 20 AMC; pre-market plan = HOLD through, let trail protect ($219.98 locks ~$84 of $116 unrealized). XLE thesis recovered as WTI bounced $93 → ~$105; breakout setup intact. Both holds confirmed.
+**Cash/Equity:** Equity ~$97,971 (mark-to-market); cash $81,988.13 (83.7%); deployment ~16.3%. No fills today.
+**Trades this week:** 2/3 (MP + USAR — both stopped out same week). 1 slot remains but materials blocked by Rule 10 cooldown; no clean signal to deploy on Friday into NVDA-earnings week.
+
 ### May 14 — EOD Snapshot (Day 15, Thursday)
 **Portfolio:** $97,735.80 | **Cash:** $81,988.13 (83.9%) | **Day P&L:** -$1,453.84 (-1.47%) | **Phase P&L:** -$2,264.20 (-2.26%)
 
