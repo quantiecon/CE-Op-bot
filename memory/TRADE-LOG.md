@@ -217,6 +217,28 @@ Not based on research signal. Smoke test only.
 
 **Notes:** Worst day of the phase — Day P&L -$1,454 (-1.47%) drags phase to a new low at -$2,264 (-2.26%). Two trailing stops fired at the open (9:36 ET): USAR @ $24.27 (-5.71%, realized -$974.61) and MP @ $60.80 (-6.67%, realized -$1,219.54) — combined realized -$2,194.15 on the day. Both materials trades stopped out same week they were opened (Rule 11 caution flag). **Rule 10 triggered: 2 consecutive failed materials trades → materials sector cooldown active.** Survivors carried the rest of the day: NVDA +4.46% to $235.91 (+18.61% from entry, +$148 unrealized) — crossed the +15% threshold ($228.73), so trail tightened 10% → 7% via order replacement (cancel `576ea764`, new GTC `775288b4`, stop $219.98, HWM $236.54). XLE +0.74% to $58.055 (-1.35% from entry, -$203 unrealized); stop unchanged at $53.8515, HWM $59.835. Cash $81,988 (83.9%); deployment collapsed from 50.8% Wed → 16.1% today after the two stop-outs. Trades today: 2 (both exits — USAR SELL, MP SELL; plus NVDA trail-tighten order replacement). Trades this week: 2/3 entries used (MP + USAR, both round-tripped — net negative). One entry slot remains but materials blocked by sector cooldown. Tomorrow (Fri May 15): weekly-review day — compute SPY relative for Week 3, grade phase performance (now -2.26% vs +0.13% peak May 5), assess whether the sector-momentum approach is broken (2-for-2 stop-outs in materials, XLE energy thesis already broken), decide whether to exit XLE preemptively, and plan Week 4 entry strategy if any. No new entries Friday absent a clean signal — defensive bias holds.
 
+## May 18 — Exit: NVDA (trailing stop fired pre-earnings)
+**Action:** SELL 4 NVDA @ $219.9275 | **Time:** 12:30 PM ET | **Order:** `775288b4` (GTC 7% trailing stop, auto-cancelled on fill)
+**Entry:** $198.8925 (May 5) | **Exit:** $219.9275 | **Realized P&L:** +$84.14 (+10.58%)
+**Reason:** 7% trailing stop GTC fired at $219.9822 (HWM $236.54). Did NOT hit -7% manual cut. Pre-earnings de-risking 2 days before Wed AMC earnings — trail locked the gain. NVDA bounced post-stop to ~$222.40, but discipline holds: flat into Wed binary (earnings + FOMC minutes) is correct R:R.
+
+### May 18 — Midday Scan
+**Positions snapshot:**
+
+| Ticker | Shares | Entry | Last | P&L % | Unrealized P&L | Stop |
+|--------|--------|-------|------|-------|----------------|------|
+| XLE | 255 | $58.85 | $60.395 | +2.625% | +$393.98 | $54.603 (trail 10%, HWM $60.67) |
+
+**Actions taken:**
+- NVDA trail fired at 12:30 PM ET @ $219.9275 → realized +$84.14 (+10.58%). First green realized exit of the phase. Flat into Wed AMC earnings + FOMC minutes — correct R:R.
+- XLE: no action. HWM auto-ratcheted from $59.835 → $60.67 (today's high); stop auto-tightened from $53.8515 → $54.603 (still 10% trail).
+
+**Step 3 (cut losers):** No positions at or below -7%. XLE +2.625%.
+**Step 4 (tighten winners):** XLE +2.625%, below +15% threshold ($67.68). No manual tighten.
+**Step 5 (thesis check):** XLE thesis intact (energy #1 sector YTD, WTI $101, Brent $110, Iran/Hormuz premium). NVDA already exited via trail — clean.
+**Cash/Equity:** Equity $98,268.41 (+$221.96 vs last_equity $98,046.45); cash $82,867.68 (84.3%); deployment ~15.7%.
+**Trades this week:** 0/3 entries used (NVDA exit doesn't count). Materials cooldown still active. Defer fresh entries until post-Wed event clarity (NVDA AMC + FOMC minutes).
+
 ### May 15 — EOD Snapshot (Day 16, Friday)
 **Portfolio:** $98,034.53 | **Cash:** $81,987.97 (83.6%) | **Day P&L:** +$295.75 (+0.30%) | **Phase P&L:** -$1,965.47 (-1.97%)
 
