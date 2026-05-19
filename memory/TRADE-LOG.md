@@ -249,6 +249,20 @@ Not based on research signal. Smoke test only.
 
 **Notes:** Modest green close to a red week. Day P&L +$296 (+0.30%) trims phase from Thursday's low (-2.26%) to -1.97% ($98,034.53 vs $100,000 baseline). XLE staged the rebound: +2.38% to $59.45 (+1.02% from entry, +$153 unrealized) on WTI bounce ($93 → ~$105) — first green from entry since week 1; stop unchanged at $53.8515 (HWM $59.835 — current $59.45 is $0.385 below HWM, no auto-ratchet today). NVDA pulled back -4.58% to $224.9457 (+13.10% from entry, +$104 unrealized) ahead of next-Tue (May 20) AMC earnings; HWM $236.54 held, 7% trail stop $219.98 = 2.21% buffer to current — INSIDE the 3% rule, but stop never moves down so it stays. +20% threshold ($238.67) not hit; no further tighten. Cash $81,988 (83.6%), deployment ~16.4% — unchanged from Thu post-stopouts; materials sector remains blocked by Rule 10 cooldown. No fills today; no new entries (no clean signal + defensive bias post 2-for-2 materials stop-outs). Trades today: 0. Trades this week: 2/3 (MP + USAR — both stopped out same week, Rule 11 caution flag). Week 3 closes red vs prior phase peak; weekly-review pending. Tomorrow (Sat May 16): market closed — run weekly-review (compute SPY relative for Week 3, grade phase, formally assess whether sector-momentum approach is broken, decide Week 4 entry plan, NVDA-earnings (Tue AMC) hold-through plan, and whether to take XLE off the table preemptively now that it's green from entry).
 
+## May 19 — Phantom Trade: MP BUY 400 (NOT bot-placed) → Same-day SELL 400 (defensive reversal)
+**Phantom BUY:** 400 MP @ $55.744525 | **Time:** 9:30 ET fill | **Order:** `be0e8777` (market, source=null — NOT placed by bot)
+**Cost basis:** $22,297.81 (22.7% of equity — violated Rule 3 20% cap; violated Rule 10 materials sector cooldown; no trail attached → violated Rule 4)
+**Defensive SELL:** 400 MP @ $55.67 avg | **Time:** 9:37 ET fill | **Order:** `16d36a97` (limit $55.00 day; book was thin bid $52.30 / ask $55.70 so limit chosen over market to avoid blasting bid)
+**Realized P&L:** -$29.81 (-0.13%) | Daytrade count incremented to 1 (PDT N/A, equity > $25k)
+**Reason:** Pre-market log flagged phantom order; plan was to cancel pre-open but it filled at the bell. Same-day reversal sterilized 3 rule violations. Trade counts as exit (round-trip of unauthorized fill), NOT a new entry against weekly cap.
+
+### May 19 — Market-Open Routine (Tuesday)
+**Decision:** HOLD — no research-driven entries.
+- T-1 into Wed May 20 NVDA AMC earnings + FOMC minutes 2 PM (double binary). Defensive bias.
+- Materials sector still in Rule 10 cooldown.
+- XLE trail (`a1f6efb3`) verified active — stop $54.828, HWM $60.92, 10% trail GTC. Auto-ratcheted from $54.603 → $54.828 since yesterday.
+- Trades this week: 0/3 entries (phantom MP round-trip doesn't count).
+
 ### May 18 — EOD Snapshot (Day 17, Monday)
 **Portfolio:** $98,328.33 | **Cash:** $82,867.68 (84.3%) | **Day P&L:** +$281.88 (+0.29%) | **Phase P&L:** -$1,671.67 (-1.67%)
 
