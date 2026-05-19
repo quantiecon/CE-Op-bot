@@ -249,6 +249,21 @@ Not based on research signal. Smoke test only.
 
 **Notes:** Modest green close to a red week. Day P&L +$296 (+0.30%) trims phase from Thursday's low (-2.26%) to -1.97% ($98,034.53 vs $100,000 baseline). XLE staged the rebound: +2.38% to $59.45 (+1.02% from entry, +$153 unrealized) on WTI bounce ($93 → ~$105) — first green from entry since week 1; stop unchanged at $53.8515 (HWM $59.835 — current $59.45 is $0.385 below HWM, no auto-ratchet today). NVDA pulled back -4.58% to $224.9457 (+13.10% from entry, +$104 unrealized) ahead of next-Tue (May 20) AMC earnings; HWM $236.54 held, 7% trail stop $219.98 = 2.21% buffer to current — INSIDE the 3% rule, but stop never moves down so it stays. +20% threshold ($238.67) not hit; no further tighten. Cash $81,988 (83.6%), deployment ~16.4% — unchanged from Thu post-stopouts; materials sector remains blocked by Rule 10 cooldown. No fills today; no new entries (no clean signal + defensive bias post 2-for-2 materials stop-outs). Trades today: 0. Trades this week: 2/3 (MP + USAR — both stopped out same week, Rule 11 caution flag). Week 3 closes red vs prior phase peak; weekly-review pending. Tomorrow (Sat May 16): market closed — run weekly-review (compute SPY relative for Week 3, grade phase, formally assess whether sector-momentum approach is broken, decide Week 4 entry plan, NVDA-earnings (Tue AMC) hold-through plan, and whether to take XLE off the table preemptively now that it's green from entry).
 
+### May 19 — Midday Scan (no action)
+**Positions snapshot:**
+
+| Ticker | Shares | Entry | Last | P&L % | Unrealized P&L | Stop |
+|--------|--------|-------|------|-------|----------------|------|
+| XLE | 255 | $58.85 | $61.09 | +3.81% | +$571.20 | $55.053 (trail 10%, HWM $61.17) |
+
+**Actions:** None.
+**Step 3 (cut losers):** XLE +3.81%, not at -7%. No cut.
+**Step 4 (tighten winners):** XLE +3.81%, below +15% threshold ($67.68). HWM auto-ratcheted $60.70 → $61.17; trail auto-tightened $54.63 → $55.053 (still 10%). No manual tighten.
+**Step 5 (thesis check):** XLE thesis intact — energy #1 YTD, WTI $103, Brent $110, Iran/Hormuz premium. Hold.
+**Phantom MP order (`be0e8777`):** NOT in current orders list — already cancelled / never filled. Confirmed flat MP. Pre-market priority resolved cleanly.
+**Cash/Equity:** Cash $82,867.67 (84.2%); equity ~$98,446 (mark-to-market); deployment ~15.8%. No fills today.
+**Trades this week:** 0/3 entries used. Materials cooldown active. Defer fresh entries until post-Wed binary (NVDA AMC + FOMC minutes).
+
 ### May 18 — EOD Snapshot (Day 17, Monday)
 **Portfolio:** $98,328.33 | **Cash:** $82,867.68 (84.3%) | **Day P&L:** +$281.88 (+0.29%) | **Phase P&L:** -$1,671.67 (-1.67%)
 
