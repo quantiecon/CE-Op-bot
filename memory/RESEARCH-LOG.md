@@ -615,3 +615,61 @@ HOLD. Reasons:
 - Plan for market-open routine: (1) **at 9:25 ET, if MP order `be0e8777` still `new` AND no user OK, CANCEL it; verify cancellation before 9:30**; (2) verify XLE trail `a1f6efb3` still active; (3) monitor HD reaction at the open + 9:00 AM conf call; (4) NO new entries today; (5) end-of-day: confirm flat MP, single XLE position, position for Wed AMC posture (already flat NVDA — nothing to do); (6) post-Wed (Thu May 21): assess NVDA aftermath + FOMC tone, deploy 1–2 fresh positions toward 75% target if XLI / Energy second-name confirm.
 - Trades this week: 0/3 used; staying patient through the double binary preserves all 3 slots for Thu/Fri deployment.
 
+---
+
+## 2026-05-20 — Pre-market Research
+
+### Account
+- Equity: $98,346.89
+- Cash: $82,837.79 (84.2%)
+- Buying power: $181,184.68
+- Daytrade count: 1 (carryover flag; no bot daytrade today)
+- Positions:
+  - XLE 255 sh @ $58.85 avg, last $60.82, **+$502.35 (+3.35%)**; trail 10% GTC, stop $55.341, HWM $61.49 (order `a1f6efb3`). Best unrealized of the phase on this name.
+- Deployed: ~15.8% (still well below 75–85% target); Week 4 day 3 — 0/3 entries used; materials sector cooldown (Rule 10) still active.
+
+### Market Context
+- **WTI: ~$102/bbl** (Polymarket / Robinhood prediction-market reference May 20); CME June contract reference range $103–$105. **Brent: ~$110/bbl** (Fortune May 18 print). Iran/Hormuz risk premium intact; oil tape stable after May 7 dump to $93 → recovered $102–$110 range.
+- S&P 500 futures (ESM26): **~7,379** per CME (basically flat, +0.01% per latest quote); modest mixed-to-red on alternate feeds. SPX near ATH; no panic, no chase.
+- **VIX: 17.26** (TradingEconomics May 2026 print) — moderate fear-off, declining from May 15 (18.43) → May 18 (17.82) → May 20 (17.26). No regime-shift flag.
+- **TODAY = DOUBLE BINARY DAY**:
+  1. **NVDA Q1 FY27 earnings AMC** (after market close). S&P consensus rev **$78.5B** (NVDA's own guide $78.0B ±2%); Data Center consensus **$72.8B**, Visible Alpha range $65.4B–$78.0B. Guide assumes **zero China DC revenue**. "Priced for perfection."
+  2. **FOMC minutes 2:00 PM ET** (April 28–29 meeting). First post-Powell-transition signal; Fed funds 3.50–3.75% held. Market tilt: hawkish tone = tech derisk; dovish = AI bid.
+- Earnings BMO today: light tape — **TGT, LOW, TJX** are the consumer names of note (no mega-cap AI/semi BMO). BMO Financial reports May 27 (not today).
+- Economic calendar: NO CPI/PPI/jobs prints today. FOMC minutes 2 PM is the only macro event. CPI delayed to Jun 10, PPI Jun 12, NFP Jun 5.
+- **Sector momentum YTD 2026** (Schwab / Investing.com / SSGA tracker): **Energy LEADING (+20-22% YTD)** dominant; **Industrials LEADING** (AI capex + defense + infra spend); **Materials LEADING** quadrant (but Rule 10 blocks); **Tech LAGGING** (rotation OUT, cooling post Q1 AI run — NVDA single-name strength ≠ group strength). Energy at +20% vs SPX flat YTD.
+
+### Trade Ideas
+1. **XLE — HOLD, do NOT add.** +3.35% from entry, biggest phase unrealized on this name ($502). WTI $102 / Brent $110 / Iran premium intact, energy #1 sector YTD. Trail $55.341 = ~9.0% buffer; HWM $61.49 auto-ratcheted yesterday. +15% tighten threshold = $67.68 ($60.82 → +11.3% needed). Adding into a round-tripped thesis at +3% from entry is bad R:R. Let it work.
+2. **NVDA — flat into earnings; do NOT re-enter pre-print.** Exited May 18 via trail at $219.93 (+10.58% / +$84). Re-entering today AMC = pure binary risk; both tails equally probable post-print. Reassess Thursday AM on the open's reaction (gap-and-go vs gap-and-trap).
+3. **XLI (Industrials) — DEFER to Thu/Fri.** +24% TTM, AI capex + defense tailwinds. Cleanest non-materials second-leg; but entering pre-FOMC minutes + pre-NVDA AMC is poor R:R. Wait for post-event tape clarity.
+4. **Energy single names (XOM, CVX, COP) — pass.** XLE already provides diversified exposure at full sector weight; concentrating into single energy names overweights a sector that's +20% YTD and on round-trip 2 already.
+5. **Materials (XLB / single names) — BLOCKED.** Rule 10 sector cooldown active after MP + USAR back-to-back stop-outs May 14.
+6. **Consumer / TGT, LOW, TJX BMO reactions — watch, don't trade.** Could whipsaw consumer-discretionary; possible setup post-NVDA-clarity if guidance prints clean.
+
+### Risk Factors
+- **Double binary event today**: NVDA AMC + FOMC minutes 2 PM. Adding any new long today = entering blind into asymmetric overnight gap risk. **Phase -1.55%** argues for defensive bias.
+- **NVDA "priced for perfection"**: $78.5B rev / $72.8B DC consensus, guide assumes zero China DC. Miss on DC growth or hawkish China commentary = AI-trade derisking → could drag SMH/QQQ, indirectly soft on broader risk tape. We're flat NVDA so direct gap risk = zero; indirect tape risk = real.
+- **FOMC minutes 2 PM**: April 28–29 meeting tone matters — any "higher for longer" dissent language could repress duration / hit growth multiples and pressure tech. Oil-driven inflation language could lift energy / XLE marginally (offset).
+- **Oil tape stable but fragile**: WTI ranged $93–$110 in past 2 weeks; current $102 = mid-range. Brent $110 with Iran premium intact. XLE thesis recovered cleanly but volatility risk remains.
+- **Tech sector -4% YTD** — broader cohort already in rotation OUT; NVDA holding up has been single-name strength. A weak NVDA print could accelerate the rotation, indirectly *supporting* Energy/Industrials via flow.
+- **Week 4 cap**: 0/3 entries used; staying flat today preserves all 3 slots for Thu/Fri deployment with post-event clarity. Patience > activity.
+- **Rule 11 caution flag** still partial from Week 3 (2 stop-outs same day May 14); materials cooldown ongoing. No urgency.
+
+### Decision
+**HOLD. No new entries today.** Reasons:
+- Double binary event (NVDA AMC + FOMC minutes) makes today the worst possible day in Week 4 to add directional risk
+- Phase -1.55%, defensive bias warranted; preserve all 3 weekly trade slots for Thu/Fri post-event redeploy
+- XLE on autopilot: trail $55.341 (~9.0% buffer), HWM $61.49, sector tailwind intact (+20% YTD energy leadership, oil $102/$110, Iran premium)
+- Already flat NVDA — no exposure to AMC binary; correct positioning
+- Materials cooldown (Rule 10) blocks one of the leading sectors; Industrials (XLI) is the cleanest second-leg but timing is wrong (T-0 into double binary)
+- Plan for market-open routine:
+  1. Verify XLE GTC trail `a1f6efb3` still active (qty 255, trail 10%, stop $55.341, HWM $61.49).
+  2. Monitor XLE for any +15% tighten trigger ($67.68) — not close, but auto-ratchet on HWM bump is fine.
+  3. **NO new entries today**. Stay flat into FOMC minutes 2 PM + NVDA AMC.
+  4. After 2 PM minutes: assess tone, but do not deploy — wait for Thursday open's first-hour reaction to NVDA print before sizing any fresh position.
+  5. EOD: confirm single-position book (XLE only); position size + buffer intact.
+- Trades this week: 0/3 used; Thursday/Friday windows reserved for post-event sector-momentum entries (XLI top of list, or energy second-name if XLE breaks $62+ on the day).
+
+---
+
