@@ -296,3 +296,12 @@ Not based on research signal. Smoke test only.
 **Binary day:** NVDA AMC earnings + FOMC minutes 2 PM ET. Already flat NVDA (exited May 18 trail). No direct gap risk. No new entries today per pre-market plan.
 **Cash/Equity:** Cash $82,837.79 (84.2%); equity ~$98,177 (mark-to-market, XLE -1.85% intraday from $61.29 lastday); deployment ~15.6%. No fills today.
 **Trades this week:** 0/3 entries used. Materials cooldown active. Thu/Fri remain the deployment window post-NVDA + FOMC clarity.
+
+### May 20 — EOD Snapshot (Day 19, Wednesday)
+**Portfolio:** $98,109.74 | **Cash:** $82,837.79 (84.4%) | **Day P&L:** -$357.00 (-0.36%) | **Phase P&L:** -$1,890.26 (-1.89%)
+
+| Ticker | Shares | Entry | Close | Day Chg | Unrealized P&L | Stop |
+|--------|--------|-------|-------|---------|----------------|------|
+| XLE | 255 | $58.85 | $59.89 | -2.28% | +$265.20 | $55.53 (trail 10%, HWM $61.70) |
+
+**Notes:** Red binary day. Day P&L -$357 (-0.36%) gives back the Mon-Tue recovery and prints a new post-May-12 phase low at -1.89% ($98,109.74 vs $100,000 baseline). XLE the lone position took the hit: -2.28% intraday from $61.29 → $59.89 (still +1.77% from $58.85 entry, +$265 unrealized) as energy gave back some of the recent bid into the FOMC minutes (2 PM ET) and pre-NVDA-AMC de-risking. HWM unchanged at $61.70 (intraday high $61.70 came earlier); trail stop $55.53 (10%) — locks ~$170 of $265 unrealized; buffer to current = $4.36 = 7.3%, well outside the 3% rule. No fills today, no manual stop changes, no new entries. Cash $82,838 (84.4%), deployment 15.6% — still well below 75-85% target band; XLE alone carries the book. Trades today: 0. Trades this week: 0/3 entries used. Materials sector cooldown still active (Rule 10). Binary calendar resolved: NVDA AMC prints tonight (we are flat — exited May 18 trail at $219.93, +10.58% realized) and FOMC minutes already crossed at 2 PM ET. Tomorrow (Thu May 21): pre-market RESEARCH-LOG with NVDA print reaction + post-FOMC minutes read; if energy thesis holds and a non-materials sector signal is clean, deploy the Week-4 entry slot (1 of 3 used, 2 remaining for Thu/Fri window) — defensive bias eases now that the binary is past, but sizing stays disciplined (max 20% / pos).
