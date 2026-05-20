@@ -281,3 +281,18 @@ Not based on research signal. Smoke test only.
 | XLE | 255 | $58.85 | $61.24 | +1.09% | +$609.45 | $55.341 (trail 10%, HWM $61.49) |
 
 **Notes:** Quiet green Tuesday. Day P&L +$126 (+0.13%) extends Monday's recovery, lifting phase from -1.67% to -1.55% ($98,454.06 vs $100,000 baseline) — new post-May-12 high-water mark. No fills, no new entries, no stop changes by hand. XLE the lone position kept doing its job: +1.09% to $61.24 (+4.06% from entry, +$609 unrealized — biggest unrealized P&L of the phase) on continued energy bid (WTI $103, Brent $110, Iran/Hormuz premium intact, energy still #1 YTD sector). HWM auto-ratcheted $60.70 → $61.49 today; trail auto-tightened $54.63 → $55.341 (still 10%; +15% tighten threshold = $67.68, not close). Phantom MP order resolved at midday — confirmed cancelled / not in active orders. Cash $82,838 (84.1%), deployment 15.9% — still well below 75-85% target; XLE alone carries the book. Trades today: none. Trades this week: 0/3 entries used. Materials cooldown still active (Rule 10). Tomorrow (Wed May 20) is the binary day: NVDA AMC earnings + FOMC minutes — defensive bias holds, no new entries that would compound risk into the close; let XLE ride with trail protection ($55.341 locks ~$425 of $609 unrealized). Post-Wed (Thu May 21), if NVDA prints clean and FOMC minutes don't shock, scan for the Week-4 entry slot — non-materials, sector-momentum signal required.
+
+### May 20 — Midday Scan (no action)
+**Positions snapshot:**
+
+| Ticker | Shares | Entry | Last | P&L % | Unrealized P&L | Stop |
+|--------|--------|-------|------|-------|----------------|------|
+| XLE | 255 | $58.85 | $60.155 | +2.22% | +$332.78 | $55.53 (trail 10%, HWM $61.70) |
+
+**Actions:** None.
+**Step 3 (cut losers):** XLE +2.22%, not at -7%. No cut.
+**Step 4 (tighten winners):** XLE +2.22%, below +15% threshold ($67.68). HWM auto-ratcheted $61.49 → $61.70; trail auto-tightened $55.341 → $55.53 (still 10%). No manual tighten.
+**Step 5 (thesis check):** XLE thesis intact — energy #1 YTD (+20-22%), WTI ~$102, Brent ~$110, Iran/Hormuz premium intact. Hold.
+**Binary day:** NVDA AMC earnings + FOMC minutes 2 PM ET. Already flat NVDA (exited May 18 trail). No direct gap risk. No new entries today per pre-market plan.
+**Cash/Equity:** Cash $82,837.79 (84.2%); equity ~$98,177 (mark-to-market, XLE -1.85% intraday from $61.29 lastday); deployment ~15.6%. No fills today.
+**Trades this week:** 0/3 entries used. Materials cooldown active. Thu/Fri remain the deployment window post-NVDA + FOMC clarity.
