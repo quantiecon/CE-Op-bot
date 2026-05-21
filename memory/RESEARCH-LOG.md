@@ -673,3 +673,66 @@ HOLD. Reasons:
 
 ---
 
+## 2026-05-21 — Pre-market Research
+
+### Account
+- Equity: $98,176.04 (-$170.85 vs prior close $98,346.89, -0.17%)
+- Cash: $82,837.79 (84.4%)
+- Buying power: $181,013.83
+- Daytrade count: 1 (carryover flag from May 18 NVDA exit; no bot daytrade today)
+- Positions:
+  - XLE 255 sh @ $58.85 avg, last $60.15, **+$331.50 (+2.21%)**; trail 10% GTC, stop $55.53, HWM $61.70 (order `a1f6efb3`). HWM ticked up from $61.49 → $61.70 (intraday peak yesterday); stop auto-ratcheted $55.341 → $55.53.
+- Deployed: ~15.6% (still well below 75–85% target); Week 4 day 4 — **0/3 entries used**; materials sector cooldown (Rule 10) still active.
+
+### Market Context
+- **WTI: ~$99/bbl** (CME CLN6 last $98.99, +0.74%) — gave back ~$3 from yesterday's $102 mark; second test of the $100 inflection since May 7 dump to $93. **Brent: ~$106–110** (EIA STEO references Brent peaking 2Q26 ~$115).
+- **S&P 500 futures (ESM26): ~7,450**; Wed close ES +0.96% / NQ +1.57% (Barchart) on broad rebound; overnight modest pullback after the rally + NVDA AH dip.
+- **VIX:** ~17 zone (no fresh print; carried from May 20 = 17.26). Fear-off, moderate.
+- **POST-EVENT TAPE — yesterday's binaries resolved:**
+  1. **NVDA Q1 FY27 print: BEAT.** Rev **$81.62B** vs $79.2B est (+85% YoY); EPS **$1.87** vs $1.78 est; gross margin **75.0%**; FCF $49B record. **Q2 guide $91B ±2% vs $87.36B est** — beat-and-raise. BUT guide assumes **zero China data center revenue** as priced in. AH reaction: **down ~0.7–3%** on "sell-the-news" — closed regular session $223.47, drifted lower AH. "Priced for perfection" confirmed; not enough to extend the rally on its own. Today's open sets the tech-rotation tape.
+  2. **FOMC minutes 2 PM Wed (April 28–29 meeting):** absorbed without crisis; reaction muted (ES +0.96% Wed = no hawkish shock).
+- **Today's catalysts:**
+  - **Initial Jobless Claims 8:30 AM** — consensus ~210K, prev 211K. Labor still resilient.
+  - **Philly Fed Manufacturing 8:30 AM** — regional manufacturing read into bonds.
+  - **Leading Economic Index 10:00 AM** — monthly.
+  - **Existing Home Sales 10:00 AM** — consumer/housing demand read.
+- Earnings BMO: lighter post-NVDA tape; no mega-caps confirmed BMO today (VSAT was AMC yesterday).
+- Economic calendar: NO CPI/PPI/NFP today. **PCE next Thu May 28** is the next major macro.
+- **Sector momentum YTD 2026:** Energy still leader (~+20% YTD per Morningstar/SSGA), Industrials leading (AI capex + defense), Materials leading quadrant (BLOCKED), Staples leading. Tech **-4.4% YTD** lagging quadrant — NVDA single-name beat-and-raise sold off = group strength still absent.
+- **Phase status:** -1.82% (equity $98,176 vs $100k baseline); fractionally lower vs May 20 close due to XLE intraday give-back ($60.82 → $60.15). Phase recovered ~$450 from May 14 low (-$2,264) via XLE rebound + NVDA trail-exit ($84 realized).
+
+### Trade Ideas
+1. **XLE — HOLD, do NOT add.** Trail stop $55.53 (~7.7% buffer); HWM $61.70. Round-tripped once already (entry Apr 30 → -5% May 7 → +3.35% May 20 → +2.21% now). WTI rejected $102 yesterday and sits at $99 inflection; if WTI breaks $97 again, expect XLE retest of $55–56 stop. Letting trail work is the correct play; adding into a name that's lost +1.1% intraday off recent HWM is bad R:R.
+2. **XLI (Industrials ETF) — top second-leg candidate.** +24% YTD momentum, AI capex + defense + reshoring tailwinds; leading quadrant; uncorrelated to oil chop. **Conditional entry:** if SPX opens green AND XLI prints above prior-day high on volume by 10:30 ET AND NVDA holds $215+ (semis don't cascade), initiate ~15% position (~$14–15k) with 10% trailing stop GTC. Stop -10%, target +15%, R:R ~1.5:1. If any of the 3 triggers fails, **DEFER to Friday/Monday.**
+3. **XLP (Staples) — defensive watchlist.** Leading quadrant; better R:R if tech sells off and SPX rolls red. Not the primary play today; pass unless XLI conditions fail AND SPX ≤ -0.5% red.
+4. **Tech rotation (QQQ / SMH) — DEFER.** NVDA beat-and-raise sold off = no sympathy bid available. Chasing the sell-the-news gap is poor R:R; reassess Friday/Monday if NVDA holds $220+ and SMH recovers green.
+5. **Energy single names (XOM, CVX, COP) — pass.** XLE already covers; concentration risk.
+6. **Materials — BLOCKED** (Rule 10 sector cooldown active since May 14 MP+USAR stop-outs).
+
+### Risk Factors
+- **NVDA AH reaction is the dominant tape signal**: beat-and-raise sold ~1% AH = bar is "priced for perfection." Open could fade further; if NVDA breaks $215 (-3.8% from $223.47), semis cascade and Tech YTD -4.4% deepens. Conversely a green NVDA reversal lifts XLI sympathetically via AI-infra exposure (Vertiv-type names).
+- **WTI at $99 inflection (second test)** — failure of $97 = XLE drawdown toward $55–56 trail; success of breakout over $102 = energy leadership extends. Either way, range-defining day for the position.
+- **Philly Fed 8:30 ET whipsaw risk** — hot prices sub-index = bond yields up, multiple compression on tech; weak headline = recession-bid for defensives/Staples.
+- **Phase -1.82% + Rule 11 caution flag** (May 14 same-week stop-outs MP+USAR) = stay defensive on size; if XLI triggers, hold to **15% sizing, NOT 20%**.
+- **Deployment 15.6% vs 75-85% target** — chronic gap. Forced entries already cost ~$2,200 (MP+USAR). One clean signal per week is the sustainable cadence.
+- **Bookkeeping gap:** TRADE-LOG missing entries for May 18 NVDA stop-out exit, XLE HWM ratchet, plus EODs for May 15, 18, 19, 20. Add to midday/EOD checklist.
+- Week 4 fresh 3-trade cap; first post-event trading day; no urgency.
+
+### Decision
+**HOLD with conditional XLI entry on triple confirmation.** Reasons:
+- NVDA beat-and-raise sold = noisy open; let the tape settle 30+ min before any tech-adjacent move
+- XLI is the cleanest second-sector leg (Energy already on, Materials blocked, Tech tape uncertain) — +24% YTD, leading quadrant, uncorrelated to oil
+- **Triple-trigger entry checklist (ALL three required):** (a) SPX green or recovers above prior close by 10:30 ET, (b) XLI prints above prior-day high on volume by 10:30 ET, (c) NVDA holds $215+ (no semi cascade). All three = initiate ~15% XLI (~$14–15k) with 10% trail GTC.
+- **Any trigger fails = HOLD, NO new entries today**, defer XLI to Friday/Monday.
+- XLE: trail auto-protects; do nothing. NVDA: closed; no action.
+- Trades this week: 0/3; conditional XLI uses 1 slot if triggered, preserves 2 for next week.
+- Plan for market-open routine:
+  1. Verify XLE GTC trail `a1f6efb3` intact (qty 255, trail 10%, stop $55.53, HWM $61.70).
+  2. Log NVDA open price + 30-min behavior (gap-fill or break-down).
+  3. At 10:30 ET, check XLI vs prior-day high + SPX direction + NVDA $215 line.
+  4. Execute conditional XLI entry ONLY if triple-trigger confirms; else HOLD.
+  5. Update TRADE-LOG bookkeeping gaps (NVDA exit, missing EODs) before EOD.
+- Trades this week target: 1 (XLI on confirmation) or 0 (hold).
+
+---
+
