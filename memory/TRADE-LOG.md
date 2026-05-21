@@ -305,3 +305,18 @@ Not based on research signal. Smoke test only.
 | XLE | 255 | $58.85 | $59.89 | -2.28% | +$265.20 | $55.53 (trail 10%, HWM $61.70) |
 
 **Notes:** Red binary day. Day P&L -$357 (-0.36%) gives back the Mon-Tue recovery and prints a new post-May-12 phase low at -1.89% ($98,109.74 vs $100,000 baseline). XLE the lone position took the hit: -2.28% intraday from $61.29 → $59.89 (still +1.77% from $58.85 entry, +$265 unrealized) as energy gave back some of the recent bid into the FOMC minutes (2 PM ET) and pre-NVDA-AMC de-risking. HWM unchanged at $61.70 (intraday high $61.70 came earlier); trail stop $55.53 (10%) — locks ~$170 of $265 unrealized; buffer to current = $4.36 = 7.3%, well outside the 3% rule. No fills today, no manual stop changes, no new entries. Cash $82,838 (84.4%), deployment 15.6% — still well below 75-85% target band; XLE alone carries the book. Trades today: 0. Trades this week: 0/3 entries used. Materials sector cooldown still active (Rule 10). Binary calendar resolved: NVDA AMC prints tonight (we are flat — exited May 18 trail at $219.93, +10.58% realized) and FOMC minutes already crossed at 2 PM ET. Tomorrow (Thu May 21): pre-market RESEARCH-LOG with NVDA print reaction + post-FOMC minutes read; if energy thesis holds and a non-materials sector signal is clean, deploy the Week-4 entry slot (1 of 3 used, 2 remaining for Thu/Fri window) — defensive bias eases now that the binary is past, but sizing stays disciplined (max 20% / pos).
+
+### May 21 — Midday Scan (no action)
+**Positions snapshot:**
+
+| Ticker | Shares | Entry | Last | P&L % | Unrealized P&L | Stop |
+|--------|--------|-------|------|-------|----------------|------|
+| XLE | 255 | $58.85 | $59.73 | +1.50% | +$224.40 | $55.53 (trail 10%, HWM $61.70) |
+
+**Actions:** None.
+**Step 3 (cut losers):** XLE +1.50%, not at -7%. No cut.
+**Step 4 (tighten winners):** XLE +1.50%, well below +15% threshold ($67.68). HWM $61.70 unchanged (current $59.73 below HWM); no auto-ratchet. Trail stop $55.53 (10%) holds. No manual tighten.
+**Step 5 (thesis check):** XLE thesis intact — energy still #1 YTD (~+20%); WTI ~$99 inflection (second test, didn't break $97); Brent ~$106–110, Iran/Hormuz premium intact. Hold.
+**Post-event tape:** NVDA beat-and-raise sold off AH (closed regular $223.47, drifted lower); semis tape soft but not cascading — XLI triple-trigger entry from pre-market plan did NOT confirm (NVDA gap context noisy + SPX direction undecided through 10:30 ET window). No new entries today per conditional plan; preserving 2 remaining Week-4 slots for Fri/Mon.
+**Cash/Equity:** Cash $82,837.79 (84.4%); equity ~$98,069 (mark-to-market, XLE -0.12% intraday from $59.80 prior close); deployment ~15.5%. No fills today.
+**Trades this week:** 0/3 entries used. Materials cooldown active. XLI deferred — re-check Friday open if NVDA holds $215+ and XLI prints above prior-day high.
