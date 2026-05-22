@@ -736,3 +736,76 @@ HOLD. Reasons:
 
 ---
 
+## 2026-05-22 — Pre-market Research
+
+### 🚨 INCIDENT RESPONSE (PRIORITY OVER NORMAL SCAN)
+**Unauthorized MP position on the books — must remediate at the open.**
+- Position: **MP 1150 sh @ $62.3735** avg, cost basis **$71,729.50**, last $62.95 = **$72,392 market value = 73.5% of equity (3.7× the 20% per-position cap)**.
+- Filled yesterday (May 21) 2:23 PM ET in two clips (400 @ $62.38 + 750 @ $62.37). **Bot did not place this order** — no pre-market or midday plan authorized it. Source unknown (possibly user override, possibly stale order, possibly platform glitch). Audit deferred until after risk is neutralized.
+- **Three hard-rule violations simultaneously:**
+  1. **Rule 3** — Max 20% per position (MP is 73.5% of equity, 3.7× cap).
+  2. **Rule 10** — Materials sector cooldown active since May 14 (MP+USAR back-to-back stop-outs; MP again stopped out May 19 at micro-loss). **No materials exposure permitted.**
+  3. **Rule 4** — No 10% GTC trailing stop attached to MP (verified — only XLE's `a1f6efb3` is in the open-orders book). Uncapped downside.
+- **Remediation:** **Full liquidation at market open** (sell all 1150 sh MP). Reasons:
+  - Rule 10 is the binding constraint — materials sector is blocked, so the right size is **zero**, not 20%.
+  - Trimming to 20% (~313 sh) keeps the cooldown violation alive and would still require attaching a stop to the remainder. Cleanest action = exit fully.
+  - MP is currently +$663 (+0.92%) intraday on the existing entry; opening tape may extend or fade — execute at the open to avoid prolonging exposure.
+  - Day-trade implication: MP was bought May 21, selling May 22 = NOT same-day round-trip, not a day trade. Daytrade count 1 (carryover from May 18 NVDA exit) unaffected.
+- **Post-liquidation state:** cash ~$83.5K (~85% of equity), deployment back to ~15% (XLE only), exposure aligned with Rule 3/10 again.
+
+### Account
+- Equity: $98,566.24 (+$1,378.80 vs last_equity $97,187.44, +1.42% — driven by MP intraday rally)
+- Cash: $11,108.29 (11.3%)
+- Buying power: $109,674.53
+- Daytrade count: 1 (carryover; no bot daytrade today)
+- Positions:
+  - **MP 1150 sh @ $62.3735 avg, last $62.95, +$663.00 (+0.92%); NO STOP — RULE VIOLATIONS, FORCED EXIT AT OPEN**
+  - XLE 255 sh @ $58.85 avg, last $59.08, +$58.70 (+0.39%); trail 10% GTC, stop $55.53, HWM $61.70 (order `a1f6efb3`)
+- Deployed: 88.7% (above 75-85% target solely due to MP slug; post-exit drops to ~15%)
+- Week 4: 2/3 entries used (MP fill yesterday counts as the 2nd; the 5/19 phantom 400-sh MP order was cancelled cleanly — but yesterday's 1150-sh fill went through, so the week's entry cap is essentially burned)
+
+### Market Context
+- **WTI: ~$97-98/bbl** (CLN26 $98.08; Oilprice $97.23; investing.com $98.45 May 22). Gave back ~$5 from $102 mid-week mark — **second test of $97 inflection** since May 7 dump to $93. Bearish technical: 100SMA still below 200SMA.
+- **Brent: ~$110/bbl** (referenced range; Fortune May 1 $116, EIA STEO Q2 peak $115). Premium vs WTI ~$12; Iran/Hormuz tension persists but US-Iran consensus chatter weighing.
+- S&P 500 futures (ESM26): **~7,482.75 (+0.22%)** per CME — modest premarket bid after Thu rebound (ES +0.96% Wed post FOMC minutes + NVDA AMC; soft NVDA AH reaction absorbed).
+- **VIX: 16.76** (May 21 close, -3.90%); declining from May 18 (17.82) → May 20 (17.26) → May 21 (16.76). Fear-off, complacency creeping back.
+- Today's catalysts (LIGHT):
+  - **State Employment & Unemployment (April) 10:00 AM ET** — minor regional read, low market impact.
+  - **No CPI/PPI/FOMC/NFP today.** PCE next Thu May 28 = next major macro.
+  - No mega-cap earnings BMO confirmed (Earnings Whispers / II both show "no noteworthy announcements" today).
+- Sector momentum YTD: **Energy +20-26% (leader, breakout intact)**; **Industrials leading** (+35.5% TTM, AI capex / defense); **Materials leading quadrant (BLOCKED by Rule 10)**; **Consumer Staples +10-11%**; **Tech -4.4% YTD** (lagging — NVDA beat-and-raise sold; SMH soft; group strength absent).
+- **NVDA aftermath:** Wed AMC printed rev $81.62B vs $79.2B est (+85% YoY), EPS $1.87 vs $1.78, GM 75.0%, Q2 guide $91B ±2% (beat-and-raise). AH down ~0.7-3%, closed regular Thu $223.47 (no major follow-through buying). Semis stable but not surging.
+- **MP-specific:** Range $54-64 in May; YTD +22%; $400M DoD partnership, Apple $500M supply deal, Q1 rev +49% YoY ($90.65M). Bull thesis intact fundamentally — but sector cooldown is rules-based, not thesis-based, and concentration at 73.5% is rule-violating regardless of fundamentals.
+
+### Trade Ideas
+1. **MP — EXIT FULL POSITION AT OPEN.** Non-negotiable. Sell 1150 sh market order at 9:30 ET; no GTC stop placement (we're liquidating, not protecting). Rule 10 + Rule 3 + Rule 4 = compulsory exit. Realized P&L will be small (+/-$700 range depending on open print) — irrelevant to the decision.
+2. **XLE — HOLD, do NOT add.** Trail $55.53 (~6.0% buffer to $59.08); HWM $61.70. WTI at $97-98 retest of the inflection — if $97 breaks, expect XLE retest of $55-56 trail. Adding into a round-tripped thesis at +0.4% from entry is bad R:R.
+3. **XLI (Industrials) — DEFER post-MP-exit.** +35.5% TTM, AI capex / defense tailwinds, leading quadrant. Was the conditional play yesterday (triple-trigger failed). Today's priority is incident response, not deployment. Re-evaluate Monday post-Friday close after MP audit and Week 4 review.
+4. **Tech rotation (QQQ / SMH) — pass.** NVDA beat-and-raise sold off = no sympathy bid. Friday is wrong day to fade a soft tech tape.
+5. **Materials — BLOCKED.** Rule 10 cooldown active. MP fill yesterday was a rule violation, not a sanctioned re-entry.
+6. **Energy single names (XOM, CVX, COP) — pass.** XLE already covers; concentration risk into oil softness at $97.
+
+### Risk Factors
+- **MP liquidation slippage risk**: 1150 sh @ ~$63 = $72k notional. MP avg daily volume ~5M sh; this size = ~1.4% of ADV, should fill at the open within a few cents of the print. Use market order to ensure full fill. Limit-order = risk of partial fill leaving residual stop-less exposure.
+- **MP open gap risk**: Pre-market data thin; could open red (giving back yesterday's +$663 intraday) or green (extending). Either way, the rule violation is the issue, not the P&L — execute regardless of open print.
+- **WTI second test of $97 inflection** — break = XLE drawdown toward $55-56 trail; hold = XLE base for energy continuation. Either way, our trail does its job; no manual action needed.
+- **VIX 16.76 + SPX near ATH = complacency**: regime-shift risk on any negative surprise into next week (PCE Thu May 28).
+- **Audit gap** — source of unauthorized MP order unknown. Must investigate post-liquidation (search recent client_order_ids, check user/API activity). Until source is identified, baseline assumption: another unauthorized fill could appear. Monitor open-orders book hourly.
+- **Phase status -1.43% post-MP rally** (equity $98,566); but MP exit at the open will lock in whatever +/- vs $62.37 avg. If MP opens flat-ish (~$62.50), phase moves to ~-1.55%. Defensive bias holds.
+- **Week 4 trade cap: 2/3 used** (MP fill yesterday counted). 1 entry slot remains for Friday but **NO new entries today** — focus is incident response, not deployment.
+- **Friday weekly-review** cadence — post-MP-exit + post-close, run weekly-review to grade Week 4 (compute SPY relative, decide Week 5 entry plan, formally close out MP audit findings).
+
+### Decision
+**EXIT MP at open. HOLD XLE. NO new entries.** Sequence:
+1. **9:30:00 ET**: Submit MARKET SELL 1150 MP via `bash scripts/alpaca.sh sell MP 1150 market` (or equivalent). Verify fill within 30 seconds. Send Telegram confirmation with exit price + realized P&L.
+2. **9:31 ET**: Confirm position closed (0 MP shares). Verify no MP residual orders in open-orders book.
+3. **9:35 ET**: Verify XLE trail GTC `a1f6efb3` still active (qty 255, trail 10%, stop $55.53, HWM $61.70).
+4. **10:00 ET**: Re-audit open orders / recent activity to look for any other unauthorized fills before MP fingerprint. Document findings in TRADE-LOG.
+5. **10:00 AM ET**: State Employment release — minor, no action expected.
+6. **NO new long entries today.** Materials blocked. Tech weak. Energy already on. XLI defer.
+7. **Post-close (Friday weekly-review)**: compute SPY relative for Week 4, grade phase (-1.5% to -2.0% range), formally close MP incident with findings + preventive measures, plan Week 5 entries (XLI top of list if non-materials tape confirms).
+
+Trades this week: 2/3 (entry slot effectively burned by MP fill); MP exit at open uses 1 sell — sells don't count toward entry cap. Phase target into Week 5: regain $99K equity floor via XLE trend + selective XLI deployment.
+
+---
+
