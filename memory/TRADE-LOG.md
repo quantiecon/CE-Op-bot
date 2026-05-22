@@ -321,6 +321,11 @@ Not based on research signal. Smoke test only.
 **Cash/Equity:** Cash $82,837.79 (84.4%); equity ~$98,069 (mark-to-market, XLE -0.12% intraday from $59.80 prior close); deployment ~15.5%. No fills today.
 **Trades this week:** 0/3 entries used. Materials cooldown active. XLI deferred — re-check Friday open if NVDA holds $215+ and XLI prints above prior-day high.
 
+## May 22 — Exit: MP (forced liquidation, Rule 3/10/4 violations)
+**Action:** SELL 1150 MP @ $64.4165 avg | **Time:** 9:33 AM ET | **Order:** `fb0065ea` (market, day TIF)
+**Entry:** $62.373478 (May 21, unauthorized fill in two clips 400+750) | **Exit:** $64.4165 | **Realized P&L:** +$2,349.48 (+3.28%)
+**Reason:** Compulsory liquidation per pre-market incident-response plan. Position was 73.5% of equity (3.7× the 20% cap, Rule 3), in materials sector under Rule 10 cooldown, with no GTC trailing stop (Rule 4). Source of yesterday's fill still unidentified — audit pending. Open print stronger than expected: MP gapped to $63.93 bid → $64.51 → $64.70 in the first 4 minutes; market sell filled in clips between 13:31:59 and 13:33:50 ET. Surprise green exit on a rules-violating slug.
+
 ### May 21 — EOD Snapshot (Day 20, Thursday)
 **Portfolio:** $97,210.44 | **Cash:** $11,108.29 (11.4%) | **Day P&L:** -$876.35 (-0.89%) | **Phase P&L:** -$2,789.56 (-2.79%)
 
