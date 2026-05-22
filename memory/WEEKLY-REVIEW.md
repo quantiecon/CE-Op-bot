@@ -210,3 +210,65 @@ Week was a near-flat draw (-0.04%) while SPY booked +0.91% — bot underperforme
 
 ### Overall Grade: C-
 Week 3 was the phase's worst on every dimension: -1.30% absolute (worst), -1.51% vs SPY (worst relative), 2 stop-outs same week (Rule 11 caution flag), Rule 10 sector cooldown triggered. But — and it matters — every loss was capped exactly by the trailing-stop rule, no -7% manual cut was breached, NVDA tighten executed flawlessly, no panic add Fri into NVDA-earnings week, XLE held the line. Grade is not D because the strategy machinery worked; grade is C- because the strategy decision (two correlated same-sector entries same day at near-cap sizing) was a Rule 9 misread that turned -$2,194 realized in one morning. The fix is filtering for correlation inside "sector momentum" — not deploying less.
+
+---
+
+## Week ending 2026-05-22
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $98,034.53 (Mon May 18 AM, = May 15 close) |
+| Ending portfolio | $100,359.77 |
+| Week return | +$2,325.24 (+2.37%) |
+| S&P 500 week (SPY $739.25→$746.18) | +0.94% |
+| Bot vs S&P | +1.43% |
+| Trades | 2 entries (W:2 / L:0 / open:1 carry); 1 unauthorized entry, both closed green |
+| Win rate | 100% (2W / 0L closed) |
+| Best trade | NVDA +10.58% (closed) |
+| Worst trade | MP +3.28% (closed) — both winners |
+| Profit factor | ∞ ($2,433.62 winners / $0 losers) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| NVDA | $198.8925 (May 5) | $219.9275 (May 18) | +$84.14 (+10.58%) | 7% trail GTC `775288b4` fired pre-earnings; first green realized exit of the phase |
+| MP | $62.3735 (May 21, unauthorized) | $64.4165 (May 22) | +$2,349.48 (+3.28%) | Forced liquidation per incident-response plan (Rule 3/10/4 violations); MP gapped strong on open, surprise green |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+| XLE | $58.85 | $59.50 | +$165.75 (+1.10%) | $55.53 (trail 10%, GTC `a1f6efb3`, HWM $61.70) |
+
+### What Worked
+- **Pre-earnings de-risk on NVDA**: 7% trail fired Mon May 18 at $219.93, locking +$84.14 (+10.58%) — first green realized exit of the phase, perfect timing 2 days before Wed AMC binary
+- **Incident-response discipline on the MP slug**: pre-market plan called for full liquidation at open regardless of P&L; executed cleanly at 9:33 ET @ $64.4165 avg, surprise +$2,349 on a rules-violating slug we were prepared to take a loss on
+- **XLE rode the energy bid all week**: WTI $99→$103→$102 range, HWM ratcheted $59.835→$61.70, trail auto-tightened $53.85→$55.53; position survived a binary-day intraday give-back (Wed -2.28%) without manual intervention
+- **Zero new bot-initiated entries through a double-binary mid-week** (NVDA AMC Wed + FOMC minutes Wed 2 PM) — defensive bias correct, preserved dry powder
+- **Phase recovered above $100K baseline** for the first time since the early-phase dip: -2.79% Thu close → +0.36% Fri close, a +3.15-pt phase swing driven by MP exit + XLE intraday strength
+- **Rule 11 (patience > activity) ratified**: phantom MP order Mon was cancelled cleanly before fill; XLI triple-trigger Thu didn't confirm and was correctly deferred
+
+### What Didn't Work
+- **Unauthorized MP fill Thu May 21 2:23 PM ET** is the dominant negative event of the week: 1150 sh @ $62.3735 avg, $71,729.50 notional, **73.5% of equity** (3.7× the 20% cap), in a sector under Rule 10 cooldown, with NO trailing stop attached — three hard-rule violations simultaneously. Source still unidentified (audit deferred); bot did not place the order, no plan authorized it
+- **The week's +$2,325 return is heavily tail-dependent on the MP gap**: MP opened strong and gave us +$2,349 realized; the same slug could have opened -$2,000 to -$5,000 just as easily. Outcome was lucky, not earned
+- **Deployment still 15.1% post-MP-exit** vs 75-85% target — sixth straight week below band; only one position on the book again (XLE)
+- **Friday weekly-review didn't pre-empt the audit gap** — source of the MP fill remains unknown going into Week 5, meaning another unauthorized fill could land at any time without a detection mechanism beyond manual order-book checks
+- **NVDA re-entry forfeited** — flat into the print was correct R:R, but the post-print tape (NVDA $223.47, AH down ~1%) wasn't actionable; lost the second-leg opportunity for the week
+- **XLI triple-trigger Thu was the cleanest non-materials second-leg signal of the phase** — it didn't fully confirm (NVDA AH softness + SPX direction noisy) and was correctly deferred, but that defer leaves us still single-position into Week 5
+
+### Key Lessons
+- **Pre-event de-risking via trail tightening works as designed**: 10%→7% trail on NVDA at +15% threshold locked +$84 on the print's binary risk — exactly the asymmetry Rule 6 is engineered for. Repeatable, scalable
+- **Incident-response plans are worth writing down**: the pre-market MP-liquidation plan was specific (sell at open, market order, no stop placement, day-trade-implication checked) and executed in 90 seconds at 9:33 ET. Pre-committed protocols beat real-time deliberation
+- **An unauthorized fill is a system risk, not a strategy risk** — TRADING-STRATEGY.md rules behaved correctly when applied (forced exit); the gap is in detection / source identification before the fill, not in the rules themselves. Need a tooling-level fix (order-watch alert), not a strategy edit
+- **The MP outcome should not change the materials cooldown stance** — Rule 10 is built precisely so we don't get whipsawed by a lucky-tail re-entry into a failed sector. Cooldown stays active going into Week 5
+- **Single-position weeks are the deployment-drag pattern, not the cause**: 5 of 5 weeks have ended single-position-heavy because adds keep getting deferred or stopped out. The fix is not "deploy more aggressively" but "let the XLI / second-leg signal mature and size to 15% (not 20%) on confirmation"
+
+### Adjustments for Next Week (May 26-29; Mon May 25 = Memorial Day, markets closed)
+- **Tue May 26 pre-market RESEARCH-LOG must lead with MP audit findings**: identify the source of the May 21 fill (client_order_id provenance, API call logs, user override possibility); document a detection mechanism (e.g., open-orders snapshot diff hourly) before any new entries
+- **XLI remains the top second-leg candidate**: same triple-trigger checklist (SPX green / XLI > prior-day high on volume / tech doesn't cascade), 15% sizing (NOT 20%), 10% trail GTC immediately on fill
+- **Energy: XLE on autopilot**, but WTI $97-98 second test = if $97 breaks Tue/Wed, expect XLE drawdown toward $55-56 trail; trust the GTC, do not pre-empt
+- **Materials cooldown remains active** — Rule 10 not reset by lucky MP exit. No XLB, MP, USAR, rare-earth single names until cooldown formally reset (1 full week clean tape + non-materials Win in the book)
+- **Deployment target**: 30-35% by Wed May 27 close if XLI confirms; 50-60% by Friday only on a second confirming non-materials signal (no forced 75% chase)
+- **Trade cap**: Week 5 resets to 3 fresh entries; bias to use ≤2 with explicit thesis distinction (Energy already on; second entry must be non-Energy, non-Materials)
+- **PCE Thu May 28** is the next macro event — size entries pre-PCE, no chasing post-PCE ramp
+
+### Overall Grade: B+
+Week 4 booked the phase's best absolute (+2.37%) and best relative (+1.43% vs SPY) returns, recovered the phase back above $100K baseline for the first time since early-phase dip, and executed two textbook closed trades (NVDA pre-earnings trail at +10.58%, MP forced liquidation at +3.28% on a rules-violating slug). Every bot-initiated decision this week was correct: HOLD through the double binary, trail-protect NVDA into earnings, ignore the phantom MP buy Mon, execute the MP liquidation Fri AM per plan. Grade is not A because **the +$2,349 on MP is heavily luck-tail** — same slug could have gapped -$2k just as easily; we don't grade A for outcomes that were a coin flip. Grade is not A- because the unauthorized fill exposed a real detection gap (source still unidentified Friday close). Grade is B+ because: (1) discipline was perfect, (2) the weekly metrics are objectively the phase's best, (3) the recovery is real and rule-driven, (4) the lurking system-level risk (another unauthorized fill) means the work isn't done. Strategy doesn't need a rule change — Rule 3/10/4 caught the violation; the fix is tooling/detection.
