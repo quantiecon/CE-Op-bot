@@ -369,3 +369,10 @@ Not based on research signal. Smoke test only.
 | XLE | 255 | $58.85 | $59.49 | 0.00% | +$163.20 | $55.53 (trail 10%, HWM $61.70) |
 
 **Notes:** Memorial Day holiday — U.S. equity markets closed, no trading and no fills. Equity flat at $100,357.02 (broker last_equity unchanged, balance_asof still 2026-05-22), so Day P&L $0.00 (0.00%); Phase P&L holds at +$357.02 (+0.36%) above the $100K baseline. XLE marks unchanged: current_price = lastday_price $59.49, change_today 0%, unrealized +$163.20 (+1.09% from $58.85 entry). Trail stop $55.53 (10%, HWM $61.70) holds, ~6.6% buffer to $59.49 — well outside the 3% rule; no stop changes possible (market closed). Cash $85,187.07 (84.9%), deployment 15.1% (XLE only) — single-position book, below 75-85% target band. Trades today: 0 (holiday). New week begins: trades this week 0/3 entries (Week-5 slots reset). Materials sector cooldown (Rule 10) still active. Next session: Tue May 26 pre-market RESEARCH-LOG — re-validate XLE energy thesis (WTI ~$97-98 second-test inflection; Brent ~$110, Hormuz premium), and scan for a clean non-materials Week-5 entry to lift deployment toward the 75-85% band.
+
+## May 26 — Trade: XLI (Week-5 deployment, sector-momentum leg)
+**Action:** BUY 80 XLI @ $173.80 | **Cost basis:** $13,904.00 | **Time:** 9:43 AM ET | **Order:** `aa5215b5` (market, day TIF)
+**Trailing stop:** GTC sell 80 XLI, trail 10%, initial stop $156.447 (order `c431cbc2`, HWM $173.83)
+**Thesis:** Industrials leading quadrant — AI-capex / defense / reshoring tailwinds, less oil-sensitive than energy. Top non-materials Week-5 candidate from 5/26 RESEARCH-LOG. Entry conditions confirmed at open: SPX green (SPY $749.77 vs prior close $745.67, +0.55%) + XLI broke above prior-day high ($172.85) and held ($173.65). Lifts deployment off the chronic ~15% floor toward the 75-85% target band.
+**Target:** ~$208.50 (+20%) | **R:R:** ~2:1 (10% trail risk vs +20% target)
+**Rule check:** Positions after = 2 (XLE+XLI) ≤ 6 ✓ | Trades this week 1/3 ✓ | Cost 13.9% of equity ≤ 20% ✓ | catalyst documented ✓ | not PDT (>$25k) ✓ | XLI = Industrials, not blocked materials ✓
