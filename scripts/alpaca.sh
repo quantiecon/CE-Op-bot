@@ -33,6 +33,9 @@ case "$cmd" in
   positions)
     curl -fsS -H "$H_KEY" -H "$H_SEC" "$API/positions"
     ;;
+  clock)
+    curl -fsS -H "$H_KEY" -H "$H_SEC" "$API/clock"
+    ;;
   position)
     sym="${1:?usage: position SYM}"
     curl -fsS -H "$H_KEY" -H "$H_SEC" "$API/positions/$sym"
@@ -40,6 +43,10 @@ case "$cmd" in
   quote)
     sym="${1:?usage: quote SYM}"
     curl -fsS -H "$H_KEY" -H "$H_SEC" "$DATA/stocks/$sym/quotes/latest"
+    ;;
+  snapshot)
+    sym="${1:?usage: snapshot SYM}"
+    curl -fsS -H "$H_KEY" -H "$H_SEC" "$DATA/stocks/$sym/snapshot"
     ;;
   orders)
     status="${1:-open}"
