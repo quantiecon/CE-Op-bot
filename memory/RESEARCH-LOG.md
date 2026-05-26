@@ -859,3 +859,50 @@ Trades this week: 0/3 (fresh Week-5 cap Tue). Phase +0.36%; goal — hold the $1
 
 ---
 
+## 2026-05-26 — Pre-market Research (Day 22, Tuesday — Week 5 open, post-Memorial Day)
+
+### Account
+- Equity: $100,183.06
+- Cash: $85,187.07 (85.0%)
+- Buying power: $185,370.13
+- Daytrade count: 1 (carryover; MP round-trip was multi-day)
+- Positions:
+  - XLE 255 sh @ $58.85 avg, last $58.8078, **-$10.76 (-0.07%)**; intraday -1.15%; trail 10% GTC, stop $55.53, HWM $61.70 (order `a1f6efb3` — verified ACTIVE)
+- Deployed: ~15.0% (XLE only) — still far below 75–85% target band; single-position book
+- Phase P&L: **~+$183 (+0.18%)** vs $100K baseline (equity slipped from Fri's $100,357 on XLE fade)
+
+### Market Context
+- **WTI: ~$91/bbl** (front-month CL ~$89–92; FxPro K26 $91.94) — oil still soft, holding the ~$92 zone. Polymarket crowd leans higher ($100–105) but front-month tape is heavy. No fresh OPEC+/inventory catalyst surfaced.
+- **Brent: ~$113** (CBK26 prev close $112.78). WTI–Brent spread unusually wide (~$20+); WTI-driven names face more headwind than Brent-levered.
+- **S&P 500 futures: ESM26 ~7,548, +0.76%** — green, pressing the 52-wk high (range top 7,547.75). Risk-on, post-holiday tape. Bullish open tone.
+- **VIX: 16.85** (+1.57% from 16.59) — calm/complacent, low-vol regime persists.
+- Today's catalysts: light. **No major pre-open release for 5/26.** Main week-ahead macro = **PCE Thu May 28** (Fed's preferred inflation gauge). AI/semis remain the dominant equity driver.
+- Earnings: no major S&P pre-open names today (Workday already reported a beat; Costco-type retailers later in week).
+- **Sector momentum YTD: Energy still #1 (~+22–26%)**, Industrials strong (leading quadrant, reshoring/defense/AI-capex), Tech lagging YTD but rotating up on AI bid + falling rates. Note: April momentum briefly flipped (Tech led, Energy lagged that month) — energy leadership is YTD, not last-30-day.
+
+### Trade Ideas
+1. **XLE — HOLD. Do NOT add.** -0.07% from entry, faded with oil back to ~$91. Trail $55.53 (~5.6% buffer to $58.81), HWM $61.70; manual -7% cut = $54.73. Energy equities have decoupled from crude (capital discipline, FY26 earnings recovery >25%), so XLE holds above stop — but this is a twice-round-tripped thesis on a soft-oil tape. Let the trail / -7% cut do its job if WTI breaks $90 and XLE cracks toward $55.53. No add into oil weakness.
+2. **XLI (Industrials) — top Week-5 candidate to close the deployment gap.** Leading quadrant, less oil-sensitive than XLE, reshoring/defense/AI-capex tailwinds. **Conditional entry at open: SPX green (futures +0.76% supports) AND XLI > prior-day high on volume.** Size ~13–15% ($13–15k, ≤20% cap), attach 10% trail GTC immediately (Rule 4). Lifts deployment off the 15% floor.
+3. **Tech/semis (QQQ / SMH / NVDA) — watch, don't chase.** NVDA's 5/20 beat-and-raise drew a muted reaction = no confirmed momentum yet; falling rates help. Deploy only on a confirmed breakout, not drift. Defer.
+4. **Materials (XLB / single names) — BLOCKED.** Rule 10 cooldown still active (MP/USAR back-to-back stop-outs; the 5/21 unauthorized MP slug was a violation, not a reset). No materials until a weekly-review formally resets.
+5. **Energy single names (XOM/CVX) — pass.** XLE already covers; no adding oil concentration into softness.
+
+### Risk Factors
+- **Oil at ~$91 (front-month) = direct XLE headwind.** A break of $90 likely drags XLE toward the $55.53 trail; twice-round-tripped energy thesis = elevated Rule 10 watch if it fails.
+- **Chronic under-deployment (15% vs 75–85%)** is the standing problem — single-position book for weeks. Week-5 fresh cap is the window to add 1–2 sector-momentum legs (XLI preferred).
+- **VIX 16.85 + SPX at highs = complacency** — asymmetric downside into PCE (Thu 5/28). Don't chase the first green print.
+- **Post-holiday Tue tape** often thin/choppy — wait for XLI confirmation rather than forcing the open.
+- **Open audit item:** source of the 5/21 unauthorized MP fill still unidentified. Open-orders book is clean now (only XLE trail `a1f6efb3`) — re-check before any deployment.
+- Week 5: 0/3 entries used. Materials blocked; XLI / energy / tech are the eligible lanes.
+
+### Decision
+**HOLD core; CONDITIONAL deploy.** Default posture is HOLD (patience > activity), but the chronic 15% under-deployment is the real problem and today's green tape + XLI leadership is the window to fix it.
+1. **Verify open-orders book clean** before any deployment (audit hygiene) — confirmed only XLE trail `a1f6efb3` active.
+2. **XLE: HOLD.** Trail GTC `a1f6efb3` confirmed active (stop $55.53). Watch WTI — if oil breaks $90 and XLE approaches $55.53/$54.73, let trail / -7% cut execute. No add.
+3. **XLI: conditional entry at open** — if SPX green AND XLI > prior-day high on volume, initiate **~13–15%** with a 10% trail GTC attached immediately. Priority = close the deployment gap.
+4. **No materials (Rule 10). No chasing tech without a confirmed breakout.** Max 1–2 new entries this week, ≤20%/pos.
+
+Trades this week: 0/3 (Week-5 cap). Phase +0.18%; goal — hold the $100K reclaim and lift deployment toward the 75% floor via a disciplined XLI add.
+
+---
+
