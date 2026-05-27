@@ -396,3 +396,19 @@ Not based on research signal. Smoke test only.
 | XLI | 80 | $173.80 | $174.36 | +1.51% | +$44.80 (+0.32%) | $157.302 (trail 10%, HWM $174.78) |
 
 **Notes:** First trading day back after the Memorial Day weekend. Equity slips to $99,973.42 from $100,357.02 last_equity — Day P&L -$383.60 (-0.38%), nudging the book just below the $100K baseline again (Phase P&L -$26.58 / -0.03%). The drag was all XLE: closed $57.81, down -2.82% on the day ($59.49 → $57.81), unrealized flipping from +$163 (Memorial Day mark) to -$265.20 (-1.77% from $58.85 entry) as crude rolled over again (WTI ~$92, -4.87% on the 5/24 update) and energy equities finally tracked some of the weakness. XLE trail $55.53 (10%, HWM $61.70) holds but buffer has tightened to ~3.9% from current $57.81 — getting close to the 3% rule floor; -7% manual cut trigger is $54.73 ($3.08 / 5.3% below current), so no action yet. XLI the offset: fresh Week-5 entry at the open (80 sh @ $173.80, cost $13,904, 10% trail GTC `c431cbc2` attached immediately, HWM $174.78), closed $174.36 = +0.32% from entry / +1.51% vs prior close, unrealized +$44.80. Industrials leg working day one — less oil-sensitive, AI-capex/reshoring tailwind intact. Open-orders book clean: only the two intended trail GTCs (XLE `a1f6efb3`, XLI `c431cbc2`); no unauthorized fills. Cash $71,283.07 (71.3%), deployment ~28.7% (XLE + XLI) — up from 15.1% pre-XLI but still below the 75-85% target band. Trades today: 1 (XLI BUY entry at open). Trades this week: 1/3 entries used; materials cooldown (Rule 10) still active. Next session: Wed May 27 pre-market — monitor XLE's trail buffer (cut/let-trail-work if it cracks toward $55.53), watch for a clean 2nd non-materials leg (industrials follow-through / tech on confirmed breakout) but hold fire before PCE clarity (Thu 5/28) to lift deployment toward the 75-85% band.
+
+### May 27 — Midday Scan (no action)
+**Positions snapshot:**
+
+| Ticker | Shares | Entry | Last | P&L % | Unrealized P&L | Stop |
+|--------|--------|-------|------|-------|----------------|------|
+| XLE | 255 | $58.85 | $57.345 | -2.56% | -$383.78 | $55.53 (trail 10%, HWM $61.70) |
+| XLI | 80 | $173.80 | $174.29 | +0.28% | +$39.20 | $157.311 (trail 10%, HWM $174.79) |
+
+**Actions:** None.
+**Step 3 (cut losers):** XLE -2.56% (intraday -0.87%), not at -7% (cut trigger $54.73; current +4.8% above). XLI +0.28%. No cut.
+**Step 4 (tighten winners):** Both far below +15% threshold. No manual tighten. XLE current below HWM $61.70; XLI HWM $174.79.
+**Step 5 (thesis check):** XLE — crude still pinned ~$92 (WTI ~$91.94, Brent ~$104.68; sub-$90 bias), energy-equity decoupling the only support on a twice-round-tripped thesis. Trail $55.53 = ~3.16% buffer to $57.345 (just outside the 3% rule); stop already placed, never moved down — let trail/manual cut work if XLE cracks. Hold. XLI — industrials leading quadrant, AI-capex/reshoring intact, less oil-sensitive; +0.28%, working. Hold.
+**Audit hygiene:** Open-orders book clean — only the two intended trail GTCs (XLE `a1f6efb3` stop $55.53; XLI `c431cbc2` stop $157.311). No unauthorized fills.
+**Cash/Equity:** Equity $99,844.12 (Day P&L -$134.70 / -0.13% vs $99,978.82 last_equity; Phase P&L -$155.88 / -0.16%). Cash $71,283.07 (71.4%); deployment ~28.6% (XLE + XLI) — still below the 75-85% band.
+**Trades this week:** 1/3 entries used (XLI). Materials cooldown (Rule 10) active. No new entries — defensive into Thu 5/28 core PCE; reserve 2 slots for a post-PCE non-materials leg on confirmation.
