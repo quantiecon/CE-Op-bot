@@ -859,3 +859,48 @@ Trades this week: 0/3 (fresh Week-5 cap Tue). Phase +0.36%; goal — hold the $1
 
 ---
 
+
+---
+
+## 2026-05-27 — Pre-market Research (Wednesday, Week 5)
+
+### Account
+- Equity: $99,782.02
+- Cash: $71,283.07 (71.4%)
+- Buying power: $171,065.09
+- Daytrade count: 0
+- Positions:
+  - XLE 255 sh @ $58.85 avg, last $56.89, **-$499.80 (-3.33%)**; trail 10% GTC, stop $55.53, HWM $61.70 (order `a1f6efb3`)
+  - XLI 80 sh @ $173.80 avg, last $174.90, **+$88.00 (+0.63%)**; trail 10% GTC, stop $157.302, HWM $174.78 (order `c431cbc2`)
+- Deployed: ~28.6% (XLE + XLI) — still well below 75–85% target band
+- Day P&L: -$196.80 (-0.20% vs $99,978.82 last_equity)
+- Phase P&L: **-$217.98 (-0.22%)** — slipped just back below the $100K baseline
+
+### Market Context
+- **WTI: ~$91.94/bbl**, **Brent: ~$104.68** (spread ~$13). Oil holding the ~$92 shelf for a 3rd session — no fresh break of $90 yet, but Polymarket's frontrunner for end-May is "↓ $90" at 100%, i.e. tape still leans bearish crude. Energy-equity decoupling from crude remains the only thing holding XLE up.
+- **S&P 500 futures: ESM26 ~7,541.50 (+0.06%)**, intraday range 7,537–7,560 — flat-to-mildly-green premarket, sitting near record highs.
+- **VIX: ~16.6–17.4** (16.59 last close) — calm, complacency intact.
+- **Today's catalysts: light.** No major macro print today — driver is earnings momentum + AI-capex narrative.
+- **Earnings before open:** PDD, Dick's Sporting Goods (DKS), Bank of Montreal, Abercrombie (ANF), Capri (CPRI) — none in our sleeves. **MRVL** reports (AH) — semis read-through, not held.
+- **Economic calendar: NO PCE today.** Core PCE is **Thu May 28** (BofA est: headline +0.4% m/m / 3.8% y/y, core +0.3% m/m / 3.3% y/y). No CPI (next 6/10), no jobs (NFP 6/5), no FOMC today.
+- **Sector momentum YTD:** Energy still **#1 (~+20-22%)**; Industrials **#2, leading/favored** (AI-capex, defense, reshoring, electrification); Tech **lagging/cooling** after its AI run.
+
+### Trade Ideas
+1. **XLE — HOLD, let trail/cut do the work. Do NOT add.** $56.89, -3.33% from entry. Trail $55.53 = **only ~2.4% buffer** (now inside the 3% comfort zone — but the stop is already placed, so no action; never move it down). Manual -7% cut trigger = **$54.73**, current is just **+3.8%** above it. Oil stuck at ~$92 with a sub-$90 bias = direct headwind on a twice-round-tripped energy thesis. If XLE cracks toward $55.53/$54.73, let the trail or manual cut execute — no rescue add.
+2. **XLI — HOLD, working.** $174.90, +0.63%, HWM $174.78, trail $157.302 (~10% buffer). Industrials leading quadrant, less oil-sensitive. Could be the add-leg candidate on follow-through — but **wait for PCE (Thu) clarity** before sizing up.
+3. **2nd new leg — DEFER until post-PCE.** Deployment gap (28.6% vs 75-85%) is the standing problem, but adding risk into a flat tape the day before core PCE is poor R:R. Industrials follow-through is the cleanest non-materials lane; tech is lagging = no chase. No entry today.
+4. **Materials — BLOCKED.** Rule 10 cooldown still active.
+
+### Risk Factors
+- **XLE trail buffer tight (~2.4%)** — a single -2.5%/-3% down day in XLE triggers the stop. Crude sub-$90 break is the most likely trigger. Accept it; the trail is doing its job on a tired thesis.
+- **PCE Thu 5/28** is the week's pivot — a hot core print (≥0.3% m/m) into VIX ~16.6 complacency + SPX at highs = asymmetric downside. Don't add risk the day before.
+- **Chronic under-deployment (28.6%)** persists, but forcing a leg into a no-catalyst, pre-PCE session is the wrong fix.
+- **Audit hygiene:** open-orders book clean — only the two intended trail GTCs (XLE `a1f6efb3`, XLI `c431cbc2`). No unauthorized fills.
+
+### Decision
+**HOLD. No new entries today.** Sequence:
+1. Confirm both trail GTCs remain active (XLE `a1f6efb3` stop $55.53; XLI `c431cbc2` stop $157.302). No stop changes — neither at a tighten threshold (+15%).
+2. **XLE:** monitor crude / the $55.53 trail. If oil breaks $90 and XLE approaches $55.53 or the $54.73 -7% line, let the trail/manual cut fire — no add.
+3. **XLI:** hold; it's the deployment-add candidate but only on confirmation AFTER PCE.
+4. **No new long entries today** — light catalyst day, defensive into Thu PCE. Materials blocked.
+5. Trades this week: **1/3 entries used** (XLI). 2 slots remain — reserve for a post-PCE non-materials leg if the tape confirms.
