@@ -904,3 +904,44 @@ Trades this week: 0/3 (fresh Week-5 cap Tue). Phase +0.36%; goal — hold the $1
 3. **XLI:** hold; it's the deployment-add candidate but only on confirmation AFTER PCE.
 4. **No new long entries today** — light catalyst day, defensive into Thu PCE. Materials blocked.
 5. Trades this week: **1/3 entries used** (XLI). 2 slots remain — reserve for a post-PCE non-materials leg if the tape confirms.
+
+---
+
+## 2026-05-28 — Pre-market Research (Thursday, Week 5 — filed inline at open; CORE PCE DAY)
+
+### Account
+- Equity: $99,793.92
+- Cash: $71,283.07 (71.4%)
+- Buying power: $171,076.99
+- Daytrade count: 0
+- Positions:
+  - XLE 255 sh @ $58.85 avg, last $57.48, **-$349.35 (-2.33%)**; intraday **+0.86%** (oil bounce); trail 10% GTC, stop $55.53, HWM $61.70 (order `a1f6efb3`)
+  - XLI 80 sh @ $173.80 avg, last $173.20, -$48.00 (-0.35%); intraday -0.63%; trail 10% GTC, stop $157.374, HWM $174.86 (order `c431cbc2`)
+- Deployed: ~28.6% (XLE + XLI) — still well below the 75–85% target band
+- Phase P&L: **-$206.08 (-0.21%)** — just below the $100K baseline
+
+### Market Context
+- **WTI: ~$91–92/bbl** (CME front-month +2.7% intraday, bouncing off the $90 shelf); **Brent: ~$104–106**. Crude rebounding modestly after holding $90; the sub-$90 bias eased today — mild relief for energy equities.
+- **S&P 500:** closed Wed at a record ~7,519; today **flat-to-modestly-red (-0.1% to -0.3%)** post-PCE — print absorbed without a hawkish shock.
+- **VIX: ~16.6–17** — calm, complacency intact.
+- **TODAY'S EVENT — Core PCE (April), 8:30 AM ET** (Fed's preferred inflation gauge). Consensus core **+0.3–0.4% m/m / +3.1–3.3% y/y**; headline framed **"energy-driven," near 3-yr highs (~3.9% y/y)**. Actual print not yet confirmed in research feeds, but the **market reaction is muted** (no shock selloff, no dovish rally) → roughly in-line read; keeps the Fed hold/hawkish-bias intact.
+- Earnings BMO: retailers (Costco-type later this week); none in our sleeves.
+- Sector momentum YTD: Energy a YTD leader but lagging recently on oil; **Industrials leading quadrant** (AI-capex / defense / reshoring); Tech leading YTD but **profit-taking today**; defensives (XLP / utilities) stabilizing on the inflation read.
+
+### Trade Ideas
+1. **XLE — HOLD, do NOT add.** -2.33% from entry but **intraday green (+0.86%)** on the oil bounce. Trail $55.53 (~3.4% buffer); -7% manual cut = $54.73 (current $57.48, +5% above). Twice-round-tripped energy thesis — let the trail/cut work; no rescue add.
+2. **XLI — HOLD, working.** -0.35% from entry, intraday -0.63%; industrials leading quadrant, less oil-sensitive. Trail $157.374 (~10% buffer). The existing second leg; no add into a red intraday tape.
+3. **2nd new leg — NO entry today.** Post-PCE tape is **not confirming** (SPX flat-to-red, tech profit-taking, energy-driven hot inflation = hawkish bias). Confirmation triggers for a new non-materials leg (SPX green + leading-sector breakout on volume) are absent. Defer.
+4. **Materials — BLOCKED** (Rule 10 cooldown still active).
+
+### Risk Factors
+- PCE "energy-driven hot" headline keeps the Fed hawkish-bias intact; VIX ~16.6 + SPX at record highs = asymmetric downside on any follow-through repricing.
+- XLE trail buffer ~3.4% — a single -3% down day fires the stop; accept it (tired, twice-round-tripped thesis).
+- Chronic under-deployment (28.6% vs 75–85%) persists, but forcing a leg into an unconfirmed, post-event red tape is the exact mistake prior weeks punished (MP/USAR ~-$2.2k).
+- Audit hygiene: open-orders book clean — only the two intended trail GTCs (`a1f6efb3`, `c431cbc2`). No unauthorized fills.
+
+### Decision
+**HOLD. No new entries today.**
+- PCE absorbed without shock, but the tape is not confirming a new leg — defensive bias holds.
+- Both positions on autopilot: XLE trail $55.53, XLI trail $157.374 — verified active; neither at the -7% cut or +15% tighten threshold; no stop changes (never move down).
+- Trades this week: 1/3 entries used (XLI). 2 slots reserved for a confirmed non-materials leg later this week (industrials follow-through on a green tape preferred).
