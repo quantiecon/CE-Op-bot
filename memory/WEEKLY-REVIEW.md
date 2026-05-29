@@ -272,3 +272,68 @@ Week 3 was the phase's worst on every dimension: -1.30% absolute (worst), -1.51%
 
 ### Overall Grade: B+
 Week 4 booked the phase's best absolute (+2.37%) and best relative (+1.43% vs SPY) returns, recovered the phase back above $100K baseline for the first time since early-phase dip, and executed two textbook closed trades (NVDA pre-earnings trail at +10.58%, MP forced liquidation at +3.28% on a rules-violating slug). Every bot-initiated decision this week was correct: HOLD through the double binary, trail-protect NVDA into earnings, ignore the phantom MP buy Mon, execute the MP liquidation Fri AM per plan. Grade is not A because **the +$2,349 on MP is heavily luck-tail** — same slug could have gapped -$2k just as easily; we don't grade A for outcomes that were a coin flip. Grade is not A- because the unauthorized fill exposed a real detection gap (source still unidentified Friday close). Grade is B+ because: (1) discipline was perfect, (2) the weekly metrics are objectively the phase's best, (3) the recovery is real and rule-driven, (4) the lurking system-level risk (another unauthorized fill) means the work isn't done. Strategy doesn't need a rule change — Rule 3/10/4 caught the violation; the fix is tooling/detection.
+
+---
+
+## Week ending 2026-05-29
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $100,357.02 (Tue May 26 AM, = Fri May 22 close; Mon May 25 = Memorial Day) |
+| Ending portfolio | $99,509.82 |
+| Week return | -$847.20 (-0.84%) |
+| S&P 500 week (SPY $745.64→$756.61) | +1.47% |
+| Bot vs S&P | -2.31% |
+| Trades | 1 entry (W:0 / L:0 / open:2 carry); 0 closed |
+| Win rate | N/A (0 closed trades) |
+| Best trade | XLI -0.22% (unrealized) — both legs red |
+| Worst trade | XLE -4.35% (unrealized) |
+| Profit factor | N/A (0 closed trades) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| — | — | — | — | No closed trades this week |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+| XLE | $58.85 | $56.29 | -$652.80 (-4.35%) | $55.53 (trail 10%, GTC `a1f6efb3`, HWM $61.70) |
+| XLI | $173.80 | $173.41 | -$31.20 (-0.22%) | $157.374 (trail 10%, GTC `c431cbc2`, HWM $174.86) |
+
+### What Worked
+- **XLI second-leg entry executed cleanly** on Tue May 26 open per pre-market plan: 80 sh @ $173.80 (~$13.9k, ~13.9% sizing — inside the 20% cap and below the 15% target lift), 10% trail GTC `c431cbc2` attached immediately at fill. Rule 4 satisfied within seconds; first non-Energy, non-Materials add of the phase.
+- **Correlation discipline applied** — XLI explicitly chosen over a second Energy add because XLE was already the lone leg; the Week 3 "two correlated entries same day" mistake (MP+USAR) was not repeated.
+- **Sizing restraint** — used 13.9% on XLI vs the 18%+ each on MP/USAR in Week 3; the Week 3 lesson ("cap-edge sizing on unproven adds maximizes realized loss") was internalized.
+- **Trail discipline on XLE intact under stress** — XLE drew down -4.35% across the week as crude broke sub-$90; never moved the stop down (Rule 9 intact), never pre-empted the trail, never panicked into a -7% manual cut on a 5-handle name. The standing $55.53 GTC absorbed the volatility correctly.
+- **Defensive bias through PCE (Thu 5/28) preserved capital** — zero new entries pre- or post-PCE; flat -0.04% on the print day, no chase into the calm post-print tape. No 2nd-leg forced on a non-confirming signal.
+- **Materials cooldown (Rule 10) held all week** — no MP/USAR/XLB re-entry despite the lucky MP exit; the cooldown logic worked exactly as engineered (don't whipsaw on a luck-tail exit).
+- **Audit hygiene clean every day** — open-orders book contained only the two intended trail GTCs (XLE `a1f6efb3`, XLI `c431cbc2`) at every scan; no recurrence of the May 21 unauthorized-fill event.
+
+### What Didn't Work
+- **-2.31% vs SPY is the worst weekly relative of the phase** (worse than Week 3's -1.51%). SPY booked +1.47% on a calm, complacent tape; bot booked -0.84% — a 231 bps gap mostly explained by the XLE drag and the single non-deploying anchor day (XLI flat all week).
+- **XLE thesis is now invalidated and we still hold it.** WTI broke sub-$90 (~$88.6) Fri pre-market — the exact catalyst flagged for weeks. The pre-market called for a discretionary exit at the weekly review, and we are at the weekly review with XLE still on the book at -4.35%. The "let the trail/manual cut work" stance is defensible but increasingly expensive on a thesis we have called dead.
+- **Deployment still 28.4%** vs 75-85% target — sixth straight week below band, despite finally adding a second leg. XLI was the right add but the rest of the week was holds; we never staged a 3rd leg on the calm post-PCE tape (Thu/Fri).
+- **XLI flat into Friday** (-0.22%) — entry wasn't wrong (industrials leading quadrant intact), but the price action gave us zero confirmation, so the planned 3rd leg never had a green-anchor signal to lean on.
+- **Phase now -0.49%** (worst close of the phase) — Week 4's recovery above the $100K baseline was given back; we are again single-digit basis points below baseline with 2 red legs on the book.
+- **Friday weekly-review-window XLE exit decision was deferred to the review itself** (not pre-staged at the open) — a cleaner pattern would have been: midday discretionary exit as soon as oil confirmed sub-$90 hold, instead of carrying the position into the weekly review with thesis dead and trail buffer at ~1.4%.
+- **Open audit item (May 21 MP unauthorized fill source) still unresolved** — carried 5 sessions now without provenance. Detection mechanism (hourly open-orders snapshot diff or similar) not yet implemented.
+
+### Key Lessons
+- **"Let the trail do its work" is correct when the thesis is intact and the trail has room. It is wrong when the thesis is broken AND the trail buffer has compressed to ~1-2%.** At ~1.4% buffer on a dead-thesis position, the optionality of "maybe it bounces" is dominated by the optionality of "let me redeploy this capital into a working leg next week." Add a half-rule: **thesis-invalidated + trail buffer ≤ 3% = discretionary exit, don't wait for the GTC to fire.**
+- **Adding 1 leg per week is necessary but not sufficient** to close the deployment gap. To reach 75-85% from 15% takes 4-5 adds, not 4-5 weeks of 1 add per week if the prior leg is still red. The deployment gap will not close until we either (a) get a confirmed winner that lets us size the next leg with conviction, or (b) accept that some weeks need 2 entries from the 3-slot cap, not 1.
+- **The MP luck-tail outcome IS distorting our deployment confidence** — Week 4's +$2,349 came from a rules-violating slug we were exiting, not from a thesis we believed in. That "win" did not validate any sector thesis, so Week 5's hunt for a thesis-validated 2nd leg started from a cold deck. This is a feature, not a bug, but it means we should expect 2-3 more weeks of slow deployment lift, not a fast catch-up.
+- **Correlation filter + smaller sizing on first entry to a sector is the right pattern.** XLI at 13.9% with a 10% trail is a low-cost probe; if it confirms next week, we can add a second industrial or industrial-adjacent name and size to 15-18% on confirmation. Week 3's lesson is being applied; this is the correct cadence.
+- **Defensive bias through binary events (PCE Thu) cost zero in P&L and zero in opportunity** — the post-print tape was flat. The cost of being defensive on a calm print day is zero; the cost of being aggressive on a hot print day is asymmetric. Continue the bias.
+
+### Adjustments for Next Week (Jun 1-5)
+- **XLE — sell at open Mon Jun 1.** Thesis invalidated (sub-$90 WTI confirmed across two sessions), unrealized -$652.80 (-4.35%), trail buffer compressed to ~1.4%, twice-round-tripped energy-equity decoupling thesis now thin. Free ~$14.4k of capital for redeployment. Cancel GTC `a1f6efb3` immediately on exit. **Rule 10 Energy sector cooldown triggered** (XLE exit = 1st energy loss this phase; one more energy loss = full sector cooldown — single-loss cooldown not yet, but **no energy re-add until a clean WTI bounce above $95 holds 3+ sessions**).
+- **XLI — HOLD and add on green confirmation.** If XLI prints green Mon/Tue with industrials sector intact, candidate 2nd-industrial-name (XAR defense / IYJ broader, or single names: CAT, ETN, GE) at 12-15% sizing — explicit thesis distinction from XLI required.
+- **Materials cooldown — formally resets Mon Jun 1.** Week 5 elapsed clean (no MP/USAR/XLB), non-materials win not booked but XLI carry is a non-materials anchor. Materials re-entry permitted post-cooldown ONLY with single-sector thesis distinction (e.g., XLB diversified ETF, not a rare-earth single-name double-up).
+- **Tech (XLK / single name) — second-leg candidate** on a confirmed June breakout: NVDA earnings now behind us (Wk 4), tape calm, AI capex intact via XLI's industrials linkage. Wait for a confirming setup (SPX green / XLK > prior-day high / no late-day fade); 13-15% sizing on first entry, never 20%.
+- **Deployment target Wk 6**: 40-50% by Wed Jun 3 close (XLE out, XLI hold, 1-2 new legs); 55-65% by Friday only on confirming signals (no forced 75% chase). The 75-85% band remains a 2-3 week target, not a Wk 6 target.
+- **Trade cap**: Wk 6 resets to 3 entries; explicit budget — 1 XLE exit (doesn't count vs entry cap), up to 2 fresh entries with non-correlated thesis distinction. Bias to use both if XLI confirms; bias to use 1 if XLI sags.
+- **System risk — MP audit must close this week.** Identify the May 21 fill provenance (source: API key audit, client_order_id pattern, dashboard manual override possibility) AND ship a detection mechanism (hourly open-orders snapshot diff, Telegram alert on any non-bot-initiated fill) before Wk 7. Carrying a known detection gap into Wk 7 is the system risk the strategy can't price.
+- **ISM Mon Jun 2, NFP Fri Jun 6** = next macro frame; size pre-events, no chasing post-print ramps.
+
+### Overall Grade: C
+Week 5 was -0.84% absolute, -2.31% vs SPY (phase-worst relative), 0 closed trades, 1 new entry (XLI), 0 thesis-validated wins, an invalidated XLE thesis still on the book at week's end, and the audit gap from Week 4 still open. The good is real but narrow: correlation discipline applied (XLI not a 2nd-energy double-up), sizing discipline applied (13.9% not 18%), trail discipline preserved across an XLE 4-handle drawdown, materials cooldown held against a tempting lucky-tail re-entry, PCE-day defensive bias cost zero. The bad is structural: deployment still 28.4%, XLE held into the weekly review with thesis dead and trail buffer at ~1.4%, phase recovery from Wk 4 fully given back, SPY beat us by 231 bps on a calm tape we should have caught half of with XLI confirmation we didn't get. Not D because no rule was violated, no panic was committed, every defensive call was correct. Not C+ because the standing XLE position is now a known-bad-thesis carry that should have been exited intraday Fri once oil confirmed sub-$90, and we deferred it to the review. Grade is C with explicit improvement plan: **XLE exits Mon open, XLI gets added to on confirmation, audit gap closes this week, deployment lifts to 40-50% by Wed**. Strategy gets one half-rule clarification (thesis-invalidated + trail buffer ≤ 3% = discretionary exit) — to be encoded in TRADING-STRATEGY.md.

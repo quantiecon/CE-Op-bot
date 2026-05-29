@@ -17,6 +17,7 @@ Beat the S&P 500 (benchmark: SPY) over the challenge window. Stocks only — no 
 3. 5-6 positions at a time, max 20% each
 4. 10% trailing stop on every position as a real GTC order
 5. Cut losers at -7% manually
+5a. **Thesis-invalidated discretionary exit**: if the position's entry thesis is explicitly invalidated (e.g., underlying macro catalyst broken) AND the trail buffer is ≤ 3% of current price, exit at the next session open — do not wait for the GTC trail or the -7% manual cut to fire. (Added Wk 5 review 2026-05-29 after carrying XLE on a dead sub-$90-oil thesis into review with ~1.4% trail buffer.)
 6. Tighten trail: 7% at +15%, 5% at +20%
 7. Never within 3% of current price; never move a stop down
 8. Max 3 new trades per week
