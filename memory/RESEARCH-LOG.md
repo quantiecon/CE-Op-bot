@@ -904,3 +904,48 @@ Trades this week: 0/3 (fresh Week-5 cap Tue). Phase +0.36%; goal — hold the $1
 3. **XLI:** hold; it's the deployment-add candidate but only on confirmation AFTER PCE.
 4. **No new long entries today** — light catalyst day, defensive into Thu PCE. Materials blocked.
 5. Trades this week: **1/3 entries used** (XLI). 2 slots remain — reserve for a post-PCE non-materials leg if the tape confirms.
+
+---
+
+## 2026-05-29 — Pre-market Research (Friday, Week 5 — weekly-review day)
+
+### Account
+- Equity: $99,613.57
+- Cash: $71,283.07 (71.6%)
+- Buying power: $170,896.64
+- Daytrade count: 0
+- Positions:
+  - XLE 255 sh @ $58.85 avg, last $56.70, **-$548.25 (-3.65%)**; trail 10% GTC, stop $55.53, HWM $61.70 (order `a1f6efb3`)
+  - XLI 80 sh @ $173.80 avg, last $173.40, **-$32.00 (-0.23%)**; trail 10% GTC, stop $157.374, HWM $174.86 (order `c431cbc2`)
+- Deployed: ~28.4% (XLE + XLI) — still well below the 75–85% target band
+- Day P&L: -$95.75 (-0.10% vs $99,709.32 last_equity)
+- Phase P&L: **-$386.43 (-0.39%)** — book grinding lower, just under the $100K baseline
+
+### Market Context
+- **WTI: ~$88.63/bbl (-0.30%)** — **crude has broken below $90.** This is the bearish trigger flagged for weeks; Polymarket pegs late-May WTI near $88 (~-16% on the month). Brent not directly quoted; with WTI ~$88.6, Brent likely ~$101–103.
+- **S&P 500 futures: ~7,585** (Investing.com range 7,584–7,590), flat-to-mildly-green near record highs. (Model returned one nonsense print — disregarded; using the index-futures range.)
+- **VIX: ~15.8–16.3** — spot ~15.84–15.90 intraday (5/29), prior close 16.29 (5/27). Complacency deepening, near YTD lows.
+- **Today's catalysts: LIGHT.** Schwab calendar: "May 29 — no major data or earnings expected." Core PCE was **yesterday (Thu 5/28)**; tape digested it flat. Background noise: minor Iran-skirmish geopolitical headlines, yet crude is *falling* anyway = supply-resumption / demand-weakness dominating the energy tape.
+- **Sector momentum:** Energy still #1 trailing (Schwab +30.3% 6M / +41.9% 12M; XLE +33.8% YTD as of 5/22) but **momentum fading hard on the sub-$90 oil break**; Industrials #2/favored (+11.4% 6M / +35.5% 12M, ~+12% YTD), AI-capex/reshoring/electrification intact; value > growth theme, Tech weaker recently.
+
+### Trade Ideas
+1. **XLE — thesis now invalidated; let the trail/cut do the work, lean to EXIT on confirmation. Do NOT add.** $56.70, -3.65%. The sub-$90 oil break is exactly the catalyst that ends the energy-equity decoupling premium on a **twice-round-tripped** thesis. Trail $55.53 = only **~2.1% buffer**; standing GTC (never moved down, Rule 9) so no pre-market change. -7% manual cut trigger = **$54.73**, current only **+3.6%** above. Plan: if XLE cracks toward $55.53/$54.73 at/after the open, let the trail/manual cut fire — and given the broken thesis, a discretionary exit before the exact -7% line is defensible (weekly-review call later today). No rescue add.
+2. **XLI — HOLD, the anchor leg.** $173.40, -0.23%, basically breakeven; trail $157.374 (~9.9% buffer), HWM $174.86. Industrials leadership and less oil-sensitivity intact. Still the cleanest deployment-add candidate — but not on a quiet Friday into a weekend.
+3. **2nd new leg — DEFER.** Deployment gap (28.4% vs 75-85%) is the standing problem, but Friday's light, no-catalyst tape into the weekend is the wrong window to force risk. Fresh weekly cap resets Monday; reassess at the weekly review today and Monday pre-market.
+4. **Materials — BLOCKED.** Rule 10 cooldown still active (pending a formal weekly-review reset).
+
+### Risk Factors
+- **Oil sub-$90 = direct, now-realized headwind to XLE.** Energy-equity decoupling premium is the only support left and it's thinning; a continued crude slide likely drags XLE to the $55.53 trail. Elevated Rule 10 energy watch if it stops out.
+- **XLE trail buffer ~2.1%** — a single -2% to -2.5% XLE day triggers the stop. Accept it; the trail is doing its job on a tired thesis.
+- **VIX ~16 + SPX at highs = complacency** — asymmetric downside on any weekend/geopolitical surprise (Iran headlines live). Light Friday liquidity amplifies whippy moves.
+- **Chronic under-deployment (28.4%)** persists — to be addressed at weekly review / Monday with a confirmed non-materials leg, not by forcing a Friday entry.
+- **Audit hygiene:** open-orders book clean — only the two intended trail GTCs (XLE `a1f6efb3` stop $55.53; XLI `c431cbc2` stop $157.374). No unauthorized fills. (Open item: source of the 5/21 unauthorized MP fill still unresolved — carry to weekly review.)
+
+### Decision
+**HOLD into the open. No new entries today.** Sequence:
+1. Confirm both trail GTCs active (XLE `a1f6efb3` stop $55.53; XLI `c431cbc2` stop $157.374). No stop changes — neither at a +15% tighten threshold.
+2. **XLE:** oil has broken $90 — the thesis is invalidated. Let the trail ($55.53)/manual -7% ($54.73) work; a discretionary exit on confirmed weakness is on the table for today's weekly review. No add.
+3. **XLI:** hold the anchor; it's the deployment-add candidate, but only on Monday-onward confirmation.
+4. **No new long entries today** — light Friday, into the weekend, complacent VIX. Materials blocked.
+5. **Weekly review due later today** — grade Week 5, formally rule on the materials cooldown, the XLE exit decision, and the deployment plan for Week 6.
+6. Trades this week: **1/3 entries used** (XLI). Phase -0.39%; goal — protect the book, decide XLE, and stage a deployment lift for next week.
