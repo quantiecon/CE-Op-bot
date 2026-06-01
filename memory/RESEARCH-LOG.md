@@ -949,3 +949,60 @@ Trades this week: 0/3 (fresh Week-5 cap Tue). Phase +0.36%; goal — hold the $1
 4. **No new long entries today** — light Friday, into the weekend, complacent VIX. Materials blocked.
 5. **Weekly review due later today** — grade Week 5, formally rule on the materials cooldown, the XLE exit decision, and the deployment plan for Week 6.
 6. Trades this week: **1/3 entries used** (XLI). Phase -0.39%; goal — protect the book, decide XLE, and stage a deployment lift for next week.
+
+---
+
+## 2026-06-01 — Pre-market Research (Monday, Week 6 open)
+
+### Account
+- Equity: $99,513.17
+- Cash: $71,283.07 (71.6%)
+- Buying power: $170,796.24
+- Daytrade count: 0
+- Positions:
+  - XLE 255 sh @ $58.85 avg, last $56.62, **-$568.65 (-3.79%)**; trail 10% GTC, stop $55.53, HWM $61.70 (order `a1f6efb3`) — **EXIT AT OPEN per Wk-5 review (Rule 5a thesis-invalidated + trail buffer ≤3%)**
+  - XLI 80 sh @ $173.80 avg, last $172.40, **-$112.00 (-0.81%)**; trail 10% GTC, stop $157.374, HWM $174.86 (order `c431cbc2`)
+- Deployed: ~28.4% (XLE + XLI); post-XLE-exit drops to ~13.9% (XLI only)
+- Phase P&L: **-$486.83 (-0.49%)** — fresh Week-6 3-trade cap; materials cooldown formally resets today
+
+### Market Context
+- **WTI: ~$89.75/bbl** — **3rd session sub-$90**; energy thesis remains invalidated. EIA projects Brent ~$106 June. Daily Forex: $100 pivot, $85 major support; Middle East supply risk noted but supply-resumption / demand-weakness dominating tape.
+- **Brent: ~$106** (EIA projection); WTI-Brent spread ~$16 — refiner-favorable.
+- **S&P 500 futures (ESM26): ~7,590.75 (-0.07%)** premarket; flat-to-mildly-red near record highs after last week's AI/tech-led rally.
+- **VIX: source returned ~21.8 (futures-related), but Friday spot close was ~15.8-16.3 — likely still ~16-17 spot; flagging the data discrepancy. Monitor at open for actual regime read.**
+- Today's catalysts:
+  - **ISM Manufacturing PMI 10:00 AM ET** — first major June macro print
+  - **JOLTS Job Openings 10:00 AM ET** — rate-cut sensitivity into Fri NFP
+  - **Construction Spending 10:00 AM ET**
+- Earnings BMO: **HPE (Hewlett Packard Enterprise)**, **CRDO (Credo Technology)** — both AI/enterprise IT tells, sympathetic to NVDA/semis tape
+- Economic calendar week ahead: **NFP Fri Jun 5** (Employment Situation May 2026); CPI Jun 10; PPI Jun 11; FOMC Jun 16-17 — heavy macro pipeline
+- Sector momentum YTD: **Energy still #1 (~+20-25%)** but momentum fading hard on sub-$90 crude; **Industrials leading-quadrant** (+11-12% YTD, AI-capex/defense/reshoring/electrification); **Technology re-accelerating** on AI-rally resurgence (SNOW/DELL beats last week); Schwab notes industrial demand supported by AI data-center buildouts + electricity capacity.
+
+### Trade Ideas
+1. **XLE — EXIT AT OPEN (non-negotiable).** Sell 255 sh market at 9:30 ET per Wk-5 review + Rule 5a. WTI sub-$90 for 3rd session = thesis confirmed dead; trail buffer ~1.9% from current $56.62 to $55.53 stop. Cancel GTC `a1f6efb3` immediately on fill. Realized loss ~-$570 (-3.8%); frees ~$14.4k for redeployment. **Energy single-loss flag** — no energy re-add until clean WTI bounce above $95 holds 3+ sessions.
+2. **XLI — HOLD, candidate add on green confirmation.** $172.40 (-0.81%), trail $157.374 (~8.7% buffer), HWM $174.86. Industrials leading quadrant intact, AI-capex/reshoring tailwind. If XLI prints green Mon/Tue with confirming volume, candidate 2nd-industrial-name (CAT, ETN, GE, or XAR defense ETF) at 12-15% sizing with explicit thesis distinction.
+3. **Tech rotation (XLK / SMH) — emerging 2nd-leg candidate.** AI-rally resurgence (SNOW/DELL beats last week pushed indices to ATHs), tech re-accelerating. **Conditional entry**: post-ISM (10 AM) — if SPX green AND XLK > prior-day high on volume AND VIX confirms <17 AND ISM not catastrophically weak, initiate ~13% XLK or SMH with 10% trail GTC immediately. Otherwise DEFER to Tue/Wed.
+4. **Materials — cooldown formally resets today.** Re-entry permitted post-cooldown ONLY with single-sector thesis distinction (XLB diversified ETF preferred, no rare-earth single-name double-up). Not preferred today vs. tech rotation lane.
+5. **Energy single names (XOM/CVX/COP) — BLOCKED until WTI > $95 holds 3+ sessions.** Don't redeploy back into a just-exited thesis.
+
+### Risk Factors
+- **NFP Fri Jun 5** = asymmetric overnight risk by Thursday close; size pre-event, no chasing post-print. Hot print = "higher for longer" repricing → tech sells off; cool print = goldilocks rally.
+- **ISM Mfg 10 AM** can whipsaw the tape — hot prices sub-index = bond/rate fear; weak headline = recession bid.
+- **VIX data discrepancy** (~21.8 futures vs ~16 spot last close) — could indicate volatility regime shift OR data noise; verify spot at open before sizing any new entry.
+- **SPX at ATHs + complacent VIX = asymmetric downside**; "overly bullish" sentiment flagged by sources, crowded positioning sensitivity.
+- **XLE exit slippage risk**: 255 sh @ ~$56.62 = $14.4k notional; market order at open, low impact relative to ADV.
+- **Tech chase risk**: if XLK gaps up at open on AI bid, chasing the gap = poor R:R; wait for confirming pullback or VWAP retest.
+- **Phase -0.49%**; week starts cleanly at $99.5k. Goal Wk-6: lift deployment toward 40-50% by Wed (post-XLE-exit + 1-2 fresh non-correlated entries).
+- **Open audit item** (May 21 MP unauthorized fill source) still unresolved — verify open-orders book daily.
+
+### Decision
+**TRADE: Sell XLE at open + monitor for XLK/SMH conditional entry post-ISM.** Sequence:
+1. **9:30:00 ET**: Submit MARKET SELL 255 XLE via `bash scripts/alpaca.sh sell XLE 255 market` (or wrapper equivalent). Verify fill within 30s; send Telegram exit confirmation with realized P&L. Cancel GTC `a1f6efb3` immediately if not auto-cancelled on fill.
+2. **9:31 ET**: Confirm flat XLE; open-orders book should show only XLI `c431cbc2` trail GTC.
+3. **9:30-10:00 ET**: Monitor XLI for green confirmation + VIX read; do not initiate any new entry pre-ISM.
+4. **10:00 ET**: ISM Mfg + JOLTS + Construction Spending — observe 15-30 min reaction.
+5. **10:30 ET conditional**: If SPX green AND XLK > prior-day high on volume AND VIX <17 AND ISM not catastrophic → initiate ~13% XLK or SMH (~$13k) with 10% trail GTC immediately on fill. Else HOLD.
+6. **NO materials re-entry today** despite cooldown reset — defer to confirming non-tech-rotation tape mid-week.
+7. **Energy lane closed** until WTI > $95 holds 3+ sessions.
+
+Trades this week: 0/3 entries used (XLE exit doesn't count toward entry cap). Bias to use 1-2 fresh entries with non-correlated thesis distinction; bias to use 0 if tape doesn't confirm post-ISM. Phase target: regain $100K baseline + lift deployment to 40-50% by Wed Jun 3 close.
