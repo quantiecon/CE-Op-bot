@@ -465,6 +465,11 @@ Not based on research signal. Smoke test only.
 **Cash/Equity:** Equity $99,531.12 (Day P&L -$178.20 / -0.18% vs $99,709.32 last_equity; Phase P&L -$468.88 / -0.47%). Cash $71,283.07 (71.6%); deployment ~28.4% (XLE + XLI) — still below the 75-85% band.
 **Trades this week:** 1/3 entries used (XLI). Materials cooldown (Rule 10) active. No new entries — light Friday into the weekend, complacent VIX (~16). Weekly review later today rules formally on the XLE exit, the materials cooldown, and Week 6 deployment.
 
+## Jun 01 — Exit: XLE (Rule 5a thesis-invalidated discretionary exit, Wk-5 review)
+**Action:** SELL 255 XLE @ $57.001177 avg | **Time:** 9:40:55 ET | **Order:** `bc8fed7b` (market, day TIF)
+**Entry:** $58.85 (Apr 30) | **Exit:** $57.001177 | **Realized P&L:** **-$471.45 (-3.14%)**
+**Reason:** Pre-market plan + Wk-5 review: WTI sub-$90 for 3rd session (~$89.75) = energy thesis confirmed dead; trail buffer was ~1.9% (≤3%, Rule 5a trigger). Cancelled GTC trail `a1f6efb3` (stop $55.53, HWM $61.70) at 9:34 ET before submitting market sell. Frees ~$14.5k for redeployment. **Energy lane closed** — no re-add until WTI > $95 holds 3+ sessions.
+
 ### May 29 — EOD Snapshot (Day 25, Friday)
 **Portfolio:** $99,513.97 | **Cash:** $71,283.07 (71.6%) | **Day P&L:** -$195.35 (-0.20%) | **Phase P&L:** -$486.03 (-0.49%)
 
