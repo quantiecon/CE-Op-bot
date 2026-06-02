@@ -504,3 +504,19 @@ Not based on research signal. Smoke test only.
 | XLI | 80 | $173.80 | $172.00 | -0.65% | -$144.00 (-1.04%) | $157.374 (trail 10%, HWM $174.86) |
 
 **Notes:** Week 6 opens with the energy lane closed and the book lighter. Equity finishes $99,578.37 from $99,487.42 last_equity — Day P&L +$90.95 (+0.09%), a tick green despite XLI's mild fade (Phase P&L -$421.63 / -0.42%, still under the $100K baseline). The day's headline action was the planned XLE exit at the open (per Wk-5 review): SELL 255 XLE @ $57.001177 avg via order `bc8fed7b` at 9:40:55 ET; GTC trail `a1f6efb3` (stop $55.53, HWM $61.70) cancelled at 9:34 ET pre-sell. Realized P&L on XLE = -$471.45 (-3.14% from $58.85 entry); rationale was WTI sub-$90 for a 3rd session (~$89.75) invalidating the energy thesis with a ~1.9% trail buffer (Rule 5a trigger). Energy lane formally closed — no re-add until WTI > $95 holds 3+ sessions. XLI the lone anchor: closed $172.00, -0.65% on the day (from $173.13 lastday), unrealized -$144.00 (-1.04% from $173.80 entry); trail held at $157.374 (HWM $174.86, current $172.00 below HWM so no auto-ratchet) — -7% manual cut trigger $161.63 sits ~6.0% below current, no cut. Open-orders book clean: only the XLI trail GTC `c431cbc2` stop $157.374; no unauthorized fills. Cash $85,818.37 (86.2%), deployment ~13.8% (XLI only) — well under the 75-85% target band, expected post-XLE exit and consistent with the Wk-6 redeployment plan. Trades today: 1 (XLE SELL exit, realized -$471.45) — entries used this week: 0/3 (exits don't count against the cap); materials cooldown formally reset today, energy lane closed. Reconciliation note: prior Fri EOD snapshot recorded $99,513.97 vs broker last_equity $99,487.42 (~$27 overnight recompute); Day P&L uses broker last_equity per the running EOD convention. Next session: Tue Jun 2 pre-market — **ISM Manufacturing PMI is the day's macro event**; primary redeployment lanes are XLK/SMH (conditional on a constructive post-ISM reaction, tech/AI-capex tailwind) and an XLI follow-through add if it holds; goal is to lift deployment off ~14% toward the 75-85% band while preserving 2-3 weekly entry slots and respecting the 3% never-within-stop rule on any new placement.
+
+### Jun 02 — Midday Scan (no action)
+**Positions snapshot:**
+
+| Ticker | Shares | Entry | Last | P&L % | Unrealized P&L | Stop |
+|--------|--------|-------|------|-------|----------------|------|
+| XLI | 80 | $173.80 | $173.20 | -0.35% | -$48.00 | $157.374 (trail 10%, HWM $174.86) |
+
+**Actions:** None.
+**Step 3 (cut losers):** XLI -0.35% (intraday +0.46%, $172.40 → $173.20), nowhere near -7% (cut trigger $161.63; current +7.2% above). No cut.
+**Step 4 (tighten winners):** Below +15% threshold ($199.87). No manual tighten. XLI current $173.20 below HWM $174.86 — no auto-ratchet.
+**Step 5 (thesis check):** XLI — industrials leading quadrant, AI-capex/reshoring tailwind intact post-ISM beat (54.0, 5th expansion month), less oil-sensitive; -0.35% on a tick-green Week-6 day-2. Stochastic still overbought per pre-market read, but no thesis break. Hold.
+**Step 6:** No sharp unexplained moves — skip intraday Perplexity.
+**Audit hygiene:** Open-orders book clean — only the XLI trail GTC `c431cbc2` stop $157.374. No unauthorized fills.
+**Cash/Equity:** Equity $99,675.12 (Day P&L +$64.80 / +0.07% vs $99,610.32 last_equity; Phase P&L -$324.88 / -0.32%). Cash $85,818.32 (86.1%); deployment ~13.9% (XLI only) — still well under the 75-85% band, but pre-market plan defers redeployment to Wed/Thu pending AVGO+5 AMC tech earnings tonight (binary). No midday-scan business to add.
+**Trades this week:** 0/3 entries used. Energy lane closed (WTI ~$91 < $95 threshold); materials cooldown reset Jun 1. Conditional SMH/XLK probe Wed Jun 3 / Thu Jun 4 post-AVGO + pre-NFP Fri Jun 5 on confirmation only.
