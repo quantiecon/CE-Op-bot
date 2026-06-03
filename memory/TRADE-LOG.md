@@ -529,3 +529,19 @@ Not based on research signal. Smoke test only.
 | XLI | 80 | $173.80 | $174.19 | +1.04% | +$31.20 (+0.22%) | $157.374 (trail 10%, HWM $174.86) |
 
 **Notes:** Week-6 day-2 finishes tick-green on a constructive post-ISM tape — equity closes $99,753.52 from $99,610.32 last_equity, Day P&L +$143.20 (+0.14%), the best close in a week (Phase P&L narrows to -$246.48 / -0.25%, still under the $100K baseline but the gap is closing). XLI the lone anchor and the day's winner: closed $174.19, +1.04% on the day ($172.40 → $174.19), unrealized flips back into the green at +$31.20 (+0.22% from $173.80 entry) — industrials leading quadrant on AI-capex/reshoring tailwind held cleanly post-ISM (54.0, 5th expansion month). Trail $157.374 (10%, HWM $174.86, current $174.19 still below HWM so no auto-ratchet); -7% manual cut trigger $161.63 sits ~7.2% below current, no cut, no manual tighten (well below the +15% / $199.87 threshold). Open-orders book clean: only the XLI trail GTC `c431cbc2` stop $157.374; no unauthorized fills. Cash $85,818.32 (86.0%), deployment ~14.0% (XLI only) — still well under the 75-85% target band, expected: per the pre-market plan redeployment is deferred to Wed/Thu pending AVGO+5 AMC tech earnings tonight (binary read on the SMH/XLK probe), so today was correctly a no-action session (midday scan only, no entries). Trades today: 0; trades this week: 0/3 entries used. Energy lane still closed (WTI ~$91 < $95 threshold; needs 3+ sessions over $95 to reopen); materials cooldown reset Jun 1. Next session: Wed Jun 3 pre-market — read AVGO/+tech AMC prints; if constructive, fire the SMH or XLK probe (3-5% sizing, never within 3% of price on the trail GTC) to lift deployment off ~14% toward the band; if AVGO disappoints, hold XLI-only and re-evaluate Thu post-tape + Fri NFP. Goal: preserve 2-3 weekly slots, respect Rule 9 on any new placement, and lean on XLI's working trend.
+
+### Jun 03 — Midday Scan (no action)
+**Positions snapshot:**
+
+| Ticker | Shares | Entry | Last | P&L % | Unrealized P&L | Stop |
+|--------|--------|-------|------|-------|----------------|------|
+| XLI | 80 | $173.80 | $174.86 | +0.61% | +$84.80 | $158.4927 (trail 10%, HWM $176.103) |
+
+**Actions:** None.
+**Step 3 (cut losers):** XLI +0.61% (intraday +0.38% vs $174.19 lastday), nowhere near -7% (cut trigger $161.63; current +8.2% above). No cut.
+**Step 4 (tighten winners):** XLI +0.61%, well below +15% threshold ($199.87). HWM auto-ratcheted $174.86 → $176.103; trail auto-tightened $157.374 → $158.4927 (still 10%, broker-managed). No manual tighten.
+**Step 5 (thesis check):** XLI — industrials leading quadrant intact (AI-capex/reshoring tailwind), post-ISM beat (54.0) digested cleanly, less oil-sensitive. No thesis break. Hold.
+**Step 6:** No sharp unexplained moves — skip intraday Perplexity.
+**Audit hygiene:** Open-orders book clean — only the XLI trail GTC `c431cbc2` stop $158.4927. No unauthorized fills.
+**Cash/Equity:** Equity $99,807.12 (market_value $13,988.80 + cash $85,818.32); Phase P&L ~-$192.88 (-0.19%). Cash $85,818.32 (86.0%); deployment ~14.0% (XLI only) — still well under the 75-85% band; AVGO+5 AMC tech prints tonight (HPE/PANW/AVGO/CRWD/DOCU/LULU) are the binary read for the SMH/XLK probe Thu Jun 4.
+**Trades this week:** 0/3 entries used. Energy lane still closed (WTI ~$91 < $95 threshold). Materials cooldown reset Jun 1. Defer fresh entries to post-AVGO Thu + pre-NFP Fri on confirmation only.
