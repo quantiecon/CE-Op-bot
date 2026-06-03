@@ -1074,3 +1074,64 @@ Trades this week: 0/3 entries used (XLE exit doesn't count toward entry cap). Bi
 - **Trades this week:** 0/3 entries used. Goal: hold 3 fresh slots, deploy 1-2 of them Wed-Thu post-AVGO + pre-NFP only on confirmation
 - **Audit hygiene:** Verify open-orders book at every session
 
+---
+
+## 2026-06-03 — Pre-market Research
+
+### Account
+- Equity: $99,736.72 (-$16.80 vs last_equity $99,753.52, -0.02% overnight)
+- Cash: $85,818.32 (86.0%)
+- Buying power: $185,555.04
+- Daytrade count: 0
+- Positions:
+  - XLI 80 sh @ $173.80 avg, last $173.98, +$14.40 (+0.10%); trail 10% GTC, stop $157.374, HWM $174.86 (order `c431cbc2`)
+- Deployed: ~13.9% (XLI only); Week 6, 0/3 entries used. Energy lane closed; materials cooldown reset Jun 1.
+
+### Market Context
+- **WTI: ~$89.39** (CLN6 Jul'26 CME); **Brent: ~$95-96** zone (Sep'26 listed CME). Crude remains pinned sub-$90 — energy lane stays closed (re-open trigger: WTI > $95 holds 3+ sessions; not even close).
+- **S&P 500 futures (ESM26):** ~7,620 area, **-0.05% premarket**; NDX futures ~30,680 (-0.11%); Dow ~51,383 (-0.03%). Tape modestly red, no thrust either direction into AVGO night.
+- **VIX: ~17.84** (front-month VIM26); spot ~17.2-17.7 zone; complacent but trending up vs late-May.
+- Today's catalysts:
+  1. **ADP National Employment (May) 8:15 AM ET** — consensus 117K, prior 109K. NFP read-through.
+  2. **AVGO Q2 fiscal 2026 AMC** — Street ~$22B rev (+47% YoY), EPS ~$2.40; AI revs est +140%. Binary for SMH/XLK/MRVL group. Plus PANW, CRWD, HPE, DOCU, LULU, GME, ORCL, ADBE AMC.
+  3. **MDT** BMO (Medtronic — sector-specific, not index-driving).
+- **Earnings BMO:** MDT (Medtronic) — sole notable. Light tape.
+- **Economic calendar:** ADP 8:15 ET (only key print today). ISM Services Thu Jun 4. **NFP Fri Jun 5 8:30 ET** (asymmetric event). JOLTS not until Jun 30.
+- **Sector momentum YTD 2026:** Energy still tape-leader on YTD (+26%) despite recent crude rollover, but lane closed by rule. Industrials +9-11% (XLI 10.8% per Apr/May reads, +9.6% earlier). Consumer Staples +10-11%. Tech rotating up post US-China truce but exposed to AVGO binary tonight. Healthcare weakest (-22% medical-equipment subsector).
+- **MRVL note:** MRVL print +32.6% in pre-market headlines from Investing.com snapshot — read as AI-semi sympathy + AVGO halo, but the headline source is reference-only; will not chase ahead of AVGO AMC.
+
+### Trade Ideas
+1. **XLI — HOLD, do not add.** Anchor +0.10% from entry, basically flat on the week; +1.04% bounce yesterday post-ISM (54.0, 5th expansion month) held cleanly. Trail $157.374 (10%) = 9.6% buffer to $173.98; -7% manual cut $161.63 = 7.1% below. Stochastic still overbought signal from Mon — no add into the binary AVGO night.
+2. **SMH / XLK — DEFER (3rd straight session).** AVGO AMC tonight = the binary; PANW/CRWD/ORCL/ADBE AMC also pile in. Entering today buys overnight gap risk for zero premium. Conditional add Thu Jun 4 open if AVGO beats/inline AND SMH gaps up but holds prior-day high on volume AND NFP Fri risk is not already priced as hot.
+3. **XLF / Financials — watchlist.** Leading quadrant, no binary tonight. Same NFP overhang as everything else; defer to Thu/Fri confirmation.
+4. **MDT — pass.** Earnings BMO; not a sector-leader, no thesis, not chasing single-name health-care print into NFP week.
+5. **Materials (XLB) — eligible (cooldown reset Jun 1) but no clean signal today.** Defer.
+6. **Energy — closed lane.** WTI $89.39 << $95 trigger; lockout intact.
+
+### Risk Factors
+- **AVGO + 5 major AMC tech earnings tonight** = uncompensated overnight gap risk for any tech/semi entry today
+- **ADP 8:15 ET** = wage-inflation tell into NFP; hot print re-ignites rate-hawkish overhang and pressures growth multiples
+- **NFP Fri Jun 5** = 2-session event drag on any entry today; asymmetric end-week binary
+- **SPX/NDX at/near ATHs + VIX 17 = complacent crowded long** — sentiment-driven gap-down risk
+- **XLI stochastic overbought** persists; no same-sector add justified
+- **Crude sub-$90 4th session** — energy lockout intact, but watch for energy-equity tape leadership rotation if WTI cracks $85
+- **86% cash for the 3rd straight session** — under-deployed vs 75-85% band, but two binary events (AVGO AMC + NFP Fri) inside a 3-day window = patience rule (Rule 11) wins
+- **Open audit item** (May 21 MP unauthorized fill source) still unresolved — open-orders book must show ONLY `c431cbc2` (XLI trail) today
+- **Bot tail risk on entry sizing:** any new GTC trail must respect the 3% buffer rule (Rule 7) and never-move-down rule (Rule 9)
+
+### Decision
+**HOLD.** No new entries today. Reasons:
+1. AVGO + 5 major AMC tech prints tonight = binary; entering tech/semis today = uncompensated overnight gap risk
+2. ADP at 8:15 ET could shift rate narrative into a tape already pinned to ATHs; hot print → growth-multiple compression
+3. NFP Fri Jun 5 = 2-session event drag on any entry today; asymmetric
+4. XLI overbought = no same-sector add; cross-sector lanes (XLK/SMH/XLF) are correct but timing is wrong today
+5. Patience > activity (Rule 11); preserve 3 fresh weekly entry slots
+
+**Plan for market-open routine:**
+- **9:30 ET:** Confirm flat ex-XLI; open-orders book = ONLY `c431cbc2` (XLI trail GTC stop $157.374). If anything else appears → STOP, audit, alert.
+- **9:30-10:00 ET:** Monitor XLI for follow-through or fade post-ADP; let trail/manual-cut work autonomously.
+- **10:00-16:00 ET:** No new entries today regardless of tape (AVGO AMC binary).
+- **Conditional Thu Jun 4 open:** If AVGO beats/inline + SMH gaps up but holds prior-day high on volume + ADP today not hot + ISM Services Thu print not catastrophic → initiate 1 tech-rotation entry (SMH or XLK, 13-15% size / ~$13-15k, 10% trail GTC, never within 3% of price).
+- **Trades this week:** 0/3 entries used. Goal: 3 fresh slots, deploy 1-2 Thu-Fri post-AVGO + pre/post-NFP only on confirmation. Materials cooldown reset. Energy lane closed.
+- **Audit hygiene:** Verify open-orders book at every session — `c431cbc2` only.
+
