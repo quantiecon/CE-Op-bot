@@ -571,6 +571,22 @@ Not based on research signal. Smoke test only.
 **Cash/Equity:** Equity $99,867.92 (market_value $14,049.60 + cash $85,818.32); Phase P&L ~-$132.08 (-0.13%). Cash $85,818.32 (85.9%); deployment ~14.1% (XLI only) — still well under the 75-85% band; per pre-market plan SMH/XLK probe deferred (AVGO -6% AH = trigger not met) and NFP Fri = no new long entries today.
 **Trades this week:** 0/3 entries used. Energy lane closed (WTI ~$96 today is session 1 of 3+ required over $95 to reopen). Materials cooldown reset Jun 1. Defer fresh entries to Mon Jun 8 post-NFP confirmation only.
 
+### Jun 05 — Midday Scan (no action)
+**Positions snapshot:**
+
+| Ticker | Shares | Entry | Last | P&L % | Unrealized P&L | Stop |
+|--------|--------|-------|------|-------|----------------|------|
+| XLI | 80 | $173.80 | $175.045 | +0.72% | +$99.60 | $158.796 (trail 10%, HWM $176.44) |
+
+**Actions:** None.
+**Step 3 (cut losers):** XLI +0.72% (intraday -0.63% vs $176.16 lastday), nowhere near -7% (cut trigger $161.63; current $175.045 = +8.3% above). No cut.
+**Step 4 (tighten winners):** XLI +0.72%, well below +15% threshold ($199.87). HWM $176.44 unchanged (current $175.045 below HWM); no auto-ratchet. Trail $158.796 (10%) holds. No manual tighten.
+**Step 5 (thesis check):** XLI — industrials leading quadrant intact (AI-capex/reshoring/defense tailwind), absorbed AVGO/CRWD AH drag cleanly Thu, less oil-sensitive. NFP printed 8:30 ET; per pre-market plan no new long entries today regardless of tape — NFP overnight digestion + Friday-into-weekend = no positive R:R. Hold.
+**Step 6:** No sharp unexplained moves — skip intraday Perplexity.
+**Audit hygiene:** Open-orders book clean — only the XLI trail GTC `c431cbc2` stop $158.796, HWM $176.44. No unauthorized fills.
+**Cash/Equity:** Equity $99,821.92 (market_value $14,003.60 + cash $85,818.32); Phase P&L ~-$178.08 (-0.18%). Cash $85,818.32 (86.0%); deployment ~14.0% (XLI only) — still well under the 75-85% band; per pre-market plan SMH/XLK probe deferred to Mon Jun 8 post-NFP confirmation only.
+**Trades this week:** 0/3 entries used. Energy lane still closed (WTI session 1 of 3+ required over $95 yesterday; today TBD). Materials cooldown reset Jun 1. Weekly review fires post-close to grade Week 6 and rule on Week 7 deployment lift path.
+
 ### Jun 04 — EOD Snapshot (Day 29, Thursday)
 **Portfolio:** $99,911.12 | **Cash:** $85,818.32 (85.9%) | **Day P&L:** +$168.80 (+0.17%) | **Phase P&L:** -$88.88 (-0.09%)
 
