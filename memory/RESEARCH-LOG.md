@@ -1139,3 +1139,62 @@ Trades this week: 0/3 entries used. Phase -0.15%; goal — preserve the slot cap
 
 ---
 
+## 2026-06-05 — Pre-market Research (Friday, Week 6 day 5 — NFP day + weekly-review day)
+
+### Account
+- Equity: $99,862.32
+- Cash: $85,818.32 (86.0%)
+- Buying power: $185,680.64 (regT) / $371,361.28 (daytrading)
+- Daytrade count: 0
+- Positions:
+  - XLI 80 sh @ $173.80 avg, last $175.55, **+$140.00 (+1.01%)**; trail 10% GTC, stop $158.796, HWM $176.44 (order `c431cbc2`). Intraday -$0.61 (-0.35%) vs $176.16 lastday.
+- Deployed: ~14.1% (XLI only) — well under 75-85% target. Week 6 day 5, 0/3 entries used; materials cooldown reset Jun 1; energy lane closed (WTI > $95 must hold 3+ sessions to reopen — yesterday session 1, today TBD).
+- Day P&L (vs broker last_equity $99,911.12): -$48.80 (-0.05%)
+- Phase P&L: **-$137.68 (-0.14%)** — closest the book has been to the $100K baseline since end-May.
+
+### Market Context
+- **WTI: ~$92-96 zone** (Robinhood prediction-market centered $93 / YouTube clip cites $96 / Polymarket WTI Jun 2026 leaders skew lower). Yesterday's read had WTI ~$96 (session 1 above $95 lane-reopen threshold); spot signals mixed today pre-NFP. Energy lane stays closed until 3+ sessions sustained over $95.
+- **Brent: ~$103-106** (spread to WTI ~$7-10, refiner-friendly).
+- **S&P 500 futures (ESM26): ~7,545.25 (-0.35% / -26.50 pts)** premarket — modestly red into NFP from Markets Insider; sister contract quote 7,566.75 from a different feed. SPX near recent ATHs after the AVGO/CRWD AH bearish read was absorbed Thursday on tech-equity-only drag.
+- **VIX: ~15.4-16.1** (GuruFocus 15.4 as of Jun 4 / OptionCharts 16.05 Jun 1 close / TradingEconomics June print 16.06) — calm, complacency intact near YTD lows.
+- **Today's catalysts (concentrated 8:30 ET):**
+  1. **NFP / Employment Situation May 8:30 AM ET** — consensus +85K (TradingEconomics, Investing.com, FXStreet); TE in-house forecast +102K; StoneX cited an earlier +62K read. Unemployment expected unchanged at 4.3%. Hot print = "higher for longer" tech sell-off; cool print = goldilocks rally; in-line print = digest with low-vol drift.
+  2. **Hourly earnings + revisions** within the same release — secondary read on wage-inflation pressure.
+- **Earnings BMO: empty / no noteworthy reports** per Nasdaq + Interactive Investor + Digrin (0 BMO, 6 time-TBD). Light tape ex-NFP.
+- **Sector momentum YTD 2026:**
+  - **Energy still #1** (~+22-26% YTD per Investing.com / First Trust; Schwab 6M +30-35%) but our XLE exit confirmed the energy-equity decoupling is thinning; lane closed pending WTI > $95 3+ sessions.
+  - **Industrials in leading quadrant** — XLI ~+10.8-12% YTD (First Trust +9.61% thru 3/6; Tickeron +0.76% past 5 sessions; above 50DMA May 20, momentum positive Jun 1). Aerospace & Defense 23.6% / Machinery 21.3% / Electrical Equipment 14.3% — AI-capex / reshoring / defense tailwind intact.
+  - **Consumer Staples #2** (~+10.7% YTD per First Trust) — defensive bid, not a momentum-lane priority for our mandate.
+  - **Tech (XLK) in lagging quadrant** post-AVGO/CRWD -6/-10% AH "sell the news"; SMH/XLK probe stays deferred to Mon Jun 8 post-NFP digestion.
+- **Momentum factor**: S&P 500 Momentum Index price return YTD ~37% / MTD +2.4% (Jun 2). Momentum bid intact at the factor level.
+
+### Trade Ideas
+1. **XLI — HOLD, no add.** Anchor leg +1.01% from entry; HWM $176.44 auto-ratcheted Thu, trail $158.796 (~9.5% buffer to $175.55). +15% tighten threshold = $199.87 (not close). -7% manual cut $161.63 (~7.9% below). Industrials leading-quadrant thesis intact, but pre-NFP overnight risk + Friday-into-weekend tape = wrong window to size up on same-sector add. Let trail/auto-tighten work.
+2. **SMH (semiconductors) — DEFERRED.** AVGO -6% AH + CRWD -10% AH Wed = constructive-AVGO trigger NOT met; SMH probe stays off. Re-check Mon Jun 8 post-NFP if AVGO stabilizes and SMH digests cleanly above prior-day low.
+3. **XLK (Tech ETF) — DEFERRED, same logic.** AVGO drag + NFP overnight risk = no edge. Watchlist for Mon-Wed next week on confirmed post-NFP rotation + clean breakout.
+4. **XLF / Financials — watchlist.** Leading quadrant per momentum data, less rate-cut-dependent than tech, no AVGO drag. Not pulling trigger pre-NFP; reassess post-print + on Mon confirmation.
+5. **XLB / Materials — cooldown reset Jun 1**, no clean signal today; defer (and never on a Friday pre-NFP).
+6. **Energy (XLE / XOM / CVX / COP) — LANE STILL CLOSED.** WTI above $95 yesterday = session 1; today TBD pre-NFP. Earliest re-evaluation if sustained: Mon Jun 8 (would still need 1+ more session).
+
+### Risk Factors
+- **NFP 8:30 ET = the day's binary.** Hot print → rate-hawkish repricing → tech/duration sell-off → SPX gap-down; cool print → goldilocks bid → tech rotation re-fires (but doesn't help our XLI anchor disproportionately); in-line print → low-vol drift, weekly-review can do its work. Any new entry today inherits this binary for zero compensating setup.
+- **AVGO/CRWD AH reactions = AI-trade-exhaustion signal carrying through.** The tech rotation lane is NOT a clean entry; sentiment-driven gap risk on tech today is asymmetric.
+- **WTI mixed signals pre-NFP** — session 1 above $95 yesterday but today's tape unclear; don't pre-arm energy re-entry on a one-day bounce. Policy is 3+ sustained sessions.
+- **VIX ~15-16 + SPX near ATH = complacency** — asymmetric downside on a surprise NFP or weekend geopolitical headline. Friday-into-weekend liquidity amplifies whippy moves.
+- **XLI trail buffer healthy (~9.5%)** — no Rule 5a / 9 concern; standing GTC does its job through the NFP gap.
+- **Chronic under-deployment (14.1%)** persists, but pre-NFP + post-AVGO bearish AH + Friday-into-weekend is exactly the wrong window to force entries. Patience > activity (Rule 11). 3 fresh slots this week, no need to burn one today.
+- **Audit hygiene:** open-orders book clean — only `c431cbc2` (XLI trail GTC, stop $158.796, HWM $176.44). Verify at open. Open audit item (May 21 MP unauthorized fill source) still unresolved.
+
+### Decision
+**HOLD. No new entries today.** Sequence:
+1. **9:30 ET:** Confirm flat ex-XLI; open-orders book should show ONLY `c431cbc2` (XLI trail GTC, stop $158.796, HWM $176.44). If anything else appears → STOP, audit, alert.
+2. **8:30 ET:** NFP release — observe 15-30 min reaction; do not pre-position or chase the print regardless of direction.
+3. **9:30-16:00 ET:** Monitor XLI for follow-through or fade; let trail/auto-tighten work autonomously. No manual stop changes (well below +15% threshold).
+4. **No new long entries today regardless of tape** — NFP overnight digestion + Friday-into-weekend = no positive R:R.
+5. **Energy lane:** track WTI close vs $95 — if sustained at/above, log session 2 of 3+ required. No re-entry today.
+6. **Post-close: weekly review fires** (Week 6 close, full grade) — formally rule on the SMH/XLK probe re-arm for Week 7, the XLI follow-through plan, and the deployment lift path off ~14% toward the 75-85% band.
+
+Trades this week: **0/3 entries used.** Phase -0.14% (best mark in over a week). Goal — protect the XLI anchor through NFP, defer redeployment to Mon Jun 8 post-NFP confirmation + non-correlated thesis, lift deployment toward the band in Week 7.
+
+---
+
