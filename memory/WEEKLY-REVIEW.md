@@ -337,3 +337,67 @@ Week 4 booked the phase's best absolute (+2.37%) and best relative (+1.43% vs SP
 
 ### Overall Grade: C
 Week 5 was -0.84% absolute, -2.31% vs SPY (phase-worst relative), 0 closed trades, 1 new entry (XLI), 0 thesis-validated wins, an invalidated XLE thesis still on the book at week's end, and the audit gap from Week 4 still open. The good is real but narrow: correlation discipline applied (XLI not a 2nd-energy double-up), sizing discipline applied (13.9% not 18%), trail discipline preserved across an XLE 4-handle drawdown, materials cooldown held against a tempting lucky-tail re-entry, PCE-day defensive bias cost zero. The bad is structural: deployment still 28.4%, XLE held into the weekly review with thesis dead and trail buffer at ~1.4%, phase recovery from Wk 4 fully given back, SPY beat us by 231 bps on a calm tape we should have caught half of with XLI confirmation we didn't get. Not D because no rule was violated, no panic was committed, every defensive call was correct. Not C+ because the standing XLE position is now a known-bad-thesis carry that should have been exited intraday Fri once oil confirmed sub-$90, and we deferred it to the review. Grade is C with explicit improvement plan: **XLE exits Mon open, XLI gets added to on confirmation, audit gap closes this week, deployment lifts to 40-50% by Wed**. Strategy gets one half-rule clarification (thesis-invalidated + trail buffer ≤ 3% = discretionary exit) — to be encoded in TRADING-STRATEGY.md.
+
+---
+
+## Week ending 2026-06-05
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $99,487.42 (Mon Jun 1 AM, = May 29 close per broker last_equity) |
+| Ending portfolio | $99,683.12 |
+| Week return | +$195.70 (+0.20%) |
+| S&P 500 week (SPY 5-day) | +0.04% |
+| Bot vs S&P | +0.16% |
+| Trades | 0 entries (W:0 / L:1 / open:1 carry); 1 closed (XLE exit) |
+| Win rate | 0% (0W / 1L closed) |
+| Best trade | XLI -0.03% (unrealized; intraday $173.31 at scan) |
+| Worst trade | XLE -3.14% (closed, realized -$471.45) |
+| Profit factor | 0.00 (zero winners / $471.45 losers) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| XLE | $58.85 (Apr 30) | $57.001177 (Jun 1, 9:40 ET) | -$471.45 (-3.14%) | Discretionary exit per Wk-5 plan; Rule 5a (thesis-invalidated + trail buffer ≤ 3%) triggered on WTI sub-$90 3rd session. GTC `a1f6efb3` cancelled pre-sell at 9:34 ET; market order `bc8fed7b` filled clean. |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+| XLI | $173.80 | $173.31 (broker close; intraday faded from EOD-log $174.18) | -$39.20 (-0.03%) | $158.796 (trail 10%, GTC `c431cbc2`, HWM $176.44) |
+
+### What Worked
+- **XLE exit executed cleanly Mon open per Wk-5 plan** — Rule 5a (thesis-invalidated + trail buffer ≤ 3%) fired exactly as designed; manual exit at $57.00 saved ~$0.43/sh vs the standing trail at $55.53 (~$110 of slippage avoided on 255 sh); GTC cancelled pre-sell, no orphan stop, no double-exposure window
+- **Energy lane cooldown enforced** — XLE realized -$471 = 1st energy loss of phase; reopened only on WTI > $95 holding 3+ sessions (Thu Jun 4 was session 1, Fri TBD). Discipline preserved; no revenge re-add despite WTI bounce off the lows
+- **AVGO/CRWD -6%/-10% AH binary correctly dodged** — pre-market plan deferred SMH/XLK probe to "constructive AVGO" trigger; trigger not met Wed AMC, probe stood down Thu and Fri. Zero exposure to the tech-exhaustion AH drag
+- **NFP-Friday defensive bias preserved capital** — pre-market plan called no new long entries Fri regardless of print; Fri tape gave back Thu's +0.17% (-0.16%) on profit-taking, validating the call
+- **XLI anchor thesis held all week** — industrials leading quadrant absorbed the AVGO AH tech drag Thu (+1.21%), kept the trail GTC ratcheting through Wed/Thu (HWM $174.86 → $176.44, trail $157.374 → $158.796 broker-managed), no thesis break, no manual intervention required
+- **Audit hygiene clean every session** — open-orders book contained only the XLE cancel (Mon pre-sell) and the XLI trail GTC at every scan; no recurrence of the May 21 unauthorized-fill event; 11 sessions clean since
+- **Materials cooldown formally reset Mon Jun 1** with no re-entry attempt — clean tape, no MP/USAR/XLB chase
+
+### What Didn't Work
+- **Deployment dropped to ~14% post-XLE exit** vs 75-85% target — 7th straight week below band; XLI-only book all week, no second-leg add even though the cooldown reset Mon and the AVGO AH read was the only real "no" signal of the week
+- **+0.16% vs SPY is a draw, not a win** — on a near-flat SPY week (+0.04%) we matched. Required pattern is "outperform on calm weeks, defend on hot weeks"; matching a flat tape with 86% cash is the deployment-drag pattern showing up exactly where the model expects it
+- **The week's relative outperformance was XLE exit-loss avoidance, not active alpha** — had we held XLE through the week, the position would have closed near $57.30 (vs $57.00 exit), so the realized -$471 vs hold-the-line is roughly flat. The "win" was that we freed dry powder we then didn't use
+- **SMH/XLK probe was the obvious 2nd-leg of the week** (post-ISM beat Tue, pre-AVGO Wed) — pre-market plan deferred it correctly to "post-AVGO confirmation"; AVGO disappointed, so the probe stayed parked. Net: same single-position book entering Week 7
+- **Phase P&L still -$316.88** (-0.32%) vs SPY phase comparison continuing to widen on cumulative SPY appreciation; the bot has not booked a phase-positive week since Week 4 (May 22)
+- **XLI didn't break out into the +15% trail-tighten threshold** ($199.87) — entry was Tue May 26 at $173.80, 8 sessions ago, range $172-176; the position is doing its job but not generating the conviction signal needed to size a 2nd industrial-adjacent name on confirmation
+- **Open audit item (May 21 MP unauthorized fill source) still unresolved** — carried 10 sessions now without provenance; detection mechanism (hourly open-orders snapshot diff) not yet implemented
+
+### Key Lessons
+- **The "discretionary exit on dead thesis" rule (5a) is the strategy's best Wk-5/Wk-6 addition.** XLE Mon exit at $57.00 was decisive, costless beyond the loss, and freed mental bandwidth for the SMH/XLK probe evaluation. The rule was added Wk-5 and proven Wk-6 in a single use; keep it.
+- **"Constructive trigger required" pre-conditioning prevented an AVGO whipsaw entry.** The Wed-pre-AMC plan said "fire only if AVGO beat + raise"; AVGO printed -6% AH; the bot did not chase Thu. This is the right pattern for binary tech catalysts and should be the template for all post-print conditional entries.
+- **Single-position carry weeks with low net P&L are not "doing nothing right" — they are the deployment-drag tax.** 7 weeks in, the pattern is established: when adds get deferred for legitimate defensive reasons, the cash drag compounds against SPY. The fix is not "deploy more aggressively into bad setups" — it is "pre-stage 2-3 conditional probes per week so deferrals always leave a second alternative armed."
+- **The Wk-5 plan ("XLE out Mon, XLI hold, audit closes this week, deployment to 40-50% by Wed") was 50% executed** — XLE out: ✓; XLI hold: ✓; audit closes: ✗ (10 sessions old); deployment 40-50%: ✗ (still 14%). The pattern is execution-quality high on what we plan, planning-coverage low on what we don't. Next week needs broader optionality pre-staged.
+- **The AVGO/CRWD AH drag stayed in tech — XLI absorbed it Thu (+1.21%) without flinching.** That is a real cross-sector signal: industrials leading-quadrant on AI-capex/reshoring/defense is the cleanest non-tech AI-adjacent trade right now. Worth sizing the 2nd industrial-adjacent name (defense: LMT/RTX/NOC; or capital-goods: CAT/ETN/GE) on a confirming Mon Jun 8 tape.
+
+### Adjustments for Next Week (Jun 8-12)
+- **XLI — HOLD and add 1 industrial-adjacent name on Mon-Tue confirmation.** Candidates: XAR (defense ETF, AI-capex/defense overlap), CAT or ETN (capital-goods leaders, ISM-beat beneficiaries). Sizing: 12-15% (not 20%), 10% trail GTC on fill. Explicit thesis distinction from XLI required (defense ≠ broad industrials).
+- **SMH/XLK probe — re-arm conditionally** on (a) NFP digestion settling clean Mon AM, (b) AVGO AH drag fading from semis, (c) SMH > prior-day high on volume. If all 3 met, 5-7% sizing on first probe (not 13-15%) — AVGO disappointment means the lane is "tradable not confirmed." If any condition fails, stand down for the week.
+- **Energy lane stays closed** until WTI > $95 holds 3+ sessions. Thu Jun 4 was session 1; Fri Jun 5 TBD. If Mon Jun 8 closes WTI > $95 = session 3, lane reopens for a Tue XLE/XOM re-evaluation (NOT a re-add Mon — confirm the 3-session hold first).
+- **Materials cooldown remains reset** — no MP/USAR/XLB re-entry without explicit thesis distinction (XLB diversified ETF only, not single-name rare-earth doubles).
+- **Deployment target Wk 7**: 30-40% by Wed Jun 10 close (XLI hold + 1 new industrial-adjacent + optional 5-7% SMH probe); 50-60% by Fri only on confirming signals. The 75-85% band remains a 2-3 week target.
+- **Trade cap**: Wk 7 resets to 3 entries. Explicit budget — 1 industrial-adjacent confirmed (Mon-Tue), 1 SMH/XLK probe conditional (Mon-Tue), 1 reserve slot for energy re-open or 2nd-leg confirmation later in the week. Bias to use 2 of 3.
+- **System risk — MP audit must close this week.** Identify the May 21 fill provenance AND ship a detection mechanism (hourly open-orders snapshot diff with Telegram alert on unrecognized fills) before Wk 8. 10 sessions of unknown-source-tolerance is the longest open system risk of the phase.
+- **CPI Wed Jun 10 + PPI Thu Jun 11** = the next macro frame; size entries pre-CPI Mon-Tue, no chasing post-print ramps.
+
+### Overall Grade: B-
+Week 6 was +0.20% absolute, +0.16% vs SPY (first non-negative relative since Week 4), 1 closed trade (XLE exit per plan), 0 new entries, 0 rule violations, 0 audit-detected unauthorized fills. The good is real: Rule 5a's first use was decisive and saved slippage; the AVGO binary was correctly dodged; the NFP defensive bias was correctly applied; XLI absorbed the tech-exhaustion AH drag cleanly Thu; cooldowns enforced; trail discipline flawless. The bad is the same structural drift: deployment still 14%, single-position book entering Week 7, the SMH/XLK probe never had its "constructive AVGO" trigger, and matching SPY at 14% deployment is not a strategy edge — it is a tax. Not C+ because every defensive call was correct AND the relative outperformance is real (first non-red Week-vs-SPY in 4 weeks). Not B because the deployment gap is now the dominant pattern of the phase and the planned "deployment to 40-50% by Wed" was missed by 26 points. Grade is B- with explicit improvement plan: **2 of 3 weekly slots used Mon-Tue (industrial-adjacent confirmed + SMH conditional), audit gap closes this week, deployment lifts to 30-40% by Wed regardless of tape**. Strategy needs no rule change this week — Rule 5a worked, all other rules held; the fix is broader conditional pre-staging so deferrals always leave a 2nd alternative armed.
