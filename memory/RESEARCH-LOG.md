@@ -1198,3 +1198,65 @@ Trades this week: **0/3 entries used.** Phase -0.14% (best mark in over a week).
 
 ---
 
+## 2026-06-08 — Pre-market Research (Monday, Week 7 open)
+
+### Account
+- Equity: $99,830.32
+- Cash: $85,818.32 (86.0%)
+- Buying power (regT): $185,648.64
+- Daytrade count: 0
+- Positions:
+  - XLI 80 sh @ $173.80 avg, last $175.15, **+$108.00 (+0.78%)**; trail 10% GTC, stop $158.796, HWM $176.44 (order `c431cbc2`). Intraday +0.56% vs $174.18 lastday.
+- Deployed: ~14.0% (XLI only) — well below 75-85% target. Week 7 day 1, 0/3 entries used. Materials cooldown reset Jun 1; energy lane closed (WTI > $95 needs 3+ sessions; Thu Jun 4 was session 1, Fri Jun 5 spot TBD).
+- Day P&L (vs broker last_equity $99,752.72): **+$77.60 (+0.08%)**
+- Phase P&L: **-$169.68 (-0.17%)** — within striking distance of $100K baseline.
+
+### Market Context
+- **WTI: ~$88-94 zone** — Kalshi July contract resolves >$93.99 today as the binary; Lines prediction pegs 93.8% probability of close above $88. Spot signals mixed; FRED May 2026 monthly avg $102.13 — recent slide intact. **Lane stays closed**; needs 3+ sessions sustained > $95.
+- **Brent: ~$103-106** zone; spread tight, refiner-friendly easing.
+- **S&P 500 futures (ESM26): ~7,425.50 (-0.35% vs Fri intraday)** per Investing.com — premarket range 7,385-7,428; Google Finance shows prior settlement $7,601 (large weekend gap-down ~-2.3% if both refs valid; treat as **risk-off overnight bias** pending the open print).
+- **VIX: ~15.78 last close (Jun 4); spot likely ticking up** toward 17-19 on Iran-Israel + AI-rout headlines; VXM/VIM futures ~19.17.
+- **Today's catalysts:**
+  1. **NFP digestion** — Fri May print landed; tape works the read through Monday (consensus had been +85K).
+  2. **Iran-Israel escalation headlines** — live geopolitical drag (Univest blog flags it as Monday's #1 risk driver).
+  3. **"AI rout" sympathy** — AVGO/CRWD AH bearish reactions Wed carried into Thu/Fri; tech-exhaustion theme intact.
+  4. **No major US macro print today** — calendar quiet; **CPI Wed Jun 10 8:30 ET is the week's binary**, followed by PPI Thu Jun 11.
+- **Earnings BMO:** Light — **CETX, DLTH, FCEL** only. No movers in our lanes.
+- **Earnings AMC this week:** Quiet ex-Adobe-style names; not a driver pre-CPI.
+- **Economic calendar:** **CPI Wed Jun 10 8:30 ET**, **PPI Thu Jun 11 8:30 ET**, **FOMC Jun 16-17** (next week). Heavy macro pipeline starts Wednesday.
+- **Sector momentum YTD 2026:**
+  - **Energy** still #1 trailing print (~+22-26% YTD) but thesis broken near-term on sub-$90 crude grind; lane closed.
+  - **Industrials in leading quadrant** — XLI +12.3% YTD ($155.12 → $174.18), MACD turned positive Jun 2, above 50DMA since May 20; sub-sectors A&D +24.0%, Machinery +21.3%, Electrical Equipment +14.1%. **XLI near 52-week high $174.84 = stochastic overbought still flagged**.
+  - **Tech (XLK) in lagging quadrant** — AVGO/CRWD AH sells confirm AI-trade exhaustion; SMH/XLK probe stays deferred.
+  - **Momentum factor** intact at the factor level YTD (~+20%); broader breadth improving but rotation choppy.
+
+### Trade Ideas
+1. **XLI — HOLD, no add.** Anchor leg +0.78% from entry; HWM $176.44, trail $158.796 (~9.3% buffer to $175.15). +15% tighten threshold $199.87 (not close). -7% manual cut $161.63 (~7.7% below). Industrials thesis intact (AI-capex / defense / electrification / reshoring) but **near 52w-high + stochastic overbought + SPX futures gapping down on Iran-Israel + AI-rout = wrong window for same-sector add**. Let it work.
+2. **SMH / XLK — DEFERRED again.** AVGO -6% / CRWD -10% AH last week + Univest flagging "AI rout" today = tech-rotation lane is NOT a clean entry on a risk-off Monday. Re-check Thu Jun 11 post-CPI/PPI digestion if AI tape stabilizes and SMH holds above $245 zone.
+3. **XLF / Financials — watchlist.** Leading quadrant, less rate-cut-dependent than tech, no AVGO drag. Pre-CPI overnight risk = no edge today; reassess post-CPI Wed.
+4. **XLB / Materials — cooldown reset Jun 1**, no clean signal today; defer.
+5. **Energy (XLE / XOM / CVX / COP) — LANE CLOSED.** WTI failed to hold above $95 through the week (Thu session 1, Fri inconclusive); earliest reopen contingent on 3+ session confirmation > $95.
+6. **Defensive add candidate (XLP / Staples)** — distant watchlist if risk-off broadens beyond a one-day Iran headline. Not pulling trigger absent confirmed regime shift; staples doesn't fit our momentum-aggressive mandate at +10% YTD.
+
+### Risk Factors
+- **Geopolitical: Iran-Israel escalation headlines live** — overnight binary risk. Sentiment-driven gap risk on tech/AI; energy bid possible but lane closed by our own policy.
+- **CPI Wed Jun 10 = the week's binary** — hot print → rate-hawkish repricing → tech/duration sell-off → SPX gap-down; cool print → goldilocks bid. Entry today inherits 2 sessions of event drag for zero compensating setup.
+- **AI-rout sympathy carrying** — AVGO/CRWD bearish AH theme intact; SMH/XLK lane stays off until tape proves stabilization.
+- **SPX futures -2.3% weekend gap (Google settle vs Investing premarket)** = elevated open volatility; verify spot VIX at open before sizing anything.
+- **XLI stochastic overbought + near 52w-high** — same-sector add at the wrong altitude; better to wait for a confirmed pullback to the 20DMA or a clean breakout > $176.84 on volume.
+- **Chronic under-deployment (~14%)** persists, but pre-CPI + Iran-headline-risk + AI-rout is exactly the wrong window to force entries. Patience > activity (Rule 11). 3 fresh slots, no need to burn one today.
+- **Audit hygiene:** open-orders book clean — only `c431cbc2` (XLI trail GTC, stop $158.796, HWM $176.44). Verify at open. Open audit item (May 21 MP unauthorized fill source) still unresolved — log if it recurs.
+
+### Decision
+**HOLD. No new entries today.** Sequence:
+1. **9:30 ET:** Confirm flat ex-XLI; open-orders book should show ONLY `c431cbc2` (XLI trail GTC, stop $158.796, HWM $176.44). If anything else appears → STOP, audit, alert.
+2. **9:30-10:00 ET:** Observe SPX/VIX open reaction to Iran-Israel + AI-rout overhang; let XLI's trail/auto-tighten work autonomously. No manual stop changes (well below +15% threshold).
+3. **No new long entries today regardless of tape** — pre-CPI overnight risk (Wed 8:30 ET) + geopolitical headlines + AI-trade-exhaustion drag = no positive R:R window.
+4. **XLI:** hold the anchor; trail GTC `c431cbc2` does its job through the CPI gap (~9.3% buffer, 8.7% cushion to -7% manual cut).
+5. **Energy lane:** track WTI close vs $95. If today closes > $95, log session 2 of 3+; lane stays closed pending confirmation. No re-entry today.
+6. **Tue Jun 9 pre-market:** read overnight tape (Iran-Israel + AI sympathy); if risk-off persists, hold defensive — defer redeployment to **Thu Jun 11 post-CPI/PPI** confirmation on a non-correlated thesis. If risk-on rotation re-fires on a calm Tue tape, reconsider an XLF probe (~12-15% sizing, 10% trail GTC, never within 3% of price).
+
+Trades this week: **0/3 entries used.** Phase -0.17% (basically flat from Fri close); goal — preserve the slot cap, lean on XLI's working trend through the macro event window, deploy 1-2 fresh entries Thu Jun 11 / Fri Jun 12 only on post-CPI confirmation + non-tech / non-energy / non-materials sector (XLF the primary candidate).
+
+---
+
