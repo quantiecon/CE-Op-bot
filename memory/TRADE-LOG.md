@@ -604,3 +604,19 @@ Not based on research signal. Smoke test only.
 | XLI | 80 | $173.80 | $174.18 | -1.12% | +$30.40 (+0.22%) | $158.796 (trail 10%, HWM $176.44) |
 
 **Notes:** Week-6 close — equity finishes $99,752.72 from $99,911.12 last_equity, Day P&L -$158.40 (-0.16%), giving back the Thursday gain on a soft NFP-digestion tape (Phase P&L -$247.28 / -0.25%, back to mid-week range, still under the $100K baseline). XLI the lone anchor and the day's drag: closed $174.18, -1.12% on the day from $176.16 lastday (intraday faded from the midday $175.045 read), unrealized still green at +$30.40 (+0.22% from $173.80 entry) — industrials leading-quadrant thesis (AI-capex/reshoring/defense tailwind, less oil-sensitive) intact but the cohort took a profit-taking hit into the weekend after Thu's +1.21% print. Trail $158.796 held (10%, HWM $176.44, current $174.18 below HWM so no auto-ratchet); -7% manual cut trigger $161.63 sits ~7.2% below current, no cut, no manual tighten (well below the +15% / $199.87 threshold). Open-orders book clean: only the XLI trail GTC `c431cbc2` stop $158.796, HWM $176.44; no unauthorized fills. Cash $85,818.32 (86.0%), deployment ~14.0% (XLI only) — still well under the 75-85% target band, expected: per the pre-market/midday plan no new long entries today regardless of tape (NFP overnight digestion + Friday-into-weekend = no positive R:R), redeployment deferred to Mon Jun 8 post-NFP confirmation. Trades today: 0; trades this week: 0/3 entries used (Mon XLE exit was an exit, doesn't count against the cap). Energy lane still closed (WTI needs 3+ sessions over $95 to reopen — Thu was session 1, Fri TBD). Materials cooldown reset Jun 1. Next session: Weekly review fires this afternoon (Week 6 close) — grade the week (XLI-only, no entries, ~14% deployment, Phase P&L drifted from -$338.58 last Fri to -$247.28 today = +$91.30 / +0.09% week-over-week, mostly XLI carry) and rule on Week 7 deployment lift path: either re-arm the SMH/XLK probe Mon (needs constructive NFP digestion + AVGO-AH drag fading) or hold XLI-only baseline with a different lane probe. Goal remains lifting deployment off ~14% toward the 75-85% band while preserving the 3/wk cap and Rule 9 on any new placement.
+
+### Jun 08 — Midday Scan (no action)
+**Positions snapshot:**
+
+| Ticker | Shares | Entry | Last | P&L % | Unrealized P&L | Stop |
+|--------|--------|-------|------|-------|----------------|------|
+| XLI | 80 | $173.80 | $173.80 | 0.00% | $0.00 | $158.796 (trail 10%, HWM $176.44) |
+
+**Actions:** None.
+**Step 3 (cut losers):** XLI flat from entry (intraday -0.22% vs $174.18 lastday), nowhere near -7% (cut trigger $161.63; current $173.80 = +7.5% above). No cut.
+**Step 4 (tighten winners):** XLI 0.00%, well below +15% threshold ($199.87). HWM $176.44 unchanged (current $173.80 below HWM); no auto-ratchet. Trail $158.796 (10%) holds. No manual tighten.
+**Step 5 (thesis check):** XLI — industrials leading quadrant intact (AI-capex/reshoring/defense tailwind), less oil-sensitive; absorbing pre-CPI/Iran-Israel/AI-rout drag cleanly. No thesis break. Hold per pre-market plan (no new long entries today regardless of tape — CPI Wed binary + geopolitical + AI-exhaustion = no positive R:R).
+**Step 6:** No sharp unexplained moves — skip intraday Perplexity.
+**Audit hygiene:** Open-orders book clean — only the XLI trail GTC `c431cbc2` stop $158.796, HWM $176.44. No unauthorized fills.
+**Cash/Equity:** Equity $99,722.32 (market_value $13,904.00 + cash $85,818.32); Phase P&L ~-$277.68 (-0.28%). Cash $85,818.32 (86.1%); deployment ~13.9% (XLI only) — still well under the 75-85% band; per pre-market plan redeployment deferred to Thu Jun 11 / Fri Jun 12 post-CPI/PPI confirmation only.
+**Trades this week:** 0/3 entries used. Energy lane closed (WTI > $95 needs 3+ sessions; Thu Jun 4 was session 1). Materials cooldown reset Jun 1. XLF the primary post-CPI watchlist candidate.
