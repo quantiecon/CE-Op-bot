@@ -1260,6 +1260,72 @@ Trades this week: **0/3 entries used.** Phase -0.17% (basically flat from Fri cl
 
 ---
 
+## 2026-06-10 — Pre-market Research (Wednesday, Week 7 day 3 — CPI day)
+
+### Account
+- Equity: $99,799.92
+- Cash: $85,818.32 (86.0%)
+- Buying power (regT): $185,618.24 / daytrading $382,421.76
+- Daytrade count: 0
+- Positions:
+  - XLI 80 sh @ $173.80 avg, last $174.77, **+$77.60 (+0.56%)**; trail 10% GTC, stop $158.922, HWM $176.58 (order `c431cbc2`). Intraday -$0.83 (-0.47%) vs $175.60 lastday.
+- Deployed: ~14.0% (XLI only) — well below 75-85% target. Week 7 day 3, 0/3 entries used. Materials cooldown reset Jun 1; energy lane closed (WTI > $95 needs 3+ sessions sustained; counter reset to 0).
+- Day P&L (vs broker last_equity $99,866.32): **-$66.40 (-0.07%)**
+- Phase P&L: **-$200.08 (-0.20%)** — basically flat from yesterday's close, gap to $100K baseline narrow.
+
+### Market Context
+- **WTI: ~$88-89** zone (Barchart CLN26 ~$88.42; Robinhood prediction-market centered $87-89). Lane stays closed; counter reset to 0 (Thu Jun 4 was last session above $95, no follow-through).
+- **Brent: ~$103-105** (no clean live print; spread to WTI ~$15, refiner-friendly).
+- **S&P 500 futures (ESM26): ~7,385.00 (-0.10%)** premarket per Barchart; Google settlement $7,392.75. Tape coiled, low premarket activity into the CPI binary.
+- **VIX: ~20.09 spot** per Cboe live (YCharts 19.87 Jun 9 close). **REGIME WATCH: VIX +29% in 3 sessions from $15.40 Jun 4 → $19.87 Jun 9** — Iran-Israel + AI-rout + pre-CPI risk-off has flipped complacency. Spot at the highest level since early-May; futures Jun '26 ~$19.20.
+- **Today's catalysts (THE BINARY):**
+  1. **CPI May 2026 8:30 AM ET** — consensus **+0.5% m/m headline / +4.2% y/y headline** (TradingEconomics, Kiplinger). **+4.2% y/y would be the highest since Apr 2023**, up from 3.8% in April. Core CPI consensus **+0.3% m/m / ~+3.5% y/y**. Cleveland Fed nowcast: +0.46% m/m headline (close to consensus).
+  2. **Fri NFP came in HOT +172K vs +85K consensus** (logged Tue) — bar for a goldilocks CPI is raised; in-line print at +4.2% y/y now reads hawkish vs absent the NFP context.
+  3. **ORCL earnings AMC** — secondary tech tell (databases/cloud); not in our lanes.
+  4. **PPI Thu Jun 11 8:30 ET** = follow-on inflation print.
+- **Earnings BMO:** light — CHWY, IDEXY, CRMT, FFIV, SFM, RITM. No movers in XLI / XLF / XLK / SMH lanes.
+- **Earnings AMC:** ORCL the headline; not a direct sympathy driver for our anchor.
+- **Economic calendar week ahead:** **CPI Wed Jun 10**, **PPI Thu Jun 11**, Employer Costs Fri Jun 12, **FOMC Jun 16-17 next week**.
+- **Sector momentum YTD 2026 (Investing.com Mar read + Schwab Jun 3 outlook + SSGA Jun 8):**
+  - **Energy still #1** (~+22-26% YTD) but thesis broken for us on sub-$90 crude; lane closed by policy.
+  - **Consumer Staples #2** (~+10-11% YTD) — defensive bid into the CPI binary.
+  - **Industrials in leading quadrant** — XLI ~+12-13% YTD (MarketBeat); top holdings Aerospace & Defense 24%, Machinery 21%, Electrical Equipment 14%. AI-capex / reshoring / defense tailwind intact; Seeking Alpha Jun 1 "Other Way To Play AI."
+  - **Materials in leading quadrant** — cooldown reset Jun 1; no clean signal yet.
+  - **Tech (XLK) in lagging quadrant** post-AVGO/CRWD AH; AI-rout sympathy carrying.
+  - **Financials in lagging quadrant** (Schwab) — XLF watchlist still on pause pre-CPI.
+
+### Trade Ideas
+1. **XLI — HOLD, no add.** Anchor leg +0.56% from entry; HWM $176.58 (auto-ratcheted Jun 9), trail $158.922 (~9.1% buffer to $174.77). +15% tighten threshold $199.87 (not close). -7% manual cut $161.63 (~7.5% below). Industrials thesis intact, but **CPI 8:30 ET binary + VIX spiking to 20 + stochastic-overbought signal still in play = no same-sector add today.** Let trail/auto-tighten work.
+2. **SMH / XLK — DEFERRED.** AVGO/CRWD AH bearish overhang + VIX regime shift = AI-rotation lane is uninvestable into the binary. Earliest re-evaluation Thu post-CPI/PPI digestion.
+3. **XLF / Financials — DEFERRED.** Lagging quadrant + pre-CPI overnight risk = no edge. Primary post-CPI candidate IF print is in-line/cool AND tape confirms (SPX green close, VIX < 17).
+4. **XLP / Staples — defensive watchlist.** Defensive bid into CPI binary fits the VIX-20 regime; +10-11% YTD doesn't fit momentum-aggressive mandate but could become a hedge probe if VIX expansion persists into Thu/Fri. Not pulling trigger today.
+5. **XLB / Materials — cooldown reset Jun 1**, no clean signal; defer.
+6. **Energy (XLE / XOM / CVX / COP) — LANE CLOSED.** WTI ~$88-89 = counter at 0. No re-entry pending 3+ sustained sessions > $95.
+
+### Risk Factors
+- **CPI 8:30 ET = the whole day's risk.** Hot print (>+4.2% y/y or >+0.5% m/m) on top of hot NFP = "higher for longer" repricing → tech/duration sell-off, SPX gap-down, VIX expansion to mid-20s. Cool print (≤+4.0% y/y or ≤+0.3% m/m headline) → goldilocks bid, VIX compression. In-line at +4.2% y/y = hawkish-by-default given NFP setup.
+- **VIX spike to 20 = regime change confirmed.** Whippy intraday tape; bid-ask spreads on sector ETFs likely wider; any new placement at the open is exposed to slippage.
+- **PPI Thu Jun 11 8:30 ET = follow-on binary.** Entries today inherit a 2-session event drag.
+- **AI-trade-exhaustion drag** — AVGO/CRWD AH selloffs Wed last week haven't fully digested; ORCL print AMC tonight is another tech-sentiment read.
+- **Iran-Israel geopolitical headlines remain live** — closed energy lane = no direct positioning; SPX/VIX exposure indirect.
+- **XLI stochastic overbought + near 52w-high** — no same-sector add at this altitude; better to wait for a confirmed pullback to 20DMA or clean breakout > $176.84 on volume + post-CPI clarity.
+- **Chronic under-deployment (~14%)** persists, but CPI day is exactly the wrong window to force entries. Patience > activity (Rule 11). 3 fresh slots, no need to burn one pre-binary.
+- **Audit hygiene:** open-orders book clean — only `c431cbc2` (XLI trail GTC, stop $158.922, HWM $176.58). Verify at open. Open audit item (May 21 MP unauthorized fill source) still unresolved — log if it recurs.
+
+### Decision
+**HOLD. No new entries today.** Sequence:
+1. **9:30 ET:** Confirm flat ex-XLI; open-orders book should show ONLY `c431cbc2` (XLI trail GTC, stop $158.922, HWM $176.58). If anything else appears → STOP, audit, alert.
+2. **8:30 ET:** CPI release — observe 30-60 min reaction; do NOT pre-position or chase the print regardless of direction.
+3. **9:30-16:00 ET:** Monitor XLI for follow-through or fade; let trail/auto-tighten work autonomously. No manual stop changes (well below +15% threshold; -7% manual cut $161.63 ~7.5% below current).
+4. **No new long entries today regardless of tape** — CPI gap + VIX 20 + PPI Thu overhang = no positive R:R window.
+5. **Energy lane:** track WTI vs $95 — counter at 0; no re-entry today.
+6. **Thu Jun 11 pre-market:** read CPI digestion + PPI overnight setup; if CPI prints in-line/cool AND VIX compresses below 17 AND SPX closes green Wed, XLF probe (~12-15% sizing, 10% trail GTC, never within 3% of price) becomes the Thu/Fri candidate. If CPI prints hot, hold XLI-only baseline and re-evaluate post-PPI Fri; XLP as a potential defensive hedge probe enters the watchlist.
+7. **Tighten-by-rule trigger watchlist:** XLI +15% threshold = $199.87 (currently $174.77 = +14.4% below). No imminent action; let HWM ratchet auto-manage.
+
+Trades this week: **0/3 entries used.** Phase -0.20%; goal — protect the XLI anchor through the CPI/PPI binary, defer redeployment to Thu/Fri post-CPI confirmation + non-correlated thesis, lift deployment toward the band in Week 7 if tape allows.
+
+---
+
 ## 2026-06-09 — Pre-market Research (Tuesday, Week 7 day 2 — pre-CPI)
 
 ### Account
