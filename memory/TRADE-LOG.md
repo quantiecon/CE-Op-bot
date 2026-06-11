@@ -671,6 +671,22 @@ Not based on research signal. Smoke test only.
 **Cash/Equity:** Equity $99,511.12 (market_value $13,692.80 + cash $85,818.32); Phase P&L ~-$488.88 (-0.49%). Cash $85,818.32 (86.2%); deployment ~13.8% (XLI only) — still well under the 75-85% band; per pre-market plan redeployment deferred to Thu Jun 11 / Fri Jun 12 post-CPI/PPI confirmation only.
 **Trades this week:** 0/3 entries used. Energy lane closed (WTI ~$88-89; counter at 0; needs 3+ sustained sessions > $95). Materials cooldown reset Jun 1. XLF the primary post-CPI watchlist candidate.
 
+### Jun 11 — Midday Scan (no action)
+**Positions snapshot:**
+
+| Ticker | Shares | Entry | Last | P&L % | Unrealized P&L | Stop |
+|--------|--------|-------|------|-------|----------------|------|
+| XLI | 80 | $173.80 | $171.99 | -1.04% | -$144.80 | $158.922 (trail 10%, HWM $176.58) |
+
+**Actions:** None.
+**Step 3 (cut losers):** XLI -1.04% (intraday +1.37% vs $169.66 lastday), nowhere near -7% (cut trigger $161.63; current $171.99 = +6.0% above). No cut.
+**Step 4 (tighten winners):** XLI -1.04%, well below +15% threshold ($199.87). HWM $176.58 unchanged (current $171.99 well below HWM); no auto-ratchet. Trail $158.922 (10%) holds. No manual tighten.
+**Step 5 (thesis check):** XLI — industrials leading quadrant intact (A&D/machinery/electrical equipment + AI data-center cooling tailwind via Vertiv/Eaton, less oil-sensitive); intraday +1.37% bounce off Wed CPI-day washout consistent with PPI-relief premarket bid. No thesis break. Hold per pre-market plan (no new long entries today regardless of tape — PPI 8:30 ET binary + FOMC Jun 16-17 overhang + ADBE AMC = no positive R:R).
+**Step 6:** Intraday +1.37% bounce is PPI-relief / dip-buy of Wed washout — no sharp unexplained move; skip intraday Perplexity.
+**Audit hygiene:** Open-orders book clean — only the XLI trail GTC `c431cbc2` stop $158.922, HWM $176.58. No unauthorized fills.
+**Cash/Equity:** Equity $99,577.52 (market_value $13,759.20 + cash $85,818.32); Day P&L +$186.40 (+0.19%) vs $99,391.12 last_equity; Phase P&L ~-$422.48 (-0.42%). Cash $85,818.32 (86.2%); deployment ~13.8% (XLI only) — still well under the 75-85% band; per pre-market plan redeployment deferred to Fri Jun 12 (XLB probe if PPI cools + XLI holds + VIX < 18) or post-FOMC Jun 18+ otherwise.
+**Trades this week:** 0/3 entries used. Energy lane closed (WTI ~$91.90; counter at 0; needs 3+ sustained sessions > $95). Materials cooldown reset Jun 1. XLB the primary post-PPI watchlist candidate.
+
 ### Jun 10 — EOD Snapshot (Day 33, Wednesday)
 **Portfolio:** $99,389.52 | **Cash:** $85,818.32 (86.3%) | **Day P&L:** -$469.60 (-0.47%) | **Phase P&L:** -$610.48 (-0.61%)
 
