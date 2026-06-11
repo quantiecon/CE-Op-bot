@@ -1391,3 +1391,71 @@ Trades this week: **0/3 entries used.** Phase -0.25%; goal — preserve the slot
 
 ---
 
+
+## 2026-06-11 — Pre-market Research (Thursday, Week 7 day 4 — post-CPI digestion, pre-PPI)
+
+### Account
+- Equity: $99,577.52
+- Cash: $85,818.32 (86.2%)
+- Buying power (regT): $185,395.84 / daytrading $381,799.04
+- Daytrade count: 0
+- Positions:
+  - XLI 80 sh @ $173.80 avg, last $171.99, **-$144.80 (-1.04%)**; trail 10% GTC, stop $158.922, HWM $176.58 (order `c431cbc2`). Intraday +$186.40 (+1.37%) vs $169.66 lastday — premarket bounce off CPI-day washout.
+- Deployed: ~13.8% (XLI only) — well below 75-85% target. Week 7 day 4, 0/3 entries used. Materials cooldown reset Jun 1; energy lane closed (WTI sub-$92; counter at 0).
+- Day P&L (vs broker last_equity $99,391.12): **+$186.40 (+0.19%)**
+- Phase P&L: **-$422.48 (-0.42%)** — Wed CPI-day washout (XLI -3.39%) widened the gap to baseline; premarket recovers partially.
+
+### Market Context
+- **WTI: ~$91.90** (Jun 9 last spot per countryeconomy; Jun 8 $95.00, Jun 9 -3.26%). **Lane stays closed**; counter at 0 (needs 3+ sustained sessions > $95).
+- **Brent: ~$95.00** (Jun 10 longforecast print; range $90.77-$95.00 intraday).
+- **S&P 500 futures (ESM26): ~7,304.75 (+0.36% / +26.25 pts)** premarket per Markets Insider 02:02 ET; Nasdaq fut +0.61%, Dow fut +0.27% — broad relief bid building post-CPI-day washout.
+- **VIX: ~19.87 spot Jun 9 close** (FRED/Cboe), elevated; intraday Wed CPI-day reportedly tagged 20+ on the risk-off; futures Jun '26 strip ~$20-21. **Regime: elevated but not panic** (Jun 5 spiked to 21.51 / +39.7%, has held the 20 line through CPI day).
+- **Today's catalysts (THE PPI BINARY):**
+  1. **PPI May 2026 8:30 ET** — consensus **+0.7% m/m headline** (prev +1.4%), **+0.5% m/m core ex-F&E** (prev +1.0%); y/y prev headline +6.0%, core +5.2%. Producer-side disinflation read; cooler-than-CPI sequence would soften the hot CPI headline.
+  2. **Initial jobless claims (week ended Jun 6) 8:30 ET** — prev 225K; secondary labor tell.
+  3. **Continuing claims (week ended May 30)** — prev 1.78M.
+  4. **CPI May digestion** (released Wed): headline **+0.5% m/m / +4.2% y/y** (hottest y/y since Apr 2023), **core +0.2% m/m** (in-line/soft on core, hot on headline; energy +3.9% the driver). Wed close SPX risk-off, XLI -3.39%.
+  5. **Earnings BMO:** LOVE, ACB, HOFT, VRA, LEN (homebuilder = housing tell; otherwise no lane-relevant movers).
+  6. **Earnings AMC:** **ADBE (Q2)**, **RH**, **DOL.CN**, **PAY.LN** — ADBE the tech-sentiment headline (creative cloud / AI monetization read); not in our lanes but a sympathy driver for SMH/XLK if it disappoints.
+- **Economic calendar week ahead:** **PPI Thu Jun 11**, **Employer Costs Fri Jun 12 10:00 ET**, **FOMC Jun 16-17 next week** (terminal binary).
+- **Sector momentum YTD 2026:**
+  - **Energy still #1 (~+22-26% YTD)** but lane closed; WTI sub-$92.
+  - **Materials #2 (~+17% YTD)** — supply chain / physical-assets bid intact; cleanest non-energy late-cycle leader.
+  - **Consumer Staples #3 (~+15-16% YTD)** — defensive bid into CPI/VIX-20.
+  - **Industrials in leading quadrant** — XLI ~+13-14% YTD; Schwab 6M +13.1% / 12M +23.7%; sub-sectors A&D 24.21%, Machinery 21.24%, Electrical Equipment 13.56% (SSGA Jun 9). AI-data-center cooling (Vertiv/Eaton BNP note) + defense + reshoring tailwinds intact; Wed -3.39% = CPI risk-off washout, not thesis break.
+  - **Tech (XLK) in lagging quadrant** (-3% to -5% YTD); AI-rotation broken; ADBE AMC tonight = next tech-sentiment tell.
+  - **Financials in lagging quadrant** (-2% to -7% YTD); Schwab 6M -1.0% / 12M +5.5%. Hot CPI headline = no rate-cut bid for XLF today.
+  - **Comm Services / Consumer Discretionary** also lagging.
+
+### Trade Ideas
+1. **XLI — HOLD, no add.** Anchor leg -1.04% unrealized; intraday premarket bounce +1.37% off the CPI-day washout. HWM $176.58, trail $158.922 (~7.6% buffer to current $171.99). +15% tighten threshold $199.87 (not close). **-7% manual cut $161.63 sits ~6.0% below current — closer than recent weeks but no cut.** Industrials thesis intact (A&D/machinery/electrical equipment + AI data-center cooling tailwind via Vertiv/Eaton). **PPI 8:30 ET binary + FOMC Jun 16-17 overhang + ADBE AMC = no same-sector add today.** Let dip-buy work autonomously.
+2. **SMH / XLK — DEFERRED.** AI-rotation lane broken (-3% to -5% YTD); ADBE AMC tonight = binary tech-sentiment tell. Re-evaluate post-PPI + ADBE digestion only if XLK/SMH stabilize.
+3. **XLF / Financials — DEFERRED.** Lagging quadrant; hot CPI headline = no rate-cut bid. Defer post-PPI Fri + FOMC next week.
+4. **XLB / Materials — primary post-PPI candidate.** Cooldown reset Jun 1; #2 YTD leader (~+17%); cleanest non-energy late-cycle probe. Watchlist for Fri Jun 12 if PPI cools and tape stabilizes.
+5. **XLP / Staples — defensive watchlist** (~+15-16% YTD); doesn't fit momentum-aggressive mandate but a hedge if VIX expands further. Not pulling trigger today.
+6. **Energy (XLE / XOM / CVX / COP) — LANE CLOSED.** WTI ~$91.90; counter at 0. No re-entry pending 3+ sustained sessions > $95.
+
+### Risk Factors
+- **PPI 8:30 ET = today's binary.** Hot print (>+0.7% m/m headline or >+0.5% core) on top of hot CPI headline = "higher for longer" repricing extends → cyclicals (incl. XLI) exposed to further drawdown; -7% manual cut watch ($161.63, ~6% below) tightens. Cool print (≤+0.5% m/m headline or ≤+0.3% core) → relief bid extends the premarket +0.36%, XLI recovers further from Wed washout.
+- **CPI digestion incomplete** — Wed close was -3.39% on XLI on broad cyclical washout; premarket recovery is fragile pre-PPI. Today's tape is binary-headline-driven.
+- **VIX ~20 = regime elevated.** Whippy intraday tape; bid-ask on sector ETFs wider; any new placement exposed to slippage.
+- **FOMC Jun 16-17 next week = looming binary.** Entries placed today inherit 3 sessions of event drag for zero compensating setup.
+- **ADBE AMC = tech sentiment tell.** Disappointing print could re-ignite AI-exhaustion drag (sympathy to SMH/XLK and broader risk-off).
+- **Iran-Israel geopolitical headlines remain live** — closed energy lane = no direct positioning; SPX/VIX exposure indirect.
+- **XLI -7% manual cut watch tightening.** Trigger $161.63 sits ~6.0% below current $171.99 (vs ~7-8% in prior days); a second risk-off leg would put it in play.
+- **Chronic under-deployment (~13.8%)** persists; PPI day + FOMC next week = wrong window. Patience > activity (Rule 11). 3 fresh slots, no need to burn one pre-binary.
+- **Audit hygiene:** open-orders book clean — only `c431cbc2` (XLI trail GTC, stop $158.922, HWM $176.58). Verify at open. Open audit item (May 21 MP unauthorized fill source) still unresolved.
+
+### Decision
+**HOLD. No new entries today.** Sequence:
+1. **8:30 ET:** PPI release — observe 30-60 min reaction; do NOT pre-position or chase the print regardless of direction.
+2. **9:30 ET:** Confirm flat ex-XLI; open-orders book ONLY `c431cbc2` (XLI trail GTC, stop $158.922, HWM $176.58). If anything else appears → STOP, audit, alert.
+3. **9:30-16:00 ET:** Monitor XLI for follow-through bounce or fade; let trail/auto-tighten work autonomously. **-7% manual cut watch at $161.63 (~6% below current $171.99) — closer than recent weeks; monitor closely, no premature action.**
+4. **No new long entries today regardless of tape** — PPI binary + FOMC next week + ADBE AMC = no positive R:R window.
+5. **Energy lane:** track WTI vs $95 — counter at 0; no re-entry today.
+6. **Fri Jun 12 pre-market:** read PPI digestion + Employer Costs 10:00 ET. If PPI prints in-line/cool AND XLI holds AND VIX < 18 = **XLB probe (~12-15% sizing, 10% trail GTC, never within 3% of price)** becomes the Fri candidate (cleanest non-energy momentum lane). If PPI hot or XLI breaks $169 = hold XLI-only baseline, tighten cut watch, defer all redeployment to post-FOMC Jun 18+.
+7. **Tighten-by-rule trigger watchlist:** XLI +15% threshold = $199.87 (current $171.99 = +16.2% below). No imminent action; let HWM ratchet auto-manage.
+
+Trades this week: **0/3 entries used.** Phase -0.42%; goal — protect XLI through the PPI + FOMC binary stack, defer redeployment to post-PPI confirmation (Fri Jun 12 best case) or post-FOMC (Jun 18+ worst case), lean on the cleanest non-energy / non-tech / non-financials lane (XLB primary, XLP secondary defensive).
+
+---
