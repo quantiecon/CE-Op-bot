@@ -401,3 +401,69 @@ Week 5 was -0.84% absolute, -2.31% vs SPY (phase-worst relative), 0 closed trade
 
 ### Overall Grade: B-
 Week 6 was +0.20% absolute, +0.16% vs SPY (first non-negative relative since Week 4), 1 closed trade (XLE exit per plan), 0 new entries, 0 rule violations, 0 audit-detected unauthorized fills. The good is real: Rule 5a's first use was decisive and saved slippage; the AVGO binary was correctly dodged; the NFP defensive bias was correctly applied; XLI absorbed the tech-exhaustion AH drag cleanly Thu; cooldowns enforced; trail discipline flawless. The bad is the same structural drift: deployment still 14%, single-position book entering Week 7, the SMH/XLK probe never had its "constructive AVGO" trigger, and matching SPY at 14% deployment is not a strategy edge — it is a tax. Not C+ because every defensive call was correct AND the relative outperformance is real (first non-red Week-vs-SPY in 4 weeks). Not B because the deployment gap is now the dominant pattern of the phase and the planned "deployment to 40-50% by Wed" was missed by 26 points. Grade is B- with explicit improvement plan: **2 of 3 weekly slots used Mon-Tue (industrial-adjacent confirmed + SMH conditional), audit gap closes this week, deployment lifts to 30-40% by Wed regardless of tape**. Strategy needs no rule change this week — Rule 5a worked, all other rules held; the fix is broader conditional pre-staging so deferrals always leave a 2nd alternative armed.
+
+---
+
+## Week ending 2026-06-12
+
+### Stats
+| Metric | Value |
+|--------|-------|
+| Starting portfolio | $99,752.72 (Mon Jun 8 AM, = Fri Jun 5 close per broker last_equity) |
+| Ending portfolio | $99,936.72 |
+| Week return | +$184.00 (+0.18%) |
+| S&P 500 week (SPY $738.98→$737.76) | -0.17% |
+| Bot vs S&P | +0.35% |
+| Trades | 0 entries (W:0 / L:0 / open:1 carry); 0 closed |
+| Win rate | N/A (0 closed trades) |
+| Best trade | XLI +1.37% (unrealized) |
+| Worst trade | N/A (single-position book) |
+| Profit factor | N/A (0 closed trades) |
+
+### Closed Trades
+| Ticker | Entry | Exit | P&L | Notes |
+| — | — | — | — | No closed trades this week |
+
+### Open Positions at Week End
+| Ticker | Entry | Close | Unrealized | Stop |
+| XLI | $173.80 | $176.18 | +$190.40 (+1.37%) | $158.949 (trail 10%, GTC `c431cbc2`, HWM $176.61) |
+
+### What Worked
+- **Patience through the CPI/PPI binary gauntlet** — zero new entries pre-CPI Wed, zero pre-PPI Thu, zero pre-weekend Fri; the macro window was deliberately bracketed and the bot stayed flat-to-anchor on intent. Rule 11 textbook.
+- **XLI core absorbed the CPI-day washout cleanly** — Wed close -3.39% / -$332.80 (-2.39% from entry) was the phase's worst single-day intraday on the anchor; manual cut trigger ($161.63) never reached (~4.7% buffer at worst). Thu PPI-relief +3.46% / +$469.70 fully reversed it; Fri +0.59% extended; tagged new HWM $176.61. Trail discipline + thesis discipline both intact under stress.
+- **Second consecutive week beating SPY relatively** (+0.35% this week, +0.16% Wk 6) — on a fractionally-red SPY tape (-0.17%) the XLI anchor and the cash sleeve combined for +0.18%; the relative outperformance comes from XLI's industrial leadership reasserting post-CPI, not from active alpha — but it counts as a 2-week trend break of the prior 3-week relative-negative pattern.
+- **Audit hygiene clean for 15 consecutive sessions** — open-orders book scans Mon-Fri showed only the XLI trail GTC `c431cbc2`; no unauthorized fills since the May 21 MP event. The detection-gap risk is materially aged but no new instances have surfaced.
+- **Conditional deferral logic worked as designed** — XLF probe was armed for Thu/Fri conditionally on CPI digestion; CPI prints hot Wed (washout), probe stood down; PPI prints cool Thu (relief rebound), XLB candidate re-armed for Fri; Fri's pre-FOMC overhang triggered the formal deferral to post-FOMC Jun 18+. Each conditional gate evaluated and respected.
+- **Phase P&L closest to $100K baseline in over a week** — close of Fri ~-$63 from baseline, vs Wk 6 close at ~-$317; the week was net constructive even with no new entries.
+- **HWM ratcheting on XLI through the volatility** — trail ratcheted $158.796 → $158.922 (Tue intraday) → $158.949 (Fri intraday) on new HWMs; the broker-managed mechanism continued to lock in incremental protection without manual touch.
+
+### What Didn't Work
+- **0/3 entries used this week — clean miss on the cap.** Mon-Tue stood down for CPI Wed; Wed stood down for risk-off washout; Thu/Fri stood down for FOMC Jun 16-17 overhang. Every individual call was defensible; the cumulative effect is the 7th straight week below the 75-85% deployment band.
+- **Deployment ended at 14.1% (XLI only)** — phase-record-low ceiling on capital at work; the planned "lift to 30-40% by Wed regardless of tape" from the Wk 6 plan was missed by 16-26 points. The structural pattern (defer → defer → defer → next week) is now 7 weeks deep.
+- **Single-position book amplifies macro-binary days both directions** — Wed -0.47% and Thu +0.47% came almost entirely from one ETF. The cash sleeve dampens absolute swings but offers zero independent return contribution; this is the deployment-drag tax made visible in daily P&L variance.
+- **The "post-FOMC re-arm" pattern is now the third consecutive macro-binary deferral** — CPI Wk 5, NFP Wk 6, CPI+PPI Wk 7, FOMC Wk 8. Each binary justifies a defer in isolation; the chain reveals that the deployment lift plan is permanently one binary away.
+- **Energy lane stayed closed all week** — WTI ~$84-89, well below the $95-hold-3-sessions reopen threshold; the lane has been closed since Wk 6 Mon (Jun 1) and shows no Wk-8 reopen path absent a geopolitical catalyst.
+- **MP unauthorized-fill audit gap still open** (15+ sessions now since May 21) — no detection mechanism shipped, no source identification completed; the open system risk is the longest-running of the phase. The Wk 6 plan's "audit gap closes this week" carried into Wk 7 with no progress.
+- **The matched-SPY-on-cash pattern is the strategy's idle state** — we beat SPY this week mostly because SPY was -0.17%; on a +1%+ SPY week this same posture would have given back the gap. The relative outperformance is real-but-fragile and depends on calm-to-down tapes.
+
+### Key Lessons
+- **The macro-binary defer rule is correct, but its repeated application IS the deployment-drag mechanism.** Each individual defer is defensible (CPI binary, PPI binary, FOMC binary); the chain of defers is the deployment gap. The fix is not "be less defensive on binary days" — it is "have a 5-7% probe-sized entry pattern that survives binary-day volatility without violating R:R." A 5% XLB position with a 10% trail = max -$50 risk on a 100% adverse binary, vs. the phase's current "wait for full conviction at 13-15% sizing" pattern which has produced 0 entries across the binary-heavy gauntlet.
+- **XLI's CPI-day -3.39% / PPI-day +3.46% V-shape validated the leading-quadrant thesis under stress.** When the macro tape de-risks, leading sectors get sold; when relief comes, they bounce hardest. The trail caught nothing because the buffer held; the manual cut was never within striking distance. The right read is: XLI passes the stress test — size it bigger on confirmation extension (not on rebounds, on new highs). Current HWM $176.61; clean breakout above $177.00 would justify a 5-7% add or a second industrial-adjacent name probe.
+- **2-week SPY-relative-positive run is the first sustained relative-trend break of the phase.** Wks 1-3 were SPY-negative, Wks 4 was SPY-positive on the lucky-tail MP exit, Wk 5 was -2.31%, Wk 6 was +0.16%, Wk 7 is +0.35%. The mechanism this time is XLI carry + cash on a slightly-red SPY tape. Sustainability depends on either (a) SPY staying flat-to-down, or (b) the deployment lift finally happening into a confirming tape.
+- **Conditional probe-deferral logic worked at the gate level** — every conditional check was honored. The gap is that NO conditional setup actually triggered all week; the probe never had a "fire" moment to confirm. Suggests the conditional gates are well-calibrated for "don't take a bad probe" but under-calibrated for "find a passable probe and size it small."
+- **15-session audit-clean streak is the system risk being absorbed by time, not by tooling.** No new unauthorized fills have surfaced, so the operational risk is dampened, but the detection mechanism is still not in place. A 16th-session unauthorized fill would still go undetected until manual scan — the risk is in the tooling gap, not in the recent history.
+
+### Adjustments for Next Week (Jun 15-19 — FOMC Jun 16-17 is the week)
+- **Mon-Tue Jun 15-16 = full defensive bias.** No new entries pre-FOMC; XLI hold; midday scans only; let the broker-managed trail continue ratcheting if XLI extends above HWM $176.61. FOMC binary = no positive R:R window.
+- **Wed Jun 17 FOMC AMC = binary day.** Read dot-plot + Powell tone post-2:30 PM ET presser; if hawkish surprise, brace for XLI drag and tighten manual-cut watch (trigger $161.63, currently ~8.3% buffer). If dovish/in-line, prepare Thu probe arming.
+- **Thu-Fri Jun 18-19 = conditional probe window.** Probe candidates ranked: (1) **XLB** (primary post-FOMC if dovish + XLI extends + VIX < 18, 3-5% sizing not 13-15%); (2) **XLF** (secondary if rate-cut-path lowers and financials catch a bid); (3) **Industrial-adjacent add** (XAR defense, CAT, or ETN — only if XLI breaks $177.00 on volume). All probes 10% trail GTC on fill per Rule 4; explicit thesis distinction required from XLI.
+- **Sizing rule for the week**: shift from "13-15% conviction sizing" to "5-7% probe sizing" for first non-XLI entry post-FOMC. The probe pattern accepts smaller R:R for higher participation rate; if the probe confirms (+5% in 5 sessions), add to 12-15% on the second entry. This is the lesson from 7 weeks of conviction-sizing producing 0 probes.
+- **Energy lane remains closed** — WTI needs > $95 hold 3+ sessions; no geopolitical catalyst on the radar that flips this Wk 8. Lane formally re-evaluated Mon Jun 22.
+- **Materials cooldown remains reset** (since Jun 1) — no MP/USAR/single-name rare-earth re-entry; XLB diversified ETF only on probe-size entry.
+- **Deployment target Wk 8**: post-FOMC Thu Jun 18 close at 20-25% (XLI hold + 1 probe-sized entry) is the realistic floor; 30-40% by Fri only on a second probe confirming. The 75-85% band remains a 2-3 week target if probe-sizing works.
+- **Trade cap Wk 8**: resets to 3 entries; budget 1 post-FOMC probe + 1 conditional follow-on. If FOMC hawkish, budget collapses to 0 and XLI-only carries to Wk 9.
+- **System risk — MP audit gap MUST close this week.** 15 sessions of unknown-source-tolerance is now the phase's longest-running unresolved item. Ship the hourly open-orders snapshot diff with Telegram alert on unrecognized fills BEFORE Wk 9 — non-negotiable.
+- **Retail Sales Tue Jun 16 8:30 ET** = ancillary macro print; size pre-print is moot (no new entries pre-FOMC anyway).
+
+### Overall Grade: B
+Week 7 was +0.18% absolute, +0.35% vs SPY (best relative outperformance since Wk 4's lucky-tail MP exit), 0 entries, 0 closed trades, 0 rule violations, 0 audit-detected unauthorized fills, 0 manual interventions on the trail. The good is real: every binary was correctly bracketed, the CPI-day XLI washout was correctly held without panic, the PPI-relief rebound was correctly held without trim-locking, conditional probes were correctly deferred when their gates failed, audit hygiene held clean for the 15th session, and the relative outperformance is now a 2-week trend (not a single noisy data point). The bad is structural and chronic: deployment is 14% in Wk 7 of a 75-85%-target strategy, 0 entries used this week, the "post-FOMC re-arm" pattern is the 3rd consecutive macro-binary deferral, the MP audit gap is the phase's oldest unresolved item, and matching a slightly-red SPY tape on 86% cash is not a strategy edge — it's the strategy's idle state delivering acceptable optics. Not B+ because the deployment chain (CPI defer → PPI defer → FOMC defer → post-FOMC re-arm) reveals that conviction-sizing is incompatible with binary-heavy tape windows; the Wk 8 plan must shift to **5-7% probe sizing** to break the chain. Not B- because every individual call was correct, no rule was violated, no panic was committed, and the relative metric is materially trending the right direction. Grade is B with explicit Wk 8 plan: **probe-sized first entry post-FOMC Thu Jun 18 regardless of tape, audit gap closes, deployment lifts to 20-25% Thu and 30-40% Fri on confirmation, XLI extends or holds.** Strategy needs no rule change this week — Rule 11 worked, Rule 5/5a never needed to fire, Rule 6 thresholds untouched; the fix is operational (probe-sizing convention, audit tooling) not rule-based.
