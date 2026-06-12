@@ -1459,3 +1459,69 @@ Trades this week: **0/3 entries used.** Phase -0.25%; goal — preserve the slot
 Trades this week: **0/3 entries used.** Phase -0.42%; goal — protect XLI through the PPI + FOMC binary stack, defer redeployment to post-PPI confirmation (Fri Jun 12 best case) or post-FOMC (Jun 18+ worst case), lean on the cleanest non-energy / non-tech / non-financials lane (XLB primary, XLP secondary defensive).
 
 ---
+
+## 2026-06-12 — Pre-market Research (Friday, Week 7 day 5 — post-PPI digestion, weekly-review day, FOMC overhang)
+
+### Account
+- Equity: $99,835.12
+- Cash: $85,818.32 (86.0%)
+- Buying power (regT): $185,653.44 / daytrading $382,520.32
+- Daytrade count: 0
+- Positions:
+  - XLI 80 sh @ $173.80 avg, last $175.21, **+$112.80 (+0.81%)**; trail 10% GTC, stop $158.922, HWM $176.58 (order `c431cbc2`). Intraday +$4.80 (+0.034%) vs $175.15 lastday.
+- Deployed: ~14.0% (XLI only) — well below 75-85% target. Week 7 day 5, 0/3 entries used. Materials cooldown reset Jun 1; energy lane closed (WTI sub-$86; counter at 0).
+- Day P&L (vs broker last_equity $99,830.32): **+$4.80 (+0.005%)**
+- Phase P&L: **-$164.88 (-0.16%)** — best mark of the week, gap to $100K baseline tight after Thu PPI-relief rebound.
+
+### Market Context
+- **WTI: ~$84-86** zone — **sharp collapse from $92 area**. Investing.com Jun 11 close $86.07 (-4.40% d/d); Jun 12 ~$84.32-84.85 spot. Oilprice live $84.32. **Energy lane STILL CLOSED, counter at 0** (needs 3+ sustained sessions > $95; we're now $9-10 below threshold).
+- **Brent: ~$95** (Jun 10 last clean print; no fresh Jun 12 quote in scrape).
+- **S&P 500 futures (ESM26): ~7,397 (+0.02% / +1.25 pts)** premarket per Markets Insider; Barchart notes Thu close +1.73% on PPI-relief bid; Nasdaq fut leg +3.26% Thu. Tape coiled at the upper end of the post-CPI range, digesting PPI cool print.
+- **VIX: ~19.44 spot Jun 11 close** (Investing.com); intraday high 21.25. Jun 10 close 22.22 (CPI-day spike). **Regime: elevated but compressing** from CPI-day high; spot likely opens ~18-19 zone if PPI relief carries. Watch for further compression below 18 to validate XLB probe trigger.
+- **Today's catalysts:**
+  1. **Employer Costs for Employee Compensation 10:00 ET (BLS)** — Q1 print; secondary wage-inflation tell, lower-impact than CPI/PPI but still rate-relevant into FOMC.
+  2. **OPEC Monthly Report** — energy-tape mover; given WTI already collapsed to $84-86, downside surprise on supply guidance could deepen the slide (no direct positioning since energy lane closed).
+  3. **PPI Thu digestion** — printed cool (relief tape, XLI +3.46%, broad cyclical rebound). Today's tape is the follow-through read.
+  4. **ADBE AMC reaction** — printed Thu after close; not in our lanes but a tech-sentiment tell for SMH/XLK lane re-evaluation timing.
+  5. **FOMC Jun 16-17 next week = looming binary** — terminal event of this macro window; entries today inherit 2 sessions of event drag.
+- **Earnings BMO:** light tape — no movers in XLI/XLB/XLF/XLK/SMH lanes per Earnings Whispers / Investing scrape.
+- **Economic calendar week ahead:** **FOMC Jun 16-17 next week** (decision + SEP); minor releases mid-week. This is the primary risk event for any post-Jun-18 deployment lift.
+- **Sector momentum YTD 2026:**
+  - **Energy still #1 (~+22-26% YTD)** trailing print but momentum broken; WTI -$10 from $94 to $84-86 in 4 sessions. Lane closed.
+  - **XLK (Tech) +32-33% YTD** strongest absolute return but in lagging momentum quadrant per Investing.com rotation read; AVGO/CRWD AH overhang + ADBE digestion = no clean entry.
+  - **Materials (XLB) +13-15% YTD** — leading quadrant, cleanest non-energy / non-tech probe candidate. Cooldown reset Jun 1.
+  - **Industrials (XLI) +12% YTD** — leading quadrant, anchor leg working; Thu +3.46% bounce reclaimed CPI-day washout; Tickeron flagged Jun 10 50DMA break (CPI day) but Thu's reversal likely reclaimed it. Danelfin AI score 10/10, Strong Buy; sub-sectors A&D 24.44%, Machinery 20.97%, Electrical Equipment 13.33% intact. AI data-center cooling tailwind (Vertiv/Eaton) holding.
+  - **XLF (Financials) ~-5% YTD** — laggard; defer.
+
+### Trade Ideas
+1. **XLI — HOLD, no add.** Anchor leg +0.81% unrealized; HWM $176.58, trail $158.922 (~9.3% buffer to $175.21). +15% tighten threshold $199.87 (current $175.21 = +14.1% below — within 1pt of the trigger if XLI tags $176.85, but not yet). **-7% manual cut $161.63 sits ~7.8% below current — comfortable.** Industrials thesis intact; near-52w-high + stochastic-overbought + FOMC overhang = no same-sector add. Let HWM ratchet auto-manage; if XLI tags >$199.87 (16% above HWM $176.58 means HWM must climb to ~$199.87) the tighten 10% → 7% trigger fires (not imminent at current levels).
+2. **XLB / Materials — primary post-PPI candidate, conditional Fri probe.** Per Thu plan: only fire if (a) Employer Costs 10:00 ET benign, (b) XLI holds the $174-175 zone, (c) VIX < 18 intraday. Sizing ~12-15% ($12-15k), 10% trail GTC, never within 3% of price. **Realistic call: FOMC next week is too close — probe most likely defers to post-Jun-18 anyway, but the trigger is armed for tape confirmation only.**
+3. **SMH / XLK — DEFERRED.** AVGO/CRWD AH overhang + ADBE Thu AMC digestion + AI-rotation lane broken (XLK lagging quadrant per Investing read despite +32% YTD). Re-evaluate post-FOMC.
+4. **XLF / Financials — DEFERRED.** Laggard quadrant; CPI hot headline + FOMC-bound tape = no rate-cut bid. Defer post-FOMC.
+5. **XLP / Staples — defensive watchlist** (~+15-16% YTD) — doesn't fit momentum-aggressive mandate; hedge probe only if VIX expansion resumes (>20 sustained). Not pulling today.
+6. **Energy (XLE / XOM / CVX / COP) — LANE CLOSED.** WTI $84-86 = $9-10 below the $95 re-open threshold; counter at 0. No realistic re-entry pending sustained rally back over $95 (3+ sessions). Watch OPEC Monthly Report today for any supply-side bullish surprise — even then policy is patient on confirmation.
+
+### Risk Factors
+- **FOMC Jun 16-17 next week = primary binary.** Terminal event of this macro window. Entries placed today inherit 2 sessions of event drag for zero compensating setup. Friday-into-weekend doubles the drag.
+- **Friday-into-weekend tape = no positive R:R for new longs** regardless of intraday signal — 2.5 sessions of overnight risk into FOMC.
+- **WTI collapse to $84-86** — confirms energy thesis broken; XLE exit (Jun 1, -3.14%) validated. OPEC Monthly Report today could amplify the slide or stabilize; lane stays closed either way.
+- **AI-trade-exhaustion drag** — ADBE AMC Thu print is the next tech-sentiment tell; SMH/XLK lane stays off pending tape stabilization confirmation post-FOMC.
+- **VIX ~19-20 = elevated regime.** Whippy intraday tape; bid-ask spreads on sector ETFs wider; any new placement exposed to slippage and gap-risk into the weekend.
+- **XLI stochastic overbought + below recent 50DMA break flagged Jun 10** — Thu reclaim likely but unconfirmed at close; no same-sector add at this altitude pre-FOMC.
+- **Chronic under-deployment (~14%)** persists for 7 weeks — but Fri pre-FOMC is exactly the wrong window. Patience > activity (Rule 11). 3 fresh slots, no need to burn one today.
+- **Weekly-review day** — focus belongs on consolidation + Week 8 plan, not forced redeployment.
+- **Audit hygiene:** open-orders book clean — only `c431cbc2` (XLI trail GTC, stop $158.922, HWM $176.58). Verify at open. Open audit item (May 21 MP unauthorized fill source) still unresolved — log if it recurs.
+
+### Decision
+**HOLD. No new entries today.** Sequence:
+1. **9:30 ET:** Confirm flat ex-XLI; open-orders book ONLY `c431cbc2` (XLI trail GTC, stop $158.922, HWM $176.58). If anything else appears → STOP, audit, alert.
+2. **9:30-10:00 ET:** Observe XLI follow-through vs Thu's +3.46% rebound; let trail/auto-tighten work autonomously. No manual stop changes (well below +15% threshold; -7% cut $161.63 ~7.8% below current).
+3. **10:00 ET:** Employer Costs print — observe reaction; low primary impact but secondary wage-inflation tell into FOMC.
+4. **No new long entries today regardless of tape** — Fri-into-weekend + FOMC Jun 16-17 next week = no positive R:R window. XLB probe formally deferred to post-FOMC Jun 18+.
+5. **Energy lane:** OPEC Monthly Report today — log direction but lane stays closed (WTI $84-86 = $9-10 below $95 threshold, counter at 0).
+6. **Post-close: weekly review fires** (Week 7 close, full grade) — formally rule on Week 8 deployment lift path (post-FOMC XLB probe primary, XLI follow-through breakout add secondary on >$176.85 confirmation), update strategy if Wk-7 grade warrants, and decide whether the chronic under-deployment regime needs a rule revision.
+7. **Tighten-by-rule trigger watchlist:** XLI +15% threshold = $199.87 (current $175.21 = +14.1% below). No imminent action; HWM ratchet auto-manages.
+
+Trades this week: **0/3 entries used.** Phase -0.16% (closest to baseline since end-May); goal — protect XLI through the FOMC binary, defer all redeployment to post-FOMC Jun 18+ on confirmation, lean on the cleanest non-energy / non-tech / non-financials lane (XLB primary, XLI follow-through secondary on breakout).
+
+---
