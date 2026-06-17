@@ -1658,3 +1658,77 @@ Trades this week: **0/3 entries used.** Phase **+0.10%** (first green mark since
 Trades this week: **0/3 entries used.** Phase **+0.11%** (two consecutive closes above $100K baseline); goal — protect XLI through the Warsh-FOMC binary, defer XLB probe to Jun 18+ on dovish/in-line confirmation + XLI extends + VIX holds < 18, lean on cleanest non-energy / non-tech / non-financials lane (XLB primary, XLI follow-through secondary on > $179.98 breakout close).
 
 ---
+
+## 2026-06-17 — Pre-market Research (Wednesday, Week 8 day 3 — FOMC DECISION DAY, Warsh 2:00 ET + dot-plot + Retail Sales)
+
+### Account
+- Equity: $100,223.12 (**third consecutive close > $100K baseline; new phase high**)
+- Cash: $85,818.32 (85.6%)
+- Buying power (regT): $186,041.44 / daytrading $383,606.72
+- Daytrade count: 0
+- Positions:
+  - XLI 80 sh @ $173.80 avg, last $180.06, **+$500.80 (+3.60%)**; trail 10% GTC, stop **$162.99** (auto-ratcheted), HWM **$181.10** (order `c431cbc2`). Intraday +$16.80 (+0.02%) vs $180.06 lastday — flat overnight.
+- Deployed: ~14.4% (XLI only) — well below 75-85% target. Week 8 day 3, 0/3 entries used. Materials cooldown reset Jun 1; energy lane closed (WTI ~$75-76; counter at 0; gap to $95 re-open at -$19 and widening).
+- Day P&L (vs broker last_equity $100,206.32): **+$16.80 (+0.02%)** — overnight flat.
+- Phase P&L: **+$223.12 (+0.22%)** — new phase high, third straight close above baseline.
+
+### Market Context
+- **WTI: ~$75-76** (Polymarket mid-June read; Kalshi Jun 17 settlement market resolving above $74.99). Continuing the post-US-Iran-agreement collapse from $94 (Jun 1) → $80 (Jun 16) → $75-76 today. **Lane STAYS CLOSED, counter at 0** (now $19 below $95 threshold and moving further away).
+- **Brent: ~$96** (Jun 1 Fortune print last clean; YouTube/video sources cite >$96 holding). Front-spread to WTI has widened to $20+ — extreme.
+- **S&P 500 futures (ESM26): ~7,523-7,587 zone** premarket per Markets Insider 5:59 AM ET ($7,523.25 +0.06%) / Yahoo $7,587.25 (later intraday). Tape coiled at upper end of post-PPI-relief range; Barchart notes 3-day rally pausing pre-FOMC. Mild positive bias.
+- **VIX: 16.41 Jun 16 close** (+1.30% from 16.20 Jun 15) per Yahoo/Cboe — **second consecutive sub-18 print**, regime compressed sharply from CPI-day 22+ on US-Iran agreement + PPI relief carry-through + pre-FOMC complacency. Pre-event complacency = repricing risk in either FOMC tail.
+- **Today's catalysts (FOMC binary day):**
+  1. **Advance Retail Sales (May) 8:30 ET** — consensus **+0.3% m/m** vs +0.5% prev (TradingEconomics) / +0.1% prev (some sources); Chicago Fed early read projects **-0.3%** decline (downside risk); CNBC/NRF Monitor preliminary **+0.42%** (upside risk). **Conflicting nowcasts = real surprise risk in either direction.** Hot print = hawkish-Warsh setup + cyclical bid; soft print = goldilocks slowdown bid for rate-cut hopes.
+  2. **Business Inventories 10:00 ET** — secondary.
+  3. **FOMC Decision 2:00 ET** — first meeting under **new Chair Kevin Warsh**. CME FedWatch: **96-97% priced for HOLD** at 3.50-3.75%. **2026 cuts priced 0** (down from ~2 at start of year); market leaning **rate-HIKE** odds 50% by Oct, ~67% by Dec per CNB. Goldman pushed first cut to Jun 2027.
+  4. **SEP + Dot-plot 2:00 ET** — the actual binary: market expects easing-bias removal; hawkish surprise = SEP confirms 0 cuts + adds 2026 hike → SPX gap-down, VIX expansion, cyclical drawdown; dovish surprise = preserve patience language + soft SEP → goldilocks rally, XLI extends, XLB probe armed for Thu.
+  5. **Warsh Press Conference 2:30 ET** — tone is the wildcard; market has no Warsh prior. Hawkish-tone (Volcker-style) = additional risk-off leg; dovish-tone (Powell-style) = rally extension.
+- **Earnings BMO:** **JBL (Jabil) $3.10 est** — AI-infrastructure hardware play, direct XLI Electrical-Equipment sub-sector tell; **KMX (CarMax) $0.96 est** — consumer-cyclical; **KR (Kroger) $1.58 est** — staples; **SWBI (Smith & Wesson) $0.23 est** — small-cap consumer. JBL beat = XLI tailwind into FOMC; miss = XLI headwind compounding overbought-Bollinger setup.
+- **Earnings AMC:** **ACN (Accenture) $3.72 est** — IT-services tell; not direct XLI but consumer-AI-services sentiment driver.
+- **Economic calendar week ahead:** **Thu Jun 18 Initial Jobless Claims + Philly Fed 8:30 ET** (post-FOMC digestion day = primary XLB-probe arm/disarm decision); **Fri Jun 19 Juneteenth — bond market closed, stocks open thin tape** (avoid placing new GTC orders into the holiday weekend).
+- **Sector momentum YTD 2026 (refreshed Jun 17):**
+  - **Energy still #1 trailing (~+20-26% YTD)** but lane closed; momentum broken; WTI $75-76 = $19 below re-open threshold.
+  - **Industrials (XLI) +22% YTD** per Investing.com momentum-map (Leading quadrant, dominant leader, breaking out of long-term consolidation). Schwab: AI-capex/electricity-capacity/defense/reshoring tailwinds intact. SSGA Jun 15 sub-sector mix: A&D 24.44%, Machinery 21.17%, Electrical Equipment 13.88%, Ground Transport 9.89%. MarketChameleon: 2-week return +4.7% vs SPY -0.8%; support $176.56, resistance $180.80 (XLI at $180.06 sits 1pt below resistance, 3.5pt above support).
+  - **Materials (XLB) Leading quadrant** — cup-with-handle breakout setup per Investing.com momentum read targeting $56.80. Cleanest non-energy / non-tech probe candidate. Cooldown reset Jun 1. **Primary post-FOMC probe.**
+  - **Consumer Staples (XLP) Leading quadrant** — flight-to-safety bid, at fresh highs.
+  - **XLK (Tech) +18-32% YTD trailing print** but in lagging momentum quadrant; AI-leadership broken; ACN AMC the tell. Lane stays off.
+  - **XLF (Financials) Lagging quadrant** — defer.
+
+### Trade Ideas
+1. **XLI — HOLD, no add.** Anchor leg **+3.60% unrealized (new phase high $500.80)**. HWM $181.10, trail $162.99 (-9.5% buffer from current $180.06). +15% tighten threshold $199.87 (current $180.06 = +10.9% below — closer to trigger but not imminent). **-7% manual cut $161.63 sits ~10.3% below current — comfortable.** Industrials thesis intact and reasserting. **Bollinger upper-break Jun 15 = mean-reversion risk flag persists** — same-sector add at this altitude pre-FOMC binary = bad R:R; HWM ratchet auto-manages on any new high. JBL BMO print = direct sub-sector tell (Electrical Equipment 13.88% weight); positive surprise = tailwind, miss = compound the BB-overbought drag.
+2. **XLB / Materials — primary post-FOMC probe, formally deferred to Thu Jun 18.** VIX < 18 trigger satisfied (16.41 sub-18 second day); dot-plot + Warsh-tone binary today = no positive R:R for placement today. Sizing target ~12-15% ($12-15k), 10% trail GTC, never within 3% of price. **Thu Jun 18 trigger conditions:** (a) dot-plot dovish/in-line + Warsh non-hawkish (no SEP hike-add language), (b) XLI extends > $181.10 HWM close OR holds the $176.56 support, (c) VIX holds < 18 post-presser, (d) Retail Sales not extreme on either side (no air-pocket).
+3. **SMH / XLK — DEFERRED.** Lagging quadrant; ACN AMC tonight + AI rotation broken. Re-evaluate post-FOMC + ACN digestion only.
+4. **XLF / Financials — DEFERRED.** Laggard quadrant; if Warsh signals hike-bias, banks could catch a yield-curve bid Thu — possible re-evaluation post-presser BUT lane stays off today.
+5. **XLP / Staples — defensive watchlist** (~+12% YTD, flight-to-safety bid). Only relevant if FOMC hawkish surprise drives VIX > 22 sustained; not pulling today.
+6. **Energy (XLE / XOM / CVX / COP) — LANE CLOSED, gap widening.** WTI $75-76 = $19 below re-open threshold; US-Iran agreement structural lid. No realistic re-entry pending sustained rally > $95 (3+ sessions).
+
+### Risk Factors
+- **FOMC Wed 2:00 ET = THE binary.** First Warsh meeting; market has no Warsh prior. **Forbes/Chase/RexShares consensus: HOLD priced 96-97%; the binary is the dot-plot + Warsh-tone.** Hawkish surprise (drop easing language + hot SEP + Warsh hawkish-tone) = SPX gap-down 1-2%, VIX expansion back to 20+, cyclicals (incl. XLI) drawdown of 1-3%; -7% manual cut watch ($161.63, ~10.3% below current) widens but stays comfortable on single-day move. Dovish surprise (preserve patience + soft SEP + dovish-tone) = goldilocks rally, XLI extends above $181.10 HWM, XLB probe re-armed for Thu.
+- **Retail Sales 8:30 ET = pre-FOMC sentiment tell.** Conflicting nowcasts (Chicago Fed -0.3% vs CNBC/NRF +0.42% vs Trading Economics consensus +0.3%) = real surprise risk in either direction; whip-saw potential between 8:30 print and 2:00 FOMC.
+- **VIX 16.41 = pre-event complacency persisting.** Sub-18 = nominally green-light for XLB probe BUT tape is priced for a benign Fed; any hawkish surprise → fast VIX repricing back to 20+. Whippy intraday tape risk if any pre-FOMC leak or hot Retail Sales hits.
+- **XLI overbought / upper-Bollinger break Jun 15 (still in effect)** — mean-reversion / consolidation risk; same-sector add at this altitude pre-FOMC = bad R:R. Let HWM ratchet auto-manage.
+- **JBL BMO print = direct XLI Electrical-Equipment sub-sector tell.** Beat (>$3.10) = XLI tailwind into FOMC; miss compounds overbought drag.
+- **Oil at $75-76, $19 below threshold** — Energy thesis fully broken; XLE exit (Jun 1) further validated; US-Iran agreement = structural lid.
+- **BOJ post-rate decision yen risk** (Aug 2024 reminder) — indirect SPX risk if yen carry-trade unwind continues post-BOJ hike.
+- **Juneteenth Fri Jun 19** — thin tape (bond closed, stocks open) = avoid placing new GTC orders into the holiday weekend; XLB probe earliest Thu Jun 18.
+- **Chronic under-deployment (~14%)** persists for 8 weeks — opportunity cost real but pre-FOMC is the worst window. Patience > activity (Rule 11). 3 fresh slots, no need to burn one pre-binary.
+- **Audit hygiene:** open-orders book clean — only `c431cbc2` (XLI trail GTC, stop $162.99, HWM $181.10). Verify at open. Open audit item (May 21 MP unauthorized fill source) still unresolved.
+
+### Decision
+**HOLD. No new entries today.** Sequence:
+1. **8:30 ET:** Retail Sales (May) — observe 30-60 min reaction; do NOT pre-position or chase the print regardless of direction.
+2. **9:30 ET:** Confirm flat ex-XLI; open-orders book ONLY `c431cbc2` (XLI trail GTC, stop $162.99, HWM $181.10). If anything else appears → STOP, audit, alert.
+3. **9:30 ET pre-open:** JBL BMO reaction tape — observe XLI Electrical-Equipment sub-sector response; no manual stop changes.
+4. **10:00 ET:** Business Inventories — minor; observe.
+5. **9:30-14:00 ET:** Monitor XLI for pre-FOMC fade or extension. Broker trail auto-ratchets on any new high. **Bollinger overbought watch:** mean-reversion drift toward $176.56 support = normal, no manual action. No manual stop changes (+15% threshold $199.87 not yet hit; -7% cut $161.63 ~10.3% below current — comfortable).
+6. **14:00 ET:** FOMC Statement + SEP/dot-plot release — observe immediate reaction; **DO NOT trade the first 30 min** (whip-saw risk).
+7. **14:30 ET:** Warsh Press Conference — tone read is the wildcard.
+8. **14:30-16:00 ET:** Digest Warsh tone; no new entries today regardless of outcome (post-presser tape too thin to commit; Thu Jun 18 is the formal XLB-probe day).
+9. **No new long entries today regardless of tape** — FOMC binary = no positive R:R for new entries placed pre-decision. XLB probe formally armed for **Thu Jun 18** on (a) dovish/in-line dot-plot + Warsh non-hawkish, (b) XLI extends > $181.10 or holds $176.56, (c) VIX < 18 holds, (d) Retail Sales not extreme.
+10. **Energy lane:** track WTI — counter at 0; gap widening; no re-entry today or this week.
+11. **Tighten-by-rule trigger watchlist:** XLI +15% threshold = $199.87 (current $180.06 = +10.9% below). If XLI tags > $199.87 intraday, broker auto-trail ratchets HWM but the 10% → 7% tighten is a manual order-replacement per Rule 6 — monitor + execute same session if hit (not imminent at $180.06 vs $199.87 = $19.81 gap).
+12. **Thu Jun 18 pre-market:** Read FOMC dot-plot + Warsh-tone digestion + Initial Claims/Philly Fed 8:30 ET. **Formal XLB probe arm-or-disarm decision** based on overnight + 8:30 + tape stabilization.
+
+Trades this week: **0/3 entries used.** Phase **+0.22%** (third consecutive close above $100K baseline, new phase high); goal — protect XLI through the Warsh-FOMC binary, defer XLB probe to Thu Jun 18+ on dovish/in-line confirmation + XLI extends + VIX holds < 18 + Retail Sales not extreme, lean on cleanest non-energy / non-tech / non-financials lane (XLB primary, XLI follow-through secondary on > $181.10 HWM breakout close).
+
+---
