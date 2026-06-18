@@ -1732,3 +1732,80 @@ Trades this week: **0/3 entries used.** Phase **+0.11%** (two consecutive closes
 Trades this week: **0/3 entries used.** Phase **+0.22%** (third consecutive close above $100K baseline, new phase high); goal — protect XLI through the Warsh-FOMC binary, defer XLB probe to Thu Jun 18+ on dovish/in-line confirmation + XLI extends + VIX holds < 18 + Retail Sales not extreme, lean on cleanest non-energy / non-tech / non-financials lane (XLB primary, XLI follow-through secondary on > $181.10 HWM breakout close).
 
 ---
+
+## 2026-06-18 — Pre-market Research (Thursday, Week 8 day 4 — POST-FOMC HAWKISH digestion; Philly Fed + Claims 8:30 ET; ACN BMO; Triple Witching; Juneteenth Fri tomorrow)
+
+### Account
+- Equity: **$100,318.32** (**fourth consecutive close > $100K baseline; new phase high**)
+- Cash: $85,818.32 (85.5%)
+- Buying power (regT): $186,136.64 / daytrading $383,873.28
+- Daytrade count: 0
+- Positions:
+  - XLI 80 sh @ $173.80 avg, last $181.25, **+$596.00 (+4.29%)**; trail 10% GTC, stop **$164.097**, HWM **$182.33** (order `c431cbc2`). Intraday +$132.00 (+0.92%) vs $179.60 lastday — XLI gapped up premarket on post-FOMC bounce + Brent/oil weakness tailwind.
+- Deployed: ~14.5% (XLI only) — well under 75-85% target. Week 8 day 4, 0/3 entries used. Materials cooldown reset Jun 1; energy lane closed (WTI ~$75; counter at 0; gap to $95 re-open at -$20 and widening).
+- Day P&L (vs broker last_equity $100,186.32): **+$132.00 (+0.13%)**
+- Phase P&L: **+$318.32 (+0.32%)** — new phase high, fourth straight close above baseline.
+
+### Market Context
+- **WTI: ~$75.33** (MarketWatch Jun 18 3:20 AM ET front-month CLM26, -1.46 on the day). **Brent: ~$83-94** zone implied (Fortune Jun 10 last clean read $94.27; YouTube Jun 17 source cites Brent fell to "around $83" post-US-Iran-agreement). **WTI lane STAYS CLOSED, counter at 0** (now ~$20 below $95 threshold and still moving further away). Lower oil = pre-market sentiment tailwind cited as one of three premarket positives.
+- **S&P 500 cash close Wed: 7,420.10 (-1.21%, -91.25 pts)** post-Warsh hawkish reaction — gave back ~half of Mon's +1.65% record-high $7,554.29 bid. **ESM26 (E-mini SPX futures): ~7,492-7,495** premarket per Yahoo (last price 7,492.75, day range 7,504-7,568), mild bounce off Wed close. **Nasdaq 100 futures leading +1.5%** premarket per allday_stocks 7:00 AM ET briefing; rebound driven by lower oil + weaker yen + geopolitical de-escalation hopes — but Fed-rate concerns linger.
+- **VIX: 18.44 Wed close** (+12.4% from 16.41 Tue close) on the hawkish dot-plot shock; **17.10 premarket** (-7.27% from yesterday's close per Cboe 7:29 AM ET trade data) — **back below the 18 threshold but elevated relative to early-week 16.14**. Sub-18 = nominally still in "low-vol bull" regime per Saxo framework but the regime is now demonstrably fragile (18.44 spike = the post-FOMC repricing event we'd flagged).
+- **FOMC Wed outcome (Warsh's first meeting):** rate **HELD 3.50-3.75%** as 96-97% priced (no surprise on rate level). **THE binary surprise = DOT-PLOT HAWKISH SHIFT** — median year-end 2026 dot moved from 3.4% (Mar SEP) to **3.8%** (Jun SEP); **flipped the implied path from 1 cut to ~1 hike-leaning**. Rates curve immediately repriced: front-end/belly yields up, long bond down slightly — bear-flattening = "Fed tightening financial conditions via communication." Warsh tone read as hawkish on day 1 (Volcker-comparison flagged in commentary); Warsh introduced 5 task forces (communication + balance sheet) — markets cut losses into close as Warsh elaborated. **Net: hawkish surprise confirmed; the dovish/in-line XLB-probe trigger is DISARMED.**
+- **Today's catalysts:**
+  1. **BoE Interest Rate Decision 7:00 AM ET** — global rate-event tone-setter, secondary.
+  2. **Initial Jobless Claims (wk Jun 13) 8:30 ET** — consensus **225K** vs prior **229K** (3-month high prior print = soft labor signal); a beat (lower claims) reinforces Warsh-hawkish tightening narrative + bond bid for cuts diminishes; miss (higher) opens the soft-landing rate-cut hope back up.
+  3. **Philly Fed Manufacturing Index 8:30 ET** — consensus **+11.4** vs prior **-0.4**. **DIRECT XLI sub-sector tell** — strong rebound = industrials tailwind confirming AI-capex/reshoring thesis; miss = compounds Wed XLI fade + hawkish-Fed cyclical drag.
+  4. **5-Year TIPS Auction 1:00 PM ET** — bond market tell post-dot-plot shock; primary for rates desk, secondary for equity.
+  5. **TIC Long-Term Transactions 4:00 PM ET** — minor.
+  6. **Monthly OPEX / Triple Witching 4:00 PM ET** — quarterly option/index/futures expiry = **whippy/thin tape risk all session, especially the close**. Volume distortion + dealer positioning unwinds = bad day to chase a directional entry.
+- **Earnings BMO:** **ACN (Accenture) ~$3.70 est** at 6:40 AM ET; AI-consulting / federal-spending / $18.77-18.80B revenue tell. ACN closed Wed **$156.21 (-5.63%)** on pre-earnings de-risking; extended +0.64% at $157.20. ACN miss = IT-services-sector slam = drag on the lagging XLK lane (won't directly hit XLI but indirect sentiment signal); beat = AI-consulting demand vindication + broader risk-on bid. **KR (Kroger) ~$1.58 est** at 6:45 AM ET — staples, secondary.
+- **Earnings AMC:** thin. DRI tomorrow / next-day; not material.
+- **Economic calendar week ahead:** **Fri Jun 19 Juneteenth — bond market CLOSED, stocks OPEN with thin tape**. **Mon Jun 22 Existing Home Sales** + Fed-speakers begin post-blackout. Tue Jun 23 PMI flash + Richmond Fed. Wed Jun 24 New Home Sales. Thu Jun 25 Q1 GDP final + Durable Goods. **Avoid placing new GTC orders into the Juneteenth thin tape**; reassess Mon Jun 22.
+- **Sector momentum YTD 2026 (refreshed Jun 18):**
+  - **Energy still #1 (~+23% YTD)** but lane closed; momentum broken on US-Iran agreement; WTI $75 = $20 below re-open threshold.
+  - **Materials (XLB) +17.4% YTD** — Leading quadrant; cup-with-handle breakout targeting $56.80 (per Investing.com momentum read). Schwab "More Favored." **BUT post-hawkish-FOMC = cyclical-margin compression risk if Fed's hike-leaning path holds + tariff-pressure overhang.** XLB probe **DISARMED** by hawkish FOMC trigger.
+  - **Consumer Staples (XLP) +15.6% YTD** — Leading quadrant; flight-to-safety bid; outperforms in hawkish-Fed regimes.
+  - **Industrials (XLI) +14.1% YTD** (LinkedIn Feb-base / +22% MarketChameleon momentum print) — Leading quadrant; AI-capex/electricity/defense tailwind intact; technicals **above 20/60/200-day MAs**, MACD +1.35, RSI 61.6 (neutral), Stochastic 90.3 (overbought). **Resistance $181.13, support $169.48** — XLI at $181.25 sits exactly AT the $181.13 resistance line; a daily close > $181.13 = breakout confirmation. Schwab notes valuations "near-record" = same-sector add risk.
+  - **Tech (XLK) negative YTD per latest** — Lagging; AI-leadership broken; ACN BMO is the tell.
+  - **Financials (XLF) negative YTD** — Lagging; possible bid IF Warsh's hike-leaning curve produces a yield-curve steepening (would help bank NIMs); but until tape stabilizes post-FOMC + post-Juneteenth, lane stays off.
+
+### Trade Ideas
+1. **XLI — HOLD, no add.** Anchor leg **+4.29% unrealized (new phase high $596.00)**. HWM $182.33, trail $164.097 (-9.5% buffer from current $181.25). +15% tighten threshold $199.87 (current $181.25 = +10.3% below — closer to trigger; broker auto-ratchets HWM on any new high but the 10%→7% trail tighten requires manual replacement per Rule 6). **-7% manual cut $161.63 sits ~10.3% below current — comfortable.** Industrials thesis intact; XLI at $181.13 resistance line + RSI 61.6 + Stochastic 90.3 = overbought-near-resistance setup. **Same-sector add at this altitude + post-FOMC + triple-witching = bad R:R; HWM ratchet auto-manages on any new high.** Philly Fed +11.4 print BMO = direct sub-sector tell; positive surprise = tailwind, miss = compound the overbought-at-resistance drag.
+2. **XLB / Materials — PROBE FORMALLY DISARMED.** Hawkish FOMC dot-plot = primary trigger condition failed (we required dovish/in-line dot-plot + non-hawkish Warsh tone; we got the opposite). Cyclical-margin compression risk + tariff overhang in a hike-leaning regime. Re-arm conditions: 2+ session VIX < 16 sustained + Warsh-speak softens at next FOMC scheduled event + cyclical breadth re-asserts post-Juneteenth. Earliest re-evaluation **Mon Jun 22** with fresh post-Juneteenth tape; lane stays off today and tomorrow.
+3. **XLP / Staples — DEFENSIVE WATCH (passive).** Hawkish-Fed regime is XLP's natural home; +15.6% YTD; flight-to-safety bid. **NOT an entry candidate today** (triple-witching + Juneteenth + we haven't traded the XLP playbook this phase; ad-hoc placement = bad discipline). Re-evaluate Mon Jun 22 only if VIX > 22 sustained or SPX breaks $7,400 = then defensive rotation becomes the natural lane.
+4. **XLF / Financials — DEFER.** Hawkish-Fed could yield-curve-steepen (NIM bid) BUT we'd need to see the curve confirm + bank-stress reactions to Warsh's 5 task forces (one is communication, but balance-sheet task force = QT-pace risk). Lagging quadrant. Earliest re-evaluation Mon Jun 22.
+5. **SMH / XLK — DEFER.** ACN BMO is the AI-consulting tell; even a beat won't flip XLK out of lagging quadrant on a single print; broader AI rotation broken. Re-evaluate post-ACN digestion + post-Juneteenth.
+6. **Energy (XLE / XOM / CVX / COP) — LANE CLOSED, gap widening.** WTI $75 = $20 below re-open threshold; US-Iran agreement structural lid. No realistic re-entry pending sustained rally > $95 (3+ sessions).
+
+### Risk Factors
+- **Hawkish FOMC dot-plot = the binary already happened — XLB probe disarmed.** The "if hawkish or risk-off resumes = hold XLI-only baseline" branch of yesterday's plan is now in force. Cyclicals (incl. XLI) face hike-leaning-rate drag; offset partially by the pre-market bounce + lower-oil tailwind.
+- **Triple Witching today (4:00 PM ET monthly OPEX)** — quarterly options/index/futures expiry = volume distortion, dealer-positioning unwinds, fake breakouts and stop-runs especially in the final 60-90 min. **Worst possible day to chase a new directional entry.**
+- **Juneteenth Fri Jun 19 — bond market closed, stocks open thin tape.** Avoid placing new GTC orders into the holiday; existing XLI trail GTC `c431cbc2` runs fine through the day on broker side. Phase-into-weekend overnight gap risk Mon Jun 22 open.
+- **XLI at $181.13 resistance + overbought (RSI 61.6 / Stochastic 90.3) on the day after a hawkish FOMC = mean-reversion risk to support $176.56 / $169.48.** Trail $164.097 = -9.5% buffer; -7% manual cut $161.63 = ~10.3% buffer. Both comfortable on any single-day move; thesis-invalidated discretionary exit (Rule 5a) NOT triggered (industrials thesis intact, trail buffer well above 3%).
+- **Philly Fed +11.4 (vs prior -0.4) consensus is a BIG expected swing** — high bar; any disappointment vs +11.4 = compounds hawkish-Fed cyclical drag specifically on XLI's Machinery + Electrical Equipment + A&D sub-sectors. Conversely a clean beat = vindicates the rotation and could break XLI above $181.13.
+- **Claims 225K consensus = a beat tightens the hawkish-Fed loop** (low claims → no labor-market crack → no cut excuse → curve repricing extends). **Counter-intuitively a slight miss might be the risk-asset-positive print this morning.**
+- **VIX 17.10 premarket = sub-18 but fragile** — yesterday's 18.44 close is the fresh anchor; any negative surprise on Claims/Philly Fed/ACN = quick repricing back to 19-21. The 16-handle low-vol bull regime is gone for now.
+- **ACN BMO = potential cross-asset shock event.** -5.63% pre-print sell-off = market pricing significant downside risk; a miss could trigger an IT-services/AI-consulting cascade through XLK; even though XLI is the position, broader sentiment risk affects all cyclicals on a thin-tape OPEX day.
+- **BoE 7:00 AM ET** — if BoE surprises hawkishly, GBP/EUR rallies, USD weakens, indirect SPX positive but with rate-volatility spillover. Indirect risk only.
+- **Chronic under-deployment (~14.5%)** persists for 8 weeks — opportunity cost real but the hawkish-FOMC + triple-witching + Juneteenth-thin-tape combo = the worst possible window to redeploy. Patience > activity (Rule 11). 3 fresh slots, no need to burn one into this setup.
+- **Audit hygiene:** open-orders book clean — only `c431cbc2` (XLI trail GTC, stop $164.097, HWM $182.33). Verify at open. Open audit item (May 21 MP unauthorized fill source) still unresolved.
+
+### Decision
+**HOLD. No new entries today.** Sequence:
+1. **7:00 ET:** BoE decision — observe; no action.
+2. **8:30 ET:** Initial Jobless Claims + Philly Fed Manufacturing — observe 30-60 min reaction; do NOT pre-position or chase the print regardless of direction. Beat-claims / beat-Philly = compound hawkish-Fed cyclical drag; miss-both = goldilocks-bounce + XLI extension to break $181.13.
+3. **6:40 ET:** ACN BMO — observe XLK / IT-services reaction; no manual stop changes on XLI (indirect tell only).
+4. **9:30 ET:** Confirm flat ex-XLI; open-orders book ONLY `c431cbc2` (XLI trail GTC, stop $164.097, HWM $182.33). If anything else appears → STOP, audit, alert.
+5. **9:30 ET pre-open:** Note ACN reaction tape; observe XLI vs $181.13 resistance (gap-up open if pre-market +1.13% holds = +1.13% at $181.63 testing immediate resistance; pullback to $179.60 = mean-reversion / fade scenario). No manual stop changes.
+6. **10:00-15:00 ET:** Monitor XLI for resistance break / fade. Broker trail auto-ratchets on any new high. **Overbought-at-resistance watch:** mean-reversion drift toward $176.56 support = normal, no manual action. No manual stop changes (+15% threshold $199.87 not yet hit; -7% cut $161.63 ~10.3% below current — comfortable).
+7. **13:00 ET:** 5-Year TIPS auction — observe; bond market tell.
+8. **15:00-16:00 ET:** Triple Witching close — expect whippy tape; do NOT place new GTC orders in the final hour; do NOT touch the XLI trail GTC during dealer unwinds.
+9. **No new long entries today regardless of tape** — hawkish-Fed + triple-witching + Juneteenth thin tape tomorrow = no positive R:R for any new placement. XLB probe formally **DISARMED** (was conditional on dovish FOMC); earliest re-evaluation Mon Jun 22 with fresh post-Juneteenth tape.
+10. **Energy lane:** track WTI — counter at 0; gap widening; no re-entry today or this week.
+11. **Tighten-by-rule trigger watchlist:** XLI +15% threshold = $199.87 (current $181.25 = +10.3% below). If XLI tags > $199.87 intraday, broker auto-trail ratchets HWM but the 10% → 7% tighten is a manual order-replacement per Rule 6 — monitor + execute same session if hit (not imminent at $18.62 gap).
+12. **Fri Jun 19 (Juneteenth, stocks open / bonds closed):** routine runs Mon-Fri but Friday workflow runs into thin tape; midday scan only, no entries, no GTC changes; XLI hold (broker trail runs fine).
+13. **Mon Jun 22 pre-market:** post-Juneteenth gap risk read; XLB probe re-arm decision requires (a) 2+ sessions VIX < 16 sustained, (b) Warsh-speak softens (no fresh hawkish-tone catalyst), (c) cyclical breadth re-asserts, (d) ACN digestion not a contagion event. If any condition fails, hold XLI-only baseline through Week 9.
+
+Trades this week: **0/3 entries used.** Phase **+0.32%** (fourth consecutive close above $100K baseline, new phase high); goal — protect XLI through the post-hawkish-FOMC digestion + triple-witching + Juneteenth thin-tape window, defer redeployment to Mon Jun 22+ on confirmation of re-arm conditions, lean on cleanest non-energy / non-tech lane (XLB primary IF probe re-arms, XLI follow-through secondary on a $181.13 daily-close breakout — but no add at the resistance line today).
+
+---
