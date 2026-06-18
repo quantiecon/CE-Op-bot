@@ -796,6 +796,22 @@ Not based on research signal. Smoke test only.
 **Cash/Equity:** Equity $100,377.92 (market_value $14,559.60 + cash $85,818.32); Day P&L +$171.60 (+0.17%) vs $100,206.32 last_equity; Phase P&L ~+$377.92 (+0.38%) — extends Tue's baseline-reclaim, new post-XLE-exit phase high. Cash $85,818.32 (85.5%); deployment ~14.5% (XLI only) — still well under the 75-85% band; per pre-market plan redeployment deferred to post-FOMC Thu Jun 18+ on confirmation only.
 **Trades this week:** 0/3 entries used. Energy lane closed (WTI ~$75-76; counter at 0; gap to $95 re-open at -$19 and widening on US-Iran agreement reports). Materials cooldown reset Jun 1. XLB the primary post-FOMC watchlist candidate.
 
+### Jun 18 — Midday Scan (no action)
+**Positions snapshot:**
+
+| Ticker | Shares | Entry | Last | P&L % | Unrealized P&L | Stop |
+|--------|--------|-------|------|-------|----------------|------|
+| XLI | 80 | $173.80 | $181.41 | +4.38% | +$608.80 | $164.628 (trail 10%, HWM $182.92) |
+
+**Actions:** None.
+**Step 3 (cut losers):** XLI +4.38% (intraday +1.01% vs $179.60 lastday), nowhere near -7% (cut trigger $161.63; current $181.41 = +12.2% above). No cut.
+**Step 4 (tighten winners):** XLI +4.38%, well below +15% threshold ($199.87). HWM auto-ratcheted $182.33 → $182.92 (XLI tagged new intraday high); trail auto-tightened $164.097 → $164.628 (still 10%, broker-managed). No manual tighten (would require +15% trigger; not hit).
+**Step 5 (thesis check):** XLI — industrials leading quadrant intact (A&D/machinery/electrical equipment + AI data-center cooling tailwind via Vertiv/Eaton, less oil-sensitive); extending the post-FOMC bounce + lower-oil tailwind into the Philly Fed/Claims digestion. Tagged new HWM $182.92, just above the pre-market $181.13 resistance flagged in research. No thesis break. Hold per pre-market plan (no new long entries today regardless of tape — hawkish-FOMC + triple-witching OPEX + Juneteenth Fri thin tape = no positive R:R window; XLB probe formally DISARMED on hawkish dot-plot, earliest re-arm decision Mon Jun 22).
+**Step 6:** No sharp unexplained moves — XLI extension is post-FOMC bounce + lower-oil tailwind + Philly Fed digestion; skip intraday Perplexity.
+**Audit hygiene:** Open-orders book clean — only the XLI trail GTC `c431cbc2` stop $164.628, HWM $182.92. No unauthorized fills.
+**Cash/Equity:** Equity $100,331.12 (market_value $14,512.80 + cash $85,818.32); Day P&L +$144.80 (+0.14%) vs $100,186.32 last_equity; Phase P&L ~+$331.12 (+0.33%) — extends Wed close, new post-XLE-exit phase high (fourth consecutive close > $100K baseline at midday read).
+**Trades this week:** 0/3 entries used. Energy lane closed (WTI ~$75; counter at 0; gap to $95 re-open at -$20 and widening). Materials cooldown reset Jun 1; XLB probe DISARMED by hawkish FOMC. Earliest re-arm decision Mon Jun 22.
+
 ### Jun 17 — EOD Snapshot (Day 38, Wednesday)
 **Portfolio:** $100,186.32 | **Cash:** $85,818.32 (85.7%) | **Day P&L:** -$20.00 (-0.02%) | **Phase P&L:** +$186.32 (+0.19%)
 
