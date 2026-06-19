@@ -1809,3 +1809,50 @@ Trades this week: **0/3 entries used.** Phase **+0.22%** (third consecutive clos
 Trades this week: **0/3 entries used.** Phase **+0.32%** (fourth consecutive close above $100K baseline, new phase high); goal — protect XLI through the post-hawkish-FOMC digestion + triple-witching + Juneteenth thin-tape window, defer redeployment to Mon Jun 22+ on confirmation of re-arm conditions, lean on cleanest non-energy / non-tech lane (XLB primary IF probe re-arms, XLI follow-through secondary on a $181.13 daily-close breakout — but no add at the resistance line today).
 
 ---
+
+## 2026-06-19 — Pre-market Research (Friday, Week 8 day 5 — JUNETEENTH; NYSE + NASDAQ CLOSED; weekly review fires today)
+
+### Account
+- Equity: **$100,291.12** (fourth consecutive close > $100K baseline; new phase high)
+- Cash: $85,818.32 (85.6%)
+- Buying power (regT): $186,109.44 / daytrading $383,797.12
+- Daytrade count: 0
+- Positions:
+  - XLI 80 sh @ $173.80 avg, last $180.91, **+$568.80 (+4.09%)**; trail 10% GTC, stop **$164.628**, HWM **$182.92** (order `c431cbc2`).
+- Deployed: ~14.4% (XLI only) — well under 75-85% target. Week 8 day 5, 0/3 entries used (clean week-cap miss). Materials cooldown reset Jun 1; energy lane closed (WTI ~$76; counter at 0; gap to $95 re-open at -$19).
+- Phase P&L: **+$291.12 (+0.29%)** — fourth straight close above baseline.
+
+### Market Context
+- **MARKET CLOSED — Juneteenth federal holiday.** NYSE + NASDAQ both CLOSED per Fidelity / Nasdaq Trader 2026 calendar (corrects yesterday's pre-market note that said "stocks open / bonds closed" — both equity AND bond markets closed today). No US cash trading. Broker API responsive but no fills until Mon Jun 22 9:30 ET open. **Today is a no-trade day by mandate.**
+- **WTI: ~$76.36-76.60** (CNBC Jun 19 print, July contract -0.31%); **Brent: ~$79.85** (+0.38%). US-Iran follow-up talks in Switzerland **POSTPONED** — renewed Middle East geopolitical risk premium re-emerging, but oil still well within the broken-thesis range. Lane STAYS CLOSED (counter at 0; needs 3+ sustained > $95).
+- **S&P 500 futures (ESM26): mixed/positive premarket** — Markets Insider 7,487 (+0.84%), Yahoo last 7,570.75; Wed cash close 7,420.10 (-1.21% on hawkish FOMC), Thu close per Alpaca equity ~baseline. Futures still trade on a half-session today; cash market shut.
+- **VIX: 16.86** (Investing.com real-time, +2.80% from 16.40 Thu close per Cboe). **Below the 18 threshold** but elevated relative to early-week 16.20 low; the post-hawkish-FOMC spike to 18.44 Wed already digested.
+- **Today's catalysts:** **NONE** — market closed; no earnings, no economic prints scheduled US-side. Watch overnight Israel-Hezbollah ceasefire warnings + US-Iran talks postponement headlines into Mon Jun 22 open.
+- **Earnings BMO/AMC:** None (market closed).
+- **Economic calendar:** None US-side. Mon Jun 22: Existing Home Sales + Fed-speakers begin post-blackout. Tue: PMI flash + Richmond Fed. Wed: New Home Sales. Thu: Q1 GDP final + Durable Goods.
+- **Sector momentum YTD 2026 (refreshed Jun 19):** **Energy +23.3%** (lane closed), **Materials +17.4%** (Leading; XLB probe DISARMED post-hawkish-FOMC), **Consumer Staples +15.6%** (Leading; defensive bid), **Industrials +14.1%** (Leading; anchor leg). Lagging: Comms -1.2%, Tech -3.3%, Cons Disc -3.8%, Financials -6.9%. Schwab: XLI + XLB both "More Favored" — but valuations "near-record" for XLI (same-sector add risk).
+
+### Trade Ideas
+1. **XLI — HOLD, no add.** Anchor leg +4.09% unrealized (new phase high). HWM $182.92, trail $164.628 (-9.5% buffer from $180.91). -7% manual cut $161.63 sits ~10.7% below current — comfortable. +15% tighten threshold $199.87 (current +4.09% < +15%; broker auto-ratchets HWM on any new high — Mon-only). No action today (market closed).
+2. **XLB / Materials — PROBE FORMALLY DISARMED.** Re-evaluation Mon Jun 22 requires: (a) 2+ sessions VIX < 16 sustained, (b) Warsh-speak softens, (c) cyclical breadth re-asserts post-Juneteenth, (d) no negative ACN-digestion contagion. Lane stays off today and Mon by default.
+3. **XLP / Staples — DEFENSIVE WATCH (passive).** Hawkish-Fed natural home; +15.6% YTD; flight-to-safety bid. Re-evaluate Mon only if VIX > 22 sustained or SPX < $7,400.
+4. **Energy lane (XLE/XOM/CVX/COP) — LANE CLOSED; gap widening.** WTI $76 = $19 below $95 threshold. US-Iran talks postponement is mildly bullish for the lane but well short of the 3+ sustained > $95 re-arm condition.
+5. **All other lanes — DEFER to Mon Jun 22.**
+
+### Risk Factors
+- **Holiday weekend gap risk Mon Jun 22 open** — geopolitical headlines (US-Iran talks postponed, Israel-Hezbollah ceasefire warnings) + 3-day no-trade window = elevated gap risk both ways; XLI broker trail GTC `c431cbc2` runs through holiday and Mon pre-market on broker side; -7% cut $161.63 ~10.7% below current is a meaningful buffer.
+- **VIX 16.86 = sub-18 fragile.** Hawkish-FOMC spike already absorbed Wed (18.44); any Mon negative-catalyst reprice back to 19-21 likely.
+- **XLI at near-record valuations (Schwab)** + recent upper-Bollinger break = mean-reversion-to-support ($176.56 / $169.48) risk on any Mon negative catalyst; same-sector add at this altitude remains bad R:R.
+- **Chronic under-deployment (~14.4%)** persists for 8 weeks — Week 8 closes 0/3 entries used; pattern is patience-positive (avoided multiple binary blowups) but opportunity cost on missed XLB/XLP probes is real if Mon clears the binary overhang cleanly.
+- **Audit hygiene:** open-orders book clean — only `c431cbc2` (XLI trail GTC, stop $164.628, HWM $182.92). Open audit item (May 21 MP unauthorized fill source) still unresolved.
+
+### Decision
+**HOLD. No trading possible — market closed.** Sequence:
+1. **All day:** No US cash trading (Juneteenth NYSE+NASDAQ closed). No new entries, no GTC modifications, no manual stop changes. Broker trail GTC `c431cbc2` runs unchanged through the holiday on broker side.
+2. **Weekly review fires today** (Friday cadence) — Week 8 grade: patience-positive through FOMC binary (0/3 entries used, avoided cyclical drawdown on hawkish dot-plot), execution-neutral (deployment stuck ~14% for 8 weeks, missed pre-FOMC XLP/staples rotation opportunity), thesis-positive (XLI +4.09% new phase high; industrials leading-quadrant intact).
+3. **Mon Jun 22 pre-market:** Read weekend headlines (US-Iran talks postponement evolution, Israel-Hezbollah ceasefire status); gap-risk read at 9:30 open; XLI hold; XLB probe re-arm decision per the 4 conditions above; if all hold = first probe of Week 9 (3-5% sizing, never within 3% of price on the trail GTC); if any fails = hold XLI-only baseline through Week 9.
+4. **Energy lane:** track weekend oil headlines; counter still at 0; if WTI spikes back > $95 on Iran-talks rupture = reset the 3-session count, not an immediate re-arm.
+
+Trades this week: **0/3 entries used.** Phase **+0.29%** (fourth consecutive close above $100K baseline); goal — preserve XLI through the holiday-weekend gap window and re-evaluate XLB/XLP probe arming Mon Jun 22 on a clean post-FOMC + post-Juneteenth confirmation tape.
+
+---
