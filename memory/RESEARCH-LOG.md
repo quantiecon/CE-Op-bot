@@ -1920,3 +1920,67 @@ Trades this week: **0/3 entries used.** Phase **+0.29%** (fourth consecutive clo
 Trades this week: **0/3 entries used.** Phase **+0.31%** (fifth consecutive mark above $100K baseline, ties phase high); goal — protect XLI through the post-FOMC fragile-vol + pre-PCE binary window, monitor ex-div mark-down handling at open, defer redeployment decision to Fri Jun 26 post-PCE on confirmation of all 4 XLB re-arm conditions, lean on cleanest non-energy / non-tech / non-financials lane (XLB primary IF probe re-arms, XLP defensive secondary IF VIX > 22 sustained).
 
 ---
+
+## 2026-06-23 — Pre-market Research (Tuesday, Week 9 day 2 — VIX SHOCK +14.64%, Iran-peace bid reversing, WTI $73, pre-PCE Thu binary)
+
+### Account
+- Equity: **$100,200.72** (vs last_equity $100,362.32 = premarket Day P&L -$161.60 / -0.16% on XLI mark-down)
+- Cash: $85,818.32 (85.6%)
+- Buying power (regT): $186,019.04 / daytrading $383,544.00
+- Daytrade count: 0
+- Positions:
+  - XLI 80 sh @ $173.80 avg, last **$179.78** (-1.11% intraday vs $181.80 lastday), **+$478.40 (+3.44%)**; trail 10% GTC, stop **$164.628**, HWM **$182.92** (order `c431cbc2`). Mon ex-div $0.44 absorbed cleanly; XLI giving back ~$2 of Mon close on broad VIX-shock open.
+- Deployed: ~14.4% (XLI only) — well under 75-85% target. Week 9 day 2, 0/3 entries used. Materials cooldown reset Jun 1; energy lane closed (WTI ~$73; counter at 0; gap to $95 re-open at -$22 and widening).
+- Phase P&L: **+$200.72 (+0.20%)** — sixth consecutive premarket mark above $100K baseline despite VIX shock.
+
+### Market Context
+- **WTI: ~$73.11 (-1.02% intraday)** Investing.com; range $72.50-$74.44; **Brent ~$75** implied. WTI lane **STAYS CLOSED, counter at 0**; gap to $95 re-open at -$22 and widening on US-Iran diplomatic-progress headlines (Strait of Hormuz re-open). Settled near $76 mid-June after -4% session. Polymarket / Kalshi predictive markets pricing < $75 sustained.
+- **S&P 500 futures: ESM26 7,549.50 (-0.28%)** per Markets Insider Mon afternoon; **ES Sep26 -1.30% at 7,443.50** per Yahoo overnight (different contract / later read) — net pre-open bias **bearish**, gapping down from Mon close after the Iran-peace bid reversed. SPX Mon cash close **-0.37%** (7,500 area); NASDAQ -0.19%; Dow +0.29% (defensive rotation tell).
+- **VIX: 19.81 spot (+14.64% / +$2.53 on day)** per Cboe trade data 11:29 ET; open 19.67, range 19.67-20.27 (or 19.67-20.54 per Investing). **Prev close 17.28 Mon.** **SHARP REGIME SHIFT** — Mon's 17.5 broke 18 nominal and pierced 20 intraday; post-FOMC fragile-vol thesis confirmed; sub-18 "low-vol bull" regime BROKEN. **XLB probe re-arm condition (a) "VIX < 16 sustained" = NOT MET and moving AWAY** (was 17.5 Mon, now ~20 today; needs 4+ point compression to clear).
+- **Today's catalysts:**
+  1. **9:45 ET S&P Global Flash US PMI (June)** — Composite/Manufacturing/Services flash; first hard read on June activity; consensus around 53 for Composite (last 53-54 range). Hot Services prices subindex = hawkish-tone re-load.
+  2. **10:00 ET CB Consumer Confidence (June)** consensus 102.4; **10:00 ET Richmond Fed Mfg** consensus -6. Both pre-PCE positioning tells.
+  3. **Iran-headline reversal driving VIX shock** — Mon's Switzerland-postponement-then-rally appears to have unwound overnight; risk-off bid in Dow (defensives) + sell-off in NDX (growth) consistent with stagflation-tilt re-load. WTI -1% confirms supply-side fear easing (not the risk-off trigger).
+  4. **Treasury 3-month + 6-month Bill Auctions** — secondary read on cash-equivalent demand into pre-PCE.
+- **Earnings BMO:** **KFY (Korn/Ferry)** $1.38 est noteworthy BMO; **FDX (FedEx)** appears on Investing.com Tue calendar at $5.92 EPS / $24.01B rev — but Kiplinger / week-ahead lists FDX as **Thu Jun 25 AMC**; treating FDX as Thu pending confirmation (Investing snippet may be week-batch artifact). **Cerebras (CBRS), Carnival (CCL)** Yahoo highlights, but CCL is **midday**. Other BMO: WOR (Worthington), KBH (KB Home — though Kiplinger said KBH AMC Mon). Light direct-XLI tells today.
+- **Earnings AMC:** **MU (Micron Tue AMC = AI-DRAM-capex tell)** — cross-read for XLI Electrical-Equipment (AI-data-center build-out). Clean beat re-energizes the AI-infrastructure narrative; miss bleeds into broader-Tech lagging quadrant.
+- **Economic calendar week ahead** (refresh): **Tue today** PMI flash + Consumer Confidence + Richmond Fed; **Wed Jun 24** New Home Sales; **Thu Jun 25 = THE binary** — Final Q1 GDP + Claims + Durable Goods + **Core PCE MoM/YoY (consensus 2.6% YoY vs prior 3.3%)** + Personal Spending + Pending Home Sales; **Fri Jun 26** Goods Trade + Michigan Sentiment + KC Fed Mfg + weekly review.
+- **Sector momentum YTD 2026 (Vantage Mkts / Schwab / Yahoo refresh):** **Energy +20-23%** (lane closed), **Materials +15-17%** (Leading; XLB probe DISARMED further on VIX shock), **Consumer Staples +12-15%** (Leading; defensive bid resurging on Dow +0.29% Mon), **Industrials +12-17.81%** (Leading; XLI specifically +17.81% YTD per Yahoo, +27.70% trailing 52-week, 52-wk high $182.92 = exactly the HWM). Lagging: Comms, Tech -2-3% YTD, Cons Disc, Financials -7% YTD. **Schwab keeps XLI + XLB both "More Favored."** **NEW SIGNAL: XLI Aroon Indicator entered Uptrend today (Jun 23) per Tickeron** — fresh bullish technical, though Tickeron also flags upper-Bollinger break Jun 15 + Stochastic-overbought 3+ days = mean-reversion drift still possible into PCE.
+
+### Trade Ideas
+1. **XLI — HOLD, no add.** Anchor leg +3.44% unrealized ($478.40); HWM $182.92, trail $164.628 (-8.4% buffer from current $179.78). +15% tighten threshold $199.87 (current $179.78 = +11.2% below). **-7% manual cut $161.63 sits ~10.1% below current — comfortable.** Fresh Aroon-Uptrend signal Jun 23 = constructive but XLI premarket -1.11% intraday on VIX shock = mean-reversion thesis playing out short-term. **No add — same-sector at HWM resistance + VIX 19.81 regime-shift + pre-PCE binary = bad R:R; chase risk on intraday rebound.**
+2. **XLB / Materials — PROBE STAYS DISARMED, gate moving AWAY.** Re-arm condition (a) VIX < 16 sustained = NOT MET and worsening (19.81 vs 16 = -3.81 gap, widened from -1.5 yesterday). Condition (c) XLI > $182.92 HWM = NOT MET (premarket $179.78 = -1.71% below HWM). Conditions (b) Warsh-speak softens and (d) ACN/MU digestion non-contagion = TBD. **Earliest re-evaluation Fri Jun 26 post-PCE** if VIX compresses + all 4 conditions clear; otherwise defer to Week 10. **VIX shock = primary disarming factor today.**
+3. **XLP / Staples — DEFENSIVE WATCH (passive).** +12-15% YTD; Dow +0.29% Mon (defensive lead) + VIX 19.81 = early risk-off rotation signal. NOT an entry today (pre-PCE binary + 0/3 weekly cap remaining = preserve dry powder). **Re-evaluate Wed-Fri if VIX > 22 sustained or SPX breaks $7,400.**
+4. **XLF / Financials — DEFER.** Lagging YTD -7%; hawkish-Fed/curve-steepen thesis still pending Warsh-speak read. Post-PCE re-evaluation.
+5. **SMH / XLK — DEFER.** ACN AMC Thu, MU AMC tonight = binary AI-capex tells; broader Tech -2-3% YTD lagging. Re-evaluate post-MU + post-ACN digestion.
+6. **Energy (XLE / XOM / CVX / COP) — LANE CLOSED, gap widening.** WTI $73 = $22 below re-open threshold; US-Iran diplomatic progress + Switzerland-postponement net = structural lid intact. No realistic re-entry pending sustained rally > $95 (3+ sessions).
+
+### Risk Factors
+- **VIX 19.81 +14.64% = post-FOMC fragile-vol thesis confirmed.** Sub-18 "low-vol bull" regime BROKEN; intraday 20.27 print = 20-handle now in play. Front-month VIX futures contango (18.49 yesterday → likely higher today) = market pricing further volatility into PCE/end-month rebal.
+- **PCE Thu Jun 25 8:30 ET = THE week's binary.** Core PCE YoY consensus 2.6% vs prior 3.3% = aggressive cooling already priced. **Hot print** (> 2.7%) = reinforces hawkish-FOMC dot-plot + curve repricing + cyclicals (XLI) drawdown 2-4%; -7% cut $161.63 widens but stays comfortable (~10% buffer). **Cool print** (< 2.5%) = goldilocks-dovish-reset, XLB probe re-arm conditions could clear by Fri Jun 26 IF VIX also compresses.
+- **MU AMC tonight = AI-DRAM-capex tell** — cross-read for XLI Electrical-Equipment (15.0% weight) via the AI-data-center build-out thesis. Clean beat re-energizes Industrial AI narrative; miss bleeds back into broader-Tech lagging quadrant + drags XLI Electrical-Equipment sub-sector.
+- **XLI at $182.92 HWM resistance + Stochastic-overbought 3+ days (Tickeron) + Schwab "near-record valuations"** — mean-reversion / consolidation drift toward $176.56 / $169.48 support is the path of least resistance into PCE. The premarket -1.11% gap-down is consistent with this thesis playing out.
+- **Iran-headline reversal risk both ways** — Mon's Switzerland-postponement-rally unwinding overnight; supply-side narrative (WTI $73) suggests easing premium, but Dow +0.29% / NDX sell-off implies stagflation/Fed-policy fear, not pure geopolitical relief. Headline-driven tape = high noise into PCE.
+- **9:45 ET PMI flash + 10:00 ET Consumer Confidence/Richmond Fed cluster** = pre-PCE positioning tells; surprise risk in either direction on labor + activity reads. Hot Services prices subindex = hawkish-tone re-load.
+- **FDX timing ambiguity** — Investing.com lists Tue BMO at $5.92 EPS; Kiplinger/week-ahead says Thu AMC. Treating FDX as Thu pending verification; either way Air-Freight-Logistics is only 3.46% XLI weight, so sentiment-contagion risk is the read, not direct mark.
+- **Chronic under-deployment (~14.4%)** persists into Week 9 day 2 — opportunity cost real but pre-PCE + VIX-shock fragile = absolutely the wrong window to redeploy. Patience > activity (Rule 11). 3 fresh slots, no need to burn one pre-binary.
+- **Audit hygiene:** open-orders book clean — only `c431cbc2` (XLI trail GTC, stop $164.628, HWM $182.92). Verify at open. Open audit item (May 21 MP unauthorized fill source) still unresolved.
+
+### Decision
+**HOLD. No new entries today.** Sequence:
+1. **9:30 ET:** Confirm flat ex-XLI; open-orders book ONLY `c431cbc2` (XLI trail GTC, stop $164.628, HWM $182.92). If anything else appears → STOP, audit, alert.
+2. **9:30-10:00 ET:** Observe XLI behavior at the gap-down open; cash-open print likely $179-180 area. Watch $176.56 mean-reversion-pullback support; trail at $164.628 protects -7%+ drawdown autonomously. No manual stop changes.
+3. **9:45 ET S&P Flash PMI + 10:00 ET Consumer Confidence + Richmond Fed** — observe; no pre-positioning; cluster outcomes set the pre-PCE tape.
+4. **Intraday VIX monitor:** If VIX prints > 22 sustained 60+ min = XLP defensive-watch becomes actionable consideration (still no entry today); if VIX compresses back < 18 by close = today's spike was a one-day Iran-headline-reversal shock, not a regime shift.
+5. **MU AMC tonight** — observe post-close reaction; AI-capex tell for XLI Electrical-Equipment cross-read.
+6. **Wed Jun 24:** New Home Sales 10:00 ET. **MU digestion + KBH/CCL/KFY-day-2 read.**
+7. **Thu Jun 25 8:30 ET = the binary:** PCE + GDP + Durable Goods + Claims. Do NOT pre-position; observe 30-60 min reaction.
+8. **Fri Jun 26:** Michigan Sentiment 10:00 ET; weekly review fires; **XLB probe re-arm decision day** ONLY if (a) PCE in-line/cool + (b) VIX compresses < 16 + (c) XLI holds $176.56 support + (d) MU/FDX did not contagion-trigger broad sell-off + (e) Warsh-speak non-hawkish through week.
+9. **No new long entries today regardless of tape** — VIX 19.81 regime-shift signal + same-sector add at $182.92 HWM resistance + pre-PCE binary + Iran-headline-driven noise = bad R:R window.
+10. **Energy lane:** track WTI — counter at 0; gap widened to -$22 ($73 vs $95); no re-entry today or this week absent unlikely > $95 spike.
+11. **Tighten-by-rule trigger watchlist:** XLI +15% threshold = $199.87 (current $179.78 = +11.2% below). Not in play near-term.
+12. **Thu/Fri Jun 25-26 re-evaluation triggers (mandatory):** post-PCE tape + VIX compression + Warsh-speak digestion + XLI vs $176.56 support + MU/FDX-week digestion = arm-or-disarm XLB/XLF/XLP for Week 10.
+
+Trades this week: **0/3 entries used.** Phase **+0.20% (premarket)** — sixth consecutive mark above $100K baseline despite VIX shock; goal — protect XLI through the VIX-shock + pre-PCE binary window, observe Iran-headline tape and MU AMC reaction, defer redeployment decision to Fri Jun 26 post-PCE on confirmation of all 4 (now 5) XLB re-arm conditions, lean on cleanest non-energy / non-tech / non-financials lane (XLB primary IF probe re-arms, XLP defensive secondary IF VIX > 22 sustained).
+
+---
