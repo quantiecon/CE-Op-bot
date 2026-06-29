@@ -955,6 +955,22 @@ Not based on research signal. Smoke test only.
 **Cash/Equity:** Equity $100,421.52 (market_value $14,603.20 + cash $85,818.32); Day P&L -$126.40 (-0.13%) vs $100,547.92 last_equity; Phase P&L ~+$421.52 (+0.42%) — tenth consecutive midday mark above $100K baseline; gives back ~$157 vs Thu's $578.32 phase high but still 2nd-best phase mark. Cash $85,818.32 (85.5%); deployment ~14.5% (XLI only) — still well under the 75-85% band; per pre-market plan redeployment deferred to Mon Jun 29 / Week 10 on VIX < 18 confirmation.
 **Trades this week:** 0/3 entries used (clean miss on the 3/wk cap — Week 9 patience-positive through the PCE binary). Energy lane closed (WTI ~$70; counter at 0; gap to $95 re-open at -$25). Materials cooldown reset Jun 1; XLB probe DISARMED pending five-factor re-arm gate (VIX < 16 sustained NOT MET at 20.29; gap widened to -4.29 pts; PCE hot 3.4% = de-facto Fed-hike-back-on-table). Weekly review fires this PM.
 
+### Jun 29 — Midday Scan (no action)
+**Positions snapshot:**
+
+| Ticker | Shares | Entry | Last | P&L % | Unrealized P&L | Stop |
+|--------|--------|-------|------|-------|----------------|------|
+| XLI | 80 | $173.80 | $182.445 | +4.97% | +$691.60 | $167.481 (trail 10%, HWM $186.09) |
+
+**Actions:** None.
+**Step 3 (cut losers):** XLI +4.97% (intraday +0.69% vs $181.20 lastday/Fri close), nowhere near -7% (cut trigger $161.63; current $182.445 = +12.9% above, ~11.4% buffer). No cut.
+**Step 4 (tighten winners):** XLI +4.97%, well below +15% threshold ($199.87). HWM $186.09 holds — current $182.445 = $3.65 below HWM, no new intraday high → no auto-ratchet; trail $167.481 unchanged (broker-managed). No manual tighten (trail $167.481 vs price $182.445 = -8.2% buffer, outside the 3%-of-price prohibition).
+**Step 5 (thesis check):** XLI — industrials leading quadrant intact (A&D/machinery/electrical equipment + AI data-center cooling tailwind via Vertiv/Eaton, less oil-sensitive); modest +0.69% intraday bid on US-Iran tit-for-tat halt / peace-talks-continue headline (ESU26 +0.8% / NQ +1.2% gap-up digestion) + JPM 2026 SPX target hike to 7,800 from 7,200 on "Blue Sky" resolution scenario. Iran-relief bid intact, no thesis break. Hold per pre-market plan (no new long entries today regardless of tape — Iran-relief gap = chase risk; same-sector add at HWM resistance = bad R:R; pre-NFP-Thu T-3 binary + holiday-shortened week + month-end Tue rebal = no positive R:R window; XLB probe formally DISARMED pending Mon Jul 6 / Week 11 re-evaluation on a fresh five-factor read).
+**Step 6:** No sharp unexplained moves — XLI +0.69% bid is Iran de-escalation continuation + JPM target hike + sub-18.5 VIX compression; skip intraday Perplexity.
+**Audit hygiene:** Open-orders book clean — only the XLI trail GTC `c431cbc2` stop $167.481, HWM $186.09 (auto-updated Thu Jun 25 14:37:07Z). No unauthorized fills; no overnight modifications.
+**Cash/Equity:** Equity $100,415.92 (market_value $14,597.60 + cash $85,818.32); Day P&L +$101.60 (+0.10%) vs $100,314.32 last_equity; Phase P&L ~+$415.92 (+0.42%) — eleventh consecutive midday mark above $100K baseline; recovers ~$100 vs Fri close $315.92, sits 3rd-best phase mark behind Thu $578.32 and Mon $363.92. Cash $85,818.32 (85.5%); deployment ~14.5% (XLI only) — still well under the 75-85% band; per pre-market plan redeployment formally deferred to Mon Jul 6 / Week 11 on post-NFP confirmation.
+**Trades this week:** 0/3 entries used (Mon 0 — Week 10 day 1, holiday-shortened 4-day week into NFP-Thu binary). Energy lane closed (WTI ~$69.81; counter at 0; gap to $95 re-open at -$25). Materials cooldown reset Jun 1; XLB probe DISARMED pending Mon Jul 6 / Week 11 re-arm gate (VIX < 16 sustained NOT MET at 18.46; gap closed -1.83 over Fri's -4.29 read — fastest single-session compression of the post-PCE window but still -2.46 to gate; Iran-relief bid + clean NFP-Thu + no fresh hawkish Fed-speak required for re-arm).
+
 ### Jun 26 — EOD Snapshot (Day 45, Friday)
 **Portfolio:** $100,315.92 | **Cash:** $85,818.32 (85.55%) | **Day P&L:** -$232.00 (-0.23%) | **Phase P&L:** +$315.92 (+0.32%)
 
